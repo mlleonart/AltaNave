@@ -154,21 +154,33 @@ table.table2 {
 /* Carrusel */
 .carousel {
     position: relative;
-    max-width: 600px;
-    margin: auto;
+ /*   max-width: 600px;
+    margin: auto; */
     overflow: hidden;
 }
 
 .carousel-images {
-    display: flex;
+    /*display: flex;*/
+    
+    width: 100%; /* Ancho completo del contenedor */
+    position: relative; /* Necesario para el padding */
+    padding-bottom: 75%; /* Relación de aspecto 4:3 (puedes ajustar este valor) */
+    
     transition: transform 0.5s ease;
 }
 
 .carousel img {
-    width: 100%;
+    /*width: 100%;
     height: auto; /* Mantiene la relación de aspecto */
     max-width: 800px; /* Establece un ancho máximo si es necesario */
-    display: block;
+    display: block;*/
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%; /* Imagen ocupa todo el contenedor */
+    height: 100%; /* Establece altura automática para mantener relación */
+    object-fit: cover; /* Cubre el área del contenedor sin distorsionar */
 }
 
 button {
