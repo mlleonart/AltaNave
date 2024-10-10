@@ -223,6 +223,56 @@ button {
 .prev {
     left: 10px;
 }
+/* Lista Generaciones */
+  .lista-item {
+            width: 600px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            border: 2px solid #333;
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+            position: relative;
+        }
+
+        .lista-item img {
+            width: 100px;
+            height: 80px;
+            object-fit: cover;
+          	margin: 5px;
+            //margin-right: 20px;
+        }
+
+        .lista-item-content {
+            padding: 10px;
+        }   
+  
+  		@media (max-width: 400px) {
+            .lista-item {
+                width: 90%;
+            }
+        }
+
+        .marca {
+            font-size: 18px;
+            font-weight: bold;
+            color: #333;
+        }
+
+        .modelo {
+            font-size: 16px;
+            color: #555;
+        }
+   
+  
+   hr.red{
+       border: 0;
+    height: 5px;
+      
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));
+}
 
 .next {
     right: 10px;
