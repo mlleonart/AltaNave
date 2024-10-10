@@ -175,7 +175,7 @@ table.table2 {
     max-width: 800px; 
     display: block;*/
 
- /* position: absolute;*/
+  position: absolute;
     top: 0;
     left: 0;
     width: 100%; /* Imagen ocupa todo el contenedor */
