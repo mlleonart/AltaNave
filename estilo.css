@@ -154,28 +154,19 @@ table.table2 {
 /* Carrusel */
 .carousel {
     position: relative;
- /*   max-width: 600px;
-    margin: auto; */
+    max-width: 600px;
+    margin: auto;
     overflow: hidden;
 }
 
 .carousel-images {
     display: flex;
-    
-    width: 100%; /* Ancho completo del contenedor */
-    position: relative; /* Necesario para el padding */
-    padding-bottom: 75%; /* Relación de aspecto 4:3 (puedes ajustar este valor) */
-    
     transition: transform 0.5s ease;
 }
 
 .carousel img {
-    width: 100%;
-    height: auto;
-    max-width: 800px; 
+    max-width: 100%;
     display: block;
-
-
 }
 
 button {
