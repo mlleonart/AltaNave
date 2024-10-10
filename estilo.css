@@ -160,7 +160,7 @@ table.table2 {
 }
 
 .carousel-images {
-    /*display: flex;*/
+    display: flex;
     
     width: 100%; /* Ancho completo del contenedor */
     position: relative; /* Necesario para el padding */
@@ -170,17 +170,12 @@ table.table2 {
 }
 
 .carousel img {
-    /*width: 100%;
+    width: 100%;
     height: auto;
     max-width: 800px; 
-    display: block;*/
+    display: block;
 
-  position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%; /* Imagen ocupa todo el contenedor */
-    height: 100%; /* Establece altura automática para mantener relación */
-    object-fit: cover; /* Cubre el área del contenedor sin distorsionar */
+
 }
 
 button {
