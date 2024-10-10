@@ -171,11 +171,11 @@ table.table2 {
 
 .carousel img {
     /*width: 100%;
-    height: auto; /* Mantiene la relación de aspecto */
-    max-width: 800px; /* Establece un ancho máximo si es necesario */
+    height: auto;
+    max-width: 800px; 
     display: block;*/
 
-    position: absolute;
+ /* position: absolute;*/
     top: 0;
     left: 0;
     width: 100%; /* Imagen ocupa todo el contenedor */
