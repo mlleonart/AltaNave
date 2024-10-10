@@ -1,0 +1,229 @@
+/* Encapsular estilos para evitar conflictos */
+.card-container {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.card {
+    width: 300px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    border: 2px solid #333;
+    position: relative;
+    transition: transform 0.3s ease-in-out;
+}
+
+.card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.card-content {
+    padding: 20px;
+}
+
+.card-title, .card-subtitle, .card-info {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.card-title {
+    font-size: 22px;
+    font-weight: bold;
+    color: #333;
+}
+
+.card-subtitle {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 5px;
+}
+
+.card-info {
+    font-size: 16px;
+    color: #777;
+    margin-bottom: 15px;
+}
+
+.card-stats {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+
+.card:hover {
+    transform: scale(1.20);
+}
+
+.stat {
+    text-align: center;
+}
+
+.stat-title {
+    font-size: 14px;
+    color: #888;
+}
+
+.stat-value {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+
+.badge {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: #f44336;
+    color: white;
+    padding: 5px 10px;
+    font-size: 14px;
+    border-radius: 5px;
+}
+
+/* Ajustar el ancho máximo para pantallas más pequeñas */
+@media (max-width: 400px) {
+    .card {
+        width: 90%;
+    }
+}
+
+/* Tabla */
+table.table2 {
+    font-family: Georgia, serif;
+    font-size: 18px;
+    letter-spacing: -1px;
+    line-height: 1.2em;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.table2 thead th, .table2 tfoot td {
+    padding: 20px 10px 40px 10px;
+    color: #EF870E;
+    font-size: 26px;
+    background-color: #222;
+    border-right: 1px dotted #666;
+    border-top: 3px solid #666;
+    box-shadow: 0px -1px 4px #000;
+    text-shadow: 1px 1px 1px #000;
+}
+
+.table2 tfoot th {
+    padding: 10px;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #888;
+}
+
+.table2 tfoot td {
+    font-size: 24px;
+    color: #fff;
+    border-bottom: 3px solid #666;
+    box-shadow: 0px 1px 4px #000;
+}
+
+.table2 tbody th {
+    width: 30%;
+    text-align: right;
+    padding: 10px;
+    color: #333;
+    text-shadow: 1px 1px 1px #ccc;
+    background-color: #f9f9f9;
+    border-bottom: 2px solid #666;
+}
+
+.table2 tbody td {
+    font-size: 12px;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border-right: 1px dotted #999;
+    border-bottom: 2px solid #666;
+    text-shadow: -1px 1px 1px #fff;
+    text-transform: uppercase;
+    color: #333;
+}
+
+/* Carrusel */
+.carousel {
+    position: relative;
+    max-width: 600px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.carousel-images {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.carousel img {
+    max-width: 100%;
+    display: block;
+}
+
+button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(255, 255, 255, 0.7);
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+/* Estilos del modal para pantalla completa */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9); /* Fondo oscuro semitransparente */ 
+}
+
+.modal-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+    animation: zoom 0.6s;
+}
+
+@keyframes zoom {
+    from {transform: scale(0);}
+    to {transform: scale(1);}
+}
+
+/* Botón para cerrar el modal */
+.close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    cursor: pointer;
+    z-index: 1001;
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
