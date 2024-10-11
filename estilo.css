@@ -221,6 +221,7 @@ button {
 }
 
 .prev {
+      position: absolute; 
     left: 10px;
 }
 
@@ -273,6 +274,7 @@ hr.red {
 }
 
 .next {
+      position: absolute; 
     right: 10px;
 }
 
