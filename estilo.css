@@ -279,6 +279,7 @@ hr.red {
 }
 ul.tabs li a[href="https://albumaltanave.blogspot.com/p/juego-tope.html"] {
     color: #FF5733; /* Cambia el color del texto */
+    font-size: large;
     transition: background-color 0.3s; /* Añade una transición suave */
 }
 
