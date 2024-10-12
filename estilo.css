@@ -277,4 +277,16 @@ hr.red {
       position: absolute; 
     right: 10px;
 }
+ul.tabs li a[href="https://albumaltanave.blogspot.com/p/juego-tope.html"] {
+    color: #FF5733; /* Cambia el color del texto */
+    background-color: #333; /* Cambia el color de fondo */
+    padding: 10px 15px; /* Añade un poco de padding */
+    border-radius: 5px; /* Redondea las esquinas */
+    text-decoration: none; /* Quita el subrayado */
+    transition: background-color 0.3s; /* Añade una transición suave */
+}
+
+ul.tabs li a[href="https://albumaltanave.blogspot.com/p/juego-tope.html"]:hover {
+    background-color: #555; /* Cambia el fondo al pasar el mouse */
+}
 
