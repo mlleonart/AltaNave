@@ -5,7 +5,7 @@ const initialDeck = [
     { nombre: "Tesla Model S Plaid", año: 2021, chasis: "Sedán", propulsion: "Eléctrico", velocidad: 322, potencia: 1020, aceleracion: 1.99, tipo: "Eléctrico", precio: 130000, 
       imagen: "https://upload.wikimedia.org/wikipedia/commons/d/df/21_Tesla_Model_S_Plaid.jpg" },
     { nombre: "Porsche 911 GT3 RS", año: 2022, chasis: "Coupé", propulsion: "Gasolina", velocidad: 296, potencia: 525, aceleracion: 3.2, tipo: "Deportivo", precio: 220000, 
-      imagen: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Porsche_911_GT3_RS_Weissach.jpg/800px-Porsche_911_GT3_RS_Weissach.jpg?20230413105116"  },
+      imagen: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Porsche_911_GT3_RS_Weissach.jpg/800px-Porsche_911_GT3_RS_Weissach.jpg?2023041310511"  },
     { nombre: "Bugatti Chiron", año: 2016, chasis: "Coupé", propulsion: "Gasolina", velocidad: 420, potencia: 1500, aceleracion: 2.4, tipo: "Hiperdeportivo", precio: 3000000, 
       imagen: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Bugatti_Chiron_Royal_Blue.jpg/800px-Bugatti_Chiron_Royal_Blue.jpg?20211023215806"  },
     { nombre: "McLaren 720S", año: 2017, chasis: "Coupé", propulsion: "Gasolina", velocidad: 341, potencia: 720, aceleracion: 2.9, tipo: "Superdeportivo", precio: 300000, 
