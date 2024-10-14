@@ -18,4 +18,6 @@ const initialDeck = [
       imagen: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Koenigsegg_Jesko.jpg/800px-Koenigsegg_Jesko.jpg?20211024022338"  }, 
     { nombre: "Porsche 911 Carrera 4", año: 2012, chasis: "convertible de 2 puertas", propulsion: "gasolina", velocidad: 282, potencia: 345, aceleracion: 5.1, tipo: "Deportivo", precio: 280000, 
       imagen: "https://paddockmotors.es/wp-content/uploads/2024/03/DSC01257.webp" }
+    ,{ nombre: "Porsche 911 Carrera 4", año: "1998", chasis: "convertible de 2 puertas", propulsion: "gasolina", velocidad: "280", potencia: "296", aceleracion: "5,4", tipo: "Deportivo", precio: "280000", 
+      imagen: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Porsche_911_%28996%29_Carrera_Cabriolet_%288516320329%29.jpg/800px-Porsche_911_%28996%29_Carrera_Cabriolet_%288516320329%29.jpg?20150109081035" }
 ];
