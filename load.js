@@ -58,4 +58,4 @@
         }
 
         // Cargar la ficha del coche con ID 1 (Porsche 911 Carrera 4)
-        loadCarData(1);
+     //   loadCarData(1);
