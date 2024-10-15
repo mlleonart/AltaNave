@@ -33,29 +33,7 @@
             `;
         }
 
-        // Función para cargar los datos del coche
-        async function loadCarData(carId) {
-            try {
-                const selectedCar = initialDeck.find(car => car.id === carId);
-                
-                if (selectedCar) {
-                    // Asignar la imagen de fondo al contenedor bg-photo
-                    const bgPhotoContainer = document.querySelector('.bg-photo');
-                    bgPhotoContainer.style.backgroundImage = `url(${selectedCar.imagen})`;
-                    
-                    const container = document.getElementById('container');
-                    container.innerHTML = renderCarCard(selectedCar);
-                
-                    // Actualizar el HTML con los datos del coche
-                    document.getElementById('car-title').textContent = `Detalles y Especificaciones para el Modelo: ${selectedCar.chasis} ${selectedCar.año}`;
-                    document.getElementById('car-specs').textContent = `Características Técnicas del Vehículo ${selectedCar.propulsion}: ${selectedCar.velocidad} Km/h, ${selectedCar.potencia} HP, ${selectedCar.aceleracion} s`;
-                } else {
-                    console.error('Coche no encontrado');
-                }
-            } catch (error) {
-                console.error('Error al cargar los datos:', error);
-            }
-        }
+
 
         // Cargar la ficha del coche con ID 1 (Porsche 911 Carrera 4)
      //   loadCarData(1);
