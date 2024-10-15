@@ -128,6 +128,7 @@
     <precio>280000</precio>
     <imagen>https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Porsche_911_%28996%29_Carrera_Cabriolet_%288516320329%29.jpg/800px-Porsche_911_%28996%29_Carrera_Cabriolet_%288516320329%29.jpg?20150109081035</imagen>
   </auto>
+  
   <auto id="11"> 
     <nombre>Volkswagen Golf</nombre>
     <año>2021</año>
@@ -139,6 +140,5 @@
     <tipo>Compacto</tipo>
     <precio>30000</precio>
     <imagen>https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/18_Volkswagen_Golf_GTI_SE.jpg/800px-18_Volkswagen_Golf_GTI_SE.jpg?20240602041417</imagen>
-</auto>
+  </auto>
 </deck>
-
