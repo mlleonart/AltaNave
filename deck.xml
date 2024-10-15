@@ -1,0 +1,39 @@
+<autos>
+    <auto id="1">
+        <nombre>Ferrari 488 GTB</nombre>
+        <año>2015</año>
+        <chasis>Coupé</chasis>
+        <propulsion>Gasolina</propulsion>
+        <velocidad>330</velocidad>
+        <potencia>670</potencia>
+        <aceleracion>3.0</aceleracion>
+        <tipo>Superdeportivo</tipo>
+        <precio>280000</precio>
+        <imagen>https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Ferrari_488_GTB_Toulouse.jpg/800px-Ferrari_488_GTB_Toulouse.jpg?20240511091629</imagen>
+    </auto>
+    <auto id="2">
+        <nombre>Tesla Model S Plaid</nombre>
+        <año>2021</año>
+        <chasis>Sedán</chasis>
+        <propulsion>Eléctrico</propulsion>
+        <velocidad>322</velocidad>
+        <potencia>1020</potencia>
+        <aceleracion>1.99</aceleracion>
+        <tipo>Eléctrico</tipo>
+        <precio>130000</precio>
+        <imagen>https://upload.wikimedia.org/wikipedia/commons/d/df/21_Tesla_Model_S_Plaid.jpg</imagen>
+    </auto>
+    <auto id="3">
+        <nombre>Porsche 911 GT3 RS</nombre>
+        <año>2022</año>
+        <chasis>Coupé</chasis>
+        <propulsion>Gasolina</propulsion>
+        <velocidad>296</velocidad>
+        <potencia>525</potencia>
+        <aceleracion>3.2</aceleracion>
+        <tipo>Deportivo</tipo>
+        <precio>220000</precio>
+        <imagen>https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Porsche_911_GT3_RS_Weissach.jpg/800px-Porsche_911_GT3_RS_Weissach.jpg?20230413105116</imagen>
+    </auto>
+    <!-- Agrega más autos aquí -->
+</autos>
