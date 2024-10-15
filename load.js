@@ -46,15 +46,14 @@
       const selectedCar = initialDeck.find(car => car.id === carId);
       
       if (selectedCar) {
-        // Asignar la imagen de fondo al contenedor bg-photo
-        const bgPhotoContainer = document.querySelector('.bg-photo');
-        bgPhotoContainer.style.backgroundImage = `url(${selectedCar.imagen})`;
-        bgPhotoContainer.style.backgroundSize = 'cover';
-        bgPhotoContainer.style.backgroundPosition = 'center';
-        
-        
-        const container = document.getElementById('container');
-        container.innerHTML = renderCarCard(selectedCar);
+            // Asignar la imagen de fondo al contenedor bg-photo
+            const bgPhotoContainer = document.querySelector('.bg-photo');
+            bgPhotoContainer.style.backgroundImage = `url(${selectedCar.imagen})`;
+            bgPhotoContainer.style.backgroundSize = 'cover';
+            bgPhotoContainer.style.backgroundPosition = 'center';
+            
+            const container = document.getElementById('container');
+            container.innerHTML = renderCarCard(selectedCar);
         
         // Actualizar el HTML con los datos del coche
     	document.getElementById('car-title').textContent = `Detalles y Especificaciones para el Modelo: ${selectedCar.chasis} ${selectedCar.año}`;
