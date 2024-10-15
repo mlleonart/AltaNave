@@ -1,5 +1,5 @@
 // deck.js
-const initialDeck = [
+window.initialDeck = [
     { id: 1, nombre: "Ferrari 488 GTB", año: 2015, chasis: "Coupé", propulsion: "Gasolina", velocidad: 330, potencia: 670, aceleracion: 3.0, tipo: "Superdeportivo", precio: 280000, 
       imagen: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Ferrari_488_GTB_Toulouse.jpg/800px-Ferrari_488_GTB_Toulouse.jpg?20240511091629" },
     { id: 2, nombre: "Tesla Model S Plaid", año: 2021, chasis: "Sedán", propulsion: "Eléctrico", velocidad: 322, potencia: 1020, aceleracion: 1.99, tipo: "Eléctrico", precio: 130000, 
