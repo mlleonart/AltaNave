@@ -1,4 +1,5 @@
 <deck>
+  <generacion nombre="Porsche 901" añoInicio="1963" añoFin="1963">
   <auto id="1">
       	<nombre>Porsche 911</nombre>
         	<año>1965</año>
@@ -11,7 +12,9 @@
         	<precio>58500</precio>
         	<imagen>https://upload.wikimedia.org/wikipedia/commons/d/d8/Stuttgart_Jul_2012_20_%28Porsche_Museum_-_1965_Porsche_911_2.0_Coupe%29.jpg</imagen>
       </auto>
-  
+  </generacion>
+
+  <generacion nombre="Porsche 911" añoInicio="1964" añoFin="1989">
   <auto id="31">
     <nombre>Ferrari 488 GTB</nombre>
     <año>2015</año>
@@ -154,4 +157,5 @@
     <precio>30000</precio>
     <imagen>https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/18_Volkswagen_Golf_GTI_SE.jpg/800px-18_Volkswagen_Golf_GTI_SE.jpg?20240602041417</imagen>
   </auto>
+     </generacion>
 </deck>
