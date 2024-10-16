@@ -1,4 +1,6 @@
 <deck>
+  <marca nombre="Porsche">
+    <modelo nombre="911">
   <generacion nombre="Porsche 901" añoInicio="1963" añoFin="1963">
   <auto id="1">
       	<nombre>Porsche 911</nombre>
@@ -14,6 +16,8 @@
           <enlace>https://albumaltanave.blogspot.com/p/porsche-911-coupe-de-2-puertas-1965.html</enlace>
       </auto>
   </generacion>
+    </modelo>
+    </marca>
 
   <generacion nombre="Porsche 911" añoInicio="1964" añoFin="1989">
   <auto id="31">
