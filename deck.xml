@@ -11,6 +11,7 @@
         	<tipo>Deportivo</tipo>
         	<precio>58500</precio>
         	<imagen>https://upload.wikimedia.org/wikipedia/commons/d/d8/Stuttgart_Jul_2012_20_%28Porsche_Museum_-_1965_Porsche_911_2.0_Coupe%29.jpg</imagen>
+          <enlace>https://albumaltanave.blogspot.com/p/porsche-911-coupe-de-2-puertas-1965.html</enlace>
       </auto>
   </generacion>
 
@@ -26,6 +27,7 @@
     <tipo>Superdeportivo</tipo>
     <precio>280000</precio>
     <imagen>https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Ferrari_488_GTB_Toulouse.jpg/800px-Ferrari_488_GTB_Toulouse.jpg?20240511091629</imagen>
+    <enlace>https://albumaltanave.blogspot.com/p/porsche-911-coupe-de-2-puertas-1965.html</enlace>
   </auto>
 
   <auto id="32">
@@ -39,6 +41,7 @@
     <tipo>Eléctrico</tipo>
     <precio>130000</precio>
     <imagen>https://upload.wikimedia.org/wikipedia/commons/d/df/21_Tesla_Model_S_Plaid.jpg</imagen>
+    <enlace>https://albumaltanave.blogspot.com/p/porsche-911-carrera-4-convertible-de-2.html</enlace>
   </auto>
 
   <auto id="33">
@@ -52,6 +55,7 @@
     <tipo>Deportivo</tipo>
     <precio>220000</precio>
     <imagen>https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Porsche_911_GT3_RS_Weissach.jpg/800px-Porsche_911_GT3_RS_Weissach.jpg?20230413105116</imagen>
+    <enlace>https://albumaltanave.blogspot.com/p/porsche-911-coupe-de-2-puertas-1965.html</enlace>
   </auto>
 
   <auto id="34">
@@ -65,6 +69,7 @@
     <tipo>Hiperdeportivo</tipo>
     <precio>3000000</precio>
     <imagen>https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Bugatti_Chiron_Royal_Blue.jpg/800px-Bugatti_Chiron_Royal_Blue.jpg?20211023215806</imagen>
+    <enlace>https://albumaltanave.blogspot.com/p/porsche-911-carrera-4-convertible-de-2.html</enlace>
   </auto>
 
   <auto id="35">
@@ -78,6 +83,7 @@
     <tipo>Superdeportivo</tipo>
     <precio>300000</precio>
     <imagen>https://upload.wikimedia.org/wikipedia/commons/6/6c/McLaren_720S_Orange.jpg</imagen>
+    <enlace>https://albumaltanave.blogspot.com/p/porsche-911-carrera-4-convertible-de-2.html</enlace>
   </auto>
 
   <auto id="36">
@@ -90,7 +96,8 @@
     <aceleracion>3.3</aceleracion>
     <tipo>Eléctrico</tipo>
     <precio>140000</precio>
-    <imagen>https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Audi_RS_e-tron_GT_quattro_%28infobox%29.jpg/800px-Audi_RS_e-tron_GT_quattro_%28infobox%29.jpg?20210404120140</imagen>
+    <imagen>https://upload.ikimedia.org/wikipedia/commons/thumb/b/b4/Audi_RS_e-tron_GT_quattro_%28infobox%29.jpg/800px-Audi_RS_e-tron_GT_quattro_%28infobox%29.jpg?20210404120140</imagen>
+    <enlace>https://albumaltanave.blogspot.com/p/porsche-911-carrera-4-convertible-de-2.html</enlace>
   </auto>
 
   <auto id="37">
@@ -104,6 +111,7 @@
     <tipo>Superdeportivo</tipo>
     <precio>400000</precio>
     <imagen>https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Lamborghini_Aventador_LP_750-4_SV.jpg/800px-Lamborghini_Aventador_LP_750-4_SV.jpg?20241004185835</imagen>
+    <enlace>https://albumaltanave.blogspot.com/p/porsche-911-carrera-4-convertible-de-2.html</enlace>
   </auto>
 
   <auto id="38">
@@ -117,6 +125,7 @@
     <tipo>Hiperdeportivo</tipo>
     <precio>3000000</precio>
     <imagen>https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Koenigsegg_Jesko.jpg/800px-Koenigsegg_Jesko.jpg?20211024022338</imagen>
+    <enlace>https://albumaltanave.blogspot.com/p/porsche-911-carrera-4-convertible-de-2.html</enlace>
   </auto>
 
   <auto id="39">
@@ -130,6 +139,7 @@
     <tipo>Deportivo</tipo>
     <precio>280000</precio>
     <imagen>https://paddockmotors.es/wp-content/uploads/2024/03/DSC01257.webp</imagen>
+    <enlace>https://albumaltanave.blogspot.com/p/porsche-911-coupe-de-2-puertas-1965.html</enlace>
   </auto>
 
   <auto id="40">
@@ -143,6 +153,7 @@
     <tipo>Deportivo</tipo>
     <precio>280000</precio>
     <imagen>https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Porsche_911_%28996%29_Carrera_Cabriolet_%288516320329%29.jpg/800px-Porsche_911_%28996%29_Carrera_Cabriolet_%288516320329%29.jpg?20150109081035</imagen>
+    <enlace>https://albumaltanave.blogspot.com/p/porsche-911-coupe-de-2-puertas-1965.html</enlace>
   </auto>
   
   <auto id="41"> 
@@ -156,6 +167,7 @@
     <tipo>Compacto</tipo>
     <precio>30000</precio>
     <imagen>https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/18_Volkswagen_Golf_GTI_SE.jpg/800px-18_Volkswagen_Golf_GTI_SE.jpg?20240602041417</imagen>
+    <enlace>https://albumaltanave.blogspot.com/p/porsche-911-carrera-4-convertible-de-2.html</enlace>
   </auto>
      </generacion>
 </deck>
