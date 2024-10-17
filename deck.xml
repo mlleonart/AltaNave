@@ -18,35 +18,36 @@
   </generacion>
     </modelo>
     </marca>
+  
+/// <summary>
+///  <generacion nombre="Porsche 911" añoInicio="1964" añoFin="1989">
+///  <auto id="31">
+///    <nombre>Ferrari 488 GTB</nombre>
+///    <año>2015</año>
+///    <chasis>Coupé</chasis>
+///    <propulsion>Gasolina</propulsion>
+///    <velocidad>330</velocidad>
+///    <potencia>670</potencia>
+///    <aceleracion>3.0</aceleracion>
+///    <tipo>Superdeportivo</tipo>
+///    <precio>280000</precio>
+///    <imagen>https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Ferrari_488_GTB_Toulouse.jpg/800px-Ferrari_488_GTB_Toulouse.jpg?20240511091629</imagen>
+///    <enlace>https://albumaltanave.blogspot.com/p/porsche-911-coupe-de-2-puertas-1965.html</enlace>
+///  </auto>
 
-  <generacion nombre="Porsche 911" añoInicio="1964" añoFin="1989">
-  <auto id="31">
-    <nombre>Ferrari 488 GTB</nombre>
-    <año>2015</año>
-    <chasis>Coupé</chasis>
-    <propulsion>Gasolina</propulsion>
-    <velocidad>330</velocidad>
-    <potencia>670</potencia>
-    <aceleracion>3.0</aceleracion>
-    <tipo>Superdeportivo</tipo>
-    <precio>280000</precio>
-    <imagen>https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Ferrari_488_GTB_Toulouse.jpg/800px-Ferrari_488_GTB_Toulouse.jpg?20240511091629</imagen>
-    <enlace>https://albumaltanave.blogspot.com/p/porsche-911-coupe-de-2-puertas-1965.html</enlace>
-  </auto>
-
-  <auto id="32">
-    <nombre>Tesla Model S Plaid</nombre>
-    <año>2021</año>
-    <chasis>Sedán</chasis>
-    <propulsion>Eléctrico</propulsion>
-    <velocidad>322</velocidad>
-    <potencia>1020</potencia>
-    <aceleracion>1.99</aceleracion>
-    <tipo>Eléctrico</tipo>
-    <precio>130000</precio>
-    <imagen>https://upload.wikimedia.org/wikipedia/commons/d/df/21_Tesla_Model_S_Plaid.jpg</imagen>
-    <enlace>https://albumaltanave.blogspot.com/p/porsche-911-carrera-4-convertible-de-2.html</enlace>
-  </auto>
+///  <auto id="32">
+///    <nombre>Tesla Model S Plaid</nombre>
+///    <año>2021</año>
+///    <chasis>Sedán</chasis>
+///    <propulsion>Eléctrico</propulsion>
+///    <velocidad>322</velocidad>
+///    <potencia>1020</potencia>
+///    <aceleracion>1.99</aceleracion>
+///    <tipo>Eléctrico</tipo>
+///    <precio>130000</precio>
+///    <imagen>https://upload.wikimedia.org/wikipedia/commons/d/df/21_Tesla_Model_S_Plaid.jpg</imagen>
+///    <enlace>https://albumaltanave.blogspot.com/p/porsche-911-carrera-4-convertible-de-2.html</enlace>
+///  </auto>
 
   <auto id="33">
     <nombre>Porsche 911 GT3 RS</nombre>
@@ -173,5 +174,5 @@
     <imagen>https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/18_Volkswagen_Golf_GTI_SE.jpg/800px-18_Volkswagen_Golf_GTI_SE.jpg?20240602041417</imagen>
     <enlace>https://albumaltanave.blogspot.com/p/porsche-911-carrera-4-convertible-de-2.html</enlace>
   </auto>
-     </generacion>
+///     </generacion>
 </deck>
