@@ -18,6 +18,29 @@
        </generacion>
     </modelo>
   </marca>
+ <marca nombre="McLaren">
+    <modelo nombre="720S">
+      <generacion nombre="McLaren 720S" añoInicio="2017" añoFin="2023">
+
+  
+  
+  	<auto id="10">
+      	<nombre>McLaren 720S</nombre>
+        	<año>2017</año>
+        	<chasis>Coupé de 2 puertas</chasis>
+        	<propulsion>Gasolina</propulsion>
+        	<velocidad>341</velocidad>
+        	<potencia>710</potencia>
+        	<aceleracion>2,9</aceleracion>
+        	<tipo>Supercar</tipo>
+        	<precio>330000</precio>
+        	<imagen>https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Osaka_Motor_Show_2017_%28217%29_-_McLaren_720S_COUPE.jpg/800px-Osaka_Motor_Show_2017_%28217%29_-_McLaren_720S_COUPE.jpg?20180126141158</imagen>
+            <enlace>https://www.altanave.uy/p/mclaren-720s-coupe-de-2-puertas-2017.html</enlace>
+      </auto>
+      </generacion>
+    </modelo>
+  </marca>
+                  
                   
   <marca nombre="Porsche">
     <modelo nombre="911">
