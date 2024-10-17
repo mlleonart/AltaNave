@@ -48,7 +48,7 @@
         	<propulsion>Gasolina</propulsion>
         	<velocidad>240</velocidad>
         	<potencia>214</potencia>
-        	<aceleracion>6,5&nbsp;</aceleracion>
+        	<aceleracion>6,5</aceleracion>
         	<tipo>Deportivo</tipo>
         	<precio>128486</precio>
         	<imagen>https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/1979_Porsche_911_SC_Targa_%2813472886333%29.jpg/1200px-1979_Porsche_911_SC_Targa_%2813472886333%29.jpg?20150109034712</imagen>
