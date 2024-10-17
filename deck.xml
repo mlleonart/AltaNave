@@ -8,7 +8,7 @@
         	<chasis>Coupé de 2 puertas</chasis>
         	<propulsion>Gasolina</propulsion>
         	<velocidad>210</velocidad>
-        	<potencia>128-146</potencia>
+        	<potencia>128</potencia>
         	<aceleracion>9,1</aceleracion>
         	<tipo>Deportivo</tipo>
         	<precio>58500</precio>
@@ -21,7 +21,7 @@
         	<chasis>Targa</chasis>
         	<propulsion>Gasolina</propulsion>
         	<velocidad>200</velocidad>
-        	<potencia>109-123</potencia>
+        	<potencia>109</potencia>
         	<aceleracion>11</aceleracion>
         	<tipo>Deportivo</tipo>
         	<precio>45895</precio>
