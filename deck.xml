@@ -15,6 +15,21 @@
         	<imagen>https://upload.wikimedia.org/wikipedia/commons/d/d8/Stuttgart_Jul_2012_20_%28Porsche_Museum_-_1965_Porsche_911_2.0_Coupe%29.jpg</imagen>
           <enlace>https://www.altanave.uy/p/porsche-911-coupe-de-2-puertas-1965.html</enlace>
         </auto>
+        <auto id="2">
+      	  <nombre>Porsche 911</nombre>
+        	<año>1968</año>
+        	<chasis>Targa</chasis>
+        	<propulsion>Gasolina</propulsion>
+        	<velocidad>200</velocidad>
+        	<potencia>109-123</potencia>
+        	<aceleracion>11</aceleracion>
+        	<tipo>Deportivo</tipo>
+        	<precio>45895</precio>
+        	<imagen>https://upload.wikimedia.org/wikipedia/commons/a/ae/Saxony_Classic_Rallye_2010_-_Porsche_911_T_1969_%28aka%29.jpg</imagen>
+          <enlace>https://www.altanave.uy/p/porsche-911-targa-1968.html</enlace>
+        </auto>
+  
+                  
       </generacion>
     </modelo>
   </marca>
