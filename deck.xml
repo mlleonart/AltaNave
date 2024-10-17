@@ -41,7 +41,20 @@
         	<imagen>https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Porsche_911_Turbo_%281987%29_%2852574988328%29.jpg/800px-Porsche_911_Turbo_%281987%29_%2852574988328%29.jpg?20230119013023</imagen>
           <enlace>https://www.altanave.uy/p/porsche-911-coupe-de-2-puertas-1987.html</enlace>
         </auto>
-  	    <auto id="4">
+  	<auto id="4">
+      	<nombre>Porsche 911</nombre>
+        	<año>1987</año>
+        	<chasis>Convertible de 2 puertas</chasis>
+        	<propulsion>Gasolina</propulsion>
+        	<velocidad>240</velocidad>
+        	<potencia>214</potencia>
+        	<aceleracion>6,7</aceleracion>
+        	<tipo>Deportivo</tipo>
+        	<precio>133664</precio>
+        	<imagen>https://upload.wikimedia.org/wikipedia/commons/e/e7/Porsche_911_Carrera_Super_Sport_Cabrio_3.2_%281989%29_%2834717125242%29.jpg</imagen>
+            <enlace>https://www.altanave.uy/p/porsche-911-convertible-de-2-puertas.html</enlace>
+      </auto>          
+  	    <auto id="5">
       	  <nombre>Porsche 911</nombre>
         	<año>1989</año>
         	<chasis>Targa</chasis>
