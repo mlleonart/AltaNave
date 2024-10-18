@@ -287,13 +287,13 @@ hr.red {
       position: absolute; 
     right: 10px;
 }
-ul.tabs li a[href="https://albumaltanave.blogspot.com/p/juego-tope.html"] {
+ul.tabs li a[href="https://www.altanave.uy/p/rivales-juego-de-cartas-para-superar.html"] {
     color: #FF5733; /* Cambia el color del texto */
     font-size: large;
     transition: background-color 0.3s; /* Añade una transición suave */
 }
 
-ul.tabs li a[href="https://albumaltanave.blogspot.com/p/juego-tope.html"]:hover {
+ul.tabs li a[href="https://www.altanave.uy/p/rivales-juego-de-cartas-para-superar.html"]:hover {
     background-color: #555; /* Cambia el fondo al pasar el mouse */
 }
 
