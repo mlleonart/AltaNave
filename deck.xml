@@ -80,6 +80,28 @@
       </generacion>
     </modelo>
   </marca>
+
+   <marca nombre="MG">
+    <modelo nombre="720S">
+      <generacion nombre="MG ZS" añoInicio="2022" añoFin="2025">
+  
+  	<auto id="16">
+      	<nombre>MG ZS EV</nombre>
+        	<año>2022</año>
+        	<chasis>SUV</chasis>
+        	<propulsion>Electrico</propulsion>
+        	<velocidad>175</velocidad>
+        	<potencia>174</potencia>
+        	<aceleracion>8.6</aceleracion>
+        	<tipo>Compacto</tipo>
+        	<precio>32000</precio>
+        	<imagen>https://upload.wikimedia.org/wikipedia/commons/c/cd/%28SGP-Singapore%29_Showcar_MG_ZS_EV_No-plate_2024-09-14_-_1.jpg</imagen>
+            <enlace>https://www.altanave.uy/p/mg-zs-ev-suv-2022.html</enlace>
+      </auto>
+  
+         </generacion>
+    </modelo>
+  </marca>           
                   
                   
   <marca nombre="Porsche">
