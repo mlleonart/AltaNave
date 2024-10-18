@@ -297,3 +297,10 @@ ul.tabs li a[href="https://www.altanave.uy/p/rivales-juego-de-cartas-para-supera
     background-color: #555; /* Cambia el fondo al pasar el mouse */
 }
 
+a[href="https://www.altanave.uy/p/rivales-juego-de-cartas-para-superar.html"]::after {
+    content: '\1F0CF'; /* Emoji de la carta */
+    font-family: 'Segoe UI Emoji', sans-serif;
+    font-size: 24px; /* Ajusta el tamaño según lo necesites */
+    margin-left: 8px; /* Espacio entre el enlace y el emoji */
+    vertical-align: middle; /* Alineación vertical */
+}
