@@ -170,6 +170,23 @@
         	<imagen>https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/1992_Porsche_911_Carrera_%28964%29.jpg/1200px-1992_Porsche_911_Carrera_%28964%29.jpg?20220726153307</imagen>
             <enlace>https://www.altanave.uy/p/porsche-911-carrera-2-coupe-de-2.html</enlace>
       </auto>
+       
+  
+  	<auto id="12">
+      	<nombre>Porsche 911 Carrera 2</nombre>
+        	<año>1991</año>
+        	<chasis>Targa</chasis>
+        	<propulsion>Gasolina</propulsion>
+        	<velocidad>260</velocidad>
+        	<potencia>247</potencia>
+        	<aceleracion>5,7</aceleracion>
+        	<tipo>Deportivo</tipo>
+        	<precio>130000</precio>
+        	<imagen>https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Porsche_911_Carrera_Targa_07-27-2019.jpg/1200px-Porsche_911_Carrera_Targa_07-27-2019.jpg?20190823171324</imagen>
+            <enlace>https://www.altanave.uy/p/porsche-911-carrera-2-targa-1991.html</enlace>
+      </auto>
+  
+                  
   
                   
          
