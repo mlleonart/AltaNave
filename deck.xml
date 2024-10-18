@@ -57,6 +57,28 @@
       </generacion>
     </modelo>
   </marca>
+
+   <marca nombre="Lamborghini">
+    <modelo nombre="Urus">
+      <generacion nombre="Lamborghini Urus" añoInicio="2018" añoFin="2025">
+  
+  	<auto id="17">
+      	<nombre>Lamborghini Urus</nombre>
+        	<año>2022</año>
+        	<chasis>SUV</chasis>
+        	<propulsion>Gasolina</propulsion>
+        	<velocidad>305</velocidad>
+        	<potencia>641</potencia>
+        	<aceleracion>3,6</aceleracion>
+        	<tipo>SUV</tipo>
+        	<precio>220000</precio>
+        	<imagen>https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/2022_Lamborghini_Urus_in_Blue.jpg/800px-2022_Lamborghini_Urus_in_Blue.jpg?20230317101831</imagen>
+            <enlace>https://www.altanave.uy/p/lamborghini-urus-suv-2022.html</enlace>
+      </auto>
+  
+          </generacion>
+    </modelo>
+  </marca>            
   
  <marca nombre="McLaren">
     <modelo nombre="720S">
