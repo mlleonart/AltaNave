@@ -10,7 +10,7 @@
         	<velocidad>407</velocidad>
         	<potencia>987</potencia>
         	<aceleracion>2,5</aceleracion>
-        	<tipo>Supercar</tipo>
+        	<tipo>Superauto</tipo>
         	<precio>1920000</precio>
         	<imagen>https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Bugatti_veyron_in_Tokyo.jpg/800px-Bugatti_veyron_in_Tokyo.jpg?20051104134307</imagen>
             <enlace>https://www.altanave.uy/p/bugatti-veyron-164-coupe-de-2-puertas.html</enlace>
@@ -132,7 +132,7 @@
         	<velocidad>341</velocidad>
         	<potencia>710</potencia>
         	<aceleracion>2,9</aceleracion>
-        	<tipo>Supercar</tipo>
+        	<tipo>Superauto</tipo>
         	<precio>330000</precio>
         	<imagen>https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Osaka_Motor_Show_2017_%28217%29_-_McLaren_720S_COUPE.jpg/800px-Osaka_Motor_Show_2017_%28217%29_-_McLaren_720S_COUPE.jpg?20180126141158</imagen>
             <enlace>https://www.altanave.uy/p/mclaren-720s-coupe-de-2-puertas-2017.html</enlace>
