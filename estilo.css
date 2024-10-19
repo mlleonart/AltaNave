@@ -1,11 +1,11 @@
 /* Encapsular estilos para evitar conflictos */
-.bg-photo {
+/*.bg-photo {
     background-image: url('your-image-url');
     background-size: cover; /* or contain depending on your design */
     background-position: center; /* centers the image */
     width: 100%; /* or a specific width */
     height: 500px; /* set a fixed height */
-}
+}*/
 
 .card-container {
     display: flex;
