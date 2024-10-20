@@ -79,7 +79,7 @@
                 <imagen>https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/2021_Ferrari_SF90.jpg/800px-2021_Ferrari_SF90.jpg?20241010112346</imagen>
                 <enlace>https://www.altanave.uy/p/ferrari-sf90-stradale-coupe-de-2.html</enlace>
           </auto>
-          </generacion>
+        
 
       
           <auto id="21">
@@ -96,7 +96,7 @@
                 <enlace>https://www.altanave.uy/p/ferrari-sf90-spider-techo-rigido-de-2.html</enlace>
           </auto>
       
-                      
+              </generacion>          
       
       
        
