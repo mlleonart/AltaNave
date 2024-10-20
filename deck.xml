@@ -55,13 +55,31 @@
   
                   
       </generacion>
-
+ </modelo>
       
-      
+       <modelo nombre="Daytona">
+      <generacion nombre="Daytona" añoInicio="1968" añoFin="1974">
        
       
+          <auto id="22">
+              <nombre>Ferrari 365 GTB/4 Daytona</nombre>
+                <año>1974</año>
+                <chasis>Coupé de 2 puertas</chasis>
+                <propulsion>Gasolina</propulsion>
+                <velocidad>280</velocidad>
+                <potencia>347</potencia>
+                <aceleracion>5,7</aceleracion>
+                <tipo>Deportivo</tipo>
+                <precio>1200000</precio>
+                <imagen>https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Ferrari_Daytona_365_GTB4_LC22.jpg/800px-Ferrari_Daytona_365_GTB4_LC22.jpg?20230411213950</imagen>
+                <enlace>https://www.altanave.uy/p/ferrari-365-gtb4-daytona-coupe-de-2.html</enlace>
+          </auto>
+      
                       
-    </modelo>
+        </generacion>
+ </modelo>
+                      
+   
 
      <modelo nombre="SF90">
       <generacion nombre="SF90" añoInicio="2021" añoFin="2025">
