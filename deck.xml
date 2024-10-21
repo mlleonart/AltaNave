@@ -163,7 +163,19 @@
                 <imagen>https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Ferrari_488_Spider_7.jpg/800px-Ferrari_488_Spider_7.jpg?20241007200556</imagen>
                 <enlace>https://www.altanave.uy/p/ferrari-488-spider-convertible-de-2.html</enlace>
           </auto>
-     
+          <auto id="27">
+              <nombre>Ferrari 488 Pista</nombre>
+                <año>2019</año>
+                <chasis>Convertible de 2 puertas</chasis>
+                <propulsion>Gasolina</propulsion>
+                <velocidad>340</velocidad>
+                <potencia>720</potencia>
+                <aceleracion>2.85</aceleracion>
+                <tipo>Deportivo</tipo>
+                <precio>350000</precio>
+                <imagen>https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Ferrari_488_Pista_8.jpg/800px-Ferrari_488_Pista_8.jpg?20230914111744</imagen>
+                <enlace>https://www.altanave.uy/p/ferrari-488-pista-convertible-de-2.html</enlace>
+          </auto>     
               </generacion>
         </modelo>          
     </marca>
