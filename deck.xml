@@ -150,7 +150,20 @@
                 <imagen>https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/2017_Ferrari_488.jpg/800px-2017_Ferrari_488.jpg?20241007200712</imagen>
                 <enlace>https://www.altanave.uy/p/ferrari-488-gtb-coupe-de-2-puertas-2017.html</enlace>
           </auto>
-      
+          <auto id="25">
+              <nombre>Ferrari 488 Spider</nombre>
+                <año>2019</año>
+                <chasis>Convertible de 2 puertas</chasis>
+                <propulsion>Gasolina</propulsion>
+                <velocidad>325</velocidad>
+                <potencia>661</potencia>
+                <aceleracion>3</aceleracion>
+                <tipo>Deportivo</tipo>
+                <precio>250000</precio>
+                <imagen>https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Ferrari_488_Spider_7.jpg/800px-Ferrari_488_Spider_7.jpg?20241007200556</imagen>
+                <enlace>https://www.altanave.uy/p/ferrari-488-spider-convertible-de-2.html</enlace>
+          </auto>
+     
               </generacion>
         </modelo>          
     </marca>
