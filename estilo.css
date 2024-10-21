@@ -15,7 +15,8 @@
     padding: 15px;
     text-align: center;
     transition: box-shadow 0.3s ease;
-    height: 200px; /* Ajuste de altura consistente */
+    height: 150px; /* Ajuste de altura consistente */
+    align-content: center;
 }
 
 .car-brand:hover {
