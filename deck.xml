@@ -93,6 +93,26 @@
                       
                       
         </generacion>
+
+          <generacion nombre="Daytona SP3" añoInicio="2022" añoFin="2025">
+            
+      
+          <auto id="23">
+              <nombre>Ferrari Daytona SP3</nombre>
+                <año>2023</año>
+                <chasis>Coupé de 2 puertas</chasis>
+                <propulsion>Gasolina</propulsion>
+                <velocidad>341</velocidad>
+                <potencia>823</potencia>
+                <aceleracion>2,85</aceleracion>
+                <tipo>Superauto</tipo>
+                <precio>2000000</precio>
+                <imagen>https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Ferrari_Daytona_SP3.jpg/800px-Ferrari_Daytona_SP3.jpg?20241016201739</imagen>
+                <enlace>https://www.altanave.uy/p/ferrari-daytona-sp3-coupe-de-2-puertas.html</enlace>
+          </auto>
+      
+                      
+            </generacion>
  </modelo>
                       
    
