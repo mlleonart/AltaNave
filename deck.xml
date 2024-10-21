@@ -190,7 +190,7 @@
                 <propulsion>Gasolina</propulsion>
                 <velocidad>340</velocidad>
                 <potencia>720</potencia>
-                <aceleracion>2.85</aceleracion>
+                <aceleracion>2,85</aceleracion>
                 <tipo>Deportivo</tipo>
                 <precio>350000</precio>
                 <imagen>https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Ferrari_488_Pista_8.jpg/800px-Ferrari_488_Pista_8.jpg?20230914111744</imagen>
@@ -283,7 +283,7 @@
                     <propulsion>Electrico</propulsion>
                     <velocidad>175</velocidad>
                     <potencia>174</potencia>
-                    <aceleracion>8.6</aceleracion>
+                    <aceleracion>8,6</aceleracion>
                     <tipo>SUV</tipo>
                     <precio>32000</precio>
                     <imagen>
