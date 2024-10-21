@@ -293,6 +293,23 @@
                 <imagen>https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/2005_Lamborghini_Murcielago.jpg/800px-2005_Lamborghini_Murcielago.jpg?20231220222135</imagen>
                 <enlace>https://www.altanave.uy/p/lamborghini-murcielago-coupe-de-2.html</enlace>
           </auto>
+                
+      
+          <auto id="34">
+              <nombre>Lamborghini Murcielago Roadster</nombre>
+                <año>2005</año>
+                <chasis>Roadster de 2 puertas</chasis>
+                <propulsion>Gasolina</propulsion>
+                <velocidad>320</velocidad>
+                <potencia>571</potencia>
+                <aceleracion>3,85</aceleracion>
+                <tipo>Deportivo</tipo>
+                <precio>150000</precio>
+                <imagen>https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/2005_Lamborghini_Murcielago_Roadster.jpg/800px-2005_Lamborghini_Murcielago_Roadster.jpg?20220504151143</imagen>
+                <enlace>https://www.altanave.uy/p/lamborghini-murcielago-roadster.html</enlace>
+          </auto>
+      
+                      
           </generacion>
         </modelo>
                       
