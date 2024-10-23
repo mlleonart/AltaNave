@@ -435,8 +435,8 @@
         </modelo>
     </marca>
   <marca nombre="Peugeot">
-        <modelo nombre="ZS">
-            <generacion nombre="208" añoInicio="2012" añoFin="2019">
+        <modelo nombre="208">
+            <generacion nombre="Generacion 1" añoInicio="2012" añoFin="2019">
 
     
       
@@ -455,6 +455,10 @@
           </auto>
       
                </generacion>
+             <generacion nombre="Generacion 2" añoInicio="2019" añoFin="2024">
+                    </generacion>
+                  <generacion nombre="Generacion 3" añoInicio="2024" añoFin="2025">
+                         </generacion>
         </modelo>
     </marca>               
     <marca nombre="Porsche">
