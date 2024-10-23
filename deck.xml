@@ -117,7 +117,7 @@
                     <precio>500000</precio>
                     <imagen>
                         https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/2021_Ferrari_SF90.jpg/800px-2021_Ferrari_SF90.jpg?20241010112346</imagen>
-                    <enlace>https://www.altanave.uy/p/ferrari-sf90-stradale-coupe-de-2.html</enlace>
+                    <enlace>https://www.altanave.uy/2024/10/ferrari-sf90-stradale-coupe-de-2.html</enlace>
                 </auto>
                 <auto id="21">
                     <nombre>Ferrari SF90 Spider</nombre>
@@ -131,7 +131,7 @@
                     <precio>500000</precio>
                     <imagen>
                         https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Ferrari_SF90_Asseto_Fiorano_Spider.jpg/800px-Ferrari_SF90_Asseto_Fiorano_Spider.jpg?20241010113722</imagen>
-                    <enlace>https://www.altanave.uy/p/ferrari-sf90-spider-techo-rigido-de-2.html</enlace>
+                    <enlace>https://www.altanave.uy/2024/10/ferrari-sf90-spider-techo-rigido-de-2.html</enlace>
                 </auto>
             </generacion>
         </modelo>
