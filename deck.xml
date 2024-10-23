@@ -475,6 +475,23 @@
                       
                     </generacion>
                   <generacion nombre="Generacion 3" añoInicio="2024" añoFin="2025">
+                      
+      
+          <auto id="40">
+              <nombre>Peugeot 208</nombre>
+                <año>2024</año>
+                <chasis>Hatchback de 5 puertas</chasis>
+                <propulsion>Gasolina</propulsion>
+                <velocidad>164</velocidad>
+                <potencia>74</potencia>
+                <aceleracion>14,9</aceleracion>
+                <tipo>Normal</tipo>
+                <precio>20000</precio>
+                <imagen>https://upload.wikimedia.org/wikipedia/commons/9/91/Peugeot_208_B_facelift_Automesse_Ludwigsburg_2024_IMG_1527.jpg</imagen>
+                <enlace>https://www.altanave.uy/2024/10/peugeot-208-hatchback-de-5-puertas-2024.html</enlace>
+          </auto>
+      
+                      
                          </generacion>
         </modelo>
     </marca>               
