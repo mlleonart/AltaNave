@@ -657,6 +657,20 @@
                     <enlace>https://www.altanave.uy/2024/10/porsche-911-carrera-2-convertible-de-2.html</enlace>
                 </auto>
             </generacion>
+                      <auto id="41">
+              <nombre>Porsche 911 Carrera 4 Coupe</nombre>
+                <año>1995</año>
+                <chasis>Coupé de 2 puertas</chasis>
+                <propulsion>Gasolina</propulsion>
+                <velocidad>270</velocidad>
+                <potencia>268</potencia>
+                <aceleracion>5,5</aceleracion>
+                <tipo>Deportivo</tipo>
+                <precio>132000</precio>
+                <imagen>https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/1995_Porsche_911_%28993%29_Carrera_FOS21.jpg/1200px-1995_Porsche_911_%28993%29_Carrera_FOS21.jpg?20220803143739</imagen>
+                <enlace>https://www.altanave.uy/2024/10/porsche-911-carrera-4-coupe-coupe-de-2.html</enlace>
+          </auto>
+            </generacion>
         </modelo>
     </marca>
 </deck>
