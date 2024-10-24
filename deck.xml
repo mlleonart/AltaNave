@@ -299,6 +299,23 @@
           </auto>
      </generacion>
      </modelo>
+                <modelo nombre="Jesko">
+     <generacion nombre="Koenigsegg Jesko" añoInicio="2020" añoFin="2025">
+          <auto id="54">
+              <nombre>Koenigsegg Jesko</nombre>
+                <año>2023</año>
+                <chasis>Coupé targa de 2 puertas</chasis>
+                <propulsion>Gasolina</propulsion>
+                <velocidad>438</velocidad>
+                <potencia>1602</potencia>
+                <aceleracion>2,4</aceleracion>
+                <tipo>Superauto</tipo>
+                <precio>3500000</precio>
+                <imagen>https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/2023_Koenigsegg_Jesko_LC24.jpg/800px-2023_Koenigsegg_Jesko_LC24.jpg?20240917231123</imagen>
+                <enlace>https://www.altanave.uy/2024/10/koenigsegg-jesko-coupe-targa-de-2.html</enlace>
+          </auto>  
+     </generacion>
+     </modelo>
     </marca>
     <marca nombre="Lamborghini">
         <modelo nombre="350 GT">
