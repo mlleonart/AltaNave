@@ -225,7 +225,7 @@
     </marca>
        <marca nombre="Koenigsegg">
      <modelo nombre="CC 8S">
-     <generacion nombre="Koenigsegg CC 8S" añoInicio="2002" añoFin="2004">
+     <generacion nombre="Koenigsegg CC Series" añoInicio="2002" añoFin="2004">
                    <auto id="49">
               <nombre>Koenigsegg CC 8S</nombre>
                 <año>2002</año>
