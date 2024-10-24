@@ -333,6 +333,23 @@
           </auto>
      </generacion>
      </modelo>
+                <modelo nombre="Regera">
+          <generacion nombre="Koenigsegg Regera" añoInicio="2020" añoFin="2025">
+          <auto id="56">
+              <nombre>Koenigsegg Regera</nombre>
+                <año>2022</año>
+                <chasis>Coupé targa de 2 puertas</chasis>
+                <propulsion>Gasolina</propulsion>
+                <velocidad>410</velocidad>
+                <potencia>1489</potencia>
+                <aceleracion>2,7</aceleracion>
+                <tipo>Superauto</tipo>
+                <precio>2500000</precio>
+                <imagen>https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Koenigsegg_Regera_White.jpg/800px-Koenigsegg_Regera_White.jpg?20211026011215</imagen>
+                <enlace>https://www.altanave.uy/2024/10/koenigsegg-regera-coupe-targa-de-2.html</enlace>
+          </auto>
+          </generacion>
+     </modelo>
     </marca>
     <marca nombre="Lamborghini">
         <modelo nombre="350 GT">
