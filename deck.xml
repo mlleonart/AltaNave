@@ -814,6 +814,7 @@
                 <imagen>https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/1997_Porsche_911_Carrera_%28993%29_convertible_%282011-11-18%29_01.jpg/1200px-1997_Porsche_911_Carrera_%28993%29_convertible_%282011-11-18%29_01.jpg?20120527033333</imagen>
                 <enlace>https://www.altanave.uy/2024/10/porsche-911-carrera-4-convertible-de-2.html</enlace>
           </auto>
+                      </generacion>
                               <generacion nombre="Porsche 911 (modelo 996)" añoInicio="1997" añoFin="2005">
           <auto id="57">
               <nombre>Porsche 911 Carrera 4</nombre>
@@ -845,7 +846,7 @@
           </auto>
             </generacion>
                       
-            </generacion>
+       
                         <generacion nombre="Porsche 911 (modelo 991)" añoInicio="2011" añoFin="2019">
           <auto id="43">
               <nombre>Porsche 911 Carrera 4 (991.1) Cabriolet</nombre>
