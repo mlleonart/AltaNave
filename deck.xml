@@ -267,6 +267,23 @@
           </auto>
      </generacion>
      </modelo>
+           <modelo nombre="Agera">
+     <generacion nombre="Koenigsegg Agera" añoInicio="2010" añoFin="2017">
+                         <auto id="52">
+              <nombre>Koenigsegg Agera R</nombre>
+                <año>2012</año>
+                <chasis>Coupé Targa de 2 puertas </chasis>
+                <propulsion>Gasolina </propulsion>
+                <velocidad>442</velocidad>
+                <potencia>1100</potencia>
+                <aceleracion>2,9</aceleracion>
+                <tipo>Superauto</tipo>
+                <precio>2275000</precio>
+                <imagen>https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Koenigsegg_Agera_RSN_2_NDM.jpg/800px-Koenigsegg_Agera_RSN_2_NDM.jpg?20211024023449</imagen>
+                <enlace>https://www.altanave.uy/2024/10/koenigsegg-agera-r-coupe-targa-de-2.html</enlace>
+          </auto>
+     </generacion>
+     </modelo>
     </marca>
     <marca nombre="Lamborghini">
         <modelo nombre="350 GT">
