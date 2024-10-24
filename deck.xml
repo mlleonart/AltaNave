@@ -252,6 +252,19 @@
                 <imagen>https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Koenigsegg_CCR_5.jpg/800px-Koenigsegg_CCR_5.jpg?20240101190303</imagen>
                 <enlace>https://www.altanave.uy/2024/10/koenigsegg-ccr-coupe-targa-2004.html</enlace>
           </auto>
+                 <auto id="51">
+              <nombre>Koenigsegg CCXR</nombre>
+                <año>2008</año>
+                <chasis>Coupé Targa de 2 puertas </chasis>
+                <propulsion>Gasolina </propulsion>
+                <velocidad>420</velocidad>
+                <potencia>1004</potencia>
+                <aceleracion>3,1</aceleracion>
+                <tipo>Superauto</tipo>
+                <precio>3150000</precio>
+                <imagen>https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Koenigsegg_CCR_5.jpg/800px-Koenigsegg_CCR_5.jpg?20240101190303</imagen>
+                <enlace>https://www.altanave.uy/2024/10/koenigsegg-ccxr-coupe-targa-de-2.html</enlace>
+          </auto>
      </generacion>
      </modelo>
     </marca>
