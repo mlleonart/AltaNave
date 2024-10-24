@@ -689,6 +689,47 @@
       
                       
             </generacion>
+                        <generacion nombre="Porsche 911 (modelo 991)" añoInicio="2011" añoFin="2019">
+          <auto id="43">
+              <nombre>Porsche 911 Carrera 4 (991.1) Cabriolet</nombre>
+                <año>2014</año>
+                <chasis>Convertible de 2 puertas</chasis>
+                <propulsion>Gasolina</propulsion>
+                <velocidad>282</velocidad>
+                <potencia>345</potencia>
+                <aceleracion>5,1</aceleracion>
+                <tipo>Deportivo</tipo>
+                <precio>136500</precio>
+                <imagen>https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/The_frontview_of_Porsche_991_Carrera_4S_Cabriolet.JPG/800px-The_frontview_of_Porsche_991_Carrera_4S_Cabriolet.JPG?20140719112723</imagen>
+                <enlace>https://www.altanave.uy/2024/10/porsche-911-carrera-4-cabriolet.html</enlace>
+          </auto>
+          <auto id="44">
+              <nombre>Porsche 911 (991.1) Targa 4</nombre>
+                <año>2015</año>
+                <chasis>Targa</chasis>
+                <propulsion>Gasolina</propulsion>
+                <velocidad>282</velocidad>
+                <potencia>345</potencia>
+                <aceleracion>5,2</aceleracion>
+                <tipo>Deportivo</tipo>
+                <precio>110000</precio>
+                <imagen>https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Porsche_911_Targa_4S_%28991%29_%2826380557922%29.jpg/800px-Porsche_911_Targa_4S_%28991%29_%2826380557922%29.jpg?20170818013202</imagen>
+                <enlace>https://www.altanave.uy/2024/10/porsche-911-targa-4-targa-2015.html</enlace>
+          </auto>
+          <auto id="45">
+              <nombre>Porsche 911 Carrera 4</nombre>
+                <año>2015</año>
+                <chasis>Coupé de 2 puertas</chasis>
+                <propulsion>Gasolina</propulsion>
+                <velocidad>285</velocidad>
+                <potencia>345</potencia>
+                <aceleracion>4,9</aceleracion>
+                <tipo>Deportivo</tipo>
+                <precio>115000</precio>
+                <imagen>https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/2015_Porsche_911_Turbo_991.1_Coupe.jpg/800px-2015_Porsche_911_Turbo_991.1_Coupe.jpg?20220728081752</imagen>
+                <enlace>https://www.altanave.uy/2024/10/porsche-911-carrera-4-9911-coupe-de-2.html</enlace>
+          </auto>
+            </generacion >
         </modelo>
     </marca>
 </deck>
