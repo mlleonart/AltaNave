@@ -283,6 +283,21 @@
                 <enlace>https://www.altanave.uy/2024/10/koenigsegg-agera-r-coupe-targa-de-2.html</enlace>
           </auto>
      </generacion>
+                <generacion nombre="Koenigsegg Agera One:1" añoInicio="2014" añoFin="2015">
+          <auto id="53">
+              <nombre>Koenigsegg Agera One:1</nombre>
+                <año>2014</año>
+                <chasis>Coupé de 2 puertas</chasis>
+                <propulsion>Gasolina</propulsion>
+                <velocidad>440</velocidad>
+                <potencia>1341</potencia>
+                <aceleracion>2,6</aceleracion>
+                <tipo>Superauto</tipo>
+                <precio>2925000</precio>
+                <imagen>https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Koenigsegg_%28Agera%29_One-1_at_Goodwood_2014_004.jpg/800px-Koenigsegg_%28Agera%29_One-1_at_Goodwood_2014_004.jpg?20141026055639</imagen>
+                <enlace>https://www.altanave.uy/2024/10/koenigsegg-agera-one1-coupe-de-2.html</enlace>
+          </auto>
+     </generacion>
      </modelo>
     </marca>
     <marca nombre="Lamborghini">
