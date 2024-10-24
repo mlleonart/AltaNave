@@ -229,8 +229,8 @@
                    <auto id="49">
               <nombre>Koenigsegg CC 8S</nombre>
                 <año>2002</año>
-                <chasis>Coupé Targa de 2 puertas | Gasolina</chasis>
-                <propulsion>undefined</propulsion>
+                <chasis>Coupé Targa de 2 puertas</chasis>
+                <propulsion>Gasolina</propulsion>
                 <velocidad>390</velocidad>
                 <potencia>646</potencia>
                 <aceleracion>3,5</aceleracion>
