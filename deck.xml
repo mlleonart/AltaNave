@@ -729,6 +729,32 @@
                 <imagen>https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/2015_Porsche_911_Turbo_991.1_Coupe.jpg/800px-2015_Porsche_911_Turbo_991.1_Coupe.jpg?20220728081752</imagen>
                 <enlace>https://www.altanave.uy/2024/10/porsche-911-carrera-4-9911-coupe-de-2.html</enlace>
           </auto>
+                                      <auto id="46">
+              <nombre>Porsche 911 Carrera (991.2) Cabriolet</nombre>
+                <año>2015</año>
+                <chasis>Convertible de 2 puertas</chasis>
+                <propulsion>Gasolina</propulsion>
+                <velocidad>292</velocidad>
+                <potencia>365</potencia>
+                <aceleracion>4,8</aceleracion>
+                <tipo>Deportivo</tipo>
+                <precio>120000</precio>
+                <imagen>https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/PORSCHE_911_%28991%29_CONVERTIBLE_China.jpg/800px-PORSCHE_911_%28991%29_CONVERTIBLE_China.jpg?20220907041132</imagen>
+                <enlace>https://www.altanave.uy/2024/10/porsche-911-carrera-9912-cabriolet.html</enlace>
+          </auto>
+          <auto id="47">
+              <nombre>Porsche 911 Carrera 4 (991.2)</nombre>
+                <año>2018</año>
+                <chasis>Coupé de 2 puertas</chasis>
+                <propulsion>Gasolina</propulsion>
+                <velocidad>292</velocidad>
+                <potencia>365</potencia>
+                <aceleracion>4,5</aceleracion>
+                <tipo>Deportivo</tipo>
+                <precio>135000</precio>
+                <imagen>https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/2018_Porsche_911_%28991.2%29_Carrera_T.jpg/800px-2018_Porsche_911_%28991.2%29_Carrera_T.jpg?20220221163221</imagen>
+                <enlace>https://www.altanave.uy/2024/10/porsche-911-carrera-4-9912-coupe-de-2.html</enlace>
+          </auto>  
             </generacion >
         </modelo>
     </marca>
