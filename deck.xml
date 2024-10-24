@@ -223,6 +223,25 @@
               </generacion>
         </modelo>          
     </marca>
+       <marca nombre="Koenigsegg">
+     <modelo nombre="CC 8S">
+     <generacion nombre="Koenigsegg CC 8S" añoInicio="2002" añoFin="2004">
+                   <auto id="49">
+              <nombre>Koenigsegg CC 8S</nombre>
+                <año>2002</año>
+                <chasis>Coupé Targa de 2 puertas | Gasolina</chasis>
+                <propulsion>undefined</propulsion>
+                <velocidad>390</velocidad>
+                <potencia>646</potencia>
+                <aceleracion>3,5</aceleracion>
+                <tipo>Superauto</tipo>
+                <precio>700000</precio>
+                <imagen>https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/2015-03-03_Geneva_Motor_Show_3305_%28cropped%29.JPG/800px-2015-03-03_Geneva_Motor_Show_3305_%28cropped%29.JPG?20240303210915</imagen>
+                <enlace>https://www.altanave.uy/2024/10/koenigsegg-cc-8s-coupe-targa-de-2.html</enlace>
+          </auto>
+     </generacion>
+     </modelo>
+    </marca>
     <marca nombre="Lamborghini">
         <modelo nombre="350 GT">
             <generacion nombre="Lamborghini 350 GT" añoInicio="1964" añoFin="1966">
