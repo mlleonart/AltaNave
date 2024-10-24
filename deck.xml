@@ -814,7 +814,36 @@
                 <imagen>https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/1997_Porsche_911_Carrera_%28993%29_convertible_%282011-11-18%29_01.jpg/1200px-1997_Porsche_911_Carrera_%28993%29_convertible_%282011-11-18%29_01.jpg?20120527033333</imagen>
                 <enlace>https://www.altanave.uy/2024/10/porsche-911-carrera-4-convertible-de-2.html</enlace>
           </auto>
-      
+                              <generacion nombre="Porsche 911 (modelo 996)" añoInicio="1997" añoFin="2005">
+          <auto id="57">
+              <nombre>Porsche 911 Carrera 4</nombre>
+                <año>2002</año>
+                <chasis>Convertible de 2 puertas</chasis>
+                <propulsion>Gasolina</propulsion>
+                <velocidad>285</velocidad>
+                <potencia>315</potencia>
+                <aceleracion>5,2</aceleracion>
+                <tipo>Deportivo</tipo>
+                <precio>120000 </precio>
+                <imagen>https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Porsche_911_%28996%29_Carrera_Cabriolet_%288516320329%29.jpg/800px-Porsche_911_%28996%29_Carrera_Cabriolet_%288516320329%29.jpg?20150109081035</imagen>
+                <enlace>https://www.altanave.uy/2024/10/porsche-911-carrera-4-convertible-de-2_24.html</enlace>
+          </auto>  
+            </generacion>
+            <generacion nombre="Porsche 911 (modelo 997)" añoInicio="2004" añoFin="2012">
+          <auto id="58">
+              <nombre>Porsche 911 Carrera 4</nombre>
+                <año>2008</año>
+                <chasis>Convertible de 2 puertas</chasis>
+                <propulsion>Gasolina</propulsion>
+                <velocidad>280</velocidad>
+                <potencia>320</potencia>
+                <aceleracion>5,3</aceleracion>
+                <tipo>Deportivo</tipo>
+                <precio>120000</precio>
+                <imagen>https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/2008_Porsche_911_Turbo_Cabrio.jpg/800px-2008_Porsche_911_Turbo_Cabrio.jpg?20220617215909</imagen>
+                <enlace>https://www.altanave.uy/2024/10/porsche-911-carrera-4-convertible-de-2_41.html</enlace>
+          </auto>
+            </generacion>
                       
             </generacion>
                         <generacion nombre="Porsche 911 (modelo 991)" añoInicio="2011" añoFin="2019">
