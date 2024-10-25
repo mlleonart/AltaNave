@@ -63,6 +63,11 @@
               <titulo>Súper Exclusivo</titulo>
               <texto>En 2011 se vendió el último Bugatti Veyron Coupé de una serie de 300 unidades, aunque su entrega se retrasó varios años. Para 2013, el modelo 400, sumando los 300 Coupé y 150 Roadster, también encontró dueño, completando la producción limitada de 450 ejemplares.</texto>
             </bloque>
+             <bloque>
+              <imagenurl>https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Bugatti_Veyron_EB_16.4_%282008%29_%2852569212082%29.jpg/800px-Bugatti_Veyron_EB_16.4_%282008%29_%2852569212082%29.jpg?20230120052817</imagenurl>
+              <titulo>Nombre Ganador</titulo>
+              <texto>El nombre Veyron se inspiró en el legendario piloto Pierre Veyron, ganador de las 24 Horas de Le Mans en 1939 a bordo del Bugatti Type 57SC..</texto>
+            </bloque>
           </bloques>
         </auto>
       </generacion>
