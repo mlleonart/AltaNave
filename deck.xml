@@ -49,12 +49,12 @@
           <!-- Bloques adicionales -->
           <bloques>
             <bloque>
-              <imagenurl>https://example.com/image1.jpg</imagenurl>
+              <imagenurl>https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Bugatti_Veyron_16.4_2005_%2826779947960%29.jpg/1200px-Bugatti_Veyron_16.4_2005_%2826779947960%29.jpg?20170802222339</imagenurl>
               <titulo>Récord de Velocidad</titulo>
               <texto>El Bugatti Veyron alcanzó una velocidad récord de 431 km/h.</texto>
             </bloque>
             <bloque>
-              <imagenurl>https://example.com/image2.jpg</imagenurl>
+              <imagenurl>https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Bugatti_Veyron_%2810842630425%29.jpg/1200px-Bugatti_Veyron_%2810842630425%29.jpg?20191011090316</imagenurl>
               <titulo>Motor Potente</titulo>
               <texto>Su motor W16 de 8 litros con 4 turbocompresores ofrece 1001 hp.</texto>
             </bloque>
