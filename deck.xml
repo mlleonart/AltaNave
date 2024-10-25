@@ -9,7 +9,7 @@
 <!ATTLIST generacion nombre CDATA #REQUIRED>
 <!ATTLIST generacion añoInicio CDATA #REQUIRED>
 <!ATTLIST generacion añoFin CDATA #REQUIRED>
-<!ELEMENT auto (nombre , año , chasis , propulsion , velocidad , potencia , aceleracion , tipo , precio , imagen , enlace)>
+<!ELEMENT auto (nombre , año , chasis , propulsion , velocidad , potencia , aceleracion , tipo , precio , imagen , enlace, bloques?)>
 <!ATTLIST auto id CDATA #REQUIRED>
 <!ELEMENT nombre (#PCDATA)>
 <!ELEMENT año (#PCDATA)>
@@ -22,6 +22,11 @@
 <!ELEMENT precio (#PCDATA)>
 <!ELEMENT imagen (#PCDATA)>
 <!ELEMENT enlace (#PCDATA)>
+<!ELEMENT bloques (bloque*)>
+<!ELEMENT bloque (imagenurl , titulo , texto)>
+<!ELEMENT imagenurl (#PCDATA)>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT texto (#PCDATA)>
 ]>
 <deck>
   <marca nombre="Bugatti">
@@ -40,6 +45,21 @@
           <imagen>
                         https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Bugatti_veyron_in_Tokyo.jpg/800px-Bugatti_veyron_in_Tokyo.jpg?20051104134307</imagen>
           <enlace>https://www.altanave.uy/2024/10/bugatti-veyron-164-coupe-de-2-puertas.html</enlace>
+          
+          <!-- Bloques adicionales -->
+          <bloques>
+            <bloque>
+              <imagenurl>https://example.com/image1.jpg</imagenurl>
+              <titulo>Récord de Velocidad</titulo>
+              <texto>El Bugatti Veyron alcanzó una velocidad récord de 431 km/h.</texto>
+            </bloque>
+            <bloque>
+              <imagenurl>https://example.com/image2.jpg</imagenurl>
+              <titulo>Motor Potente</titulo>
+              <texto>Su motor W16 de 8 litros con 4 turbocompresores ofrece 1001 hp.</texto>
+            </bloque>
+          </bloques>
+          
         </auto>
       </generacion>
     </modelo>
