@@ -58,8 +58,12 @@
               <titulo>El primer SuperAuto</titulo>
               <texto>En su época, la potencia del Veyron era sin igual, estableciendo un nuevo estándar en el mundo automotriz. Considerado el primer superdeportivo, su extraordinario rendimiento se debe a su motor W16 de 8.0 litros y cuatro turbocompresores.</texto>
             </bloque>
+            <bloque>
+              <imagenurl>https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Bugatti_Veyron_-_panoramio.jpg/800px-Bugatti_Veyron_-_panoramio.jpg?20161224042858</imagenurl>
+              <titulo>Súper Exclusivo</titulo>
+              <texto>En 2011 se vendió el último Bugatti Veyron Coupé de una serie de 300 unidades, aunque su entrega se retrasó varios años. Para 2013, el modelo 400, sumando los 300 Coupé y 150 Roadster, también encontró dueño, completando la producción limitada de 450 ejemplares.</texto>
+            </bloque>
           </bloques>
-          
         </auto>
       </generacion>
     </modelo>
