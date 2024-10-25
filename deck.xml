@@ -571,12 +571,12 @@
           <tipo>Superauto</tipo>
           <precio>330000</precio>
           <imagen>
-                        https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Osaka_Motor_Show_2017_%28217%29_-_McLaren_720S_COUPE.jpg/800px-Osaka_Motor_Show_2017_%28217%29_-_McLaren_720S_COUPE.jpg?20180126141158</imagen>
+                        https://upload.wikimedia.org/wikipedia/commons/a/ac/Osaka_Motor_Show_2017_%28217%29_-_McLaren_720S_COUPE.jpg</imagen>
           <enlace>https://www.altanave.uy/2024/10/mclaren-720s-coupe-de-2-puertas-2017.html</enlace>
           <!-- Bloques adicionales -->
           <bloques>
             <bloque>
-              <imagenurl>https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Osaka_Motor_Show_2017_%28218%29_-_McLaren_720S_COUPE.jpg/800px-Osaka_Motor_Show_2017_%28218%29_-_McLaren_720S_COUPE.jpg?20180126141201</imagenurl>
+              <imagenurl>https://upload.wikimedia.org/wikipedia/commons/9/94/McLaren_720S%2C_IAA_2017%2C_%281Y7A3406%29.jpg</imagenurl>
               <titulo>Elegancia Feroz</titulo>
               <texto>El McLaren 720S es audaz y radical, con respuestas de un superpredador. Acelera de 0 a 96 km/h en unos increíbles 2,8 segundos si lo provocas. Y puede recorrer 400 metros en 10,4 segundos desde un arranque estático.</texto>
             </bloque>
