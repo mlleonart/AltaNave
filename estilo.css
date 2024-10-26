@@ -251,6 +251,7 @@ input[type="radio"] {
     transition: background-color 0.3s;
 }
 
+/* Asegúrate de que las reglas para los nuevos radios se manejen aquí */
 #slide1:checked ~ .slides {
     transform: translateX(0);
 }
@@ -261,6 +262,18 @@ input[type="radio"] {
 
 #slide3:checked ~ .slides {
     transform: translateX(-200%);
+}
+
+#slide4:checked ~ .slides {
+    transform: translateX(-300%);
+}
+
+#slide5:checked ~ .slides {
+    transform: translateX(-400%);
+}
+
+#slide6:checked ~ .slides {
+    transform: translateX(-500%);
 }
 
 input[type="radio"]:checked + .navigation label {
