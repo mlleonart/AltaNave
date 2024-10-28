@@ -9,7 +9,7 @@
 <!ATTLIST generacion nombre CDATA #REQUIRED>
 <!ATTLIST generacion añoInicio CDATA #REQUIRED>
 <!ATTLIST generacion añoFin CDATA #REQUIRED>
-<!ELEMENT auto (nombre , año , chasis , propulsion , velocidad , potencia , aceleracion , tipo , precio , imagen , enlace, bloques?)>
+<!ELEMENT auto (nombre , año , chasis , propulsion , velocidad , potencia , aceleracion , tipo , precio , imagen , enlace, bloques?, masimagenes?)>
 <!ATTLIST auto id CDATA #REQUIRED>
 <!ELEMENT nombre (#PCDATA)>
 <!ELEMENT año (#PCDATA)>
@@ -27,6 +27,8 @@
 <!ELEMENT imagenurl (#PCDATA)>
 <!ELEMENT titulo (#PCDATA)>
 <!ELEMENT texto (#PCDATA)>
+<!ELEMENT masimagenes (imagenurl*)>
+<!ELEMENT imagenurl (#PCDATA)>
 ]>
 <deck>
   <marca nombre="Bugatti">
