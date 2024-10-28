@@ -27,7 +27,11 @@ function setupCarousel(imgUrls) {
     updateCarousel(); // Asegúrate de que esta función esté definida y actualice el carrusel según sea necesario.
 }
 
-
+  // Cerrar la imagen a pantalla completa al hacer clic en ella
+const fullScreenContainer = document.getElementById("full-screen-container");
+fullScreenContainer.addEventListener("click", () => {
+    fullScreenContainer.style.display = "none"; // Oculta el contenedor
+});
 
 // Cambia al índice de la imagen deseado
 function updateCarousel() {
