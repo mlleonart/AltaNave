@@ -1,35 +1,6 @@
 let currentIndex = 0;
 let images = [];
 
-  async function loadCarImagesFromXML(selectedCar) {
-    const images = [];
-
-    // Imagen principal
-    const mainImage = selectedCar.querySelector("imagen")?.textContent;
-    if (mainImage) images.push(mainImage);
-
-    // Imágenes de bloques
-    const bloques = selectedCar.querySelectorAll("bloques bloque");
-    bloques.forEach((bloque) => {
-        const bloqueImage = bloque.querySelector("imagenurl")?.textContent;
-        if (bloqueImage) images.push(bloqueImage);
-    });
-
-
-       // Agrega las imágenes de <masimagenes> si existen
-    const masImagenes = selectedCar.querySelectorAll("masimagenes imagenurl");
-    masImagenes.forEach((img) => {
-        images.push(img.textContent);
-    });
-
-    // Aleatorizar el arreglo de imágenes
-  	images.sort(() => Math.random() - 0.5);
-
-    
-        // Configura el carrusel con las imágenes encontradas
-    setupCarousel(images);
-    
-}
 // Configura el carrusel con imágenes desde el XML cargado
 function setupCarousel(imgUrls) { 
     const carousel = document.getElementById("carousel");
