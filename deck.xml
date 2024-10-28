@@ -557,6 +557,29 @@
           <precio>69990</precio>
           <imagen>https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/2023_Lynk_%26_Co_03%2B_Cyan_%28front%29.jpg/800px-2023_Lynk_%26_Co_03%2B_Cyan_%28front%29.jpg?20230630041208</imagen>
           <enlace>https://www.altanave.uy/2024/10/lynk-co-03-cyan-edition-sedan-4-puertas.html</enlace>
+          <!-- Bloques adicionales -->
+          <bloques>
+            <bloque>
+              <imagenurl>https://upload.wikimedia.org/wikipedia/commons/6/6c/Lynk_%26_Co_03%2B_Cyan_Edition_IMG04.jpg</imagenurl>
+              <titulo>Estetica</titulo>
+              <texto>Esta variante cuenta con un kit de carrocería que incorpora parachoques específicos, faldones más deportivos, un splitter frontal y llantas Cyan Racing de 5 radios que utilizan neumáticos Michelin Pilot Sport 4S.</texto>
+            </bloque>
+            <bloque>
+              <imagenurl>https://upload.wikimedia.org/wikipedia/commons/7/72/Lynk_%26_Co_03%2B_Cyan_Edition_interior.jpg</imagenurl>
+              <titulo>Frenada</titulo>
+              <texto>También se han instalado frenos Akebono con pinzas en color amarillo.</texto>
+            </bloque>
+            <bloque>
+              <imagenurl>https://upload.wikimedia.org/wikipedia/commons/d/d3/Lynk_%26_Co_03%2B_Cyan_Edition_IMG01.jpg</imagenurl>
+              <titulo>Comodidad</titulo>
+              <texto>Se han añadido amortiguadores Bilstein ajustables para optimizar el comportamiento dinámico del vehículo.</texto>
+            </bloque>
+             <bloque>
+              <imagenurl>https://upload.wikimedia.org/wikipedia/commons/9/95/2023_Lynk_%26_Co_03%2B_Cyan_%28rear%29.jpg</imagenurl>
+              <titulo>Sonido</titulo>
+              <texto>Un difusor trasero, junto a las cuatro salidas de escape y un gran alerón, le otorgan una personalidad distintiva.</texto>
+            </bloque>
+          </bloques>
         </auto>
       </generacion>
     </modelo>
