@@ -961,6 +961,14 @@
           <precio>321000</precio>
           <imagen>https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/2018_Porsche_911_GT2_RS.jpg/800px-2018_Porsche_911_GT2_RS.jpg?20220126104233</imagen>
           <enlace>https://www.altanave.uy/2024/10/porsche-911-gt2-rs-coupe-de-2-puertas.html</enlace>
+          <masimagenes>
+            <imagenurl>https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Porsche_911_GT2_RS_Back_IMG_0639.jpg/1200px-Porsche_911_GT2_RS_Back_IMG_0639.jpg?20171003103118</imagenurl>
+            <imagenurl>https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Porsche_911_GT2_RS_MR_Black.jpg/1200px-Porsche_911_GT2_RS_MR_Black.jpg?20230709110640</imagenurl>
+            <imagenurl>https://upload.wikimedia.org/wikipedia/commons/4/4f/2010_Porsche_911_GT2_RS_Wheel.jpg</imagenurl>
+            <imagenurl>https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/2018_Porsche_911_GT2_RS.jpg/1200px-2018_Porsche_911_GT2_RS.jpg?20220126104233</imagenurl>
+            <imagenurl>https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Porsche_911_GT2_RS_3.jpg/1200px-Porsche_911_GT2_RS_3.jpg?20230424191408</imagenurl>
+            <imagenurl>https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Porsche_911_GT2_RS_MR_IMG_1855.jpg/1200px-Porsche_911_GT2_RS_MR_IMG_1855.jpg?20240923114624</imagenurl>
+          </masimagenes>
         </auto>
       </generacion>
     </modelo>
