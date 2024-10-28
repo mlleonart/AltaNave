@@ -2,7 +2,7 @@ let currentIndex = 0;
 let images = [];
 
 // Configura el carrusel con imágenes desde el XML cargado
-function setupCarousel(imgUrls) { 
+function setupCarousel(imgUrls) {
     const carousel = document.getElementById("carousel");
     carousel.innerHTML = ''; // Limpia el contenido
 
@@ -27,11 +27,13 @@ function setupCarousel(imgUrls) {
     updateCarousel(); // Asegúrate de que esta función esté definida y actualice el carrusel según sea necesario.
 }
 
-  // Cerrar la imagen a pantalla completa al hacer clic en ella
+// Cerrar la imagen a pantalla completa al hacer clic en el contenedor
 const fullScreenContainer = document.getElementById("full-screen-container");
-fullScreenContainer.addEventListener("click", () => {
-    fullScreenContainer.style.display = "none"; // Oculta el contenedor
-});
+if (fullScreenContainer) {
+    fullScreenContainer.addEventListener("click", () => {
+        fullScreenContainer.style.display = "none"; // Oculta el contenedor
+    });
+}
 
 // Cambia al índice de la imagen deseado
 function updateCarousel() {
