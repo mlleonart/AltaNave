@@ -27,8 +27,8 @@
 <!ELEMENT imagenurl (#PCDATA)>
 <!ELEMENT titulo (#PCDATA)>
 <!ELEMENT texto (#PCDATA)>
-<!ELEMENT masimagenes (imagenurl*)>
-<!ELEMENT imagenurl (#PCDATA)>
+<!ELEMENT masimagenes (extraimagenurl*)>
+<!ELEMENT extraimagenurl  (#PCDATA)>
 ]>
 <deck>
   <marca nombre="Bugatti">
@@ -70,7 +70,7 @@
             </bloque>
           </bloques>
           <masimagenes>
-            <imagenurl>https://upload.wikimedia.org/wikipedia/commons/7/74/Volkswagen_W16.jpg</imagenurl>
+            <extraimagenurl>https://upload.wikimedia.org/wikipedia/commons/7/74/Volkswagen_W16.jpg</extraimagenurl>
           </masimagenes>
         </auto>
       </generacion>
@@ -985,12 +985,12 @@
           <imagen>https://upload.wikimedia.org/wikipedia/commons/1/11/2018_Porsche_911_GT2_RS.jpg</imagen>
           <enlace>https://www.altanave.uy/2024/10/porsche-911-gt2-rs-coupe-de-2-puertas.html</enlace>
           <masimagenes>
-            <imagenurl>https://upload.wikimedia.org/wikipedia/commons/d/d6/2010_Porsche_911_GT2_RS_Badge.jpg</imagenurl>
-            <imagenurl>https://upload.wikimedia.org/wikipedia/commons/6/6c/Porsche_911_GT2_RS_MR_IMG_1855.jpg</imagenurl>
-            <imagenurl>https://upload.wikimedia.org/wikipedia/commons/4/4f/2010_Porsche_911_GT2_RS_Wheel.jpg</imagenurl>
-            <imagenurl>https://upload.wikimedia.org/wikipedia/commons/e/e6/Porsche_911_GT2_RS_Back_IMG_0639.jpg</imagenurl>
-            <imagenurl>https://upload.wikimedia.org/wikipedia/commons/c/cf/Porsche_911_GT2_RS_3.jpg</imagenurl>
-            <imagenurl>https://upload.wikimedia.org/wikipedia/commons/6/6c/Porsche_911_GT2_RS_MR_IMG_1855.jpg</imagenurl>
+            <extraimagenurl >https://upload.wikimedia.org/wikipedia/commons/d/d6/2010_Porsche_911_GT2_RS_Badge.jpg</extraimagenurl>
+            <extraimagenurl >https://upload.wikimedia.org/wikipedia/commons/6/6c/Porsche_911_GT2_RS_MR_IMG_1855.jpg</extraimagenurl>
+            <extraimagenurl >https://upload.wikimedia.org/wikipedia/commons/4/4f/2010_Porsche_911_GT2_RS_Wheel.jpg</extraimagenurl>
+            <extraimagenurl >https://upload.wikimedia.org/wikipedia/commons/e/e6/Porsche_911_GT2_RS_Back_IMG_0639.jpg</extraimagenurl>
+            <extraimagenurl >https://upload.wikimedia.org/wikipedia/commons/c/cf/Porsche_911_GT2_RS_3.jpg</extraimagenurl>
+            <extraimagenurl >https://upload.wikimedia.org/wikipedia/commons/6/6c/Porsche_911_GT2_RS_MR_IMG_1855.jpg</extraimagenurl>
           </masimagenes>
         </auto>
       </generacion>
