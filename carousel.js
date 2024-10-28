@@ -13,26 +13,10 @@ function setupCarousel(imgUrls) {
         img.alt = "Imagen del coche";
         img.classList.add("carousel-image");
 
-        // Agregar evento de clic para pantalla completa
-        img.addEventListener("click", () => {
-            const fullScreenContainer = document.getElementById("full-screen-container");
-            const fullScreenImage = document.getElementById("full-screen-image");
-            fullScreenImage.src = url; // Cambia la imagen a pantalla completa
-            fullScreenContainer.style.display = "flex"; // Muestra el contenedor
-        });
-
         carousel.appendChild(img);
     });
 
     updateCarousel(); // Asegúrate de que esta función esté definida y actualice el carrusel según sea necesario.
-}
-
-// Cerrar la imagen a pantalla completa al hacer clic en el contenedor
-const fullScreenContainer = document.getElementById("full-screen-container");
-if (fullScreenContainer) {
-    fullScreenContainer.addEventListener("click", () => {
-        fullScreenContainer.style.display = "none"; // Oculta el contenedor
-    });
 }
 
 // Cambia al índice de la imagen deseado
