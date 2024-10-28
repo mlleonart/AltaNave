@@ -5,22 +5,27 @@ let images = [];
 function setupCarousel(imgUrls) {
     const carousel = document.getElementById("carousel");
     carousel.innerHTML = ''; // Limpia el contenido
-    images = imgUrls; // Asigna las imágenes al array de imágenes
 
     // Añade cada imagen al carrusel
     imgUrls.forEach((url) => {
+        const link = document.createElement("a"); // Crear un enlace
+        link.href = url; // Apuntar al URL de la imagen
+        link.target = "_blank"; // Abrir en una nueva pestaña
+
         const img = document.createElement("img");
         img.src = url;
         img.alt = "Imagen del coche";
         img.classList.add("carousel-image");
-        img.style.display = "none"; // Inicialmente oculta todas las imágenes
-        carousel.appendChild(img);
+
+        link.appendChild(img); // Agregar la imagen al enlace
+        carousel.appendChild(link); // Agregar el enlace al carrusel
     });
+
+    updateCarousel(); // Asegúrate de que esta función esté definida y actualice el carrusel según sea necesario.
 
     // Muestra la primera imagen si hay alguna
     if (images.length > 0) {
-        currentIndex = 0; // Inicializa el índice
-        carousel.children[currentIndex].style.display = "block"; // Muestra la primera imagen
+        carousel.children[0].style.display = "block"; // Muestra la primera imagen
     }
 }
 
