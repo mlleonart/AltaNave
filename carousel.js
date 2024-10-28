@@ -2,6 +2,7 @@ let currentIndex = 0;
 let images = [];
 
 // Configura el carrusel con imágenes desde el XML cargado
+// Configura el carrusel con imágenes desde el XML cargado
 function setupCarousel(imgUrls) {
     const carousel = document.getElementById("carousel");
     carousel.innerHTML = ''; // Limpia el contenido
@@ -17,6 +18,12 @@ function setupCarousel(imgUrls) {
         img.alt = "Imagen del coche";
         img.classList.add("carousel-image");
 
+        // Evitar que el evento de clic del enlace interrumpa el funcionamiento del carrusel
+        img.addEventListener("click", (event) => {
+            event.stopPropagation(); // Detener la propagación del evento
+            link.click(); // Hacer clic en el enlace para abrir la imagen
+        });
+
         link.appendChild(img); // Agregar la imagen al enlace
         carousel.appendChild(link); // Agregar el enlace al carrusel
     });
@@ -24,10 +31,11 @@ function setupCarousel(imgUrls) {
     updateCarousel(); // Asegúrate de que esta función esté definida y actualice el carrusel según sea necesario.
 
     // Muestra la primera imagen si hay alguna
-    if (images.length > 0) {
+    if (imgUrls.length > 0) {
         carousel.children[0].style.display = "block"; // Muestra la primera imagen
     }
 }
+
 
 // Cambia al índice de la imagen deseado
 function updateCarousel() {
