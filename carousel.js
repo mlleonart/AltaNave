@@ -1,11 +1,11 @@
 let currentIndex = 0;
-let images = [];
+let images = []; // Asegúrate de que 'images' tenga las URLs cargadas
 
-// Configura el carrusel con imágenes desde el XML cargado
 // Configura el carrusel con imágenes desde el XML cargado
 function setupCarousel(imgUrls) {
     const carousel = document.getElementById("carousel");
     carousel.innerHTML = ''; // Limpia el contenido
+    images = imgUrls; // Guarda las imágenes en la variable global
 
     // Añade cada imagen al carrusel
     imgUrls.forEach((url) => {
@@ -28,7 +28,7 @@ function setupCarousel(imgUrls) {
         carousel.appendChild(link); // Agregar el enlace al carrusel
     });
 
-    updateCarousel(); // Asegúrate de que esta función esté definida y actualice el carrusel según sea necesario.
+    updateCarousel(); // Asegúrate de que esta función esté definida y actualice el carrusel.
 
     // Muestra la primera imagen si hay alguna
     if (imgUrls.length > 0) {
@@ -36,16 +36,19 @@ function setupCarousel(imgUrls) {
     }
 }
 
-
-// Cambia al índice de la imagen deseado
+// Cambia al índice de la imagen deseada
 function updateCarousel() {
     const carousel = document.getElementById("carousel");
-    // Oculta todas las imágenes
-    for (let i = 0; i < carousel.children.length; i++) {
-        carousel.children[i].style.display = "none";
+
+    // Asegúrate de que currentIndex no exceda el número de imágenes
+    if (images.length > 0) {
+        // Oculta todas las imágenes
+        for (let i = 0; i < carousel.children.length; i++) {
+            carousel.children[i].style.display = "none"; // Ocultar todas las imágenes
+        }
+        // Muestra la imagen actual
+        carousel.children[currentIndex].style.display = "block"; // Muestra la imagen actual
     }
-    // Muestra la imagen actual
-    carousel.children[currentIndex].style.display = "block";
 }
 
 // Función para pasar a la imagen siguiente
