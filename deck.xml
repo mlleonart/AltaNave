@@ -69,6 +69,9 @@
               <texto>El nombre Veyron se inspiró en el legendario piloto Pierre Veyron, ganador de las 24 Horas de Le Mans en 1939 a bordo del Bugatti Type 57SC..</texto>
             </bloque>
           </bloques>
+          <masimagenes>
+            <imagenurl>https://upload.wikimedia.org/wikipedia/commons/7/74/Volkswagen_W16.jpg</imagenurl>
+          </masimagenes>
         </auto>
       </generacion>
     </modelo>
