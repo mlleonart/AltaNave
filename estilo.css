@@ -201,84 +201,43 @@ table.table2 {
 }
 
 /* Carrusel */
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
+
+.carousel-container {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
 }
 
 .carousel {
-    position: relative;
-    width: 100%;
-    max-width: 600px;
-    overflow: hidden;
-    margin: auto;
-}
-
-.slides {
     display: flex;
-    transition: transform 0.5s ease-in-out;
-}
-
-.slide {
-    min-width: 100%;
-}
-
-.slide img {
+    transition: transform 0.5s ease;
     width: 100%;
-    display: block;
 }
 
-input[type="radio"] {
-    display: none;
+.carousel img {
+    width: 100%;
+    object-fit: cover;
 }
 
-.navigation {
+.carousel-button {
     position: absolute;
-    bottom: 10px;
-    left: 50%;
-    transform: translateX(-50%);
-}
-
-.navigation label {
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    border: none;
+    padding: 10px;
     cursor: pointer;
-    height: 10px;
-    width: 10px;
-    background-color: #bbb;
-    border-radius: 50%;
-    display: inline-block;
-    margin: 0 5px;
-    transition: background-color 0.3s;
 }
 
-/* Asegúrate de que las reglas para los nuevos radios se manejen aquí */
-#slide1:checked ~ .slides {
-    transform: translateX(0);
+.carousel-button.prev {
+    left: 0;
 }
 
-#slide2:checked ~ .slides {
-    transform: translateX(-100%);
+.carousel-button.next {
+    right: 0;
 }
 
-#slide3:checked ~ .slides {
-    transform: translateX(-200%);
-}
-
-#slide4:checked ~ .slides {
-    transform: translateX(-300%);
-}
-
-#slide5:checked ~ .slides {
-    transform: translateX(-400%);
-}
-
-#slide6:checked ~ .slides {
-    transform: translateX(-500%);
-}
-
-input[type="radio"]:checked + .navigation label {
-    background-color: #717171;
-}
 
 
 /* Lista Generaciones */
