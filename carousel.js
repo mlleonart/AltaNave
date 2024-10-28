@@ -17,6 +17,12 @@ function setupCarousel(imgUrls) {
     });
 
     updateCarousel(); // Asegúrate de que esta función esté definida y actualice el carrusel según sea necesario.
+
+        // Muestra la primera imagen si hay alguna
+    if (images.length > 0) {
+        carousel.children[0].style.display = "block"; // Muestra la primera imagen
+    }
+    
 }
 
 // Cambia al índice de la imagen deseado
