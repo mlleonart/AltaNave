@@ -1,32 +1,37 @@
-let currentSlide = 0;
+let currentIndex = 0;
+let images = [];
 
-document.addEventListener("DOMContentLoaded", function() {
-    showSlide(currentSlide);
-});
+// Configura el carrusel con imágenes desde el XML cargado
+function setupCarousel(imgUrls) {
+    images = imgUrls;
+    const carousel = document.getElementById("carousel");
 
-function showSlide(index) {
-    const slides = document.querySelectorAll('.carousel-images img');
-    if (index >= slides.length) currentSlide = 0;
-    if (index < 0) currentSlide = slides.length - 1;
+    carousel.innerHTML = ''; // Limpia el contenido
 
-    const offset = -currentSlide * 100;
-    document.querySelector('.carousel-images').style.transform = `translateX(${offset}%)`;
+    // Añade cada imagen al carrusel
+    images.forEach((url) => {
+        const img = document.createElement("img");
+        img.src = url;
+        carousel.appendChild(img);
+    });
+
+    updateCarousel();
 }
 
-function changeSlide(n) {
-    currentSlide += n;
-    showSlide(currentSlide);
+// Cambia al índice de la imagen deseado
+function updateCarousel() {
+    const carousel = document.getElementById("carousel");
+    carousel.style.transform = `translateX(${-currentIndex * 100}%)`;
 }
 
-function openModal(imgElement) {
-    const modal = document.getElementById("imageModal");
-    const modalImg = document.getElementById("modalImg");
-
-    modal.style.display = "block";
-    modalImg.src = imgElement.src; // Carga la imagen seleccionada en el modal
+// Función para pasar a la imagen siguiente
+function nextSlide() {
+    currentIndex = (currentIndex + 1) % images.length;
+    updateCarousel();
 }
 
-function closeModal() {
-    const modal = document.getElementById("imageModal");
-    modal.style.display = "none";
+// Función para retroceder a la imagen anterior
+function prevSlide() {
+    currentIndex = (currentIndex - 1 + images.length) % images.length;
+    updateCarousel();
 }
