@@ -53,12 +53,14 @@ function updateCarousel() {
 
 // Función para pasar a la imagen siguiente
 function nextSlide() {
+    console.log('nextSlide');
     currentIndex = (currentIndex + 1) % images.length; // Avanza al siguiente índice
     updateCarousel();
 }
 
 // Función para retroceder a la imagen anterior
 function prevSlide() {
+    console.log('prevSlide');
     currentIndex = (currentIndex - 1 + images.length) % images.length; // Retrocede al índice anterior
     updateCarousel();
 }
