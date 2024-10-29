@@ -477,6 +477,32 @@
                 <precio>2500000</precio>
                 <imagen>https://upload.wikimedia.org/wikipedia/commons/5/57/1968_Lamborghini_Miura_S_LC23.jpg</imagen>
                 <enlace>https://www.altanave.uy/2024/10/lamborghini-miura-p400-coupe-de-2.html</enlace>
+                <bloque>
+        <imagenurl>https://upload.wikimedia.org/wikipedia/commons/4/4d/1967_Lamborghini_Miura_P400_opened_up_LC24.jpg</imagenurl>
+        <titulo>Diseño Revolucionario</titulo>
+        <texto>El Lamborghini Miura fue uno de los primeros deportivos de estirpe con motor central, una configuración que revolucionó la industria automotriz y estableció un nuevo estándar en diseño y rendimiento.</texto>
+    </bloque>
+    <bloque>
+        <imagenurl>https://upload.wikimedia.org/wikipedia/commons/5/54/Moteur_de_lamborghini_Miura.jpg</imagenurl>
+        <titulo>Potencia Deslumbrante</titulo>
+        <texto>Equipado con un potente motor V12 de 3.9 litros, el Miura produce hasta 350 caballos de fuerza, permitiéndole alcanzar velocidades superiores a los 280 km/h, lo que lo convierte en un competidor formidable en la pista.</texto>
+    </bloque>
+    <bloque>
+        <imagenurl>https://upload.wikimedia.org/wikipedia/commons/6/6e/1970_Lamborghini_Miura_S_P400_Orange.jpg</imagenurl>
+        <titulo>Aceleración Impactante</titulo>
+        <texto>Con la capacidad de acelerar de 0 a 100 km/h en aproximadamente 6.7 segundos, el Miura desafió las expectativas de rendimiento de su época, consolidando su reputación como un auténtico deportivo.</texto>
+    </bloque>
+    <bloque>
+        <imagenurl>https://upload.wikimedia.org/wikipedia/commons/7/74/Lamborghini_Miura_SV.jpg</imagenurl>
+        <titulo>Herencia Legendaria</titulo>
+        <texto>El Miura no solo es un vehículo icónico; también es considerado el precursor de la serie de superdeportivos de Lamborghini. Su legado perdura como un símbolo de innovación y estilo en el mundo automotriz.</texto>
+    </bloque>
+    <bloque>
+        <imagenurl>https://upload.wikimedia.org/wikipedia/commons/5/5a/Lamborghini_Miura_S_Verde_rear.jpg</imagenurl>
+        <titulo>Mega Codiciado</titulo>
+        <texto>Hoy en día, el Lamborghini Miura es un objeto de deseo entre coleccionistas y entusiastas de automóviles, alcanzando precios que superan el millón de dólares en subastas, testificando su estatus como una joya del automovilismo clásico.</texto>
+    </bloque>
+</bloques>
           </auto>
           <auto id="61">
               <nombre>Lamborghini Miura</nombre>
