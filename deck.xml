@@ -9,7 +9,7 @@
 <!ATTLIST generacion nombre CDATA #REQUIRED>
 <!ATTLIST generacion añoInicio CDATA #REQUIRED>
 <!ATTLIST generacion añoFin CDATA #REQUIRED>
-<!ELEMENT auto (nombre , año , chasis , propulsion , velocidad , potencia , aceleracion , tipo , precio , imagen , enlace, bloques?, masimagenes?)>
+<!ELEMENT auto (nombre , año , chasis , propulsion , velocidad , potencia , aceleracion , tipo , precio , imagen , enlace , bloques? , masimagenes?)>
 <!ATTLIST auto id CDATA #REQUIRED>
 <!ELEMENT nombre (#PCDATA)>
 <!ELEMENT año (#PCDATA)>
@@ -22,13 +22,13 @@
 <!ELEMENT precio (#PCDATA)>
 <!ELEMENT imagen (#PCDATA)>
 <!ELEMENT enlace (#PCDATA)>
-<!ELEMENT bloques (bloque*)>
+<!ELEMENT bloques (bloque)*>
 <!ELEMENT bloque (imagenurl , titulo , texto)>
 <!ELEMENT imagenurl (#PCDATA)>
 <!ELEMENT titulo (#PCDATA)>
 <!ELEMENT texto (#PCDATA)>
-<!ELEMENT masimagenes (extraimagenurl*)>
-<!ELEMENT extraimagenurl  (#PCDATA)>
+<!ELEMENT masimagenes (extraimagenurl)*>
+<!ELEMENT extraimagenurl (#PCDATA)>
 ]>
 <deck>
   <marca nombre="Bugatti">
@@ -63,7 +63,7 @@
               <titulo>Súper Exclusivo</titulo>
               <texto>En 2011 se vendió el último Bugatti Veyron Coupé de una serie de 300 unidades, aunque su entrega se retrasó varios años. Para 2013, el modelo 400, sumando los 300 Coupé y 150 Roadster, también encontró dueño, completando la producción limitada de 450 ejemplares.</texto>
             </bloque>
-             <bloque>
+            <bloque>
               <imagenurl>https://upload.wikimedia.org/wikipedia/commons/8/8e/Bugatti_Veyron_EB_16.4_%282008%29_%2852569212082%29.jpg</imagenurl>
               <titulo>Nombre Ganador</titulo>
               <texto>El nombre Veyron se inspiró en el legendario piloto Pierre Veyron, ganador de las 24 Horas de Le Mans en 1939 a bordo del Bugatti Type 57SC..</texto>
@@ -76,30 +76,30 @@
       </generacion>
     </modelo>
   </marca>
-<marca nombre="De Lorean">
+  <marca nombre="De Lorean">
     <modelo nombre="DMC-12">
-        <generacion nombre="De Lorean DMC-12" añoInicio="1981" añoFin="1982">
-          <auto id="59">
-              <nombre>De Lorean DMC-12</nombre>
-                <año>1982</año>
-                <chasis>Coupé de 2 puertas</chasis>
-                <propulsion>Gasolina</propulsion>
-                <velocidad>209</velocidad>
-                <potencia>130</potencia>
-                <aceleracion>9,4</aceleracion>
-                <tipo>Deportivo</tipo>
-                <precio>86500 </precio>
-                <imagen>https://upload.wikimedia.org/wikipedia/commons/6/63/DeLorean_DMC-12_%2815704582713%29.jpg</imagen>
-                <enlace>https://www.altanave.uy/2024/10/de-lorean-dmc-12-coupe-de-2-puertas-1982.html</enlace>
-                <masimagenes>
-                  <extraimagenurl>https://upload.wikimedia.org/wikipedia/commons/d/da/1983_DeLorean_DMC-12%2C_front_right%2C_05-18-2024.jpg</extraimagenurl>
-                  <extraimagenurl>https://upload.wikimedia.org/wikipedia/commons/9/9c/1983_DeLorean_DMC-12%2C_rear_right%2C_05-18-2024.jpg</extraimagenurl>
-                  <extraimagenurl>https://upload.wikimedia.org/wikipedia/commons/4/43/1983_DMC_De_Lorean%2C_rear_left%2C_09-07-2024.jpg</extraimagenurl>
-                </masimagenes>
-          </auto>
-        </generacion>
+      <generacion nombre="De Lorean DMC-12" añoInicio="1981" añoFin="1982">
+        <auto id="59">
+          <nombre>De Lorean DMC-12</nombre>
+          <año>1982</año>
+          <chasis>Coupé de 2 puertas</chasis>
+          <propulsion>Gasolina</propulsion>
+          <velocidad>209</velocidad>
+          <potencia>130</potencia>
+          <aceleracion>9,4</aceleracion>
+          <tipo>Deportivo</tipo>
+          <precio>86500 </precio>
+          <imagen>https://upload.wikimedia.org/wikipedia/commons/6/63/DeLorean_DMC-12_%2815704582713%29.jpg</imagen>
+          <enlace>https://www.altanave.uy/2024/10/de-lorean-dmc-12-coupe-de-2-puertas-1982.html</enlace>
+          <masimagenes>
+            <extraimagenurl>https://upload.wikimedia.org/wikipedia/commons/d/da/1983_DeLorean_DMC-12%2C_front_right%2C_05-18-2024.jpg</extraimagenurl>
+            <extraimagenurl>https://upload.wikimedia.org/wikipedia/commons/9/9c/1983_DeLorean_DMC-12%2C_rear_right%2C_05-18-2024.jpg</extraimagenurl>
+            <extraimagenurl>https://upload.wikimedia.org/wikipedia/commons/4/43/1983_DMC_De_Lorean%2C_rear_left%2C_09-07-2024.jpg</extraimagenurl>
+          </masimagenes>
+        </auto>
+      </generacion>
     </modelo>
-</marca>
+  </marca>
   <marca nombre="Ferrari">
     <modelo nombre="250 GTO">
       <generacion nombre="Serie I" añoInicio="1962" añoFin="1963">
@@ -463,62 +463,79 @@
         </auto>
       </generacion>
     </modelo>
-        <modelo nombre="Miura ">
-        <generacion nombre="Lamborghini Miura" añoInicio="1966" añoFin="1972">
-          <auto id="60">
-              <nombre>Lamborghini Miura P400</nombre>
-                <año>1968</año>
-                <chasis>Coupé de 2 puertas</chasis>
-                <propulsion>Gasolina</propulsion>
-                <velocidad>280</velocidad>
-                <potencia>345</potencia>
-                <aceleracion>6,7</aceleracion>
-                <tipo>Deportivo</tipo>
-                <precio>2500000</precio>
-                <imagen>https://upload.wikimedia.org/wikipedia/commons/5/57/1968_Lamborghini_Miura_S_LC23.jpg</imagen>
-                <enlace>https://www.altanave.uy/2024/10/lamborghini-miura-p400-coupe-de-2.html</enlace>
-                <bloques>
-    <bloque>
-        <imagenurl>https://upload.wikimedia.org/wikipedia/commons/4/4d/1967_Lamborghini_Miura_P400_opened_up_LC24.jpg</imagenurl>
-        <titulo>Diseño Revolucionario</titulo>
-        <texto>El Lamborghini Miura fue uno de los primeros deportivos de estirpe con motor central, una configuración que revolucionó la industria automotriz y estableció un nuevo estándar en diseño y rendimiento.</texto>
-    </bloque>
-    <bloque>
-        <imagenurl>https://upload.wikimedia.org/wikipedia/commons/5/54/Moteur_de_lamborghini_Miura.jpg</imagenurl>
-        <titulo>Potencia Deslumbrante</titulo>
-        <texto>Equipado con un potente motor V12 de 3.9 litros, el Miura produce hasta 350 caballos de fuerza, permitiéndole alcanzar velocidades superiores a los 280 km/h, lo que lo convierte en un competidor formidable en la pista.</texto>
-    </bloque>
-    <bloque>
-        <imagenurl>https://upload.wikimedia.org/wikipedia/commons/6/6e/1970_Lamborghini_Miura_S_P400_Orange.jpg</imagenurl>
-        <titulo>Aceleración Impactante</titulo>
-        <texto>Con la capacidad de acelerar de 0 a 100 km/h en aproximadamente 6.7 segundos, el Miura desafió las expectativas de rendimiento de su época, consolidando su reputación como un auténtico deportivo.</texto>
-    </bloque>
-    <bloque>
-        <imagenurl>https://upload.wikimedia.org/wikipedia/commons/7/74/Lamborghini_Miura_SV.jpg</imagenurl>
-        <titulo>Herencia Legendaria</titulo>
-        <texto>El Miura no solo es un vehículo icónico; también es considerado el precursor de la serie de superdeportivos de Lamborghini. Su legado perdura como un símbolo de innovación y estilo en el mundo automotriz.</texto>
-    </bloque>
-    <bloque>
-        <imagenurl>https://upload.wikimedia.org/wikipedia/commons/5/5a/Lamborghini_Miura_S_Verde_rear.jpg</imagenurl>
-        <titulo>Mega Codiciado</titulo>
-        <texto>Hoy en día, el Lamborghini Miura es un objeto de deseo entre coleccionistas y entusiastas de automóviles, alcanzando precios que superan el millón de dólares en subastas, testificando su estatus como una joya del automovilismo clásico.</texto>
-    </bloque>
-</bloques>
-          </auto>
-          <auto id="61">
-              <nombre>Lamborghini Miura</nombre>
-                <año>1968</año>
-                <chasis>Roadster</chasis>
-                <propulsion>Gasolina</propulsion>
-                <velocidad>280</velocidad>
-                <potencia>345</potencia>
-                <aceleracion>6,7</aceleracion>
-                <tipo>Deportivo</tipo>
-                <precio>2000000</precio>
-                <imagen>https://upload.wikimedia.org/wikipedia/commons/8/8c/Lamborghini_Miura_Roadster.jpg</imagen>
-                <enlace>https://www.altanave.uy/2024/10/lamborghini-miura-roadster-1968.html</enlace>
-          </auto>
-        </generacion>
+    <modelo nombre="Miura ">
+      <generacion nombre="Lamborghini Miura" añoInicio="1966" añoFin="1972">
+        <auto id="60">
+          <nombre>Lamborghini Miura P400</nombre>
+          <año>1968</año>
+          <chasis>Coupé de 2 puertas</chasis>
+          <propulsion>Gasolina</propulsion>
+          <velocidad>280</velocidad>
+          <potencia>345</potencia>
+          <aceleracion>6,7</aceleracion>
+          <tipo>Deportivo</tipo>
+          <precio>2500000</precio>
+          <imagen>https://upload.wikimedia.org/wikipedia/commons/5/57/1968_Lamborghini_Miura_S_LC23.jpg</imagen>
+          <enlace>https://www.altanave.uy/2024/10/lamborghini-miura-p400-coupe-de-2.html</enlace>
+          <bloques>
+            <bloque>
+              <imagenurl>https://upload.wikimedia.org/wikipedia/commons/4/4d/1967_Lamborghini_Miura_P400_opened_up_LC24.jpg</imagenurl>
+              <titulo>Diseño Revolucionario</titulo>
+              <texto>El Lamborghini Miura fue uno de los primeros deportivos de estirpe con motor central, una configuración que revolucionó la industria automotriz y estableció un nuevo estándar en diseño y rendimiento.</texto>
+            </bloque>
+            <bloque>
+              <imagenurl>https://upload.wikimedia.org/wikipedia/commons/5/54/Moteur_de_lamborghini_Miura.jpg</imagenurl>
+              <titulo>Potencia Deslumbrante</titulo>
+              <texto>Equipado con un potente motor V12 de 3.9 litros, el Miura produce hasta 350 caballos de fuerza, permitiéndole alcanzar velocidades superiores a los 280 km/h, lo que lo convierte en un competidor formidable en la pista.</texto>
+            </bloque>
+            <bloque>
+              <imagenurl>https://upload.wikimedia.org/wikipedia/commons/6/6e/1970_Lamborghini_Miura_S_P400_Orange.jpg</imagenurl>
+              <titulo>Aceleración Impactante</titulo>
+              <texto>Con la capacidad de acelerar de 0 a 100 km/h en aproximadamente 6.7 segundos, el Miura desafió las expectativas de rendimiento de su época, consolidando su reputación como un auténtico deportivo.</texto>
+            </bloque>
+            <bloque>
+              <imagenurl>https://upload.wikimedia.org/wikipedia/commons/7/74/Lamborghini_Miura_SV.jpg</imagenurl>
+              <titulo>Herencia Legendaria</titulo>
+              <texto>El Miura no solo es un vehículo icónico; también es considerado el precursor de la serie de superdeportivos de Lamborghini. Su legado perdura como un símbolo de innovación y estilo en el mundo automotriz.</texto>
+            </bloque>
+            <bloque>
+              <imagenurl>https://upload.wikimedia.org/wikipedia/commons/5/5a/Lamborghini_Miura_S_Verde_rear.jpg</imagenurl>
+              <titulo>Mega Codiciado</titulo>
+              <texto>Hoy en día, el Lamborghini Miura es un objeto de deseo entre coleccionistas y entusiastas de automóviles, alcanzando precios que superan el millón de dólares en subastas, testificando su estatus como una joya del automovilismo clásico.</texto>
+            </bloque>
+          </bloques>
+        </auto>
+        <auto id="61">
+          <nombre>Lamborghini Miura</nombre>
+          <año>1968</año>
+          <chasis>Roadster</chasis>
+          <propulsion>Gasolina</propulsion>
+          <velocidad>280</velocidad>
+          <potencia>345</potencia>
+          <aceleracion>6,7</aceleracion>
+          <tipo>Deportivo</tipo>
+          <precio>2000000</precio>
+          <imagen>https://upload.wikimedia.org/wikipedia/commons/8/8c/Lamborghini_Miura_Roadster.jpg</imagen>
+          <enlace>https://www.altanave.uy/2024/10/lamborghini-miura-roadster-1968.html</enlace>
+          <bloques>
+            <bloque>
+              <imagenurl>https://upload.wikimedia.org/wikipedia/commons/2/2e/Lamborghini_Miura_Roadster_%2851206441163%29.jpg</imagenurl>
+              <titulo>Unico en su Clase</titulo>
+              <texto>El Lamborghini Miura Roadster, presentado como un prototipo en 1968, es famoso por su diseño de carrocería convertible que destaca la elegancia y deportividad del Miura, combinando estética audaz con un espíritu de libertad en la conducción.</texto>
+            </bloque>
+            <bloque>
+              <imagenurl>https://upload.wikimedia.org/wikipedia/commons/e/e3/Lamborghini_Miura_Roadster_1968_seitlich.JPG</imagenurl>
+              <titulo>Rendimiento Excepcional</titulo>
+              <texto>A pesar de su diseño descapotable, el Miura Roadster mantiene un rendimiento sobresaliente, permitiéndole acelerar de 0 a 100 km/h en menos de 7 segundos, lo que lo convierte en un superdeportivo emocionante y divertido de conducir.</texto>
+            </bloque>
+            <bloque>
+              <imagenurl>https://upload.wikimedia.org/wikipedia/commons/a/af/Lamborghini_Miura_Roadster_1968_Interieur.JPG</imagenurl>
+              <titulo> Aquí tienes cinco bloques con títulos y textos relevantes sobre el Lamborghini Miura Roadster:  Apariencia Iconoclasta El Lamborghini Miura Roadster, presentado como un prototipo en 1968, es famoso por su diseño de carrocería convertible que destaca la elegancia y deportividad del Miura, combinando estética audaz con un espíritu de libertad en la conducción.  Motor Potente</titulo>
+              <texto>Al igual que su versión coupé, el Miura Roadster está equipado con un motor V12 de 3.9 litros que produce alrededor de 350 caballos de fuerza, ofreciendo un rendimiento excepcional y aceleración impresionante, manteniendo el legado de potencia de la línea Miura.</texto>
+            </bloque>
+          </bloques>
+        </auto>
+      </generacion>
     </modelo>
     <modelo nombre="Urus">
       <generacion nombre="Lamborghini Urus" añoInicio="2018" añoFin="2025">
@@ -655,7 +672,7 @@
               <titulo>Comodidad</titulo>
               <texto>Se han añadido amortiguadores Bilstein ajustables para optimizar el comportamiento dinámico del vehículo.</texto>
             </bloque>
-             <bloque>
+            <bloque>
               <imagenurl>https://upload.wikimedia.org/wikipedia/commons/9/95/2023_Lynk_%26_Co_03%2B_Cyan_%28rear%29.jpg</imagenurl>
               <titulo>Sonido</titulo>
               <texto>Un difusor trasero, junto a las cuatro salidas de escape y un gran alerón, le otorgan una personalidad distintiva.</texto>
@@ -1066,12 +1083,12 @@
           <imagen>https://upload.wikimedia.org/wikipedia/commons/1/11/2018_Porsche_911_GT2_RS.jpg</imagen>
           <enlace>https://www.altanave.uy/2024/10/porsche-911-gt2-rs-coupe-de-2-puertas.html</enlace>
           <masimagenes>
-            <extraimagenurl >https://upload.wikimedia.org/wikipedia/commons/d/d6/2010_Porsche_911_GT2_RS_Badge.jpg</extraimagenurl>
-            <extraimagenurl >https://upload.wikimedia.org/wikipedia/commons/6/6c/Porsche_911_GT2_RS_MR_IMG_1855.jpg</extraimagenurl>
-            <extraimagenurl >https://upload.wikimedia.org/wikipedia/commons/4/4f/2010_Porsche_911_GT2_RS_Wheel.jpg</extraimagenurl>
-            <extraimagenurl >https://upload.wikimedia.org/wikipedia/commons/e/e6/Porsche_911_GT2_RS_Back_IMG_0639.jpg</extraimagenurl>
-            <extraimagenurl >https://upload.wikimedia.org/wikipedia/commons/c/cf/Porsche_911_GT2_RS_3.jpg</extraimagenurl>
-            <extraimagenurl >https://upload.wikimedia.org/wikipedia/commons/6/6c/Porsche_911_GT2_RS_MR_IMG_1855.jpg</extraimagenurl>
+            <extraimagenurl>https://upload.wikimedia.org/wikipedia/commons/d/d6/2010_Porsche_911_GT2_RS_Badge.jpg</extraimagenurl>
+            <extraimagenurl>https://upload.wikimedia.org/wikipedia/commons/6/6c/Porsche_911_GT2_RS_MR_IMG_1855.jpg</extraimagenurl>
+            <extraimagenurl>https://upload.wikimedia.org/wikipedia/commons/4/4f/2010_Porsche_911_GT2_RS_Wheel.jpg</extraimagenurl>
+            <extraimagenurl>https://upload.wikimedia.org/wikipedia/commons/e/e6/Porsche_911_GT2_RS_Back_IMG_0639.jpg</extraimagenurl>
+            <extraimagenurl>https://upload.wikimedia.org/wikipedia/commons/c/cf/Porsche_911_GT2_RS_3.jpg</extraimagenurl>
+            <extraimagenurl>https://upload.wikimedia.org/wikipedia/commons/6/6c/Porsche_911_GT2_RS_MR_IMG_1855.jpg</extraimagenurl>
           </masimagenes>
         </auto>
       </generacion>
