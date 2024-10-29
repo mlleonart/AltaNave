@@ -76,6 +76,25 @@
       </generacion>
     </modelo>
   </marca>
+  <marca nombre="De Lorean">
+    <modelo nombre="DMC-12">
+        <generacion nombre="De Lorean DMC-12" añoInicio="1981" añoFin="1982">
+          <auto id="59">
+              <nombre>De Lorean DMC-12</nombre>
+                <año>1982</año>
+                <chasis>Coupé de 2 puertas</chasis>
+                <propulsion>Gasolina</propulsion>
+                <velocidad>209</velocidad>
+                <potencia>130</potencia>
+                <aceleracion>9,4</aceleracion>
+                <tipo>Deportivo</tipo>
+                <precio>86500 </precio>
+                <imagen>https://upload.wikimedia.org/wikipedia/commons/6/63/DeLorean_DMC-12_%2815704582713%29.jpg</imagen>
+                <enlace>https://www.altanave.uy/2024/10/de-lorean-dmc-12-coupe-de-2-puertas-1982.html</enlace>
+          </auto>
+        </generacion>
+    </modelo>
+</marca>
   <marca nombre="Ferrari">
     <modelo nombre="250 GTO">
       <generacion nombre="Serie I" añoInicio="1962" añoFin="1963">
