@@ -76,7 +76,7 @@
       </generacion>
     </modelo>
   </marca>
-  <marca nombre="De Lorean">
+<marca nombre="De Lorean">
     <modelo nombre="DMC-12">
         <generacion nombre="De Lorean DMC-12" añoInicio="1981" añoFin="1982">
           <auto id="59">
@@ -91,11 +91,11 @@
                 <precio>86500 </precio>
                 <imagen>https://upload.wikimedia.org/wikipedia/commons/6/63/DeLorean_DMC-12_%2815704582713%29.jpg</imagen>
                 <enlace>https://www.altanave.uy/2024/10/de-lorean-dmc-12-coupe-de-2-puertas-1982.html</enlace>
-            <masimagenes>
-    <extraimagenurl>https://upload.wikimedia.org/wikipedia/commons/d/da/1983_DeLorean_DMC-12%2C_front_right%2C_05-18-2024.jpg</extraimagenurl>
-    <extraimagenurl>https://upload.wikimedia.org/wikipedia/commons/9/9c/1983_DeLorean_DMC-12%2C_rear_right%2C_05-18-2024.jpg</extraimagenurl>
-    <extraimagenurl>https://upload.wikimedia.org/wikipedia/commons/4/43/1983_DMC_De_Lorean%2C_rear_left%2C_09-07-2024.jpg</extraimagenurl>
-</masimagenes>
+                <masimagenes>
+                  <extraimagenurl>https://upload.wikimedia.org/wikipedia/commons/d/da/1983_DeLorean_DMC-12%2C_front_right%2C_05-18-2024.jpg</extraimagenurl>
+                  <extraimagenurl>https://upload.wikimedia.org/wikipedia/commons/9/9c/1983_DeLorean_DMC-12%2C_rear_right%2C_05-18-2024.jpg</extraimagenurl>
+                  <extraimagenurl>https://upload.wikimedia.org/wikipedia/commons/4/43/1983_DMC_De_Lorean%2C_rear_left%2C_09-07-2024.jpg</extraimagenurl>
+                </masimagenes>
           </auto>
         </generacion>
     </modelo>
@@ -463,7 +463,7 @@
         </auto>
       </generacion>
     </modelo>
-            <modelo nombre="Miura ">
+        <modelo nombre="Miura ">
         <generacion nombre="Lamborghini Miura" añoInicio="1966" añoFin="1972">
           <auto id="60">
               <nombre>Lamborghini Miura P400</nombre>
@@ -477,7 +477,8 @@
                 <precio>2500000</precio>
                 <imagen>https://upload.wikimedia.org/wikipedia/commons/5/57/1968_Lamborghini_Miura_S_LC23.jpg</imagen>
                 <enlace>https://www.altanave.uy/2024/10/lamborghini-miura-p400-coupe-de-2.html</enlace>
-                <bloque>
+                <bloques>
+    <bloque>
         <imagenurl>https://upload.wikimedia.org/wikipedia/commons/4/4d/1967_Lamborghini_Miura_P400_opened_up_LC24.jpg</imagenurl>
         <titulo>Diseño Revolucionario</titulo>
         <texto>El Lamborghini Miura fue uno de los primeros deportivos de estirpe con motor central, una configuración que revolucionó la industria automotriz y estableció un nuevo estándar en diseño y rendimiento.</texto>
