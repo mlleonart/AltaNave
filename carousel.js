@@ -13,7 +13,7 @@ function setupCarousel(imgUrls) {
 
     // Limpiar el contenedor antes de agregar nuevas imágenes
     carousel.innerHTML = "";
-
+images = imgUrls; // Guarda las imágenes en la variable global
     imgUrls.forEach((img) => {
         // Crear enlace que apunta a la versión grande
         const link = document.createElement("a");
