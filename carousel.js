@@ -19,10 +19,12 @@ function setupCarousel(imgUrls) {
         thumbImg.src = img.thumb; // Usa la miniatura como imagen de previsualización
         thumbImg.alt = "Imagen del coche"; // Descripción alternativa
         thumbImg.style.maxWidth = "100px"; // Tamaño de miniatura
+
+        thumbImg.classList.add("carousel-image");  // Añade la clase carousel-image a cada imagen para aplicar estilos específicos.
         
         link.appendChild(thumbImg);
-        carouselContainer.appendChild(link);
-        // img.classList.add("carousel-image");
+        carousel.appendChild(link);
+
 
         // Evitar que el evento de clic del enlace interrumpa el funcionamiento del carrusel
         img.addEventListener("click", (event) => {
