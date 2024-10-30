@@ -703,7 +703,7 @@
   </marca>
   <marca nombre="McLaren">
 <modelo nombre="F1 ">
-        <generacion nombre="McLaren F1 " añoInicio="1992" añoFin="1998">
+        <generacion nombre="McLaren F1" añoInicio="1992" añoFin="1998">
           <auto id="63">
               <nombre>F1 GTR</nombre>
                 <año>1995</año>
