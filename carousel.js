@@ -4,10 +4,13 @@ let images = []; // Asegúrate de que 'images' tenga las URLs cargadas
 // Configura el carrusel con imágenes desde el XML cargado
 function setupCarousel(images) {
     const carouselContainer = document.getElementById("carousel-images");
-    carouselContainer.innerHTML = ""; // Limpiar el contenedor
+    carouselContainer.innerHTML = ""; // Limpiar el contenedor antes de agregar nuevas imágenes
 
-    // Cargar imágenes en el carrusel
+    // Agregar cada imagen en su propio contenedor
     images.forEach((img) => {
+        const slide = document.createElement("div"); // Crear un div para cada slide
+        slide.classList.add("carousel-slide"); // Clase opcional para estilo adicional
+
         const link = document.createElement("a");
         link.href = img.large;
         link.target = "_blank";
@@ -18,22 +21,24 @@ function setupCarousel(images) {
         thumbImg.classList.add("carousel-image");
 
         link.appendChild(thumbImg);
-        carouselContainer.appendChild(link);
+        slide.appendChild(link);
+        carouselContainer.appendChild(slide);
     });
 
     let currentIndex = 0;
 
-    // Función para actualizar el desplazamiento del carrusel
+    // Función para actualizar la posición del carrusel
     function updateCarousel() {
         carouselContainer.style.transform = `translateX(-${currentIndex * 100}%)`;
     }
 
-    // Botones de navegación
+    // Event listener para el botón "Next"
     document.getElementById("nextBtn").addEventListener("click", () => {
         currentIndex = (currentIndex + 1) % images.length;
         updateCarousel();
     });
 
+    // Event listener para el botón "Prev"
     document.getElementById("prevBtn").addEventListener("click", () => {
         currentIndex = (currentIndex - 1 + images.length) % images.length;
         updateCarousel();
@@ -42,6 +47,7 @@ function setupCarousel(images) {
     // Mostrar la primera imagen
     updateCarousel();
 }
+
 
 
 // Cambia al índice de la imagen deseada
