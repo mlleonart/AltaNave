@@ -34,15 +34,6 @@ function setupCarousel(imgUrls) {
         carousel.appendChild(link);
 
 
-
-        // Evitar que el evento de clic del enlace interrumpa el funcionamiento del carrusel
-        img.addEventListener("click", (event) => {
-            event.stopPropagation(); // Detener la propagación del evento
-            link.click(); // Hacer clic en el enlace para abrir la imagen
-        });
-
-        link.appendChild(img); // Agregar la imagen al enlace
-        carousel.appendChild(link); // Agregar el enlace al carrusel
     });
 
     updateCarousel(); // Asegúrate de que esta función esté definida y actualice el carrusel.
