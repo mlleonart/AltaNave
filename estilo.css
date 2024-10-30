@@ -205,7 +205,8 @@ table.table2 {
 .carousel-container {
     overflow: hidden;
     position: relative;
-    width: 100%;
+    /* width: 100%;  */
+    width: 800px;
 }
 
 .carousel {
