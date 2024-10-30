@@ -215,7 +215,9 @@ table.table2 {
 }
 
 .carousel img {
-    width: 100%;
+ /*   width: 100%;  */
+    width: 800px;
+    height : auto;
     object-fit: cover;
 }
 
