@@ -7,7 +7,7 @@ function setupCarousel(imgUrls) {
  
 
     // Limpiar el contenedor antes de agregar nuevas imágenes
-    carouselContainer.innerHTML = "";
+    carousel.innerHTML = "";
 
     images.forEach((img) => {
         // Crear enlace que apunta a la versión grande
