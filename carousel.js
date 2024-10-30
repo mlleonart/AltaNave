@@ -4,26 +4,35 @@ let images = []; // Asegúrate de que 'images' tenga las URLs cargadas
 // Configura el carrusel con imágenes desde el XML cargado
 function setupCarousel(imgUrls) {
     const carousel = document.getElementById("carousel");
-    carousel.innerHTML = ''; // Limpia el contenido
-    images = imgUrls; // Guarda las imágenes en la variable global
+ 
 
-    // Añade cada imagen al carrusel
-    imgUrls.forEach((img) => {
+    // Limpiar el contenedor antes de agregar nuevas imágenes
+    carouselContainer.innerHTML = "";
+
+    images.forEach((img) => {
         // Crear enlace que apunta a la versión grande
-        const link = document.createElement("a"); 
+        const link = document.createElement("a");
         link.href = img.large; // Usa la URL grande para el enlace
         link.target = "_blank"; // Abrir en una nueva pestaña al hacer clic
 
         // Crear imagen en miniatura para el carrusel
         const thumbImg = document.createElement("img");
         thumbImg.src = img.thumb; // Usa la miniatura como imagen de previsualización
-        thumbImg.alt = "Imagen del coche"; // Descripción alternativa
-        thumbImg.style.maxWidth = "100px"; // Tamaño de miniatura
+        thumbImg.alt = "Car Thumbnail";
+        thumbImg.classList.add("carousel-image");
 
-        thumbImg.classList.add("carousel-image");  // Añade la clase carousel-image a cada imagen para aplicar estilos específicos.
-        
+        // Verifica si thumbImg es un elemento HTML antes de añadir el evento
+        if (thumbImg instanceof HTMLElement) {
+            thumbImg.addEventListener("click", (event) => {
+                event.preventDefault(); // Evita redirigir al hacer clic en la miniatura
+                // Lógica adicional al hacer clic en la miniatura, si es necesario
+            });
+        }
+
+        // Añadir la miniatura al enlace y el enlace al contenedor del carrusel
         link.appendChild(thumbImg);
-        carousel.appendChild(link);
+        carouselContainer.appendChild(link);
+
 
 
         // Evitar que el evento de clic del enlace interrumpa el funcionamiento del carrusel
