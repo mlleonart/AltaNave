@@ -9,7 +9,7 @@
 <!ATTLIST generacion nombre CDATA #REQUIRED>
 <!ATTLIST generacion añoInicio CDATA #REQUIRED>
 <!ATTLIST generacion añoFin CDATA #REQUIRED>
-<!ELEMENT auto (nombre , año , chasis , propulsion , velocidad , potencia , aceleracion , tipo , precio , imagenChica, imagen ,  enlace , bloques? , masimagenes?)>
+<!ELEMENT auto (nombre , año , chasis , propulsion , velocidad , potencia , aceleracion , tipo , precio , imagen ,  enlace , bloques? , masimagenes?)>
 <!ATTLIST auto id CDATA #REQUIRED>
 <!ELEMENT nombre (#PCDATA)>
 <!ELEMENT año (#PCDATA)>
@@ -20,7 +20,6 @@
 <!ELEMENT aceleracion (#PCDATA)>
 <!ELEMENT tipo (#PCDATA)>
 <!ELEMENT precio (#PCDATA)>
-<!ELEMENT imagenChica (#PCDATA)>
 <!ELEMENT imagen (#PCDATA)>
 <!ELEMENT enlace (#PCDATA)>
 <!ELEMENT bloques (bloque)*>
@@ -45,8 +44,7 @@
           <aceleracion>3,5</aceleracion>
           <tipo>Deportivo</tipo>
           <precio>2500000</precio>
-          <imagenChica>https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Aston_Martin_One-77_Blue.jpg/640px-Aston_Martin_One-77_Blue.jpg</imagenChica>
-          <imagen>https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Aston_Martin_One-77_Blue.jpg/1685px-Aston_Martin_One-77_Blue.jpg</imagen>
+          <imagen>https://upload.wikimedia.org/wikipedia/commons/9/98/Aston_Martin_One-77_Blue.jpg</imagen>
           <enlace>https://www.altanave.uy/2024/10/one-77-coupe-de-2-puertas-2011.html</enlace>
           <masimagenes>
             <extraimagenurl>https://upload.wikimedia.org/wikipedia/commons/1/16/Aston_Martin_One-77_7.jpg</extraimagenurl>
@@ -71,7 +69,6 @@
           <aceleracion>2,5</aceleracion>
           <tipo>Superauto</tipo>
           <precio>1920000</precio>
-          <imagenChica>https://upload.wikimedia.org/wikipedia/commons/6/6b/Bugatti_veyron_in_Tokyo.jpg</imagenChica>
           <imagen>https://upload.wikimedia.org/wikipedia/commons/6/6b/Bugatti_veyron_in_Tokyo.jpg</imagen>
           <enlace>https://www.altanave.uy/2024/10/bugatti-veyron-164-coupe-de-2-puertas.html</enlace>
           <!-- Bloques adicionales -->
@@ -117,7 +114,6 @@
           <aceleracion>9,4</aceleracion>
           <tipo>Deportivo</tipo>
           <precio>86500 </precio>
-          <imagenChica>https://upload.wikimedia.org/wikipedia/commons/6/63/DeLorean_DMC-12_%2815704582713%29.jpg</imagenChica>
           <imagen>https://upload.wikimedia.org/wikipedia/commons/6/63/DeLorean_DMC-12_%2815704582713%29.jpg</imagen>
           <enlace>https://www.altanave.uy/2024/10/de-lorean-dmc-12-coupe-de-2-puertas-1982.html</enlace>
           <masimagenes>
@@ -142,7 +138,6 @@
           <aceleracion>4,4</aceleracion>
           <tipo>Deportivo</tipo>
           <precio>70000000</precio>
-          <imagenChica>https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/1962_Ferrari_250_GTO_Scaglietti_Series_I.jpg/1200px-1962_Ferrari_250_GTO_Scaglietti_Series_I.jpg?20231225140501</imagenChica>
           <imagen>
                         https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/1962_Ferrari_250_GTO_Scaglietti_Series_I.jpg/1200px-1962_Ferrari_250_GTO_Scaglietti_Series_I.jpg?20231225140501</imagen>
           <enlace>https://www.altanave.uy/2024/10/ferrari-250-gto-coupe-de-2-puertas-1962.html</enlace>
@@ -159,7 +154,6 @@
           <aceleracion>4,6</aceleracion>
           <tipo>Deportivo</tipo>
           <precio>70000000</precio>
-          <imagenChica>https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/2021_Pebble_Tour_Ferrari_250_GTO_5573GT.jpg/1200px-2021_Pebble_Tour_Ferrari_250_GTO_5573GT.jpg?20210927164816</imagenChica>
           <imagen>
                         https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/2021_Pebble_Tour_Ferrari_250_GTO_5573GT.jpg/1200px-2021_Pebble_Tour_Ferrari_250_GTO_5573GT.jpg?20210927164816</imagen>
           <enlace>https://www.altanave.uy/2024/10/ferrari-250-gto-coupe-de-2-puertas-1964.html</enlace>
@@ -178,7 +172,6 @@
           <aceleracion>5,7</aceleracion>
           <tipo>Deportivo</tipo>
           <precio>1000000</precio>
-          <imagenChica>https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Ferrari_Daytona_365_GTB4_LC22.jpg/800px-Ferrari_Daytona_365_GTB4_LC22.jpg?20230411213950</imagenChica>
           <imagen>
                         https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Ferrari_Daytona_365_GTB4_LC22.jpg/800px-Ferrari_Daytona_365_GTB4_LC22.jpg?20230411213950</imagen>
           <enlace>https://www.altanave.uy/2024/10/ferrari-365-gtb4-daytona-coupe-de-2.html</enlace>
@@ -193,7 +186,6 @@
           <aceleracion>5,3</aceleracion>
           <tipo>Deportivo</tipo>
           <precio>2000000</precio>
-          <imagenChica>https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/1973_Ferrari_Daytona_Spyder_Verde_Pino_front_left.jpg/800px-1973_Ferrari_Daytona_Spyder_Verde_Pino_front_left.jpg?20180724051204</imagenChica>
           <imagen>
                         https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/1973_Ferrari_Daytona_Spyder_Verde_Pino_front_left.jpg/800px-1973_Ferrari_Daytona_Spyder_Verde_Pino_front_left.jpg?20180724051204</imagen>
           <enlace>https://www.altanave.uy/2024/10/ferrari-365-gts4-daytona-convertible-de.html</enlace>
@@ -210,7 +202,6 @@
           <aceleracion>2,85</aceleracion>
           <tipo>Superauto</tipo>
           <precio>2000000</precio>
-          <imagenChica>https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Ferrari_Daytona_SP3.jpg/800px-Ferrari_Daytona_SP3.jpg?20241016201739</imagenChica>
           <imagen>
                         https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Ferrari_Daytona_SP3.jpg/800px-Ferrari_Daytona_SP3.jpg?20241016201739</imagen>
           <enlace>https://www.altanave.uy/2024/10/ferrari-daytona-sp3-coupe-de-2-puertas.html</enlace>
@@ -229,7 +220,6 @@
           <aceleracion>2,5</aceleracion>
           <tipo>Deportivo</tipo>
           <precio>500000</precio>
-          <imagenChica>https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/2021_Ferrari_SF90.jpg/800px-2021_Ferrari_SF90.jpg?20241010112346</imagenChica>
           <imagen>
                         https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/2021_Ferrari_SF90.jpg/800px-2021_Ferrari_SF90.jpg?20241010112346</imagen>
           <enlace>https://www.altanave.uy/2024/10/ferrari-sf90-stradale-coupe-de-2.html</enlace>
@@ -244,7 +234,6 @@
           <aceleracion>2,5</aceleracion>
           <tipo>Deportivo</tipo>
           <precio>500000</precio>
-          <imagenChica>https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Ferrari_SF90_Asseto_Fiorano_Spider.jpg/800px-Ferrari_SF90_Asseto_Fiorano_Spider.jpg?20241010113722</imagenChica>
           <imagen>
                         https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Ferrari_SF90_Asseto_Fiorano_Spider.jpg/800px-Ferrari_SF90_Asseto_Fiorano_Spider.jpg?20241010113722</imagen>
           <enlace>https://www.altanave.uy/2024/10/ferrari-sf90-spider-techo-rigido-de-2.html</enlace>
@@ -263,7 +252,6 @@
           <aceleracion>3,4</aceleracion>
           <tipo>Deportivo</tipo>
           <precio>200000</precio>
-          <imagenChica>https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/2012_Ferrari_458_4.jpg/800px-2012_Ferrari_458_4.jpg?20241005235314</imagenChica>
           <imagen>https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/2012_Ferrari_458_4.jpg/800px-2012_Ferrari_458_4.jpg?20241005235314</imagen>
           <enlace>https://www.altanave.uy/2024/10/ferrari-458-italia-coupe-de-2-puertas.html</enlace>
         </auto>
@@ -277,7 +265,6 @@
           <aceleracion>3,4</aceleracion>
           <tipo>Deportivo</tipo>
           <precio>220000</precio>
-          <imagenChica>https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Ferrari_458_9.jpg/800px-Ferrari_458_9.jpg?20241005191147</imagenChica>
           <imagen>https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Ferrari_458_9.jpg/800px-Ferrari_458_9.jpg?20241005191147</imagen>
           <enlace>https://www.altanave.uy/2024/10/ferrari-458-spider-convertible-de-2.html</enlace>
         </auto>
@@ -291,7 +278,6 @@
           <aceleracion>3</aceleracion>
           <tipo>Superauto</tipo>
           <precio>300000</precio>
-          <imagenChica>https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/2015_Ferrari_458_Speciale_8.jpg/800px-2015_Ferrari_458_Speciale_8.jpg?20241007191849</imagenChica>
           <imagen>https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/2015_Ferrari_458_Speciale_8.jpg/800px-2015_Ferrari_458_Speciale_8.jpg?20241007191849</imagen>
           <enlace>https://www.altanave.uy/2024/10/ferrari-458-speciale-coupe-de-2-puertas.html</enlace>
         </auto>
@@ -309,7 +295,6 @@
           <aceleracion>3</aceleracion>
           <tipo>Deportivo</tipo>
           <precio>300000</precio>
-          <imagenChica>https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/2017_Ferrari_488.jpg/800px-2017_Ferrari_488.jpg?20241007200712</imagenChica>
           <imagen>https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/2017_Ferrari_488.jpg/800px-2017_Ferrari_488.jpg?20241007200712</imagen>
           <enlace>https://www.altanave.uy/2024/10/ferrari-488-gtb-coupe-de-2-puertas-2017.html</enlace>
         </auto>
@@ -323,7 +308,6 @@
           <aceleracion>3</aceleracion>
           <tipo>Deportivo</tipo>
           <precio>250000</precio>
-          <imagenChica>https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Ferrari_488_Spider_7.jpg/800px-Ferrari_488_Spider_7.jpg?20241007200556</imagenChica>
           <imagen>https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Ferrari_488_Spider_7.jpg/800px-Ferrari_488_Spider_7.jpg?20241007200556</imagen>
           <enlace>https://www.altanave.uy/2024/10/ferrari-488-spider-convertible-de-2.html</enlace>
         </auto>
@@ -337,7 +321,6 @@
           <aceleracion>2,85</aceleracion>
           <tipo>Superauto</tipo>
           <precio>350000</precio>
-          <imagenChica>https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Ferrari_488_Pista_8.jpg/800px-Ferrari_488_Pista_8.jpg?20230914111744</imagenChica>
           <imagen>https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Ferrari_488_Pista_8.jpg/800px-Ferrari_488_Pista_8.jpg?20230914111744</imagen>
           <enlace>https://www.altanave.uy/2024/10/ferrari-488-pista-coupe-de-2-puertas.html</enlace>
         </auto>
@@ -357,7 +340,6 @@
           <aceleracion>3,5</aceleracion>
           <tipo>Superauto</tipo>
           <precio>700000</precio>
-          <imagenChica>https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/2015-03-03_Geneva_Motor_Show_3305_%28cropped%29.JPG/800px-2015-03-03_Geneva_Motor_Show_3305_%28cropped%29.JPG?20240303210915</imagenChica>
           <imagen>https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/2015-03-03_Geneva_Motor_Show_3305_%28cropped%29.JPG/800px-2015-03-03_Geneva_Motor_Show_3305_%28cropped%29.JPG?20240303210915</imagen>
           <enlace>https://www.altanave.uy/2024/10/koenigsegg-cc-8s-coupe-targa-de-2.html</enlace>
         </auto>
@@ -371,7 +353,6 @@
           <aceleracion>3,2</aceleracion>
           <tipo>Superauto</tipo>
           <precio>2000000</precio>
-          <imagenChica>https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Koenigsegg_CCR_5.jpg/800px-Koenigsegg_CCR_5.jpg?20240101190303</imagenChica>
           <imagen>https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Koenigsegg_CCR_5.jpg/800px-Koenigsegg_CCR_5.jpg?20240101190303</imagen>
           <enlace>https://www.altanave.uy/2024/10/koenigsegg-ccr-coupe-targa-2004.html</enlace>
         </auto>
@@ -385,7 +366,6 @@
           <aceleracion>3,1</aceleracion>
           <tipo>Superauto</tipo>
           <precio>3150000</precio>
-          <imagenChica>https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Koenigsegg_CCX_%289524008619%29.jpg/800px-Koenigsegg_CCX_%289524008619%29.jpg?20140709050952</imagenChica>
           <imagen>https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Koenigsegg_CCX_%289524008619%29.jpg/800px-Koenigsegg_CCX_%289524008619%29.jpg?20140709050952</imagen>
           <enlace>https://www.altanave.uy/2024/10/koenigsegg-ccxr-coupe-targa-de-2.html</enlace>
         </auto>
@@ -403,7 +383,6 @@
           <aceleracion>2,9</aceleracion>
           <tipo>Superauto</tipo>
           <precio>2275000</precio>
-          <imagenChica>https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Koenigsegg_Agera_RSN_2_NDM.jpg/800px-Koenigsegg_Agera_RSN_2_NDM.jpg?20211024023449</imagenChica>
           <imagen>https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Koenigsegg_Agera_RSN_2_NDM.jpg/800px-Koenigsegg_Agera_RSN_2_NDM.jpg?20211024023449</imagen>
           <enlace>https://www.altanave.uy/2024/10/koenigsegg-agera-r-coupe-targa-de-2.html</enlace>
         </auto>
@@ -419,7 +398,6 @@
           <aceleracion>2,6</aceleracion>
           <tipo>Superauto</tipo>
           <precio>2925000</precio>
-          <imagenChica>https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Koenigsegg_%28Agera%29_One-1_at_Goodwood_2014_004.jpg/800px-Koenigsegg_%28Agera%29_One-1_at_Goodwood_2014_004.jpg?20141026055639</imagenChica>
           <imagen>https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Koenigsegg_%28Agera%29_One-1_at_Goodwood_2014_004.jpg/800px-Koenigsegg_%28Agera%29_One-1_at_Goodwood_2014_004.jpg?20141026055639</imagen>
           <enlace>https://www.altanave.uy/2024/10/koenigsegg-agera-one1-coupe-de-2.html</enlace>
         </auto>
@@ -437,7 +415,6 @@
           <aceleracion>2,4</aceleracion>
           <tipo>Superauto</tipo>
           <precio>3500000</precio>
-          <imagenChica>https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/2023_Koenigsegg_Jesko_LC24.jpg/800px-2023_Koenigsegg_Jesko_LC24.jpg?20240917231123</imagenChica>
           <imagen>https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/2023_Koenigsegg_Jesko_LC24.jpg/800px-2023_Koenigsegg_Jesko_LC24.jpg?20240917231123</imagen>
           <enlace>https://www.altanave.uy/2024/10/koenigsegg-jesko-coupe-targa-de-2.html</enlace>
         </auto>
@@ -455,7 +432,6 @@
           <aceleracion>3,6</aceleracion>
           <tipo>Superauto</tipo>
           <precio>2000000</precio>
-          <imagenChica>https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/2020_Koenigsegg_Gemera_2.0.jpg/800px-2020_Koenigsegg_Gemera_2.0.jpg?20201008220405</imagenChica>
           <imagen>https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/2020_Koenigsegg_Gemera_2.0.jpg/800px-2020_Koenigsegg_Gemera_2.0.jpg?20201008220405</imagen>
           <enlace>https://www.altanave.uy/2024/10/koenigsegg-gemera-cupe-de-2-puertas-2020.html</enlace>
         </auto>
@@ -473,7 +449,6 @@
           <aceleracion>2,7</aceleracion>
           <tipo>Superauto</tipo>
           <precio>2500000</precio>
-          <imagenChica>https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Koenigsegg_Regera_White.jpg/800px-Koenigsegg_Regera_White.jpg?20211026011215</imagenChica>
           <imagen>https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Koenigsegg_Regera_White.jpg/800px-Koenigsegg_Regera_White.jpg?20211026011215</imagen>
           <enlace>https://www.altanave.uy/2024/10/koenigsegg-regera-coupe-targa-de-2.html</enlace>
         </auto>
@@ -493,7 +468,6 @@
           <aceleracion>6,8</aceleracion>
           <tipo>Deportivo</tipo>
           <precio>160000</precio>
-          <imagenChica>https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/12-10-25-autostadt-wolfsburg-by-RalfR-30.jpg/800px-12-10-25-autostadt-wolfsburg-by-RalfR-30.jpg?20121105113109</imagenChica>
           <imagen>
                         https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/12-10-25-autostadt-wolfsburg-by-RalfR-30.jpg/800px-12-10-25-autostadt-wolfsburg-by-RalfR-30.jpg?20121105113109</imagen>
           <enlace>https://www.altanave.uy/2024/10/lamborghini-350-gt-coupe-de-2-puertas_23.html</enlace>
@@ -508,7 +482,6 @@
           <aceleracion>6,8</aceleracion>
           <tipo>Deportivo</tipo>
           <precio>140000</precio>
-          <imagenChica>https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Lamborghini_350_GT_1964.jpg/800px-Lamborghini_350_GT_1964.jpg?20070718094722</imagenChica>
           <imagen>
                         https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Lamborghini_350_GT_1964.jpg/800px-Lamborghini_350_GT_1964.jpg?20070718094722</imagen>
           <enlace>https://www.altanave.uy/2024/10/lamborghini-350-gt-coupe-de-2-puertas.html</enlace>
@@ -527,7 +500,6 @@
           <aceleracion>6,7</aceleracion>
           <tipo>Deportivo</tipo>
           <precio>2250000</precio>
-          <imagenChica>https://upload.wikimedia.org/wikipedia/commons/5/57/1968_Lamborghini_Miura_S_LC23.jpg</imagenChica>
           <imagen>https://upload.wikimedia.org/wikipedia/commons/5/57/1968_Lamborghini_Miura_S_LC23.jpg</imagen>
           <enlace>https://www.altanave.uy/2024/10/lamborghini-miura-p400-coupe-de-2.html</enlace>
           <bloques>
@@ -568,7 +540,6 @@
           <aceleracion>6,7</aceleracion>
           <tipo>Deportivo</tipo>
           <precio>2250000</precio>
-          <imagenChica>https://upload.wikimedia.org/wikipedia/commons/8/8c/Lamborghini_Miura_Roadster.jpg</imagenChica>
           <imagen>https://upload.wikimedia.org/wikipedia/commons/8/8c/Lamborghini_Miura_Roadster.jpg</imagen>
           <enlace>https://www.altanave.uy/2024/10/lamborghini-miura-roadster-1968.html</enlace>
           <bloques>
@@ -603,7 +574,6 @@
           <aceleracion>3,6</aceleracion>
           <tipo>SUV</tipo>
           <precio>220000</precio>
-          <imagenChica>https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/2022_Lamborghini_Urus_in_Blue.jpg/800px-2022_Lamborghini_Urus_in_Blue.jpg?20230317101831</imagenChica>
           <imagen>
                         https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/2022_Lamborghini_Urus_in_Blue.jpg/800px-2022_Lamborghini_Urus_in_Blue.jpg?20230317101831</imagen>
           <enlace>https://www.altanave.uy/2024/10/lamborghini-urus-suv-2022.html</enlace>
@@ -622,7 +592,6 @@
           <aceleracion>3,85</aceleracion>
           <tipo>Deportivo</tipo>
           <precio>200000</precio>
-          <imagenChica>https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/2005_Lamborghini_Murcielago.jpg/800px-2005_Lamborghini_Murcielago.jpg?20231220222135</imagenChica>
           <imagen>https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/2005_Lamborghini_Murcielago.jpg/800px-2005_Lamborghini_Murcielago.jpg?20231220222135</imagen>
           <enlace>https://www.altanave.uy/2024/10/lamborghini-murcielago-coupe-de-2.html</enlace>
         </auto>
@@ -636,7 +605,6 @@
           <aceleracion>3,85</aceleracion>
           <tipo>Deportivo</tipo>
           <precio>150000</precio>
-          <imagenChica>https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Murcielago_Roadster._%285237373061%29.jpg/800px-Murcielago_Roadster._%285237373061%29.jpg?20160531223754</imagenChica>
           <imagen>https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Murcielago_Roadster._%285237373061%29.jpg/800px-Murcielago_Roadster._%285237373061%29.jpg?20160531223754</imagen>
           <enlace>https://www.altanave.uy/2024/10/lamborghini-murcielago-roadster.html</enlace>
         </auto>
@@ -652,7 +620,6 @@
           <aceleracion>3,4</aceleracion>
           <tipo>Deportivo</tipo>
           <precio>300000</precio>
-          <imagenChica>https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Gray_Lamborghini_LP640.jpg/800px-Gray_Lamborghini_LP640.jpg?20100602152644</imagenChica>
           <imagen>https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Gray_Lamborghini_LP640.jpg/800px-Gray_Lamborghini_LP640.jpg?20100602152644</imagen>
           <enlace>https://www.altanave.uy/2024/10/lamborghini-murcielago-lp640-coupe-de-2.html</enlace>
         </auto>
@@ -666,7 +633,6 @@
           <aceleracion>3,4</aceleracion>
           <tipo>Deportivo</tipo>
           <precio>350000</precio>
-          <imagenChica>https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/2005_Lamborghini_Murcielago_Roadster.jpg/800px-2005_Lamborghini_Murcielago_Roadster.jpg?20220504151143</imagenChica>
           <imagen>https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/2005_Lamborghini_Murcielago_Roadster.jpg/800px-2005_Lamborghini_Murcielago_Roadster.jpg?20220504151143</imagen>
           <enlace>https://www.altanave.uy/2024/10/lamborghini-murcielago-lp640-roadster.html</enlace>
         </auto>
@@ -680,7 +646,6 @@
           <aceleracion>3,2</aceleracion>
           <tipo>Superauto</tipo>
           <precio>450000</precio>
-          <imagenChica>https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/2009_Lamborghini_Murcielago_LP670-4_SV_SCD.jpg/800px-2009_Lamborghini_Murcielago_LP670-4_SV_SCD.jpg?20240723184900</imagenChica>
           <imagen>https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/2009_Lamborghini_Murcielago_LP670-4_SV_SCD.jpg/800px-2009_Lamborghini_Murcielago_LP670-4_SV_SCD.jpg?20240723184900</imagen>
           <enlace>https://www.altanave.uy/2024/10/lamborghini-murcielago-sv-superveloce.html</enlace>
         </auto>
@@ -700,7 +665,6 @@
           <aceleracion>5,7</aceleracion>
           <tipo>Deportivo</tipo>
           <precio>59990</precio>
-          <imagenChica>https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Lynk_%26_Co_03_facelift_006.jpg/799px-Lynk_%26_Co_03_facelift_006.jpg?20231112153022</imagenChica>
           <imagen>https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Lynk_%26_Co_03_facelift_006.jpg/799px-Lynk_%26_Co_03_facelift_006.jpg?20231112153022</imagen>
           <enlace>https://www.altanave.uy/2024/10/lynk-co-03-sedan-4-puertas-2016.html</enlace>
         </auto>
@@ -714,7 +678,6 @@
           <aceleracion>5,2</aceleracion>
           <tipo>Deportivo</tipo>
           <precio>69990</precio>
-          <imagenChica>https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/2023_Lynk_%26_Co_03%2B_Cyan_%28front%29.jpg/800px-2023_Lynk_%26_Co_03%2B_Cyan_%28front%29.jpg?20230630041208</imagenChica>
           <imagen>https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/2023_Lynk_%26_Co_03%2B_Cyan_%28front%29.jpg/800px-2023_Lynk_%26_Co_03%2B_Cyan_%28front%29.jpg?20230630041208</imagen>
           <enlace>https://www.altanave.uy/2024/10/lynk-co-03-cyan-edition-sedan-4-puertas.html</enlace>
           <!-- Bloques adicionales -->
@@ -757,7 +720,6 @@
           <aceleracion>3,1</aceleracion>
           <tipo>Prototipo</tipo>
           <precio>10000000</precio>
-          <imagenChica>https://upload.wikimedia.org/wikipedia/commons/e/ef/A_Silver_McLaren_F1.jpg</imagenChica>
           <imagen>https://upload.wikimedia.org/wikipedia/commons/e/ef/A_Silver_McLaren_F1.jpg</imagen>
           <enlace>https://www.altanave.uy/2024/10/f1-prototype-coupe-de-2-puertas-1992.html</enlace>
         </auto>
@@ -771,7 +733,6 @@
           <aceleracion>3,2</aceleracion>
           <tipo>Superauto</tipo>
           <precio>6000000</precio>
-          <imagenChica>https://upload.wikimedia.org/wikipedia/commons/f/f8/1996_McLaren_F1_GTR.jpg</imagenChica>
           <imagen>https://upload.wikimedia.org/wikipedia/commons/f/f8/1996_McLaren_F1_GTR.jpg</imagen>
           <enlace>https://www.altanave.uy/2024/10/f1-gtr-coupe-de-2-puertas-1995.html</enlace>
         </auto>
@@ -789,7 +750,6 @@
           <aceleracion>2,8</aceleracion>
           <tipo>Superauto</tipo>
           <precio>2500000</precio>
-          <imagenChica>https://upload.wikimedia.org/wikipedia/commons/0/03/2013_McLaren_P1_XP05.jpg</imagenChica>
           <imagen>https://upload.wikimedia.org/wikipedia/commons/0/03/2013_McLaren_P1_XP05.jpg</imagen>
           <enlace>https://www.altanave.uy/2024/10/mclaren-p1-coupe-de-2-puertas-2013.html</enlace>
           <masimagenes>
@@ -812,7 +772,6 @@
           <aceleracion>2,9</aceleracion>
           <tipo>Superauto</tipo>
           <precio>330000</precio>
-          <imagenChica>https://upload.wikimedia.org/wikipedia/commons/a/ac/Osaka_Motor_Show_2017_%28217%29_-_McLaren_720S_COUPE.jpg</imagenChica>
           <imagen>
                         https://upload.wikimedia.org/wikipedia/commons/a/ac/Osaka_Motor_Show_2017_%28217%29_-_McLaren_720S_COUPE.jpg</imagen>
           <enlace>https://www.altanave.uy/2024/10/mclaren-720s-coupe-de-2-puertas-2017.html</enlace>
@@ -846,7 +805,6 @@
           <aceleracion>8,6</aceleracion>
           <tipo>SUV</tipo>
           <precio>32000</precio>
-          <imagenChica>https://upload.wikimedia.org/wikipedia/commons/c/cd/%28SGP-Singapore%29_Showcar_MG_ZS_EV_No-plate_2024-09-14_-_1.jpg</imagenChica>
           <imagen>
                         https://upload.wikimedia.org/wikipedia/commons/c/cd/%28SGP-Singapore%29_Showcar_MG_ZS_EV_No-plate_2024-09-14_-_1.jpg</imagen>
           <enlace>https://www.altanave.uy/2024/10/mg-zs-ev-suv-2022.html</enlace>
@@ -867,7 +825,6 @@
           <aceleracion>13,8</aceleracion>
           <tipo>Normal</tipo>
           <precio>25000</precio>
-          <imagenChica>https://upload.wikimedia.org/wikipedia/commons/5/5c/PEUGEOT_208_%28A9%29_front_view.jpg</imagenChica>
           <imagen>https://upload.wikimedia.org/wikipedia/commons/5/5c/PEUGEOT_208_%28A9%29_front_view.jpg</imagen>
           <enlace>https://www.altanave.uy/2024/10/peugeot-208-12-puretech-hatchback-de-4.html</enlace>
         </auto>
@@ -883,7 +840,6 @@
           <aceleracion>13,2</aceleracion>
           <tipo>Normal</tipo>
           <precio>23000</precio>
-          <imagenChica>https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/2021_Peugeot_208_Allure_Pack.jpg/800px-2021_Peugeot_208_Allure_Pack.jpg?20220327171309</imagenChica>
           <imagen>https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/2021_Peugeot_208_Allure_Pack.jpg/800px-2021_Peugeot_208_Allure_Pack.jpg?20220327171309</imagen>
           <enlace>https://www.altanave.uy/2024/10/peugeot-208-puretech-75-hatchback-de-5.html</enlace>
         </auto>
@@ -899,7 +855,6 @@
           <aceleracion>14,9</aceleracion>
           <tipo>Normal</tipo>
           <precio>20000</precio>
-          <imagenChica>https://upload.wikimedia.org/wikipedia/commons/9/91/Peugeot_208_B_facelift_Automesse_Ludwigsburg_2024_IMG_1527.jpg</imagenChica>
           <imagen>https://upload.wikimedia.org/wikipedia/commons/9/91/Peugeot_208_B_facelift_Automesse_Ludwigsburg_2024_IMG_1527.jpg</imagen>
           <enlace>https://www.altanave.uy/2024/10/peugeot-208-hatchback-de-5-puertas-2024.html</enlace>
         </auto>
@@ -919,7 +874,6 @@
           <aceleracion>9,1</aceleracion>
           <tipo>Deportivo</tipo>
           <precio>58500</precio>
-          <imagenChica>https://upload.wikimedia.org/wikipedia/commons/d/d8/Stuttgart_Jul_2012_20_%28Porsche_Museum_-_1965_Porsche_911_2.0_Coupe%29.jpg</imagenChica>
           <imagen>
                         https://upload.wikimedia.org/wikipedia/commons/d/d8/Stuttgart_Jul_2012_20_%28Porsche_Museum_-_1965_Porsche_911_2.0_Coupe%29.jpg</imagen>
           <enlace>https://www.altanave.uy/2024/10/porsche-911-coupe-de-2-puertas-1965.html</enlace>
@@ -934,7 +888,6 @@
           <aceleracion>11</aceleracion>
           <tipo>Deportivo</tipo>
           <precio>45895</precio>
-          <imagenChica>https://upload.wikimedia.org/wikipedia/commons/a/ae/Saxony_Classic_Rallye_2010_-_Porsche_911_T_1969_%28aka%29.jpg</imagenChica>
           <imagen>
                         https://upload.wikimedia.org/wikipedia/commons/a/ae/Saxony_Classic_Rallye_2010_-_Porsche_911_T_1969_%28aka%29.jpg</imagen>
           <enlace>https://www.altanave.uy/2024/10/porsche-911-targa-1968.html</enlace>
@@ -949,7 +902,6 @@
           <aceleracion>6</aceleracion>
           <tipo>Deportivo</tipo>
           <precio>122542</precio>
-          <imagenChica>https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Porsche_911_Turbo_%281987%29_%2852574988328%29.jpg/800px-Porsche_911_Turbo_%281987%29_%2852574988328%29.jpg?20230119013023</imagenChica>
           <imagen>
                         https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Porsche_911_Turbo_%281987%29_%2852574988328%29.jpg/800px-Porsche_911_Turbo_%281987%29_%2852574988328%29.jpg?20230119013023</imagen>
           <enlace>https://www.altanave.uy/2024/10/porsche-911-coupe-de-2-puertas-1987.html</enlace>
@@ -964,7 +916,6 @@
           <aceleracion>6,7</aceleracion>
           <tipo>Deportivo</tipo>
           <precio>133664</precio>
-          <imagenChica>https://upload.wikimedia.org/wikipedia/commons/e/e7/Porsche_911_Carrera_Super_Sport_Cabrio_3.2_%281989%29_%2834717125242%29.jpg</imagenChica>
           <imagen>
                         https://upload.wikimedia.org/wikipedia/commons/e/e7/Porsche_911_Carrera_Super_Sport_Cabrio_3.2_%281989%29_%2834717125242%29.jpg</imagen>
           <enlace>https://www.altanave.uy/2024/10/porsche-911-convertible-de-2-puertas.html</enlace>
@@ -979,7 +930,6 @@
           <aceleracion>6,5</aceleracion>
           <tipo>Deportivo</tipo>
           <precio>128486</precio>
-          <imagenChica>https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/1979_Porsche_911_SC_Targa_%2813472886333%29.jpg/1200px-1979_Porsche_911_SC_Targa_%2813472886333%29.jpg?20150109034712</imagenChica>
           <imagen>
                         https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/1979_Porsche_911_SC_Targa_%2813472886333%29.jpg/1200px-1979_Porsche_911_SC_Targa_%2813472886333%29.jpg?20150109034712</imagen>
           <enlace>https://www.altanave.uy/2024/10/porsche-911-targa-1989.html</enlace>
@@ -996,7 +946,6 @@
           <aceleracion>5,5</aceleracion>
           <tipo>Deportivo</tipo>
           <precio>225000</precio>
-          <imagenChica>https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/1989_Porsche_911_Turbo_Cabriolet_from_Britain_%2850675034823%29.jpg/800px-1989_Porsche_911_Turbo_Cabriolet_from_Britain_%2850675034823%29.jpg?20220207162954</imagenChica>
           <imagen>
                         https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/1989_Porsche_911_Turbo_Cabriolet_from_Britain_%2850675034823%29.jpg/800px-1989_Porsche_911_Turbo_Cabriolet_from_Britain_%2850675034823%29.jpg?20220207162954</imagen>
           <enlace>https://www.altanave.uy/2024/10/porsche-911-turbo-convertible-de-2.html</enlace>
@@ -1011,7 +960,6 @@
           <aceleracion>5,5</aceleracion>
           <tipo>Deportivo</tipo>
           <precio>425000</precio>
-          <imagenChica>https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Porsche_930_Turbo_Cabriolet_Flatnose_%2815574169294%29.jpg/800px-Porsche_930_Turbo_Cabriolet_Flatnose_%2815574169294%29.jpg?20180130050520</imagenChica>
           <imagen>
                         https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Porsche_930_Turbo_Cabriolet_Flatnose_%2815574169294%29.jpg/800px-Porsche_930_Turbo_Cabriolet_Flatnose_%2815574169294%29.jpg?20180130050520</imagen>
           <enlace>https://www.altanave.uy/2024/10/porsche-911-turbo-flatnose-convertible.html</enlace>
@@ -1026,7 +974,6 @@
           <aceleracion>5,5</aceleracion>
           <tipo>Deportivo</tipo>
           <precio>120340</precio>
-          <imagenChica>https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/1975_Porsche_Homologation_930_Coupe_%2845687449482%29.jpg/800px-1975_Porsche_Homologation_930_Coupe_%2845687449482%29.jpg?20190903175330</imagenChica>
           <imagen>
                         https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/1975_Porsche_Homologation_930_Coupe_%2845687449482%29.jpg/800px-1975_Porsche_Homologation_930_Coupe_%2845687449482%29.jpg?20190903175330</imagen>
           <enlace>https://www.altanave.uy/2024/10/porsche-911-turbo-coupe-de-2-puertas.html</enlace>
@@ -1043,7 +990,6 @@
           <aceleracion>5,7</aceleracion>
           <tipo>Deportivo</tipo>
           <precio>120000</precio>
-          <imagenChica>https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/1992_Porsche_911_Carrera_%28964%29.jpg/1200px-1992_Porsche_911_Carrera_%28964%29.jpg?20220726153307</imagenChica>
           <imagen>
                         https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/1992_Porsche_911_Carrera_%28964%29.jpg/1200px-1992_Porsche_911_Carrera_%28964%29.jpg?20220726153307</imagen>
           <enlace>https://www.altanave.uy/2024/10/porsche-911-carrera-2-coupe-de-2.html</enlace>
@@ -1058,7 +1004,6 @@
           <aceleracion>5,7</aceleracion>
           <tipo>Deportivo</tipo>
           <precio>130000</precio>
-          <imagenChica>https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Porsche_911_Carrera_Targa_07-27-2019.jpg/1200px-Porsche_911_Carrera_Targa_07-27-2019.jpg?20190823171324</imagenChica>
           <imagen>
                         https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Porsche_911_Carrera_Targa_07-27-2019.jpg/1200px-Porsche_911_Carrera_Targa_07-27-2019.jpg?20190823171324</imagen>
           <enlace>https://www.altanave.uy/2024/10/porsche-911-carrera-2-targa-1991.html</enlace>
@@ -1073,7 +1018,6 @@
           <aceleracion>5,7</aceleracion>
           <tipo>Deportivo</tipo>
           <precio>140000</precio>
-          <imagenChica>https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Porsche_911_%28964%29_Carrera_2_Cabriolet_%287319386492%29.jpg/1200px-Porsche_911_%28964%29_Carrera_2_Cabriolet_%287319386492%29.jpg?20150109090230</imagenChica>
           <imagen>
                         https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Porsche_911_%28964%29_Carrera_2_Cabriolet_%287319386492%29.jpg/1200px-Porsche_911_%28964%29_Carrera_2_Cabriolet_%287319386492%29.jpg?20150109090230</imagen>
           <enlace>https://www.altanave.uy/2024/10/porsche-911-carrera-2-convertible-de-2.html</enlace>
@@ -1090,7 +1034,6 @@
           <aceleracion>5,5</aceleracion>
           <tipo>Deportivo</tipo>
           <precio>132000</precio>
-          <imagenChica>https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/1995_Porsche_911_%28993%29_Carrera_FOS21.jpg/1200px-1995_Porsche_911_%28993%29_Carrera_FOS21.jpg?20220803143739</imagenChica>
           <imagen>https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/1995_Porsche_911_%28993%29_Carrera_FOS21.jpg/1200px-1995_Porsche_911_%28993%29_Carrera_FOS21.jpg?20220803143739</imagen>
           <enlace>https://www.altanave.uy/2024/10/porsche-911-carrera-4-coupe-coupe-de-2.html</enlace>
         </auto>
@@ -1104,7 +1047,6 @@
           <aceleracion>5,3</aceleracion>
           <tipo>Deportivo</tipo>
           <precio>149000</precio>
-          <imagenChica>https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/1997_Porsche_911_Carrera_%28993%29_convertible_%282011-11-18%29_01.jpg/1200px-1997_Porsche_911_Carrera_%28993%29_convertible_%282011-11-18%29_01.jpg?20120527033333</imagenChica>
           <imagen>https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/1997_Porsche_911_Carrera_%28993%29_convertible_%282011-11-18%29_01.jpg/1200px-1997_Porsche_911_Carrera_%28993%29_convertible_%282011-11-18%29_01.jpg?20120527033333</imagen>
           <enlace>https://www.altanave.uy/2024/10/porsche-911-carrera-4-convertible-de-2.html</enlace>
         </auto>
@@ -1120,7 +1062,6 @@
           <aceleracion>5,2</aceleracion>
           <tipo>Deportivo</tipo>
           <precio>120000 </precio>
-          <imagenChica>https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Porsche_911_%28996%29_Carrera_Cabriolet_%288516320329%29.jpg/800px-Porsche_911_%28996%29_Carrera_Cabriolet_%288516320329%29.jpg?20150109081035</imagenChica>
           <imagen>https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Porsche_911_%28996%29_Carrera_Cabriolet_%288516320329%29.jpg/800px-Porsche_911_%28996%29_Carrera_Cabriolet_%288516320329%29.jpg?20150109081035</imagen>
           <enlace>https://www.altanave.uy/2024/10/porsche-911-carrera-4-convertible-de-2_24.html</enlace>
         </auto>
@@ -1136,7 +1077,6 @@
           <aceleracion>5,3</aceleracion>
           <tipo>Deportivo</tipo>
           <precio>120000</precio>
-          <imagenChica>https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/2008_Porsche_911_Turbo_Cabrio.jpg/800px-2008_Porsche_911_Turbo_Cabrio.jpg?20220617215909</imagenChica>
           <imagen>https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/2008_Porsche_911_Turbo_Cabrio.jpg/800px-2008_Porsche_911_Turbo_Cabrio.jpg?20220617215909</imagen>
           <enlace>https://www.altanave.uy/2024/10/porsche-911-carrera-4-convertible-de-2_41.html</enlace>
         </auto>
@@ -1152,7 +1092,6 @@
           <aceleracion>5,1</aceleracion>
           <tipo>Deportivo</tipo>
           <precio>136500</precio>
-          <imagenChica>https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/The_frontview_of_Porsche_991_Carrera_4S_Cabriolet.JPG/800px-The_frontview_of_Porsche_991_Carrera_4S_Cabriolet.JPG?20140719112723</imagenChica>
           <imagen>https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/The_frontview_of_Porsche_991_Carrera_4S_Cabriolet.JPG/800px-The_frontview_of_Porsche_991_Carrera_4S_Cabriolet.JPG?20140719112723</imagen>
           <enlace>https://www.altanave.uy/2024/10/porsche-911-carrera-4-cabriolet.html</enlace>
         </auto>
@@ -1166,7 +1105,6 @@
           <aceleracion>5,2</aceleracion>
           <tipo>Deportivo</tipo>
           <precio>110000</precio>
-          <imagenChica>https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Porsche_911_Targa_4S_%28991%29_%2826380557922%29.jpg/800px-Porsche_911_Targa_4S_%28991%29_%2826380557922%29.jpg?20170818013202</imagenChica>
           <imagen>https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Porsche_911_Targa_4S_%28991%29_%2826380557922%29.jpg/800px-Porsche_911_Targa_4S_%28991%29_%2826380557922%29.jpg?20170818013202</imagen>
           <enlace>https://www.altanave.uy/2024/10/porsche-911-targa-4-targa-2015.html</enlace>
         </auto>
@@ -1180,7 +1118,6 @@
           <aceleracion>4,9</aceleracion>
           <tipo>Deportivo</tipo>
           <precio>115000</precio>
-          <imagenChica>https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/2015_Porsche_911_Turbo_991.1_Coupe.jpg/800px-2015_Porsche_911_Turbo_991.1_Coupe.jpg?20220728081752</imagenChica>
           <imagen>https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/2015_Porsche_911_Turbo_991.1_Coupe.jpg/800px-2015_Porsche_911_Turbo_991.1_Coupe.jpg?20220728081752</imagen>
           <enlace>https://www.altanave.uy/2024/10/porsche-911-carrera-4-9911-coupe-de-2.html</enlace>
         </auto>
@@ -1194,7 +1131,6 @@
           <aceleracion>4,8</aceleracion>
           <tipo>Deportivo</tipo>
           <precio>120000</precio>
-          <imagenChica>https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/PORSCHE_911_%28991%29_CONVERTIBLE_China.jpg/800px-PORSCHE_911_%28991%29_CONVERTIBLE_China.jpg?20220907041132</imagenChica>
           <imagen>https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/PORSCHE_911_%28991%29_CONVERTIBLE_China.jpg/800px-PORSCHE_911_%28991%29_CONVERTIBLE_China.jpg?20220907041132</imagen>
           <enlace>https://www.altanave.uy/2024/10/porsche-911-carrera-9912-cabriolet.html</enlace>
         </auto>
@@ -1208,7 +1144,6 @@
           <aceleracion>4,5</aceleracion>
           <tipo>Deportivo</tipo>
           <precio>135000</precio>
-          <imagenChica>https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/2018_Porsche_911_%28991.2%29_Carrera_T.jpg/800px-2018_Porsche_911_%28991.2%29_Carrera_T.jpg?20220221163221</imagenChica>
           <imagen>https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/2018_Porsche_911_%28991.2%29_Carrera_T.jpg/800px-2018_Porsche_911_%28991.2%29_Carrera_T.jpg?20220221163221</imagen>
           <enlace>https://www.altanave.uy/2024/10/porsche-911-carrera-4-9912-coupe-de-2.html</enlace>
         </auto>
@@ -1222,7 +1157,6 @@
           <aceleracion>2,8</aceleracion>
           <tipo>Superauto</tipo>
           <precio>321000</precio>
-          <imagenChica>https://upload.wikimedia.org/wikipedia/commons/1/11/2018_Porsche_911_GT2_RS.jpg</imagenChica>
           <imagen>https://upload.wikimedia.org/wikipedia/commons/1/11/2018_Porsche_911_GT2_RS.jpg</imagen>
           <enlace>https://www.altanave.uy/2024/10/porsche-911-gt2-rs-coupe-de-2-puertas.html</enlace>
           <masimagenes>
