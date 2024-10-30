@@ -2,49 +2,45 @@ let currentIndex = 0;
 let images = []; // Asegúrate de que 'images' tenga las URLs cargadas
 
 // Configura el carrusel con imágenes desde el XML cargado
-function setupCarousel(imgUrls) {
-    const carousel = document.getElementById("carousel");
-    
-    // Verificar si el elemento del carrusel existe en el DOM
-    if (!carousel) {
-        console.error("El contenedor del carrusel no se encontró en el DOM.");
-        return;
-    }
+function setupCarousel(images) {
+    const carouselContainer = document.getElementById("carousel-images");
+    carouselContainer.innerHTML = ""; // Limpiar el contenedor
 
-    // Limpiar el contenedor antes de agregar nuevas imágenes
-    carousel.innerHTML = "";
-
-    imgUrls.forEach((img) => {
-        // Crear enlace que apunta a la versión grande
+    // Cargar imágenes en el carrusel
+    images.forEach((img) => {
         const link = document.createElement("a");
-        link.href = img.large; // Usa la URL grande para el enlace
-        link.target = "_blank"; // Abrir en una nueva pestaña al hacer clic
+        link.href = img.large;
+        link.target = "_blank";
 
-        // Crear imagen en miniatura para el carrusel
         const thumbImg = document.createElement("img");
-        thumbImg.src = img.thumb; // Usa la miniatura como imagen de previsualización
+        thumbImg.src = img.thumb;
         thumbImg.alt = "Car Thumbnail";
         thumbImg.classList.add("carousel-image");
 
-        // Verificar si thumbImg es un elemento HTML antes de añadir el evento
-        if (thumbImg instanceof HTMLElement) {
-            thumbImg.addEventListener("click", (event) => {
-                event.preventDefault(); // Evita redirigir al hacer clic en la miniatura
-                // Lógica adicional al hacer clic en la miniatura, si es necesario
-            });
-        }
-
-        // Añadir la miniatura al enlace y el enlace al contenedor del carrusel
         link.appendChild(thumbImg);
-        carousel.appendChild(link);
+        carouselContainer.appendChild(link);
     });
 
-    updateCarousel(); // Asegúrate de que esta función esté definida y actualice el carrusel.
+    let currentIndex = 0;
 
-    // Muestra la primera imagen solo si hay al menos una en el carrusel
-    if (carousel.children.length > 0) {
-        carousel.children[0].style.display = "block"; // Muestra la primera imagen
+    // Función para actualizar el desplazamiento del carrusel
+    function updateCarousel() {
+        carouselContainer.style.transform = `translateX(-${currentIndex * 100}%)`;
     }
+
+    // Botones de navegación
+    document.getElementById("nextBtn").addEventListener("click", () => {
+        currentIndex = (currentIndex + 1) % images.length;
+        updateCarousel();
+    });
+
+    document.getElementById("prevBtn").addEventListener("click", () => {
+        currentIndex = (currentIndex - 1 + images.length) % images.length;
+        updateCarousel();
+    });
+
+    // Mostrar la primera imagen
+    updateCarousel();
 }
 
 
