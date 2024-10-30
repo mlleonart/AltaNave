@@ -732,6 +732,23 @@
           </auto>
         </generacion>
     </modelo>
+        <modelo nombre="P1">
+        <generacion nombre="McLaren P1" añoInicio="2013" añoFin="2015">
+          <auto id="65">
+              <nombre>McLaren P1</nombre>
+                <año>2013</año>
+                <chasis>Coupé de 2 puertas</chasis>
+                <propulsion>Gasolina</propulsion>
+                <velocidad>350</velocidad>
+                <potencia>903</potencia>
+                <aceleracion>2,8</aceleracion>
+                <tipo>Superauto</tipo>
+                <precio>2500000</precio>
+                <imagen>https://upload.wikimedia.org/wikipedia/commons/0/03/2013_McLaren_P1_XP05.jpg</imagen>
+                <enlace>https://www.altanave.uy/2024/10/mclaren-p1-coupe-de-2-puertas-2013.html</enlace>
+          </auto>
+        </generacion>
+    </modelo>
     <modelo nombre="720S">
       <generacion nombre="McLaren 720S" añoInicio="2017" añoFin="2023">
         <auto id="10">
