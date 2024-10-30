@@ -4,12 +4,17 @@ let images = []; // Asegúrate de que 'images' tenga las URLs cargadas
 // Configura el carrusel con imágenes desde el XML cargado
 function setupCarousel(imgUrls) {
     const carousel = document.getElementById("carousel");
- 
+    
+    // Verificar si el elemento del carrusel existe en el DOM
+    if (!carousel) {
+        console.error("El contenedor del carrusel no se encontró en el DOM.");
+        return;
+    }
 
     // Limpiar el contenedor antes de agregar nuevas imágenes
     carousel.innerHTML = "";
 
-    images.forEach((img) => {
+    imgUrls.forEach((img) => {
         // Crear enlace que apunta a la versión grande
         const link = document.createElement("a");
         link.href = img.large; // Usa la URL grande para el enlace
@@ -21,7 +26,7 @@ function setupCarousel(imgUrls) {
         thumbImg.alt = "Car Thumbnail";
         thumbImg.classList.add("carousel-image");
 
-        // Verifica si thumbImg es un elemento HTML antes de añadir el evento
+        // Verificar si thumbImg es un elemento HTML antes de añadir el evento
         if (thumbImg instanceof HTMLElement) {
             thumbImg.addEventListener("click", (event) => {
                 event.preventDefault(); // Evita redirigir al hacer clic en la miniatura
@@ -32,17 +37,16 @@ function setupCarousel(imgUrls) {
         // Añadir la miniatura al enlace y el enlace al contenedor del carrusel
         link.appendChild(thumbImg);
         carousel.appendChild(link);
-
-
     });
 
     updateCarousel(); // Asegúrate de que esta función esté definida y actualice el carrusel.
 
-    // Muestra la primera imagen si hay alguna
-    if (imgUrls.length > 0) {
+    // Muestra la primera imagen solo si hay al menos una en el carrusel
+    if (carousel.children.length > 0) {
         carousel.children[0].style.display = "block"; // Muestra la primera imagen
     }
 }
+
 
 // Cambia al índice de la imagen deseada
 function updateCarousel() {
