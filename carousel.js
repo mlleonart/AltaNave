@@ -31,7 +31,7 @@ function setupCarousel(imgUrls) {
 
         // Añadir la miniatura al enlace y el enlace al contenedor del carrusel
         link.appendChild(thumbImg);
-        carouselContainer.appendChild(link);
+        carousel.appendChild(link);
 
 
 
