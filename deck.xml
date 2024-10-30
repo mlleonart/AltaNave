@@ -340,8 +340,8 @@
         <auto id="50">
           <nombre>Koenigsegg CCR</nombre>
           <año>2004</año>
-          <chasis>Coupé Targa| Gasolina</chasis>
-          <propulsion>undefined</propulsion>
+          <chasis>Coupé Targa</chasis>
+          <propulsion>Gasolina</propulsion>
           <velocidad>395</velocidad>
           <potencia>795</potencia>
           <aceleracion>3,2</aceleracion>
