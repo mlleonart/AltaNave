@@ -8,15 +8,21 @@ function setupCarousel(imgUrls) {
     images = imgUrls; // Guarda las imágenes en la variable global
 
     // Añade cada imagen al carrusel
-    imgUrls.forEach((url) => {
-        const link = document.createElement("a"); // Crear un enlace
-        link.href = url; // Apuntar al URL de la imagen
-        link.target = "_blank"; // Abrir en una nueva pestaña
+    imgUrls.forEach((img) => {
+        // Crear enlace que apunta a la versión grande
+        const link = document.createElement("a"); 
+        link.href = img.large; // Usa la URL grande para el enlace
+        link.target = "_blank"; // Abrir en una nueva pestaña al hacer clic
 
-        const img = document.createElement("img");
-        img.src = url;
-        img.alt = "Imagen del coche";
-        img.classList.add("carousel-image");
+        // Crear imagen en miniatura para el carrusel
+        const thumbImg = document.createElement("img");
+        thumbImg.src = img.thumb; // Usa la miniatura como imagen de previsualización
+        thumbImg.alt = "Imagen del coche"; // Descripción alternativa
+        thumbImg.style.maxWidth = "100px"; // Tamaño de miniatura
+        
+        link.appendChild(thumbImg);
+        carouselContainer.appendChild(link);
+        // img.classList.add("carousel-image");
 
         // Evitar que el evento de clic del enlace interrumpa el funcionamiento del carrusel
         img.addEventListener("click", (event) => {
