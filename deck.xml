@@ -153,8 +153,7 @@
           <aceleracion>4,6</aceleracion>
           <tipo>Deportivo</tipo>
           <precio>70000000</precio>
-          <imagen>
-                        https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/2021_Pebble_Tour_Ferrari_250_GTO_5573GT.jpg/1200px-2021_Pebble_Tour_Ferrari_250_GTO_5573GT.jpg?20210927164816</imagen>
+          <imagen>https://upload.wikimedia.org/wikipedia/commons/1/11/2021_Pebble_Tour_Ferrari_250_GTO_5573GT.jpg</imagen>
           <enlace>https://www.altanave.uy/2024/10/ferrari-250-gto-coupe-de-2-puertas-1964.html</enlace>
         </auto>
       </generacion>
