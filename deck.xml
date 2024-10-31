@@ -1011,8 +1011,7 @@
           <aceleracion>5,7</aceleracion>
           <tipo>Deportivo</tipo>
           <precio>140000</precio>
-          <imagen>
-                        https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Porsche_911_%28964%29_Carrera_2_Cabriolet_%287319386492%29.jpg/1200px-Porsche_911_%28964%29_Carrera_2_Cabriolet_%287319386492%29.jpg?20150109090230</imagen>
+          <imagen>https://upload.wikimedia.org/wikipedia/commons/d/d9/Porsche_911_%28964%29_Carrera_2_Cabriolet_%287319386492%29.jpg</imagen>
           <enlace>https://www.altanave.uy/2024/10/porsche-911-carrera-2-convertible-de-2.html</enlace>
         </auto>
       </generacion>
