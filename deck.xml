@@ -970,8 +970,7 @@
           <aceleracion>5,5</aceleracion>
           <tipo>Deportivo</tipo>
           <precio>120340</precio>
-          <imagen>
-                        https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/1975_Porsche_Homologation_930_Coupe_%2845687449482%29.jpg/800px-1975_Porsche_Homologation_930_Coupe_%2845687449482%29.jpg?20190903175330</imagen>
+          <imagen>https://upload.wikimedia.org/wikipedia/commons/7/76/1975_Porsche_Homologation_930_Coupe_%2845687449482%29.jpg</imagen>
           <enlace>https://www.altanave.uy/2024/10/porsche-911-turbo-coupe-de-2-puertas.html</enlace>
         </auto>
       </generacion>
