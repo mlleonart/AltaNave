@@ -198,8 +198,7 @@
           <aceleracion>2,85</aceleracion>
           <tipo>Superauto</tipo>
           <precio>2000000</precio>
-          <imagen>
-                        https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Ferrari_Daytona_SP3.jpg/800px-Ferrari_Daytona_SP3.jpg?20241016201739</imagen>
+          <imagen>https://upload.wikimedia.org/wikipedia/commons/6/6f/Ferrari_Daytona_SP3.jpg</imagen>
           <enlace>https://www.altanave.uy/2024/10/ferrari-daytona-sp3-coupe-de-2-puertas.html</enlace>
         </auto>
       </generacion>
