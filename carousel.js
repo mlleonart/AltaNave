@@ -17,7 +17,7 @@ function setupCarousel(images) {
 
         const thumbImg = document.createElement("img");
         thumbImg.src = img.thumb;
-        thumbImg.alt = "Car Thumbnail";
+        thumbImg.alt = img.alt;
         thumbImg.classList.add("carousel-image");
 
         link.appendChild(thumbImg);
