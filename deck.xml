@@ -985,8 +985,7 @@
           <aceleracion>5,7</aceleracion>
           <tipo>Deportivo</tipo>
           <precio>120000</precio>
-          <imagen>
-                        https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/1992_Porsche_911_Carrera_%28964%29.jpg/1200px-1992_Porsche_911_Carrera_%28964%29.jpg?20220726153307</imagen>
+          <imagen>https://upload.wikimedia.org/wikipedia/commons/e/eb/1992_Porsche_911_Carrera_%28964%29.jpg</imagen>
           <enlace>https://www.altanave.uy/2024/10/porsche-911-carrera-2-coupe-de-2.html</enlace>
         </auto>
         <auto id="12">
