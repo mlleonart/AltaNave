@@ -944,8 +944,7 @@
           <aceleracion>5,5</aceleracion>
           <tipo>Deportivo</tipo>
           <precio>225000</precio>
-          <imagen>
-                        https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/1989_Porsche_911_Turbo_Cabriolet_from_Britain_%2850675034823%29.jpg/800px-1989_Porsche_911_Turbo_Cabriolet_from_Britain_%2850675034823%29.jpg?20220207162954</imagen>
+          <imagen>https://upload.wikimedia.org/wikipedia/commons/6/62/1989_Porsche_911_Turbo_Cabriolet_from_Britain_%2850675034823%29.jpg</imagen>
           <enlace>https://www.altanave.uy/2024/10/porsche-911-turbo-convertible-de-2.html</enlace>
         </auto>
         <auto id="7">
