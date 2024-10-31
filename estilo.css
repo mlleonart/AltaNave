@@ -224,6 +224,7 @@ table.table2 {
 .carousel-image {
     min-width: 100%;
     height: auto;
+    max-height: 480px;
 }
 
 .carousel-button {
