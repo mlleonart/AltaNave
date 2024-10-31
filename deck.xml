@@ -998,8 +998,7 @@
           <aceleracion>5,7</aceleracion>
           <tipo>Deportivo</tipo>
           <precio>130000</precio>
-          <imagen>
-                        https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Porsche_911_Carrera_Targa_07-27-2019.jpg/1200px-Porsche_911_Carrera_Targa_07-27-2019.jpg?20190823171324</imagen>
+          <imagen>https://upload.wikimedia.org/wikipedia/commons/7/74/Porsche_911_Carrera_Targa_07-27-2019.jpg</imagen>
           <enlace>https://www.altanave.uy/2024/10/porsche-911-carrera-2-targa-1991.html</enlace>
         </auto>
         <auto id="13">
