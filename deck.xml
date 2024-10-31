@@ -1016,7 +1016,7 @@
           <aceleracion>5,5</aceleracion>
           <tipo>Deportivo</tipo>
           <precio>132000</precio>
-          <imagen>https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/1995_Porsche_911_%28993%29_Carrera_FOS21.jpg/1200px-1995_Porsche_911_%28993%29_Carrera_FOS21.jpg?20220803143739</imagen>
+          <imagen>https://upload.wikimedia.org/wikipedia/commons/f/f7/1995_Porsche_911_%28993%29_Carrera_FOS21.jpg</imagen>
           <enlace>https://www.altanave.uy/2024/10/porsche-911-carrera-4-coupe-coupe-de-2.html</enlace>
         </auto>
         <auto id="42">
@@ -1029,7 +1029,7 @@
           <aceleracion>5,3</aceleracion>
           <tipo>Deportivo</tipo>
           <precio>149000</precio>
-          <imagen>https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/1997_Porsche_911_Carrera_%28993%29_convertible_%282011-11-18%29_01.jpg/1200px-1997_Porsche_911_Carrera_%28993%29_convertible_%282011-11-18%29_01.jpg?20120527033333</imagen>
+          <imagen>https://upload.wikimedia.org/wikipedia/commons/0/07/1997_Porsche_911_Carrera_%28993%29_convertible_%282011-11-18%29_01.jpg</imagen>
           <enlace>https://www.altanave.uy/2024/10/porsche-911-carrera-4-convertible-de-2.html</enlace>
         </auto>
       </generacion>
@@ -1044,7 +1044,7 @@
           <aceleracion>5,2</aceleracion>
           <tipo>Deportivo</tipo>
           <precio>120000 </precio>
-          <imagen>https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Porsche_911_%28996%29_Carrera_Cabriolet_%288516320329%29.jpg/800px-Porsche_911_%28996%29_Carrera_Cabriolet_%288516320329%29.jpg?20150109081035</imagen>
+          <imagen>https://upload.wikimedia.org/wikipedia/commons/7/7c/Porsche_911_%28996%29_Carrera_Cabriolet_%288516320329%29.jpg</imagen>
           <enlace>https://www.altanave.uy/2024/10/porsche-911-carrera-4-convertible-de-2_24.html</enlace>
         </auto>
       </generacion>
@@ -1059,7 +1059,7 @@
           <aceleracion>5,3</aceleracion>
           <tipo>Deportivo</tipo>
           <precio>120000</precio>
-          <imagen>https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/2008_Porsche_911_Turbo_Cabrio.jpg/800px-2008_Porsche_911_Turbo_Cabrio.jpg?20220617215909</imagen>
+          <imagen>https://upload.wikimedia.org/wikipedia/commons/e/e2/2008_Porsche_911_Turbo_Cabrio.jpg</imagen>
           <enlace>https://www.altanave.uy/2024/10/porsche-911-carrera-4-convertible-de-2_41.html</enlace>
         </auto>
       </generacion>
@@ -1074,7 +1074,7 @@
           <aceleracion>5,1</aceleracion>
           <tipo>Deportivo</tipo>
           <precio>136500</precio>
-          <imagen>https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/The_frontview_of_Porsche_991_Carrera_4S_Cabriolet.JPG/800px-The_frontview_of_Porsche_991_Carrera_4S_Cabriolet.JPG?20140719112723</imagen>
+          <imagen>https://upload.wikimedia.org/wikipedia/commons/6/65/The_frontview_of_Porsche_991_Carrera_4S_Cabriolet.JPG</imagen>
           <enlace>https://www.altanave.uy/2024/10/porsche-911-carrera-4-cabriolet.html</enlace>
         </auto>
         <auto id="44">
@@ -1087,7 +1087,7 @@
           <aceleracion>5,2</aceleracion>
           <tipo>Deportivo</tipo>
           <precio>110000</precio>
-          <imagen>https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Porsche_911_Targa_4S_%28991%29_%2826380557922%29.jpg/800px-Porsche_911_Targa_4S_%28991%29_%2826380557922%29.jpg?20170818013202</imagen>
+          <imagen>https://upload.wikimedia.org/wikipedia/commons/8/89/Porsche_911_Targa_4S_%28991%29_%2826380557922%29.jpg</imagen>
           <enlace>https://www.altanave.uy/2024/10/porsche-911-targa-4-targa-2015.html</enlace>
         </auto>
         <auto id="45">
@@ -1100,7 +1100,7 @@
           <aceleracion>4,9</aceleracion>
           <tipo>Deportivo</tipo>
           <precio>115000</precio>
-          <imagen>https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/2015_Porsche_911_Turbo_991.1_Coupe.jpg/800px-2015_Porsche_911_Turbo_991.1_Coupe.jpg?20220728081752</imagen>
+          <imagen>https://upload.wikimedia.org/wikipedia/commons/7/7c/2015_Porsche_911_Turbo_991.1_Coupe.jpg</imagen>
           <enlace>https://www.altanave.uy/2024/10/porsche-911-carrera-4-9911-coupe-de-2.html</enlace>
         </auto>
         <auto id="46">
@@ -1113,7 +1113,7 @@
           <aceleracion>4,8</aceleracion>
           <tipo>Deportivo</tipo>
           <precio>120000</precio>
-          <imagen>https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/PORSCHE_911_%28991%29_CONVERTIBLE_China.jpg/800px-PORSCHE_911_%28991%29_CONVERTIBLE_China.jpg?20220907041132</imagen>
+          <imagen>https://upload.wikimedia.org/wikipedia/commons/1/1a/PORSCHE_911_%28991%29_CONVERTIBLE_China.jpg</imagen>
           <enlace>https://www.altanave.uy/2024/10/porsche-911-carrera-9912-cabriolet.html</enlace>
         </auto>
         <auto id="47">
@@ -1126,7 +1126,7 @@
           <aceleracion>4,5</aceleracion>
           <tipo>Deportivo</tipo>
           <precio>135000</precio>
-          <imagen>https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/2018_Porsche_911_%28991.2%29_Carrera_T.jpg/800px-2018_Porsche_911_%28991.2%29_Carrera_T.jpg?20220221163221</imagen>
+          <imagen>https://upload.wikimedia.org/wikipedia/commons/d/d5/2018_Porsche_911_%28991.2%29_Carrera_T.jpg</imagen>
           <enlace>https://www.altanave.uy/2024/10/porsche-911-carrera-4-9912-coupe-de-2.html</enlace>
         </auto>
         <auto id="48">
