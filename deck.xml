@@ -665,7 +665,7 @@
           <aceleracion>5,7</aceleracion>
           <tipo>Deportivo</tipo>
           <precio>59990</precio>
-          <imagen>https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Lynk_%26_Co_03_facelift_006.jpg/799px-Lynk_%26_Co_03_facelift_006.jpg?20231112153022</imagen>
+          <imagen><imagen>https://upload.wikimedia.org/wikipedia/commons/a/a8/Lynk_%26_Co_03_facelift_006.jpg</imagen></imagen>
           <enlace>https://www.altanave.uy/2024/10/lynk-co-03-sedan-4-puertas-2016.html</enlace>
         </auto>
         <auto id="32">
