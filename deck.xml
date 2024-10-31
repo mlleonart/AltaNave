@@ -288,7 +288,7 @@
           <aceleracion>3</aceleracion>
           <tipo>Deportivo</tipo>
           <precio>300000</precio>
-          <imagen>https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/2017_Ferrari_488.jpg/800px-2017_Ferrari_488.jpg?20241007200712</imagen>
+          <imagen>https://upload.wikimedia.org/wikipedia/commons/1/18/2017_Ferrari_488.jpg</imagen>
           <enlace>https://www.altanave.uy/2024/10/ferrari-488-gtb-coupe-de-2-puertas-2017.html</enlace>
         </auto>
         <auto id="26">
@@ -301,7 +301,7 @@
           <aceleracion>3</aceleracion>
           <tipo>Deportivo</tipo>
           <precio>250000</precio>
-          <imagen>https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Ferrari_488_Spider_7.jpg/800px-Ferrari_488_Spider_7.jpg?20241007200556</imagen>
+          <imagen>https://upload.wikimedia.org/wikipedia/commons/9/97/Ferrari_488_Spider_7.jpg</imagen>
           <enlace>https://www.altanave.uy/2024/10/ferrari-488-spider-convertible-de-2.html</enlace>
         </auto>
         <auto id="27">
