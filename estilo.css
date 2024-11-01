@@ -319,3 +319,8 @@ a[href="https://www.altanave.uy/p/rivales-juego-de-cartas-para-superar.html"]::a
     margin-left: 8px; /* Espacio entre el enlace y el emoji */
     vertical-align: top; /* Alineación vertical */
 }
+
+.comment-form .comment-form-title:after {
+    content: "Escribe aquí tu comentario sobre este auto"; /* Cambia el texto a lo que desees */
+    color: #777; /* Cambia el color si es necesario */
+}
