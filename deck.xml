@@ -436,6 +436,26 @@
           <imagen>https://upload.wikimedia.org/wikipedia/commons/9/9e/Koenigsegg_Agera_RSN_2_NDM.jpg</imagen>
           <enlace>https://www.altanave.uy/2024/10/koenigsegg-agera-r-coupe-targa-de-2.html</enlace>
         </auto>
+        <auto id="69">
+          <nombre>Koenigsegg Agera RS</nombre>
+          <año>2017</año>
+          <chasis>Coupé Targa de 2 puertas</chasis>
+          <propulsion>Gasolina</propulsion>
+          <velocidad>447</velocidad>
+          <potencia>1160</potencia>
+          <aceleracion>2,6</aceleracion>
+          <tipo>Superauto</tipo>
+          <precio>3000000</precio>
+          <imagen>https://upload.wikimedia.org/wikipedia/commons/2/2d/Agera_RS_Naraya.jpg</imagen>
+          <enlace>https://www.altanave.uy/2024/11/koenigsegg-agera-rs-coupe-targa-de-2.html</enlace>
+          <bloques>
+            <bloque>
+              <imagenurl>https://upload.wikimedia.org/wikipedia/commons/5/55/Geneva_Motor_Show_2015_Koenigsegg_Agera_RS_%2824225499210%29.jpg</imagenurl>
+              <titulo>Koenigsegg Agera velocidad maxima</titulo>
+              <texto>Con el Koenigsegg Agera RS, la marca estableció un nuevo récord mundial en el Libro Guinness al convertirse en el automóvil más veloz de su tiempo, logrando una impresionante velocidad de 447 km/h gracias a su motor V8 biturbo de 5.0 litros que produce 1.160 caballos de fuerza.</texto>
+            </bloque>
+          </bloques>
+        </auto>
       </generacion>
       <generacion nombre="Koenigsegg Agera One:1" añoInicio="2014" añoFin="2015">
         <auto id="53">
