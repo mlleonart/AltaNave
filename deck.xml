@@ -173,6 +173,13 @@
           <precio>86500 </precio>
           <imagen>https://upload.wikimedia.org/wikipedia/commons/6/63/DeLorean_DMC-12_%2815704582713%29.jpg</imagen>
           <enlace>https://www.altanave.uy/2024/10/de-lorean-dmc-12-coupe-de-2-puertas-1982.html</enlace>
+          <bloques>
+            <bloque>
+              <imagenurl>https://cdn.prod.website-files.com/6630f1b5bc0e572219015060/66313f12ec9a5c79337a2733_Delorean_Front%402x-min-p-2000.png</imagenurl>
+              <titulo>DMC Delorean 2024</titulo>
+              <texto>En un proyecto desvinculado de la auténtica DMC, Lynx Motors hará realidad un DeLorean más cercano al original con este DMC-EV que saldrá a la venta en 2025. Un deportivo totalmente eléctrico , inspirado en el diseño del clásico DMC DeLorean. </texto>
+            </bloque>
+          </bloques>
           <masimagenes>
             <extraimagenurl>https://upload.wikimedia.org/wikipedia/commons/d/da/1983_DeLorean_DMC-12%2C_front_right%2C_05-18-2024.jpg</extraimagenurl>
             <extraimagenurl>https://upload.wikimedia.org/wikipedia/commons/9/9c/1983_DeLorean_DMC-12%2C_rear_right%2C_05-18-2024.jpg</extraimagenurl>
