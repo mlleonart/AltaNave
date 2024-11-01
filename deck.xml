@@ -887,6 +887,11 @@ Parachoques hidráulicos, Ametralladoras delanteras, Escudo antibalas, Matrícul
               <titulo>Belleza Funcional</titulo>
               <texto>La impactante forma del 720S, inspirada en una lágrima, aprovecha la aerodinámica natural para maximizar el rendimiento y la eficiencia. Cada detalle combina belleza y funcionalidad para mejorar la experiencia de conducción y la comodidad.</texto>
             </bloque>
+            <bloque>
+              <imagenurl>https://upload.wikimedia.org/wikipedia/commons/a/af/Mclaren_720S_PA280973-PSD.jpg</imagenurl>
+              <titulo>Mclaren 720 rapido y furioso</titulo>
+              <texto>Este impresionante superdeportivo que se convirtió en el automóvil personal del personaje Deckard Shaw, interpretado por Jason Statham, en la exitosa franquicia "Rápido y Furioso". En la película "Hobbs &amp; Shaw", este vehículo simboliza la rapidez y el lujo, alineándose perfectamente con la personalidad audaz de Shaw. </texto>
+            </bloque>
           </bloques>
         </auto>
       </generacion>
