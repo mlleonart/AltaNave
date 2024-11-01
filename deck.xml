@@ -173,7 +173,28 @@
           <precio>86500 </precio>
           <imagen>https://upload.wikimedia.org/wikipedia/commons/6/63/DeLorean_DMC-12_%2815704582713%29.jpg</imagen>
           <enlace>https://www.altanave.uy/2024/10/de-lorean-dmc-12-coupe-de-2-puertas-1982.html</enlace>
-
+          <bloques>
+            <bloque>
+              <imagenurl>https://upload.wikimedia.org/wikipedia/commons/3/35/DeLorean_DMC-12_%289979%29.jpg</imagenurl>
+              <titulo>Delorean DMC-12</titulo>
+              <texto>El DMC DeLorean es conocido como el DeLorean, ya que este fue el único modelo que fabricó dicha compañía. DMC-12 es su designación interna de preproducción. Sin embargo, el nombre DMC-12 nunca se usó para ventas o marketing del modelo de producción.</texto>
+            </bloque>
+            <bloque>
+              <imagenurl>https://upload.wikimedia.org/wikipedia/commons/2/2c/Delorean_DMC-12_side.jpg</imagenurl>
+              <titulo>DMC-12 Delorean</titulo>
+              <texto>El prototipo fue conocido como «DSV-1».  Pero luego se conocio como DMC (DeLorean Motor Company) 12 . Ya que tenía como objetivo un precio de venta de $ 12.000 en el momento del lanzamiento.</texto>
+            </bloque>
+            <bloque>
+              <imagenurl>https://upload.wikimedia.org/wikipedia/commons/8/86/DeLorean_DMC-12_with_doors_open.jpg</imagenurl>
+              <titulo>Puertas alas de gaviota</titulo>
+              <texto>El DeLorean se caracteriza por su carrocería con puertas de ala de gaviota y paneles de acero inoxidable sin pintura.</texto>
+            </bloque>
+            <bloque>
+              <imagenurl>https://upload.wikimedia.org/wikipedia/commons/3/3e/1981_DMC_DeLorean_Time_Machine_%2853581570735%29.jpg</imagenurl>
+              <titulo>Delorean Back to the future</titulo>
+              <texto>“En mi opinión, si vas a construir una máquina del tiempo, ¿por qué no hacerlo con estilo?”. El DeLorean DMC-12, es el deportivo que eligió el Doc Brown para darle forma a su máquina del tiempo en Volver al Futuro. </texto>
+            </bloque>
+          </bloques>
           <masimagenes>
             <extraimagenurl>https://upload.wikimedia.org/wikipedia/commons/d/da/1983_DeLorean_DMC-12%2C_front_right%2C_05-18-2024.jpg</extraimagenurl>
             <extraimagenurl>https://upload.wikimedia.org/wikipedia/commons/9/9c/1983_DeLorean_DMC-12%2C_rear_right%2C_05-18-2024.jpg</extraimagenurl>
