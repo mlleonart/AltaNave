@@ -1,50 +1,63 @@
 /* Encapsular estilos para evitar conflictos */
 
+/*  dashboard */
 .car-brands-container {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr); /* Establece 4 columnas */
-    gap: 20px; /* Espaciado entre tarjetas */
-    max-width: 1200px;
-    margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 20px;
 }
 
 .car-brand {
-    background-color: white;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    padding: 15px;
-    text-align: center;
-    transition: box-shadow 0.3s ease;
-    height: 150px; /* Ajuste de altura consistente */
-    align-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 150px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  transition: transform 0.2s;
+  background-color: #f9f9f9;
 }
 
 .car-brand:hover {
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transform: scale(1.05);
 }
 
 .car-brand img {
-    width: 50px;
-    height: auto;
+  width: 80%;
+  max-width: 120px;
+  height: auto;
+  margin-bottom: 10px;
+  border-radius: 5px;
 }
 
 .car-brand h3 {
-    font-size: 18px;
-    margin: 10px 0;
-    color: #333;
+  font-size: 16px;
+  color: #333;
+  margin: 5px 0;
 }
 
 .country-flag img {
-    width: 20px;
-    height: auto;
+  width: 20px;
+  height: auto;
+  margin-top: 5px;
+  border-radius: 3px;
 }
 
-.car-brand .year {
-    display: block;
-    font-size: 14px;
-    color: #777;
+.year {
+  font-size: 14px;
+  color: #777;
 }
-/*  */
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/*  fichas */
 .card-container {
     display: flex;
     justify-content: center;
