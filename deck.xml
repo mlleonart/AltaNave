@@ -95,8 +95,8 @@ Parachoques hidráulicos, Ametralladoras delanteras, Escudo antibalas, Matrícul
         </auto>
       </generacion>
     </modelo>
-    <modelo nombre="V8 Vantage">
-      <generacion nombre="V8 Vantage 2024" añoInicio="2024" añoFin="2025">
+    <modelo nombre="Vantage">
+      <generacion nombre="Vantage 2024" añoInicio="2024" añoFin="2025">
         <auto id="73">
           <nombre>Aston Martin V8 Vantage</nombre>
           <año>2024</año>
