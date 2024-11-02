@@ -124,6 +124,10 @@ Parachoques hidráulicos, Ametralladoras delanteras, Escudo antibalas, Matrícul
           <precio>130000</precio>
           <imagen>https://upload.wikimedia.org/wikipedia/commons/1/15/2018_Aston_Martin_Vantage_V8_Auto_2.jpg</imagen>
           <enlace>https://www.altanave.uy/2024/11/aston-martin-v8-vantage-coupe-de-2_53.html</enlace>
+          <masimagenes>
+            <extraimagenurl>https://upload.wikimedia.org/wikipedia/commons/0/0c/Aston_Martin_V8_Vantage_Genf_2018.jpg</extraimagenurl>
+            <extraimagenurl>https://upload.wikimedia.org/wikipedia/commons/c/c5/2018_Aston_Martin_Vantage_V8_Auto_4.jpg</extraimagenurl>
+          </masimagenes>
         </auto>
       </generacion>
       <generacion nombre="Vantage 2024" añoInicio="2024" añoFin="2025">
