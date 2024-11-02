@@ -623,6 +623,13 @@ Parachoques hidráulicos, Ametralladoras delanteras, Escudo antibalas, Matrícul
           <precio>160000</precio>
           <imagen>https://upload.wikimedia.org/wikipedia/commons/4/40/12-10-25-autostadt-wolfsburg-by-RalfR-30.jpg</imagen>
           <enlace>https://www.altanave.uy/2024/10/lamborghini-350-gt-coupe-de-2-puertas_23.html</enlace>
+          <bloques>
+            <bloque>
+              <imagenurl/>
+              <titulo>Lamborghini 350 GT motor</titulo>
+              <texto>El Lamborghini 350 GT cuenta con un motor de gasolina de 3.5 litros, específicamente 3,464 cm³ (211.1 pulgadas cúbicas) de desplazamiento, capaz de producir un torque de 309 Nm. Equipado con una transmisión manual de 5 velocidades y tracción trasera, este modelo incorpora una relación de transmisión final opcional de 3.31 para mejorar el desempeño en carretera. Con un peso en vacío de 1,210 kg, el 350 GT combina potencia y ligereza, características que lo consolidan como un ícono de la ingeniería automotriz italiana de la época.</texto>
+            </bloque>
+          </bloques>
         </auto>
         <auto id="19">
           <nombre>Lamborghini 350 GT</nombre>
