@@ -96,6 +96,36 @@ Parachoques hidráulicos, Ametralladoras delanteras, Escudo antibalas, Matrícul
       </generacion>
     </modelo>
     <modelo nombre="Vantage">
+      <generacion nombre="Vantage 3era generacion" añoInicio="2005" añoFin="2018">
+        <auto id="74">
+          <nombre>Aston Martin V8 Vantage</nombre>
+          <año>2009</año>
+          <chasis>Coupé de 2 puertas</chasis>
+          <propulsion>Gasolina</propulsion>
+          <velocidad>290</velocidad>
+          <potencia>420</potencia>
+          <aceleracion>4,9</aceleracion>
+          <tipo>Deportivo</tipo>
+          <precio>60000</precio>
+          <imagen>https://upload.wikimedia.org/wikipedia/commons/e/eb/2009_Aston_Martin_Vantage_V8_2.jpg</imagen>
+          <enlace>https://www.altanave.uy/2024/11/aston-martin-v8-vantage-coupe-de-2_2.html</enlace>
+        </auto>
+      </generacion>
+      <generacion nombre="Vantage 2018" añoInicio="2018" añoFin="2023">
+        <auto id="75">
+          <nombre>Aston Martin V8 Vantage</nombre>
+          <año>2018</año>
+          <chasis>Coupé de 2 puertas</chasis>
+          <propulsion>Gasolina</propulsion>
+          <velocidad>314</velocidad>
+          <potencia>503</potencia>
+          <aceleracion>3,6</aceleracion>
+          <tipo>Deportivo</tipo>
+          <precio>130000</precio>
+          <imagen>https://upload.wikimedia.org/wikipedia/commons/1/15/2018_Aston_Martin_Vantage_V8_Auto_2.jpg</imagen>
+          <enlace>https://www.altanave.uy/2024/11/aston-martin-v8-vantage-coupe-de-2_53.html</enlace>
+        </auto>
+      </generacion>
       <generacion nombre="Vantage 2024" añoInicio="2024" añoFin="2025">
         <auto id="73">
           <nombre>Aston Martin V8 Vantage</nombre>
@@ -110,6 +140,11 @@ Parachoques hidráulicos, Ametralladoras delanteras, Escudo antibalas, Matrícul
           <imagen>https://upload.wikimedia.org/wikipedia/commons/8/81/2024_Aston_Martin_Vantage_V8_2.jpg</imagen>
           <enlace>https://www.altanave.uy/2024/11/aston-martin-v8-vantage-coupe-de-2.html</enlace>
           <bloques>
+            <bloque>
+              <imagenurl>https://upload.wikimedia.org/wikipedia/commons/6/6f/2024_Aston_Martin_Vantage_V8_F1_Safety_Car_5.jpg</imagenurl>
+              <titulo>Que auto es el Safety Car en la Fórmula 1 </titulo>
+              <texto>El Safety Car, o coche de seguridad, es un vehículo que entra a la pista para regular el ritmo de los autos de carrera cuando se presenta una situación de riesgo, como escombros, colisión o condiciones meteorológicas adversas. Su función es dar tiempo a los comisarios para restablecer la pista y garantizar la seguridad de los pilotos. Para la temporada 2024 es el Aston Martin Vantage.</texto>
+            </bloque>
             <bloque>
               <imagenurl>https://upload.wikimedia.org/wikipedia/commons/7/7e/2024_Aston_Martin_Vantage_V8_F1_Safety_Car.jpg</imagenurl>
               <titulo>Aston Martin Safety Car</titulo>
