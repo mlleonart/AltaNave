@@ -648,6 +648,11 @@ Parachoques hidráulicos, Ametralladoras delanteras, Escudo antibalas, Matrícul
           <precio>140000</precio>
           <imagen>https://upload.wikimedia.org/wikipedia/commons/6/6b/Lamborghini_350_GT_1964.jpg</imagen>
           <enlace>https://www.altanave.uy/2024/10/lamborghini-350-gt-coupe-de-2-puertas.html</enlace>
+          <masimagenes>
+            <extraimagenurl>https://upload.wikimedia.org/wikipedia/commons/0/05/Lamborghini_350-GT_Front-view.JPG</extraimagenurl>
+            <extraimagenurl>https://upload.wikimedia.org/wikipedia/commons/4/48/1965_Lamborghini_350_GT_Interior.jpg</extraimagenurl>
+            <extraimagenurl>https://upload.wikimedia.org/wikipedia/commons/3/3a/1965_Lamborghini_350_GT_HCC24.jpg</extraimagenurl>
+          </masimagenes>
         </auto>
       </generacion>
     </modelo>
