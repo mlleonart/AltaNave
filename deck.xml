@@ -733,6 +733,13 @@ Parachoques hidráulicos, Ametralladoras delanteras, Escudo antibalas, Matrícul
           <precio>80000</precio>
           <imagen>https://upload.wikimedia.org/wikipedia/commons/7/7a/1974_Lamborghini_Urraco_BS_O24.jpg</imagen>
           <enlace>https://www.altanave.uy/2024/11/lamborghini-urraco-coupe-de-2-puertas.html</enlace>
+          <bloques>
+            <bloque>
+              <imagenurl>https://upload.wikimedia.org/wikipedia/commons/0/05/Urraco_rallye_Bob_wallace.jpg</imagenurl>
+              <titulo>Lamborghini Urraco Rally</titulo>
+              <texto>El Urraco rallye se construyó a partir del tercer prototipo Urraco, cuyos faros delanteros estaban montados más arriba en los guardabarros delanteros que los derivados de producción posteriores. Wallace creó en líneas generales este Lamborghini experimental siguiendo el modelo de un coche de carreras GT del Grupo 4, pero nunca se utilizó en competición. Ferruccio Lamborghini era conocido por su oposición a que sus coches compitieran y se negó a aprobar ningún programa de deportes de motor.</texto>
+            </bloque>
+          </bloques>
         </auto>
       </generacion>
     </modelo>
