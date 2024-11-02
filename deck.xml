@@ -719,6 +719,23 @@ Parachoques hidráulicos, Ametralladoras delanteras, Escudo antibalas, Matrícul
         </auto>
       </generacion>
     </modelo>
+    <modelo nombre="Urraco">
+      <generacion nombre="Urraco" añoInicio="1972" añoFin="1979">
+        <auto id="76">
+          <nombre>Lamborghini Urraco</nombre>
+          <año>1974</año>
+          <chasis>Coupé de 2 puertas</chasis>
+          <propulsion>Gasolina</propulsion>
+          <velocidad>225</velocidad>
+          <potencia>180</potencia>
+          <aceleracion>8,5</aceleracion>
+          <tipo>Deportivo</tipo>
+          <precio>80000</precio>
+          <imagen>https://upload.wikimedia.org/wikipedia/commons/7/7a/1974_Lamborghini_Urraco_BS_O24.jpg</imagen>
+          <enlace>https://www.altanave.uy/2024/11/lamborghini-urraco-coupe-de-2-puertas.html</enlace>
+        </auto>
+      </generacion>
+    </modelo>
     <modelo nombre="Miura ">
       <generacion nombre="Lamborghini Miura" añoInicio="1966" añoFin="1972">
         <auto id="60">
