@@ -625,9 +625,14 @@ Parachoques hidráulicos, Ametralladoras delanteras, Escudo antibalas, Matrícul
           <enlace>https://www.altanave.uy/2024/10/lamborghini-350-gt-coupe-de-2-puertas_23.html</enlace>
           <bloques>
             <bloque>
-              <imagenurl/>
+              <imagenurl>https://upload.wikimedia.org/wikipedia/commons/6/67/R%C3%A9tromobile_2017_-_Lamborghini_350_GT_coup%C3%A9_touring_-_1964_-_001.jpg</imagenurl>
               <titulo>Lamborghini 350 GT motor</titulo>
-              <texto>El Lamborghini 350 GT cuenta con un motor de gasolina de 3.5 litros, específicamente 3,464 cm³ (211.1 pulgadas cúbicas) de desplazamiento, capaz de producir un torque de 309 Nm. Equipado con una transmisión manual de 5 velocidades y tracción trasera, este modelo incorpora una relación de transmisión final opcional de 3.31 para mejorar el desempeño en carretera. Con un peso en vacío de 1,210 kg, el 350 GT combina potencia y ligereza, características que lo consolidan como un ícono de la ingeniería automotriz italiana de la época.</texto>
+              <texto>El Lamborghini 350 GT cuenta con un motor de gasolina V12 de 3.5 litros, específicamente 3,464 cm³ (211.1 pulgadas cúbicas) de desplazamiento, capaz de producir un torque de 309 Nm. Equipado con una transmisión manual de 5 velocidades y tracción trasera, este modelo incorpora una relación de transmisión final opcional de 3.31 para mejorar el desempeño en carretera. Con un peso en vacío de 1,210 kg, el 350 GT combina potencia y ligereza, características que lo consolidan como un ícono de la ingeniería automotriz italiana de la época.</texto>
+            </bloque>
+            <bloque>
+              <imagenurl>https://upload.wikimedia.org/wikipedia/commons/0/08/R%C3%A9tromobile_2017_-_Lamborghini_350_GT_coup%C3%A9_touring_-_1964_-_004.jpg</imagenurl>
+              <titulo>Lamborghini 350 GT vs Ferrari</titulo>
+              <texto>El Lamborghini 350 GT de 1964 debe su nombre (Gran Turismo) a su potente motor, equipado con levas cuádruples, un avance técnico notable en la época. Este modelo presenta una suspensión trasera independiente, lo que lo distingue de competidores como Ferrari, que aún utilizaban ejes rígidos traseros en sus vehículos. Su carrocería semi-fastback en configuración 2+1 ha sido objeto de controversia en cuanto a diseño, pero agrega un toque distintivo y exclusivo al perfil elegante y aerodinámico del 350 GT.</texto>
             </bloque>
           </bloques>
         </auto>
