@@ -1464,6 +1464,26 @@ Parachoques hidráulicos, Ametralladoras delanteras, Escudo antibalas, Matrícul
           <precio>60000</precio>
           <imagen>https://upload.wikimedia.org/wikipedia/commons/7/7e/Xiaomi_SU7_Max_007.jpg</imagen>
           <enlace>https://www.altanave.uy/2024/11/xiaomi-su7-max-sedan-4-puertas-2025.html</enlace>
+          <bloques>
+            <bloque>
+              <imagenurl>https://commons.wikimedia.org/wiki/File:20241007_Xiaomi_SU7_Max.jpg</imagenurl>
+              <titulo>Xiaomi SU7 vs Tesla</titulo>
+              <texto>El Xiaomi SU7 apunta directamente a Tesla presumiendo de autonomía y conducción autónoma.
+Prometen mayor autonomía que los Tesla Model S Plaid.
+Con una batería de hasta 150 kWh fabricada por CATL Prometen llegar a los 1.000 km (Sin confirmar) </texto>
+            </bloque>
+            <bloque>
+              <imagenurl>https://commons.wikimedia.org/wiki/File:Xiaomi_SU7_Max_006.jpg</imagenurl>
+              <titulo>Xiaomi SU7 vs Taycan</titulo>
+              <texto>El Xiaomi SU7: el coche eléctrico tambien va contra Porsche presumiendo de rendimiento.
+Afirman tener en marcha motores de mayor rendimiento que los Porsche Taycan.</texto>
+            </bloque>
+            <bloque>
+              <imagenurl>https://upload.wikimedia.org/wikipedia/commons/6/6f/Interior_of_of_Xiaomi_SU7_Max-20240413.jpg</imagenurl>
+              <titulo>Xiaomi SU7 Tecnología</titulo>
+              <texto>Cero emisiones. Sistema de conducción completamente autónoma, incluido la búsqueda de estacionamiento. Sistema operativo HyperOS, compatible con Apple mediante AirPlay. Pantalla central de 16,1 pulgadas con resolución 3k. Pequeña pantalla rotativa para el cuadro de instrumento y Head-Up de 56 pulgadas. Dos tablets para los asientos traseros. Compatibilidad total con cualquier aparato Xiaomi e integración con el teléfono móvil Xiaomi con HyperOS</texto>
+            </bloque>
+          </bloques>
         </auto>
       </generacion>
     </modelo>
