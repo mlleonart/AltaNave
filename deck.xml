@@ -1436,4 +1436,36 @@ Parachoques hidráulicos, Ametralladoras delanteras, Escudo antibalas, Matrícul
       </generacion>
     </modelo>
   </marca>
+  <marca nombre=" Xiaomi">
+    <modelo nombre="SU7">
+      <generacion nombre="SU7" añoInicio="2025" añoFin="2025">
+        <auto id="77">
+          <nombre>Xiaomi SU7</nombre>
+          <año>2025</año>
+          <chasis>Sedan 4 puertas</chasis>
+          <propulsion>Eléctrico</propulsion>
+          <velocidad>210</velocidad>
+          <potencia>295</potencia>
+          <aceleracion>5,3</aceleracion>
+          <tipo>Prototipo</tipo>
+          <precio>40000</precio>
+          <imagen>https://upload.wikimedia.org/wikipedia/commons/7/77/Xiaomi_SU7_001.jpg</imagen>
+          <enlace>https://www.altanave.uy/2024/11/xiaomi-su7-sedan-4-puertas-2025.html</enlace>
+        </auto>
+        <auto id="78">
+          <nombre>Xiaomi SU7 Max</nombre>
+          <año>2025</año>
+          <chasis>Sedan 4 puertas</chasis>
+          <propulsion>Eléctrico</propulsion>
+          <velocidad>265</velocidad>
+          <potencia>664</potencia>
+          <aceleracion>2,78</aceleracion>
+          <tipo>Prototipo</tipo>
+          <precio>60000</precio>
+          <imagen>https://upload.wikimedia.org/wikipedia/commons/7/7e/Xiaomi_SU7_Max_007.jpg</imagen>
+          <enlace>https://www.altanave.uy/2024/11/xiaomi-su7-max-sedan-4-puertas-2025.html</enlace>
+        </auto>
+      </generacion>
+    </modelo>
+  </marca>
 </deck>
