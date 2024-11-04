@@ -420,6 +420,21 @@ Parachoques hidráulicos, Ametralladoras delanteras, Escudo antibalas, Matrícul
           <precio>500000</precio>
           <imagen>https://upload.wikimedia.org/wikipedia/commons/e/ee/2021_Ferrari_SF90.jpg</imagen>
           <enlace>https://www.altanave.uy/2024/10/ferrari-sf90-stradale-coupe-de-2.html</enlace>
+          <bloques>
+            <bloque>
+              <imagenurl>https://upload.wikimedia.org/wikipedia/commons/4/45/Ferrari_SF90%2C_BAS_24%2C_Brussels_%28P1170486-RR%29.jpg</imagenurl>
+              <titulo>Ferrari Hybrid</titulo>
+              <texto>Es el primer automóvil superdeportivo híbrido eléctrico enchufable producido por el fabricante italiano Ferrari </texto>
+            </bloque>
+            <bloque>
+              <imagenurl>https://upload.wikimedia.org/wikipedia/commons/a/aa/Ferrari_SF90%2C_BAS_24%2C_Brussels_%28P1170502-RR%29.jpg</imagenurl>
+              <titulo>Ferrari SF90 Hybrid</titulo>
+              <texto>En el modo E-Drive, el coche utiliza solo sus motores eléctricos para un desplazamiento totalmente eléctrico. 
+En el modo híbrido (predeterminado), se combinan el motor de gasolina y los motores eléctricos;  que, gracias a un sistema de control, apaga el motor de gasolina para ahorrar combustible, reactivándolo cuando el conductor lo necesita. 
+El modo Performance mantiene el motor encendido para recargar la batería y mejorar la respuesta del vehículo, optimizando el rendimiento. 
+Finalmente, el modo Quality aprovecha al máximo la potencia del sistema motriz para un desempeño superior.</texto>
+            </bloque>
+          </bloques>
         </auto>
         <auto id="21">
           <nombre>Ferrari SF90 Spider</nombre>
