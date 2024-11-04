@@ -449,19 +449,31 @@ Finalmente, el modo Quality aprovecha al máximo la potencia del sistema motriz 
           <imagen>https://upload.wikimedia.org/wikipedia/commons/7/75/2024_Ferrari_SF90_XX_Spider_2.jpg</imagen>
           <enlace>https://www.altanave.uy/2024/10/ferrari-sf90-spider-techo-rigido-de-2.html</enlace>
         </auto>
-          <auto id="79">
-              <nombre>Ferrari SF90 Stradale Assetto Fiorano</nombre>
-                <año>2024</año>
-                <chasis>Coupé de 2 puertas </chasis>
-                <propulsion>Híbrido</propulsion>
-                <velocidad>340</velocidad>
-                <potencia>986</potencia>
-                <aceleracion>2,5</aceleracion>
-                <tipo>Superauto</tipo>
-                <precio>625000</precio>
-                <imagen>https://upload.wikimedia.org/wikipedia/commons/1/1e/Ferrari_SF90_Stradale.jpg</imagen>
-                <enlace>https://www.altanave.uy/2024/11/ferrari-sf90-stradale-assetto-fiorano.html</enlace>
-          </auto>     
+        <auto id="79">
+          <nombre>Ferrari SF90 Stradale Assetto Fiorano</nombre>
+          <año>2024</año>
+          <chasis>Coupé de 2 puertas </chasis>
+          <propulsion>Híbrido</propulsion>
+          <velocidad>340</velocidad>
+          <potencia>986</potencia>
+          <aceleracion>2,5</aceleracion>
+          <tipo>Superauto</tipo>
+          <precio>625000</precio>
+          <imagen>https://upload.wikimedia.org/wikipedia/commons/1/1e/Ferrari_SF90_Stradale.jpg</imagen>
+          <enlace>https://www.altanave.uy/2024/11/ferrari-sf90-stradale-assetto-fiorano.html</enlace>
+          <bloques>
+            <bloque>
+              <imagenurl>https://upload.wikimedia.org/wikipedia/commons/1/14/Ferrari_SF90_Stradale_Assetto_Fiorano_front.png</imagenurl>
+              <titulo>Ferrari SF90 Assetto Fiorano</titulo>
+              <texto>Peso reducido gracias a la inclusión de piezas de fibra de carbono y titanio, lo que le otorga un margen adicional en su agilidad y capacidad de frenado.</texto>
+            </bloque>
+            <bloque>
+              <imagenurl>https://upload.wikimedia.org/wikipedia/commons/7/7b/2021_Ferrari_SF90_Assetto_Fiorano_2.jpg</imagenurl>
+              <titulo>Ferrari SF90 af</titulo>
+              <texto>Suspensión mejorada y un alerón trasero para maximizar el rendimiento en pista.</texto>
+            </bloque>
+          </bloques>
+        </auto>
       </generacion>
     </modelo>
     <modelo nombre="458">
