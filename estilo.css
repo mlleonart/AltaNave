@@ -217,10 +217,12 @@ table.table2 {
 /* Carrusel */
 
 .carousel {
-    position: relative;
-    width: 100%;
-    max-width: 640px;
+
+   position: relative;
+    max-width: 640px; /* Ancho máximo */
+    margin: auto;
     overflow: hidden;
+
 }
 
 .carousel-images-container {
