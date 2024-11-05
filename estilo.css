@@ -217,51 +217,51 @@ table.table2 {
 /* Carrusel */
 
 .carousel {
-
-   position: relative;
+    position: relative;
     max-width: 640px; /* Ancho máximo */
     margin: auto;
-    overflow: hidden;
-
+    overflow: hidden; /* Ocultar contenido que se desborda */
 }
 
 .carousel-images-container {
     display: flex;
-    transition: transform 0.5s ease;
+    transition: transform 0.5s ease; /* Transición suave al cambiar de imagen */
 }
 
 .carousel-slide {
-    min-width: 100%;
-    justify-content: center;
+    min-width: 100%; /* Cada slide ocupa el 100% del contenedor */
 }
 
 .carousel-image {
-    min-width: 100%;
-    height: auto;
-    max-height: 480px;
+    width: 100%; /* Las imágenes llenan el espacio del slide */
+    display: block; /* Elimina el espacio adicional debajo de las imágenes */
 }
 
 .carousel-button {
- 
-      position: absolute;
+    position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo semitransparente para visibilidad */
     border: none;
     font-size: 24px;
     cursor: pointer;
-        z-index: 1; /* Asegura que el botón esté por encima de otros elementos */
+    z-index: 10; /* Asegura que el botón esté por encima de otros elementos */
+    padding: 10px; /* Espaciado alrededor del botón */
 }
 
 #prevBtn {
-    left: 0;
+    left: 10px; /* Posición izquierda */
 }
 
 #nextBtn {
-    right: 0;
+    right: 10px; /* Posición derecha */
 }
 
-
+/* Estilos adicionales opcionales para mejorar la visibilidad de los botones */
+.carousel-button:hover {
+    background-color: rgba(255, 255, 255, 1); /* Fondo más opaco al pasar el mouse */
+    transition: background-color 0.3s ease; /* Transición suave en hover */
+}
 
 /* Lista Generaciones */
 .lista-item {
