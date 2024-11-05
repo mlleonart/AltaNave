@@ -1572,7 +1572,7 @@ Afirman tener en marcha motores de mayor rendimiento que los Porsche Taycan.</te
     <url>https://www.altanave.uy/2024/11/de-tomaso.html</url>
     <modelo nombre="Pantera">
       <generacion nombre="De Tomaso Pantera" añoInicio="1970" añoFin="1991">
-        <auto id="1730807805770">
+        <auto id="80">
           <nombre>De Tomaso Pantera</nombre>
           <año>1970</año>
           <chasis>Coupé de 2 puertas</chasis>
@@ -1584,6 +1584,23 @@ Afirman tener en marcha motores de mayor rendimiento que los Porsche Taycan.</te
           <precio>100000</precio>
           <imagen>https://upload.wikimedia.org/wikipedia/commons/f/f0/Detomaso_pantera_front.jpg</imagen>
           <enlace>https://www.altanave.uy/2024/11/de-tomaso-pantera-coupe-de-2-puertas.html</enlace>
+          <bloques>
+            <bloque>
+              <imagenurl>https://upload.wikimedia.org/wikipedia/commons/2/2d/1973_De_Tomaso_Pantera_HCC24.jpg</imagenurl>
+              <titulo>De Tomaso Pantera vs Chevrolet Corvette</titulo>
+              <texto>En 1969, Ford Motor Company buscaba un aliado en el mercado de deportivos italianos para fortalecer su oferta en Estados Unidos. Tras el rechazo de Enzo Ferrari, la marca De Tomaso encontró en Ford el socio ideal. La colaboración comenzó cuando Alejandro de Tomaso presentó a los inversores estadounidenses el prototipo del Pantera, creando así un rival directo para el Chevrolet Corvette de General Motors.</texto>
+            </bloque>
+            <bloque>
+              <imagenurl>https://upload.wikimedia.org/wikipedia/commons/4/4e/1973_De_Tomaso_Pantera_HCC24_Rear.jpg</imagenurl>
+              <titulo>Alejandro de Tomaso</titulo>
+              <texto>El Pantera surgió como un vehículo deportivo accesible y potente, destinado a rivalizar con los grandes de su época. Con un precio inicial de US$10,000 (equivalente a $74,000 en 2024), el Pantera ofrecía una alternativa de alta gama a un costo razonable. La colaboración entre Ford y el italo-argentino Alejandro De Tomaso fue clave para llevar este modelo al mercado estadounidense. Equipado con motores V8 suministrados por Ford, el Pantera no solo capturó la atención de los entusiastas de los coches deportivos, sino que también fortaleció la imagen de Ford en el mercado de alto rendimiento.</texto>
+            </bloque>
+            <bloque>
+              <imagenurl>https://upload.wikimedia.org/wikipedia/commons/5/55/De_Tomaso_Pantera_%282014-06-15_Oldt_AC_M_-_Sp_re.%29.JPG</imagenurl>
+              <titulo>Deportivo Clásico de los Años 70</titulo>
+              <texto>El modelo Pantera, lanzado gracias al respaldo de Ford Motor Company, es un clásico que destaca en la historia de los deportivos. Este deportivo de fabricación italiana, con un precio competitivo y motores V8, fue muy popular por su bajo costo de mantenimieto.</texto>
+            </bloque>
+          </bloques>
           <masimagenes>
             <extraimagenurl>https://upload.wikimedia.org/wikipedia/commons/5/55/Detomaso_pantera_heck.jpg</extraimagenurl>
             <extraimagenurl>https://upload.wikimedia.org/wikipedia/commons/7/7a/Detomaso_pantera_seite.jpg</extraimagenurl>
