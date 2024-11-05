@@ -1,27 +1,34 @@
-document.addEventListener('DOMContentLoaded', () => {
-    let currentSlide = 0; // Índice de la imagen actual
-    const slides = document.querySelectorAll('.carousel-slide'); // Todos los slides
-    const totalSlides = slides.length; // Número total de slides
+document.addEventListener("DOMContentLoaded", function() {
+    const slides = document.querySelectorAll(".carousel-slide");
+    const prevBtn = document.getElementById("prevBtn");
+    const nextBtn = document.getElementById("nextBtn");
+    const imagesContainer = document.getElementById("carousel-images");
+    
+    let currentSlide = 0;
 
-    // Función para mostrar el slide actual
-    function showSlide(index) {
-        const carouselImages = document.getElementById('carousel-images');
-        // Ajusta el índice si está fuera de rango
-        if (index >= totalSlides) {
-            currentSlide = 0; // Volver al primer slide
-        } else if (index < 0) {
-            currentSlide = totalSlides - 1; // Ir al último slide
-        } else {
-            currentSlide = index; // Cambiar al slide específico
-        }
-        // Mueve el contenedor de imágenes
-        carouselImages.style.transform = `translateX(-${currentSlide * 100}%)`;
+    function updateCarousel() {
+        const totalSlides = slides.length;
+        const offset = -currentSlide * 100; // Calcular el desplazamiento
+        imagesContainer.style.transform = `translateX(${offset}%)`;
+        
+        // Mantener los botones habilitados según el índice actual
+        prevBtn.style.display = currentSlide === 0 ? "none" : "block";
+        nextBtn.style.display = currentSlide === totalSlides - 1 ? "none" : "block";
     }
 
-    // Agregar eventos a los botones
-    document.getElementById('prevBtn').addEventListener('click', () => showSlide(currentSlide - 1));
-    document.getElementById('nextBtn').addEventListener('click', () => showSlide(currentSlide + 1));
+    prevBtn.addEventListener("click", () => {
+        if (currentSlide > 0) {
+            currentSlide--;
+            updateCarousel();
+        }
+    });
 
-    // Iniciar mostrando el primer slide
-    showSlide(currentSlide);
+    nextBtn.addEventListener("click", () => {
+        if (currentSlide < slides.length - 1) {
+            currentSlide++;
+            updateCarousel();
+        }
+    });
+
+    updateCarousel(); // Llamar a la función al cargar para configurar la vista inicial
 });
