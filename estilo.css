@@ -1,5 +1,8 @@
 /* Encapsular estilos para evitar conflictos */
-
+.callout {
+    gap: 1px;
+    padding: 10px;
+}
 /*  dashboard */
 .car-brands-container {
   display: flex;
