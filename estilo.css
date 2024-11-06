@@ -333,3 +333,74 @@ a[href="https://www.altanave.uy/p/rivales-juego-de-cartas-para-superar.html"]::a
     margin-left: 8px; /* Espacio entre el enlace y el emoji */
     vertical-align: top; /* Alineación vertical */
 }
+
+	/* Lista Modelos*/
+    .lista-autos-container {
+    	font-family: Arial, sans-serif;
+        padding: 20px;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    .lista-autos {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    .lista-autos li {
+        background-color: #fff;
+        margin: 10px 0;
+        padding: 15px;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        transition: transform 0.2s, box-shadow 0.2s;
+    }
+
+    .lista-autos li:hover {
+        transform: scale(1.02);
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    }
+
+    .lista-autos li a {
+        text-decoration: none;
+        color: #333;
+        display: flex;
+        align-items: center;
+    }
+
+    .lista-autos li img {
+        width: 80px;
+        height: 50px;
+        margin-right: 15px;
+        border-radius: 5px;
+        object-fit: cover;
+    }
+
+    .lista-autos li h3 {
+        margin: 0;
+        font-size: 18px;
+        color: #333;
+    }
+
+    .lista-autos li p {
+        margin: 5px 0 0;
+        font-size: 14px;
+        color: #666;
+    }
+  
+.parrafo { 
+  text-align: justify;
+  border: 3px solid;
+  border-image: linear-gradient(45deg, #d3d3d3, #808080) 1;
+  margin: 10px 0;
+  padding: 15px;
+  border-radius: 15px; /* Bordes redondeados */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+h2.info::after { 
+    content: 'entra para más info \2192'; /* Flecha como emoji */
+    font-family: 'Segoe UI Emoji'; /* Fuente solo para el emoji */
+    margin-left: 5px; /* Espacio entre el texto y el emoji */
+    color: #0056b3; /* Color del emoji */
+    font-size: 0.6em;   /* Ajusta el tamaño */
+}
