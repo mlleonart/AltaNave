@@ -1,4 +1,9 @@
 /* Encapsular estilos para evitar conflictos */
+.callout-content
+{
+		color: whitesmoke;
+    text-shadow: 2px 2px 4px black;
+}
 .callout {
     gap: 1px;
     padding: 10px;
