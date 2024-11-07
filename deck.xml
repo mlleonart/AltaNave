@@ -280,56 +280,20 @@ El Challenge Stradale puede ser hasta 110 kg (240 lb) más liviano que el Modena
     </modelo>
     <modelo nombre="SF90">
       <generacion nombre="SF90" añoInicio="2021" añoFin="2025">
-        <auto id="20"><nombre>Ferrari SF90 Stradale</nombre><año>2021</año><chasis>Coupe 2 puertas</chasis><propulsion>Híbrido</propulsion><velocidad>340</velocidad><potencia>986</potencia><aceleracion>2,5</aceleracion><tipo>Deportivo</tipo><precio>500000</precio><imagen>https://upload.wikimedia.org/wikipedia/commons/e/ee/2021_Ferrari_SF90.jpg</imagen><enlace>https://www.altanave.uy/2024/11/ferrari-sf90-stradale-2021-coupe.html</enlace><bloques><bloque><imagenurl>https://upload.wikimedia.org/wikipedia/commons/4/45/Ferrari_SF90%2C_BAS_24%2C_Brussels_%28P1170486-RR%29.jpg</imagenurl><titulo>Ferrari Hybrid</titulo><texto>Es el primer automóvil superdeportivo híbrido eléctrico enchufable producido por el fabricante italiano Ferrari </texto></bloque><bloque><imagenurl>https://upload.wikimedia.org/wikipedia/commons/a/aa/Ferrari_SF90%2C_BAS_24%2C_Brussels_%28P1170502-RR%29.jpg</imagenurl><titulo>Ferrari SF90 Hybrid</titulo><texto>En el modo E-Drive, el coche utiliza solo sus motores eléctricos para un desplazamiento totalmente eléctrico. 
+        <auto id="20" terminado="true"><nombre>Ferrari SF90 Stradale</nombre><año>2021</año><chasis>Coupe 2 puertas</chasis><propulsion>Híbrido</propulsion><velocidad>340</velocidad><potencia>986</potencia><aceleracion>2,5</aceleracion><tipo>Deportivo</tipo><precio>500000</precio><imagen>https://upload.wikimedia.org/wikipedia/commons/e/ee/2021_Ferrari_SF90.jpg</imagen><enlace>https://www.altanave.uy/2024/11/ferrari-sf90-stradale-2021-coupe.html</enlace><bloques><bloque><imagenurl>https://upload.wikimedia.org/wikipedia/commons/4/45/Ferrari_SF90%2C_BAS_24%2C_Brussels_%28P1170486-RR%29.jpg</imagenurl><titulo>Ferrari Hybrid</titulo><texto>Es el primer automóvil superdeportivo híbrido eléctrico enchufable producido por el fabricante italiano Ferrari </texto></bloque><bloque><imagenurl>https://upload.wikimedia.org/wikipedia/commons/a/aa/Ferrari_SF90%2C_BAS_24%2C_Brussels_%28P1170502-RR%29.jpg</imagenurl><titulo>Ferrari SF90 Hybrid</titulo><texto>En el modo E-Drive, el coche utiliza solo sus motores eléctricos para un desplazamiento totalmente eléctrico. 
 En el modo híbrido (predeterminado), se combinan el motor de gasolina y los motores eléctricos;  que, gracias a un sistema de control, apaga el motor de gasolina para ahorrar combustible, reactivándolo cuando el conductor lo necesita. 
 El modo Performance mantiene el motor encendido para recargar la batería y mejorar la respuesta del vehículo, optimizando el rendimiento. 
 Finalmente, el modo Quality aprovecha al máximo la potencia del sistema motriz para un desempeño superior.</texto></bloque></bloques></auto>
-        <auto id="21"><nombre>Ferrari SF90 Spider</nombre><año>2023</año><chasis>Convertible 2 puertas</chasis><propulsion>Híbrido</propulsion><velocidad>340</velocidad><potencia>986</potencia><aceleracion>2,5</aceleracion><tipo>Deportivo</tipo><precio>500000</precio><imagen>https://upload.wikimedia.org/wikipedia/commons/2/24/Ferrari_reims_1200871.jpg</imagen><enlace>https://www.altanave.uy/2024/11/ferrari-sf90-spider-2023-convertible.html</enlace><bloques><bloque><imagenurl>https://upload.wikimedia.org/wikipedia/commons/f/f4/Ferrari_SF90_Spider_IMG_9568.jpg</imagenurl><titulo>Ferrari SF90 Descapotable</titulo><texto>El techo se abre y se cierra en 14 segundos, incluso con el vehículo en marcha.
+        <auto id="21" terminado="true"><nombre>Ferrari SF90 Spider</nombre><año>2023</año><chasis>Convertible 2 puertas</chasis><propulsion>Híbrido</propulsion><velocidad>340</velocidad><potencia>986</potencia><aceleracion>2,5</aceleracion><tipo>Deportivo</tipo><precio>500000</precio><imagen>https://upload.wikimedia.org/wikipedia/commons/2/24/Ferrari_reims_1200871.jpg</imagen><enlace>https://www.altanave.uy/2024/11/ferrari-sf90-spider-2023-convertible.html</enlace><bloques><bloque><imagenurl>https://upload.wikimedia.org/wikipedia/commons/f/f4/Ferrari_SF90_Spider_IMG_9568.jpg</imagenurl><titulo>Ferrari SF90 Descapotable</titulo><texto>El techo se abre y se cierra en 14 segundos, incluso con el vehículo en marcha.
 El Ferrari SF90 Spider, además de mantener la silueta del SF90 Stradale, presenta un aspecto extremadamente dinámico en su configuración descapotable. La ausencia del techo crea un efecto de reducción en el centro de gravedad visual del vehículo, acentuado por el diseño de las tapas que se desprenden en las barras, las cuales se conectan con los pilares.</texto></bloque></bloques></auto>
-        <auto id="79"><nombre>Ferrari SF90 Stradale Assetto Fiorano</nombre><año>2024</año><chasis>Coupe 2 puertas</chasis><propulsion>Híbrido</propulsion><velocidad>340</velocidad><potencia>986</potencia><aceleracion>2,5</aceleracion><tipo>Superauto</tipo><precio>625000</precio><imagen>https://upload.wikimedia.org/wikipedia/commons/1/1e/Ferrari_SF90_Stradale.jpg</imagen><enlace>https://www.altanave.uy/2024/11/ferrari-sf90-stradale-assetto-fiorano_7.html</enlace><bloques><bloque><imagenurl>https://upload.wikimedia.org/wikipedia/commons/1/14/Ferrari_SF90_Stradale_Assetto_Fiorano_front.png</imagenurl><titulo>Ferrari SF90 Assetto Fiorano</titulo><texto>Peso reducido gracias a la inclusión de piezas de fibra de carbono y titanio, lo que le otorga un margen adicional en su agilidad y capacidad de frenado.</texto></bloque><bloque><imagenurl>https://upload.wikimedia.org/wikipedia/commons/7/7b/2021_Ferrari_SF90_Assetto_Fiorano_2.jpg</imagenurl><titulo>Ferrari SF90 af</titulo><texto>Suspensión mejorada y un alerón trasero para maximizar el rendimiento en pista.</texto></bloque></bloques></auto>
+        <auto id="79" terminado="true"><nombre>Ferrari SF90 Stradale Assetto Fiorano</nombre><año>2024</año><chasis>Coupe 2 puertas</chasis><propulsion>Híbrido</propulsion><velocidad>340</velocidad><potencia>986</potencia><aceleracion>2,5</aceleracion><tipo>Superauto</tipo><precio>625000</precio><imagen>https://upload.wikimedia.org/wikipedia/commons/1/1e/Ferrari_SF90_Stradale.jpg</imagen><enlace>https://www.altanave.uy/2024/11/ferrari-sf90-stradale-assetto-fiorano_7.html</enlace><bloques><bloque><imagenurl>https://upload.wikimedia.org/wikipedia/commons/1/14/Ferrari_SF90_Stradale_Assetto_Fiorano_front.png</imagenurl><titulo>Ferrari SF90 Assetto Fiorano</titulo><texto>Peso reducido gracias a la inclusión de piezas de fibra de carbono y titanio, lo que le otorga un margen adicional en su agilidad y capacidad de frenado.</texto></bloque><bloque><imagenurl>https://upload.wikimedia.org/wikipedia/commons/7/7b/2021_Ferrari_SF90_Assetto_Fiorano_2.jpg</imagenurl><titulo>Ferrari SF90 af</titulo><texto>Suspensión mejorada y un alerón trasero para maximizar el rendimiento en pista.</texto></bloque></bloques></auto>
       </generacion>
     </modelo>
     <modelo nombre="458">
       <generacion nombre="458" añoInicio="2010" añoFin="2015">
-        <auto id="28" terminado="false">
-          <nombre>Ferrari 458 Italia</nombre>
-          <año>2012</año>
-          <chasis>Coupe 2 puertas</chasis>
-          <propulsion>Gasolina</propulsion>
-          <velocidad>325</velocidad>
-          <potencia>570</potencia>
-          <aceleracion>3,4</aceleracion>
-          <tipo>Deportivo</tipo>
-          <precio>200000</precio>
-          <imagen>https://upload.wikimedia.org/wikipedia/commons/c/c2/2012_Ferrari_458_4.jpg</imagen>
-          <enlace>https://www.altanave.uy/2024/10/ferrari-458-italia-coupe-de-2-puertas.html</enlace>
-        </auto>
-        <auto id="29" terminado="false">
-          <nombre>Ferrari 458 Spider</nombre>
-          <año>2011</año>
-          <chasis>Convertible 2 puertas</chasis>
-          <propulsion>Gasolina</propulsion>
-          <velocidad>320</velocidad>
-          <potencia>570</potencia>
-          <aceleracion>3,4</aceleracion>
-          <tipo>Deportivo</tipo>
-          <precio>220000</precio>
-          <imagen>https://upload.wikimedia.org/wikipedia/commons/4/42/Ferrari_458_9.jpg</imagen>
-          <enlace>https://www.altanave.uy/2024/10/ferrari-458-spider-convertible-de-2.html</enlace>
-        </auto>
-        <auto id="30" terminado="false">
-          <nombre>Ferrari 458 Speciale</nombre>
-          <año>2015</año>
-          <chasis>Coupe 2 puertas</chasis>
-          <propulsion>Gasolina</propulsion>
-          <velocidad>325</velocidad>
-          <potencia>597</potencia>
-          <aceleracion>3</aceleracion>
-          <tipo>Superauto</tipo>
-          <precio>300000</precio>
-          <imagen>https://upload.wikimedia.org/wikipedia/commons/9/9e/2015_Ferrari_458_Speciale_8.jpg</imagen>
-          <enlace>https://www.altanave.uy/2024/10/ferrari-458-speciale-coupe-de-2-puertas.html</enlace>
-        </auto>
+        <auto id="28" terminado="true"><nombre>Ferrari 458 Italia</nombre><año>2012</año><chasis>Coupe 2 puertas</chasis><propulsion>Gasolina</propulsion><velocidad>325</velocidad><potencia>570</potencia><aceleracion>3,4</aceleracion><tipo>Deportivo</tipo><precio>200000</precio><imagen>https://upload.wikimedia.org/wikipedia/commons/c/c2/2012_Ferrari_458_4.jpg</imagen><enlace>https://www.altanave.uy/2024/11/ferrari-458-italia-2012-coupe.html</enlace><bloques><bloque><imagenurl>https://upload.wikimedia.org/wikipedia/commons/3/33/EMS_2023%2C_Essen_%28P1160515%29.jpg</imagenurl><titulo>Ferrari 458 Italia Motor</titulo><texto>Tiene un motor V8 de 4497 cm³ (4,5 litros) aspirado. Su nombre código es "F142"</texto></bloque><bloque><imagenurl>https://upload.wikimedia.org/wikipedia/commons/c/cf/Ferrari_458_Italia_Dashbord.jpg</imagenurl><titulo>458 Italia interior </titulo><texto>El diseño del interior ha sido influenciado por las contribuciones del ex piloto de Ferrari en Fórmula 1, Michael Schumacher, e incluye un volante innovador que integra numerosas funciones y controles frente al conductor, en lugar de estar distribuidos en el tablero, al estilo de los autos de carreras.</texto></bloque></bloques></auto>
+        <auto id="29" terminado="true"><nombre>Ferrari 458 Spider</nombre><año>2011</año><chasis>Convertible 2 puertas</chasis><propulsion>Gasolina</propulsion><velocidad>320</velocidad><potencia>570</potencia><aceleracion>3,4</aceleracion><tipo>Deportivo</tipo><precio>220000</precio><imagen>https://upload.wikimedia.org/wikipedia/commons/4/42/Ferrari_458_9.jpg</imagen><enlace>https://www.altanave.uy/2024/11/ferrari-458-spider-2011-convertible.html</enlace><bloques><bloque><imagenurl>https://upload.wikimedia.org/wikipedia/commons/5/5a/Ferrari_458_Spider_11.jpg</imagenurl><titulo>Ferrari 458 Descapotable</titulo><texto>En 2011, Ferrari presentó la versión roadster derivada del 458 Italia: el Ferrari 458 Spider. El mecanismo de apertura y cierre del techo retráctil de lona completa el proceso en 14 segundos. Este sistema utiliza un esquema de techo rígido pivotante que gira sobre un punto de apoyo trasero, alojándose de manera horizontal entre los asientos y el motor, lo que garantiza que no afecte la aerodinámica ni limite el espacio del habitáculo.</texto></bloque></bloques></auto>
+        <auto id="30" terminado="true"><nombre>Ferrari 458 Speciale</nombre><año>2015</año><chasis>Coupe 2 puertas</chasis><propulsion>Gasolina</propulsion><velocidad>325</velocidad><potencia>597</potencia><aceleracion>3</aceleracion><tipo>Superauto</tipo><precio>300000</precio><imagen>https://upload.wikimedia.org/wikipedia/commons/9/9e/2015_Ferrari_458_Speciale_8.jpg</imagen><enlace>https://www.altanave.uy/2024/11/ferrari-458-speciale-2015-coupe.html</enlace><bloques><bloque><imagenurl>https://upload.wikimedia.org/wikipedia/commons/8/80/Ferrari_458_Speciale_7.jpg</imagenurl><titulo>458 Speciale aerodinámica </titulo><texto>Es una versión derivada del 458 Italia. Ferrari incorporó alerones móviles en la parte delantera y trasera de la carrocería, diseñados para optimizar la resistencia aerodinámica según las necesidades de manejo. En el centro del parachoques delantero se encuentran dos compuertas y un alerón horizontal.</texto></bloque></bloques></auto>
       </generacion>
     </modelo>
     <modelo nombre="488">
