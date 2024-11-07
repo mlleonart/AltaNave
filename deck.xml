@@ -272,80 +272,21 @@ En cuanto a su diseño exterior, además de la sofisticación de Aston Martin in
     </modelo>
     <modelo nombre="360 Modena">
       <generacion nombre="360 Modena" añoInicio="1999" añoFin="2005">
-        <auto id="70"><nombre>Ferrari 360 Challenge Stradale</nombre><año>2003</año><chasis>Coupe 2 puertas</chasis><propulsion>Gasolina</propulsion><velocidad>300</velocidad><potencia>419</potencia><aceleracion>4,1</aceleracion><tipo>Superauto</tipo><precio>300000</precio><imagen>https://upload.wikimedia.org/wikipedia/commons/b/b9/2000_Ferrari_360_Challenge_Stradale.jpg</imagen><enlace>https://www.altanave.uy/2024/11/ferrari-360-challenge-stradale-2003.html</enlace><bloques><bloque><imagenurl>https://upload.wikimedia.org/wikipedia/commons/a/a6/Ferrari_360_Challenge_Stradale_%2815499806858%29.jpg</imagenurl><titulo>Ferrari Modena de carrera</titulo><texto>El Challenge Stradale, basado en la serie de coches de competición 360 Modena Challenge, es la versión del 360 Modena diseñada específicamente para su uso en circuito.</texto></bloque><bloque><imagenurl>https://upload.wikimedia.org/wikipedia/commons/2/26/Ferrari_360_Challenge_Stradale_%2815499341369%29.jpg</imagenurl><titulo>Desafío Stradale</titulo><texto>
+        <auto id="70" terminado="true"><nombre>Ferrari 360 Challenge Stradale</nombre><año>2003</año><chasis>Coupe 2 puertas</chasis><propulsion>Gasolina</propulsion><velocidad>300</velocidad><potencia>419</potencia><aceleracion>4,1</aceleracion><tipo>Superauto</tipo><precio>300000</precio><imagen>https://upload.wikimedia.org/wikipedia/commons/b/b9/2000_Ferrari_360_Challenge_Stradale.jpg</imagen><enlace>https://www.altanave.uy/2024/11/ferrari-360-challenge-stradale-2003.html</enlace><bloques><bloque><imagenurl>https://upload.wikimedia.org/wikipedia/commons/a/a6/Ferrari_360_Challenge_Stradale_%2815499806858%29.jpg</imagenurl><titulo>Ferrari Modena de carrera</titulo><texto>El Challenge Stradale, basado en la serie de coches de competición 360 Modena Challenge, es la versión del 360 Modena diseñada específicamente para su uso en circuito.</texto></bloque><bloque><imagenurl>https://upload.wikimedia.org/wikipedia/commons/2/26/Ferrari_360_Challenge_Stradale_%2815499341369%29.jpg</imagenurl><titulo>Desafío Stradale</titulo><texto>
 El Challenge Stradale puede ser hasta 110 kg (240 lb) más liviano que el Modena estándar si se eligen todas las opciones de reducción de peso, como la eliminación de la radio.</texto></bloque></bloques></auto>
-        <auto id="71"><nombre>Ferrari 360 Modena</nombre><año>2000</año><chasis>Coupe 2 puertas</chasis><propulsion>Gasolina</propulsion><velocidad>295</velocidad><potencia>394</potencia><aceleracion>4,6</aceleracion><tipo>Deportivo</tipo><precio>150000</precio><imagen>https://upload.wikimedia.org/wikipedia/commons/1/15/Ferrari_360%2C_BAS_24%2C_Brussels_%28P1170344-RR%29.jpg</imagen><enlace>https://www.altanave.uy/2024/11/ferrari-360-modena-2000-coupe.html</enlace><bloques><bloque><imagenurl>https://upload.wikimedia.org/wikipedia/commons/0/0d/Ferrari_360%2C_BAS_24%2C_Brussels_%28P1170340-RR%29.jpg</imagenurl><titulo>Ferrari 360 aluminio</titulo><texto>El Ferrari 360 (Tipo F131) es un deportivo biplaza con motor central y tracción trasera, fabricado sobre un chasis completamente nuevo de aluminio. Este armazón espacial ofrecía una rigidez un 40% superior en comparación con su predecesor, que utilizaba acero. A pesar de un incremento del 10% en las dimensiones generales, el diseño del 360 era un 28% más liviano.</texto></bloque><bloque><imagenurl>https://upload.wikimedia.org/wikipedia/commons/c/cf/Ferrari_360_Modena_-_Flickr_-_Alexandre_Pr%C3%A9vot_%2824%29_%28cropped%29.jpg</imagenurl><titulo>360 Modena</titulo><texto>Cuenta con un motor V8 de 3.6 litros (3,586 cc) acoplado a una transmisión manual de 6 velocidades.</texto></bloque></bloques></auto>
-        <auto id="72"><nombre>Ferrari 360 Spider</nombre><año>2001</año><chasis>Convertible 2 puertas</chasis><propulsion>Gasolina</propulsion><velocidad>293</velocidad><potencia>394</potencia><aceleracion>4,6</aceleracion><tipo>Deportivo</tipo><precio>120000</precio><imagen>https://upload.wikimedia.org/wikipedia/commons/1/1c/2001-ferrari-360-rc.jpg</imagen><enlace>https://www.altanave.uy/2024/11/ferrari-360-spider-2001-convertible.html</enlace><bloques><bloque><imagenurl>https://upload.wikimedia.org/wikipedia/commons/7/72/Ferrari_360_Modena_Hamann.jpg</imagenurl><titulo>Ferrari 360 Modena Spider</titulo><texto>La rigidez dinámica necesaria del convertible se proporciona mediante refuerzos laterales adicionales y un travesaño delante del motor. La seguridad de los pasajeros está garantizada por un marco de parabrisas reforzado y barras antivuelco .</texto></bloque><bloque><imagenurl>https://upload.wikimedia.org/wikipedia/commons/7/76/Ferrari_360_Modena_Spyder_-_Flickr_-_Alexandre_Pr%C3%A9vot_%286%29_%28cropped%29.jpg</imagenurl><titulo>Ferrari 360 Modena Descapotable</titulo><texto>A pesar de que el motor V8 está montado en el centro del vehículo, la capota eléctrica se puede guardar en el compartimento cuando no se utiliza. La capota convertible estaba disponible en los colores negro, azul, gris y beige.</texto></bloque></bloques></auto>
+        <auto id="71" terminado="true"><nombre>Ferrari 360 Modena</nombre><año>2000</año><chasis>Coupe 2 puertas</chasis><propulsion>Gasolina</propulsion><velocidad>295</velocidad><potencia>394</potencia><aceleracion>4,6</aceleracion><tipo>Deportivo</tipo><precio>150000</precio><imagen>https://upload.wikimedia.org/wikipedia/commons/1/15/Ferrari_360%2C_BAS_24%2C_Brussels_%28P1170344-RR%29.jpg</imagen><enlace>https://www.altanave.uy/2024/11/ferrari-360-modena-2000-coupe.html</enlace><bloques><bloque><imagenurl>https://upload.wikimedia.org/wikipedia/commons/0/0d/Ferrari_360%2C_BAS_24%2C_Brussels_%28P1170340-RR%29.jpg</imagenurl><titulo>Ferrari 360 aluminio</titulo><texto>El Ferrari 360 (Tipo F131) es un deportivo biplaza con motor central y tracción trasera, fabricado sobre un chasis completamente nuevo de aluminio. Este armazón espacial ofrecía una rigidez un 40% superior en comparación con su predecesor, que utilizaba acero. A pesar de un incremento del 10% en las dimensiones generales, el diseño del 360 era un 28% más liviano.</texto></bloque><bloque><imagenurl>https://upload.wikimedia.org/wikipedia/commons/c/cf/Ferrari_360_Modena_-_Flickr_-_Alexandre_Pr%C3%A9vot_%2824%29_%28cropped%29.jpg</imagenurl><titulo>360 Modena motor </titulo><texto>Cuenta con un motor V8 de 3.6 litros (3,586 cc) acoplado a una transmisión manual de 6 velocidades.</texto></bloque></bloques></auto>
+        <auto id="72" terminado="true"><nombre>Ferrari 360 Spider</nombre><año>2001</año><chasis>Convertible 2 puertas</chasis><propulsion>Gasolina</propulsion><velocidad>293</velocidad><potencia>394</potencia><aceleracion>4,6</aceleracion><tipo>Deportivo</tipo><precio>120000</precio><imagen>https://upload.wikimedia.org/wikipedia/commons/1/1c/2001-ferrari-360-rc.jpg</imagen><enlace>https://www.altanave.uy/2024/11/ferrari-360-spider-2001-convertible.html</enlace><bloques><bloque><imagenurl>https://upload.wikimedia.org/wikipedia/commons/7/72/Ferrari_360_Modena_Hamann.jpg</imagenurl><titulo>Ferrari 360 Modena Spider</titulo><texto>La rigidez dinámica necesaria del convertible se proporciona mediante refuerzos laterales adicionales y un travesaño delante del motor. La seguridad de los pasajeros está garantizada por un marco de parabrisas reforzado y barras antivuelco .</texto></bloque><bloque><imagenurl>https://upload.wikimedia.org/wikipedia/commons/7/76/Ferrari_360_Modena_Spyder_-_Flickr_-_Alexandre_Pr%C3%A9vot_%286%29_%28cropped%29.jpg</imagenurl><titulo>Ferrari 360 Modena Descapotable</titulo><texto>A pesar de que el motor V8 está montado en el centro del vehículo, la capota eléctrica se puede guardar en el compartimento cuando no se utiliza. La capota convertible estaba disponible en los colores negro, azul, gris y beige.</texto></bloque></bloques></auto>
       </generacion>
     </modelo>
     <modelo nombre="SF90">
       <generacion nombre="SF90" añoInicio="2021" añoFin="2025">
-        <auto id="20" terminado="false">
-          <nombre>Ferrari SF90 Stradale</nombre>
-          <año>2021</año>
-          <chasis>Coupe 2 puertas</chasis>
-          <propulsion>Híbrido</propulsion>
-          <velocidad>340</velocidad>
-          <potencia>986</potencia>
-          <aceleracion>2,5</aceleracion>
-          <tipo>Deportivo</tipo>
-          <precio>500000</precio>
-          <imagen>https://upload.wikimedia.org/wikipedia/commons/e/ee/2021_Ferrari_SF90.jpg</imagen>
-          <enlace>https://www.altanave.uy/2024/10/ferrari-sf90-stradale-coupe-de-2.html</enlace>
-          <bloques>
-            <bloque>
-              <imagenurl>https://upload.wikimedia.org/wikipedia/commons/4/45/Ferrari_SF90%2C_BAS_24%2C_Brussels_%28P1170486-RR%29.jpg</imagenurl>
-              <titulo>Ferrari Hybrid</titulo>
-              <texto>Es el primer automóvil superdeportivo híbrido eléctrico enchufable producido por el fabricante italiano Ferrari </texto>
-            </bloque>
-            <bloque>
-              <imagenurl>https://upload.wikimedia.org/wikipedia/commons/a/aa/Ferrari_SF90%2C_BAS_24%2C_Brussels_%28P1170502-RR%29.jpg</imagenurl>
-              <titulo>Ferrari SF90 Hybrid</titulo>
-              <texto>En el modo E-Drive, el coche utiliza solo sus motores eléctricos para un desplazamiento totalmente eléctrico. 
+        <auto id="20"><nombre>Ferrari SF90 Stradale</nombre><año>2021</año><chasis>Coupe 2 puertas</chasis><propulsion>Híbrido</propulsion><velocidad>340</velocidad><potencia>986</potencia><aceleracion>2,5</aceleracion><tipo>Deportivo</tipo><precio>500000</precio><imagen>https://upload.wikimedia.org/wikipedia/commons/e/ee/2021_Ferrari_SF90.jpg</imagen><enlace>https://www.altanave.uy/2024/11/ferrari-sf90-stradale-2021-coupe.html</enlace><bloques><bloque><imagenurl>https://upload.wikimedia.org/wikipedia/commons/4/45/Ferrari_SF90%2C_BAS_24%2C_Brussels_%28P1170486-RR%29.jpg</imagenurl><titulo>Ferrari Hybrid</titulo><texto>Es el primer automóvil superdeportivo híbrido eléctrico enchufable producido por el fabricante italiano Ferrari </texto></bloque><bloque><imagenurl>https://upload.wikimedia.org/wikipedia/commons/a/aa/Ferrari_SF90%2C_BAS_24%2C_Brussels_%28P1170502-RR%29.jpg</imagenurl><titulo>Ferrari SF90 Hybrid</titulo><texto>En el modo E-Drive, el coche utiliza solo sus motores eléctricos para un desplazamiento totalmente eléctrico. 
 En el modo híbrido (predeterminado), se combinan el motor de gasolina y los motores eléctricos;  que, gracias a un sistema de control, apaga el motor de gasolina para ahorrar combustible, reactivándolo cuando el conductor lo necesita. 
 El modo Performance mantiene el motor encendido para recargar la batería y mejorar la respuesta del vehículo, optimizando el rendimiento. 
-Finalmente, el modo Quality aprovecha al máximo la potencia del sistema motriz para un desempeño superior.</texto>
-            </bloque>
-          </bloques>
-        </auto>
-        <auto id="21" terminado="false">
-          <nombre>Ferrari SF90 Spider</nombre>
-          <año>2023</año>
-          <chasis>Techo rígido de 2 puertas</chasis>
-          <propulsion>Híbrido</propulsion>
-          <velocidad>340</velocidad>
-          <potencia>986</potencia>
-          <aceleracion>2,5</aceleracion>
-          <tipo>Deportivo</tipo>
-          <precio>500000</precio>
-          <imagen>https://upload.wikimedia.org/wikipedia/commons/2/24/Ferrari_reims_1200871.jpg</imagen>
-          <enlace>https://www.altanave.uy/2024/10/ferrari-sf90-spider-techo-rigido-de-2.html</enlace>
-        </auto>
-        <auto id="79" terminado="false">
-          <nombre>Ferrari SF90 Stradale Assetto Fiorano</nombre>
-          <año>2024</año>
-          <chasis>Coupe 2 puertas</chasis>
-          <propulsion>Híbrido</propulsion>
-          <velocidad>340</velocidad>
-          <potencia>986</potencia>
-          <aceleracion>2,5</aceleracion>
-          <tipo>Superauto</tipo>
-          <precio>625000</precio>
-          <imagen>https://upload.wikimedia.org/wikipedia/commons/1/1e/Ferrari_SF90_Stradale.jpg</imagen>
-          <enlace>https://www.altanave.uy/2024/11/ferrari-sf90-stradale-assetto-fiorano.html</enlace>
-          <bloques>
-            <bloque>
-              <imagenurl>https://upload.wikimedia.org/wikipedia/commons/1/14/Ferrari_SF90_Stradale_Assetto_Fiorano_front.png</imagenurl>
-              <titulo>Ferrari SF90 Assetto Fiorano</titulo>
-              <texto>Peso reducido gracias a la inclusión de piezas de fibra de carbono y titanio, lo que le otorga un margen adicional en su agilidad y capacidad de frenado.</texto>
-            </bloque>
-            <bloque>
-              <imagenurl>https://upload.wikimedia.org/wikipedia/commons/7/7b/2021_Ferrari_SF90_Assetto_Fiorano_2.jpg</imagenurl>
-              <titulo>Ferrari SF90 af</titulo>
-              <texto>Suspensión mejorada y un alerón trasero para maximizar el rendimiento en pista.</texto>
-            </bloque>
-          </bloques>
-        </auto>
+Finalmente, el modo Quality aprovecha al máximo la potencia del sistema motriz para un desempeño superior.</texto></bloque></bloques></auto>
+        <auto id="21"><nombre>Ferrari SF90 Spider</nombre><año>2023</año><chasis>Convertible 2 puertas</chasis><propulsion>Híbrido</propulsion><velocidad>340</velocidad><potencia>986</potencia><aceleracion>2,5</aceleracion><tipo>Deportivo</tipo><precio>500000</precio><imagen>https://upload.wikimedia.org/wikipedia/commons/2/24/Ferrari_reims_1200871.jpg</imagen><enlace>https://www.altanave.uy/2024/11/ferrari-sf90-spider-2023-convertible.html</enlace><bloques><bloque><imagenurl>https://upload.wikimedia.org/wikipedia/commons/f/f4/Ferrari_SF90_Spider_IMG_9568.jpg</imagenurl><titulo>Ferrari SF90 Descapotable</titulo><texto>El techo se abre y se cierra en 14 segundos, incluso con el vehículo en marcha.
+El Ferrari SF90 Spider, además de mantener la silueta del SF90 Stradale, presenta un aspecto extremadamente dinámico en su configuración descapotable. La ausencia del techo crea un efecto de reducción en el centro de gravedad visual del vehículo, acentuado por el diseño de las tapas que se desprenden en las barras, las cuales se conectan con los pilares.</texto></bloque></bloques></auto>
+        <auto id="79"><nombre>Ferrari SF90 Stradale Assetto Fiorano</nombre><año>2024</año><chasis>Coupe 2 puertas</chasis><propulsion>Híbrido</propulsion><velocidad>340</velocidad><potencia>986</potencia><aceleracion>2,5</aceleracion><tipo>Superauto</tipo><precio>625000</precio><imagen>https://upload.wikimedia.org/wikipedia/commons/1/1e/Ferrari_SF90_Stradale.jpg</imagen><enlace>https://www.altanave.uy/2024/11/ferrari-sf90-stradale-assetto-fiorano_7.html</enlace><bloques><bloque><imagenurl>https://upload.wikimedia.org/wikipedia/commons/1/14/Ferrari_SF90_Stradale_Assetto_Fiorano_front.png</imagenurl><titulo>Ferrari SF90 Assetto Fiorano</titulo><texto>Peso reducido gracias a la inclusión de piezas de fibra de carbono y titanio, lo que le otorga un margen adicional en su agilidad y capacidad de frenado.</texto></bloque><bloque><imagenurl>https://upload.wikimedia.org/wikipedia/commons/7/7b/2021_Ferrari_SF90_Assetto_Fiorano_2.jpg</imagenurl><titulo>Ferrari SF90 af</titulo><texto>Suspensión mejorada y un alerón trasero para maximizar el rendimiento en pista.</texto></bloque></bloques></auto>
       </generacion>
     </modelo>
     <modelo nombre="458">
