@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE deck [
 <!ELEMENT deck (marca)+>
-<!ELEMENT marca (logoURL? , country? , flagURL? , url? , modelo+)>
+<!ELEMENT marca (logoURL?, country?, flagURL?, url?, modelo+)>
 <!ATTLIST marca nombre CDATA #REQUIRED>
 <!ELEMENT logoURL (#PCDATA)>
 <!ELEMENT country (#PCDATA)>
@@ -10,11 +10,16 @@
 <!ELEMENT modelo (generacion)+>
 <!ATTLIST modelo nombre CDATA #REQUIRED>
 <!ELEMENT generacion (auto)+>
-<!ATTLIST generacion nombre CDATA #REQUIRED>
-<!ATTLIST generacion añoInicio CDATA #REQUIRED>
-<!ATTLIST generacion añoFin CDATA #REQUIRED>
-<!ELEMENT auto (nombre , año , chasis , propulsion , velocidad , potencia , aceleracion , tipo , precio , imagen , enlace , bloques? , masimagenes?)>
-<!ATTLIST auto id CDATA #REQUIRED>
+<!ATTLIST generacion 
+    nombre CDATA #REQUIRED
+    añoInicio CDATA #REQUIRED
+    añoFin CDATA #REQUIRED
+>
+<!ELEMENT auto (nombre, año, chasis, propulsion, velocidad, potencia, aceleracion, tipo, precio, imagen, enlace, bloques?, masimagenes?)>
+<!ATTLIST auto 
+    id CDATA #REQUIRED
+    terminado (true | false) "false"
+>
 <!ELEMENT nombre (#PCDATA)>
 <!ELEMENT año (#PCDATA)>
 <!ELEMENT chasis (#PCDATA)>
@@ -27,7 +32,7 @@
 <!ELEMENT imagen (#PCDATA)>
 <!ELEMENT enlace (#PCDATA)>
 <!ELEMENT bloques (bloque)*>
-<!ELEMENT bloque (imagenurl , titulo , texto)>
+<!ELEMENT bloque (imagenurl?, titulo, texto)>
 <!ELEMENT imagenurl (#PCDATA)>
 <!ELEMENT titulo (#PCDATA)>
 <!ELEMENT texto (#PCDATA)>
@@ -42,70 +47,15 @@
     <url>https://www.altanave.uy/2024/10/aston-martin.html</url>
     <modelo nombre="DB5">
       <generacion nombre="Aston Martin DB5" añoInicio="1963" añoFin="1965">
-        <auto id="66">
-          <nombre>Aston Martin DB5</nombre>
-          <año>1964</año>
-          <chasis>Coupe 2 puertas</chasis>
-          <propulsion>Gasolina</propulsion>
-          <velocidad>240</velocidad>
-          <potencia>282</potencia>
-          <aceleracion>6,8</aceleracion>
-          <tipo>Deportivo</tipo>
-          <precio>1500000</precio>
-          <imagen>https://upload.wikimedia.org/wikipedia/commons/8/8b/1964_Aston_Martin_DB5_4.jpg</imagen>
-          <enlace>https://www.altanave.uy/2024/11/aston-martin-db5-coupe-de-2-puertas-1964.html</enlace>
-          <bloques>
-            <bloque>
-              <imagenurl>https://upload.wikimedia.org/wikipedia/commons/6/6f/Aston_Martin_DB5%2C_James_Bond_08.jpg</imagenurl>
-              <titulo>Aston Martin DB5 y James Bond: Un Ícono del Cine</titulo>
-              <texto>El Aston Martin DB5 es sinónimo de elegancia y sofisticación, y su asociación con la franquicia de James Bond ha cimentado su estatus como un ícono cultural. Desde su debut en la película "Goldfinger" en 1964, el DB5 ha sido el coche favorito del famoso agente 007, equipado con gadgets y tecnologías innovadoras que capturan la imaginación del público. Este modelo representa la conexión entre el lujo y la aventura. Su aparición en múltiples películas de Bond ha elevado su valor en el mercado de coleccionistas. La popularidad del DB5 ha consolidando su lugar como uno de los automóviles más reconocidos y venerados en la cultura popular.</texto>
-            </bloque>
-            <bloque>
-              <imagenurl>https://upload.wikimedia.org/wikipedia/commons/d/db/Aston_Martin_DB5_James_Bond_hotop2.JPG</imagenurl>
-              <titulo>Auto de james bond</titulo>
-              <texto>Repleto de gadgets le valió el apodo del «coche más famoso del mundo».
-Parachoques hidráulicos, Ametralladoras delanteras, Escudo antibalas, Matrículas giratorias, chorro de aceite y un dispositivo que lanzaba clavos, Teléfono móvil, Radar a bordo, Panel de armas y asiento eyectable.</texto>
-            </bloque>
-          </bloques>
-        </auto>
-        <auto id="68">
-          <nombre>Aston Martin DB5</nombre>
-          <año>1964</año>
-          <chasis>Convertible 2 puertas</chasis>
-          <propulsion>Gasolina</propulsion>
-          <velocidad>231</velocidad>
-          <potencia>282</potencia>
-          <aceleracion>6,9</aceleracion>
-          <tipo>Deportivo</tipo>
-          <precio>1000000</precio>
-          <imagen>https://upload.wikimedia.org/wikipedia/commons/d/dc/1964_Aston_Martin_DB5_Convertible_LC.jpg</imagen>
-          <enlace>https://www.altanave.uy/2024/11/aston-martin-db5-convertible-de-2.html</enlace>
-        </auto>
-        <auto id="67">
-          <nombre>Aston Martin DB5 Vantage</nombre>
-          <año>1964</año>
-          <chasis>Coupe 2 puertas</chasis>
-          <propulsion>Gasolina</propulsion>
-          <velocidad>260</velocidad>
-          <potencia>325</potencia>
-          <aceleracion>6,2</aceleracion>
-          <tipo>Deportivo</tipo>
-          <precio>2000000</precio>
-          <imagen>https://upload.wikimedia.org/wikipedia/commons/8/87/1964_Aston_Martin_DB5_Vantage_LC23.jpg</imagen>
-          <enlace>https://www.altanave.uy/2024/11/aston-martin-db5-vantage-coupe-de-2.html</enlace>
-          <bloques>
-            <bloque>
-              <imagenurl>https://upload.wikimedia.org/wikipedia/commons/7/78/1966_Aston_Martin_DB5_V8_Prototype_HCC22.jpg</imagenurl>
-              <titulo>DB5 vs DB5 Vantage</titulo>
-              <texto>El Aston Martin DB5 Vantage se presenta como una versión mejorada del icónico DB5 estándar, destacándose por su motor más potente que produce hasta 325 caballos de fuerza, en comparación con los 282 del modelo original. Además, el Vantage incorpora características adicionales que realzan su rendimiento y experiencia de conducción, como un sistema de suspensión más avanzado y frenos de mayor capacidad.</texto>
-            </bloque>
-          </bloques>
-        </auto>
+        <auto id="66"><nombre>Aston Martin DB5</nombre><año>1964</año><chasis>Coupe 2 puertas</chasis><propulsion>Gasolina</propulsion><velocidad>240</velocidad><potencia>282</potencia><aceleracion>6,8</aceleracion><tipo>Deportivo</tipo><precio>1500000</precio><imagen>https://upload.wikimedia.org/wikipedia/commons/8/8b/1964_Aston_Martin_DB5_4.jpg</imagen><enlace>https://www.altanave.uy/2024/11/aston-martin-db5-1964-coupe.html</enlace><bloques><bloque><imagenurl>https://upload.wikimedia.org/wikipedia/commons/6/6f/Aston_Martin_DB5%2C_James_Bond_08.jpg</imagenurl><titulo>Aston Martin DB5 y James Bond: Un Ícono del Cine</titulo><texto>El Aston Martin DB5 es sinónimo de elegancia y sofisticación, y su asociación con la franquicia de James Bond ha cimentado su estatus como un ícono cultural. Desde su debut en la película "Goldfinger" en 1964, el DB5 ha sido el coche favorito del famoso agente 007, equipado con gadgets y tecnologías innovadoras que capturan la imaginación del público. Este modelo representa la conexión entre el lujo y la aventura. Su aparición en múltiples películas de Bond ha elevado su valor en el mercado de coleccionistas. La popularidad del DB5 ha consolidando su lugar como uno de los automóviles más reconocidos y venerados en la cultura popular.</texto></bloque><bloque><imagenurl>https://upload.wikimedia.org/wikipedia/commons/d/db/Aston_Martin_DB5_James_Bond_hotop2.JPG</imagenurl><titulo>Auto de james bond</titulo><texto>Repleto de gadgets le valió el apodo del «coche más famoso del mundo».
+Parachoques hidráulicos, Ametralladoras delanteras, Escudo antibalas, Matrículas giratorias, chorro de aceite y un dispositivo que lanzaba clavos, Teléfono móvil, Radar a bordo, Panel de armas y asiento eyectable.</texto></bloque></bloques></auto>
+        <auto id="68"><nombre>Aston Martin DB5</nombre><año>1964</año><chasis>Convertible 2 puertas</chasis><propulsion>Gasolina</propulsion><velocidad>231</velocidad><potencia>282</potencia><aceleracion>6,9</aceleracion><tipo>Deportivo</tipo><precio>1000000</precio><imagen>https://upload.wikimedia.org/wikipedia/commons/d/dc/1964_Aston_Martin_DB5_Convertible_LC.jpg</imagen><enlace>https://www.altanave.uy/2024/11/aston-martin-db5-1964-convertible.html</enlace></auto>
+        <auto id="67"><nombre>Aston Martin DB5 Vantage</nombre><año>1964</año><chasis>Coupe 2 puertas</chasis><propulsion>Gasolina</propulsion><velocidad>260</velocidad><potencia>325</potencia><aceleracion>6,2</aceleracion><tipo>Deportivo</tipo><precio>2000000</precio><imagen>https://upload.wikimedia.org/wikipedia/commons/8/87/1964_Aston_Martin_DB5_Vantage_LC23.jpg</imagen><enlace>https://www.altanave.uy/2024/11/aston-martin-db5-vantage-1964-coupe.html</enlace><bloques><bloque><imagenurl>https://upload.wikimedia.org/wikipedia/commons/7/78/1966_Aston_Martin_DB5_V8_Prototype_HCC22.jpg</imagenurl><titulo>DB5 vs DB5 Vantage</titulo><texto>El Aston Martin DB5 Vantage se presenta como una versión mejorada del icónico DB5 estándar, destacándose por su motor más potente que produce hasta 325 caballos de fuerza, en comparación con los 282 del modelo original. Además, el Vantage incorpora características adicionales que realzan su rendimiento y experiencia de conducción, como un sistema de suspensión más avanzado y frenos de mayor capacidad.</texto></bloque></bloques></auto>
       </generacion>
     </modelo>
     <modelo nombre="Vantage">
       <generacion nombre="Vantage 3era generacion" añoInicio="2005" añoFin="2018">
-        <auto id="74">
+        <auto id="74" terminado="false">
           <nombre>Aston Martin V8 Vantage</nombre>
           <año>2009</año>
           <chasis>Coupe 2 puertas</chasis>
@@ -120,7 +70,7 @@ Parachoques hidráulicos, Ametralladoras delanteras, Escudo antibalas, Matrícul
         </auto>
       </generacion>
       <generacion nombre="Vantage 2018" añoInicio="2018" añoFin="2023">
-        <auto id="75">
+        <auto id="75" terminado="false">
           <nombre>Aston Martin V8 Vantage</nombre>
           <año>2018</año>
           <chasis>Coupe 2 puertas</chasis>
@@ -139,7 +89,7 @@ Parachoques hidráulicos, Ametralladoras delanteras, Escudo antibalas, Matrícul
         </auto>
       </generacion>
       <generacion nombre="Vantage 2024" añoInicio="2024" añoFin="2025">
-        <auto id="73">
+        <auto id="73" terminado="false">
           <nombre>Aston Martin V8 Vantage</nombre>
           <año>2024</año>
           <chasis>Coupe 2 puertas</chasis>
@@ -168,7 +118,7 @@ Parachoques hidráulicos, Ametralladoras delanteras, Escudo antibalas, Matrícul
     </modelo>
     <modelo nombre="One-77">
       <generacion nombre="One-77" añoInicio="2011" añoFin="2011">
-        <auto id="62">
+        <auto id="62" terminado="false">
           <nombre>One-77</nombre>
           <año>2011</año>
           <chasis>Coupe 2 puertas</chasis>
@@ -197,7 +147,7 @@ Parachoques hidráulicos, Ametralladoras delanteras, Escudo antibalas, Matrícul
     <url>https://www.altanave.uy/2024/10/bugatti.html</url>
     <modelo nombre="Veyron">
       <generacion nombre="Bugatti Veyron" añoInicio="2005" añoFin="2015">
-        <auto id="9">
+        <auto id="9" terminado="false">
           <nombre>Bugatti Veyron 16.4</nombre>
           <año>2005</año>
           <chasis>Coupe 2 puertas</chasis>
@@ -245,8 +195,8 @@ Parachoques hidráulicos, Ametralladoras delanteras, Escudo antibalas, Matrícul
     <url>https://www.altanave.uy/2024/10/delorean-motor-company.html</url>
     <modelo nombre="DMC-12">
       <generacion nombre="De Lorean DMC-12" añoInicio="1981" añoFin="1982">
-        <auto id="59">
-          <nombre>De Lorean DMC-12</nombre>
+        <auto id="59" terminado="false">
+          <nombre>DMC De Lorean</nombre>
           <año>1982</año>
           <chasis>Coupe 2 puertas</chasis>
           <propulsion>Gasolina</propulsion>
@@ -300,7 +250,7 @@ Parachoques hidráulicos, Ametralladoras delanteras, Escudo antibalas, Matrícul
     <url>https://www.altanave.uy/2024/10/ferrari.html</url>
     <modelo nombre="250 GTO">
       <generacion nombre="Serie I" añoInicio="1962" añoFin="1963">
-        <auto id="14">
+        <auto id="14" terminado="false">
           <nombre>Ferrari 250 GTO</nombre>
           <año>1962</año>
           <chasis>Coupe 2 puertas</chasis>
@@ -315,7 +265,7 @@ Parachoques hidráulicos, Ametralladoras delanteras, Escudo antibalas, Matrícul
         </auto>
       </generacion>
       <generacion nombre="Serie II" añoInicio="1964" añoFin="1964">
-        <auto id="15">
+        <auto id="15" terminado="false">
           <nombre>Ferrari 250 GTO</nombre>
           <año>1964</año>
           <chasis>Coupe 2 puertas</chasis>
@@ -332,7 +282,7 @@ Parachoques hidráulicos, Ametralladoras delanteras, Escudo antibalas, Matrícul
     </modelo>
     <modelo nombre="Daytona">
       <generacion nombre="Daytona" añoInicio="1968" añoFin="1974">
-        <auto id="22">
+        <auto id="22" terminado="false">
           <nombre>Ferrari 365 GTB/4 Daytona</nombre>
           <año>1974</año>
           <chasis>Coupe 2 puertas</chasis>
@@ -345,7 +295,7 @@ Parachoques hidráulicos, Ametralladoras delanteras, Escudo antibalas, Matrícul
           <imagen>https://upload.wikimedia.org/wikipedia/commons/7/7e/Ferrari_Daytona_365_GTB4_LC22.jpg</imagen>
           <enlace>https://www.altanave.uy/2024/10/ferrari-365-gtb4-daytona-coupe-de-2.html</enlace>
         </auto>
-        <auto id="23">
+        <auto id="23" terminado="false">
           <nombre>Ferrari 365 GTS/4 Daytona</nombre>
           <año>1973</año>
           <chasis>Convertible 2 puertas</chasis>
@@ -367,7 +317,7 @@ Parachoques hidráulicos, Ametralladoras delanteras, Escudo antibalas, Matrícul
         </auto>
       </generacion>
       <generacion nombre="Daytona SP3" añoInicio="2022" añoFin="2025">
-        <auto id="24">
+        <auto id="24" terminado="false">
           <nombre>Ferrari Daytona SP3</nombre>
           <año>2023</año>
           <chasis>Coupe 2 puertas</chasis>
@@ -384,7 +334,7 @@ Parachoques hidráulicos, Ametralladoras delanteras, Escudo antibalas, Matrícul
     </modelo>
     <modelo nombre="360 Modena">
       <generacion nombre="360 Modena" añoInicio="1999" añoFin="2005">
-        <auto id="70">
+        <auto id="70" terminado="false">
           <nombre>Ferrari 360 Challenge Stradale</nombre>
           <año>2003</año>
           <chasis>Coupe 2 puertas</chasis>
@@ -397,7 +347,7 @@ Parachoques hidráulicos, Ametralladoras delanteras, Escudo antibalas, Matrícul
           <imagen>https://upload.wikimedia.org/wikipedia/commons/b/b9/2000_Ferrari_360_Challenge_Stradale.jpg</imagen>
           <enlace>https://www.altanave.uy/2024/11/ferrari-360-challenge-stradale-coupe-de.html</enlace>
         </auto>
-        <auto id="71">
+        <auto id="71" terminado="false">
           <nombre>Ferrari 360 Modena</nombre>
           <año>2000</año>
           <chasis>Coupe 2 puertas</chasis>
@@ -410,7 +360,7 @@ Parachoques hidráulicos, Ametralladoras delanteras, Escudo antibalas, Matrícul
           <imagen>https://upload.wikimedia.org/wikipedia/commons/1/15/Ferrari_360%2C_BAS_24%2C_Brussels_%28P1170344-RR%29.jpg</imagen>
           <enlace>https://www.altanave.uy/2024/11/ferrari-360-modena-coupe-de-2-puertas.html</enlace>
         </auto>
-        <auto id="72">
+        <auto id="72" terminado="false">
           <nombre>Ferrari 360 Spider</nombre>
           <año>2001</año>
           <chasis>Convertible 2 puertas</chasis>
@@ -427,7 +377,7 @@ Parachoques hidráulicos, Ametralladoras delanteras, Escudo antibalas, Matrícul
     </modelo>
     <modelo nombre="SF90">
       <generacion nombre="SF90" añoInicio="2021" añoFin="2025">
-        <auto id="20">
+        <auto id="20" terminado="false">
           <nombre>Ferrari SF90 Stradale</nombre>
           <año>2021</año>
           <chasis>Coupe 2 puertas</chasis>
@@ -455,7 +405,7 @@ Finalmente, el modo Quality aprovecha al máximo la potencia del sistema motriz 
             </bloque>
           </bloques>
         </auto>
-        <auto id="21">
+        <auto id="21" terminado="false">
           <nombre>Ferrari SF90 Spider</nombre>
           <año>2023</año>
           <chasis>Techo rígido de 2 puertas</chasis>
@@ -468,7 +418,7 @@ Finalmente, el modo Quality aprovecha al máximo la potencia del sistema motriz 
           <imagen>https://upload.wikimedia.org/wikipedia/commons/2/24/Ferrari_reims_1200871.jpg</imagen>
           <enlace>https://www.altanave.uy/2024/10/ferrari-sf90-spider-techo-rigido-de-2.html</enlace>
         </auto>
-        <auto id="79">
+        <auto id="79" terminado="false">
           <nombre>Ferrari SF90 Stradale Assetto Fiorano</nombre>
           <año>2024</año>
           <chasis>Coupe 2 puertas</chasis>
@@ -497,7 +447,7 @@ Finalmente, el modo Quality aprovecha al máximo la potencia del sistema motriz 
     </modelo>
     <modelo nombre="458">
       <generacion nombre="458" añoInicio="2010" añoFin="2015">
-        <auto id="28">
+        <auto id="28" terminado="false">
           <nombre>Ferrari 458 Italia</nombre>
           <año>2012</año>
           <chasis>Coupe 2 puertas</chasis>
@@ -510,7 +460,7 @@ Finalmente, el modo Quality aprovecha al máximo la potencia del sistema motriz 
           <imagen>https://upload.wikimedia.org/wikipedia/commons/c/c2/2012_Ferrari_458_4.jpg</imagen>
           <enlace>https://www.altanave.uy/2024/10/ferrari-458-italia-coupe-de-2-puertas.html</enlace>
         </auto>
-        <auto id="29">
+        <auto id="29" terminado="false">
           <nombre>Ferrari 458 Spider</nombre>
           <año>2011</año>
           <chasis>Convertible 2 puertas</chasis>
@@ -523,7 +473,7 @@ Finalmente, el modo Quality aprovecha al máximo la potencia del sistema motriz 
           <imagen>https://upload.wikimedia.org/wikipedia/commons/4/42/Ferrari_458_9.jpg</imagen>
           <enlace>https://www.altanave.uy/2024/10/ferrari-458-spider-convertible-de-2.html</enlace>
         </auto>
-        <auto id="30">
+        <auto id="30" terminado="false">
           <nombre>Ferrari 458 Speciale</nombre>
           <año>2015</año>
           <chasis>Coupe 2 puertas</chasis>
@@ -540,7 +490,7 @@ Finalmente, el modo Quality aprovecha al máximo la potencia del sistema motriz 
     </modelo>
     <modelo nombre="488">
       <generacion nombre="488" añoInicio="2015" añoFin="2019">
-        <auto id="25">
+        <auto id="25" terminado="false">
           <nombre>Ferrari 488 GTB</nombre>
           <año>2017</año>
           <chasis>Coupe 2 puertas</chasis>
@@ -553,7 +503,7 @@ Finalmente, el modo Quality aprovecha al máximo la potencia del sistema motriz 
           <imagen>https://upload.wikimedia.org/wikipedia/commons/1/18/2017_Ferrari_488.jpg</imagen>
           <enlace>https://www.altanave.uy/2024/10/ferrari-488-gtb-coupe-de-2-puertas-2017.html</enlace>
         </auto>
-        <auto id="26">
+        <auto id="26" terminado="false">
           <nombre>Ferrari 488 Spider</nombre>
           <año>2019</año>
           <chasis>Convertible 2 puertas</chasis>
@@ -566,7 +516,7 @@ Finalmente, el modo Quality aprovecha al máximo la potencia del sistema motriz 
           <imagen>https://upload.wikimedia.org/wikipedia/commons/9/97/Ferrari_488_Spider_7.jpg</imagen>
           <enlace>https://www.altanave.uy/2024/10/ferrari-488-spider-convertible-de-2.html</enlace>
         </auto>
-        <auto id="27">
+        <auto id="27" terminado="false">
           <nombre>Ferrari 488 Pista</nombre>
           <año>2019</año>
           <chasis>Coupe 2 puertas</chasis>
@@ -589,7 +539,7 @@ Finalmente, el modo Quality aprovecha al máximo la potencia del sistema motriz 
     <url>https://www.altanave.uy/2024/10/koenigsegg.html</url>
     <modelo nombre="CC 8S">
       <generacion nombre="Koenigsegg CC Series" añoInicio="2002" añoFin="2004">
-        <auto id="49">
+        <auto id="49" terminado="false">
           <nombre>Koenigsegg CC 8S</nombre>
           <año>2002</año>
           <chasis>Coupé Targa de 2 puertas</chasis>
@@ -602,7 +552,7 @@ Finalmente, el modo Quality aprovecha al máximo la potencia del sistema motriz 
           <imagen>https://upload.wikimedia.org/wikipedia/commons/7/7b/2015-03-03_Geneva_Motor_Show_3305_%28cropped%29.JPG</imagen>
           <enlace>https://www.altanave.uy/2024/10/koenigsegg-cc-8s-coupe-targa-de-2.html</enlace>
         </auto>
-        <auto id="50">
+        <auto id="50" terminado="false">
           <nombre>Koenigsegg CCR</nombre>
           <año>2004</año>
           <chasis>Coupé Targa</chasis>
@@ -615,7 +565,7 @@ Finalmente, el modo Quality aprovecha al máximo la potencia del sistema motriz 
           <imagen>https://upload.wikimedia.org/wikipedia/commons/b/b5/Koenigsegg_CCR_5.jpg</imagen>
           <enlace>https://www.altanave.uy/2024/10/koenigsegg-ccr-coupe-targa-2004.html</enlace>
         </auto>
-        <auto id="51">
+        <auto id="51" terminado="false">
           <nombre>Koenigsegg CCXR</nombre>
           <año>2008</año>
           <chasis>Coupé Targa de 2 puertas </chasis>
@@ -632,7 +582,7 @@ Finalmente, el modo Quality aprovecha al máximo la potencia del sistema motriz 
     </modelo>
     <modelo nombre="Agera">
       <generacion nombre="Koenigsegg Agera" añoInicio="2010" añoFin="2017">
-        <auto id="52">
+        <auto id="52" terminado="false">
           <nombre>Koenigsegg Agera R</nombre>
           <año>2012</año>
           <chasis>Coupé Targa de 2 puertas </chasis>
@@ -645,7 +595,7 @@ Finalmente, el modo Quality aprovecha al máximo la potencia del sistema motriz 
           <imagen>https://upload.wikimedia.org/wikipedia/commons/9/9e/Koenigsegg_Agera_RSN_2_NDM.jpg</imagen>
           <enlace>https://www.altanave.uy/2024/10/koenigsegg-agera-r-coupe-targa-de-2.html</enlace>
         </auto>
-        <auto id="69">
+        <auto id="69" terminado="false">
           <nombre>Koenigsegg Agera RS</nombre>
           <año>2017</año>
           <chasis>Coupé Targa de 2 puertas</chasis>
@@ -667,7 +617,7 @@ Finalmente, el modo Quality aprovecha al máximo la potencia del sistema motriz 
         </auto>
       </generacion>
       <generacion nombre="Koenigsegg Agera One:1" añoInicio="2014" añoFin="2015">
-        <auto id="53">
+        <auto id="53" terminado="false">
           <nombre>Koenigsegg Agera One:1</nombre>
           <año>2014</año>
           <chasis>Coupé de 2 puertas</chasis>
@@ -684,7 +634,7 @@ Finalmente, el modo Quality aprovecha al máximo la potencia del sistema motriz 
     </modelo>
     <modelo nombre="Jesko">
       <generacion nombre="Koenigsegg Jesko" añoInicio="2020" añoFin="2025">
-        <auto id="54">
+        <auto id="54" terminado="false">
           <nombre>Koenigsegg Jesko</nombre>
           <año>2023</año>
           <chasis>Coupé targa de 2 puertas</chasis>
@@ -701,7 +651,7 @@ Finalmente, el modo Quality aprovecha al máximo la potencia del sistema motriz 
     </modelo>
     <modelo nombre="Gemera">
       <generacion nombre="Koenigsegg Gemera" añoInicio="2020" añoFin="2025">
-        <auto id="55">
+        <auto id="55" terminado="false">
           <nombre>Koenigsegg Gemera</nombre>
           <año>2020</año>
           <chasis>Cupé de 2 puertas</chasis>
@@ -718,7 +668,7 @@ Finalmente, el modo Quality aprovecha al máximo la potencia del sistema motriz 
     </modelo>
     <modelo nombre="Regera">
       <generacion nombre="Koenigsegg Regera" añoInicio="2020" añoFin="2025">
-        <auto id="56">
+        <auto id="56" terminado="false">
           <nombre>Koenigsegg Regera</nombre>
           <año>2022</año>
           <chasis>Coupé targa de 2 puertas</chasis>
@@ -741,7 +691,7 @@ Finalmente, el modo Quality aprovecha al máximo la potencia del sistema motriz 
     <url>https://www.altanave.uy/2024/10/lamborghini.html</url>
     <modelo nombre="350 GT">
       <generacion nombre="Lamborghini 350 GT" añoInicio="1964" añoFin="1966">
-        <auto id="18">
+        <auto id="18" terminado="false">
           <nombre>Lamborghini 350 GT</nombre>
           <año>1965</año>
           <chasis>Coupe 2 puertas</chasis>
@@ -766,7 +716,7 @@ Finalmente, el modo Quality aprovecha al máximo la potencia del sistema motriz 
             </bloque>
           </bloques>
         </auto>
-        <auto id="19">
+        <auto id="19" terminado="false">
           <nombre>Lamborghini 350 GT</nombre>
           <año>1964</año>
           <chasis>Coupe 2 puertas</chasis>
@@ -788,7 +738,7 @@ Finalmente, el modo Quality aprovecha al máximo la potencia del sistema motriz 
     </modelo>
     <modelo nombre="Urraco">
       <generacion nombre="Urraco" añoInicio="1972" añoFin="1979">
-        <auto id="76">
+        <auto id="76" terminado="false">
           <nombre>Lamborghini Urraco</nombre>
           <año>1974</año>
           <chasis>Coupe 2 puertas</chasis>
@@ -812,7 +762,7 @@ Finalmente, el modo Quality aprovecha al máximo la potencia del sistema motriz 
     </modelo>
     <modelo nombre="Miura ">
       <generacion nombre="Lamborghini Miura" añoInicio="1966" añoFin="1972">
-        <auto id="60">
+        <auto id="60" terminado="false">
           <nombre>Lamborghini Miura P400</nombre>
           <año>1968</año>
           <chasis>Coupe 2 puertas</chasis>
@@ -852,7 +802,7 @@ Finalmente, el modo Quality aprovecha al máximo la potencia del sistema motriz 
             </bloque>
           </bloques>
         </auto>
-        <auto id="61">
+        <auto id="61" terminado="false">
           <nombre>Lamborghini Miura</nombre>
           <año>1968</año>
           <chasis>Roadster</chasis>
@@ -886,7 +836,7 @@ Finalmente, el modo Quality aprovecha al máximo la potencia del sistema motriz 
     </modelo>
     <modelo nombre="Urus">
       <generacion nombre="Lamborghini Urus" añoInicio="2018" añoFin="2025">
-        <auto id="17">
+        <auto id="17" terminado="false">
           <nombre>Lamborghini Urus</nombre>
           <año>2022</año>
           <chasis>SUV</chasis>
@@ -903,7 +853,7 @@ Finalmente, el modo Quality aprovecha al máximo la potencia del sistema motriz 
     </modelo>
     <modelo nombre="Murcielago">
       <generacion nombre="Murcielago" añoInicio="2001" añoFin="2006">
-        <auto id="33">
+        <auto id="33" terminado="false">
           <nombre>Lamborghini Murcielago</nombre>
           <año>2005</año>
           <chasis>Coupe 2 puertas</chasis>
@@ -916,7 +866,7 @@ Finalmente, el modo Quality aprovecha al máximo la potencia del sistema motriz 
           <imagen>https://upload.wikimedia.org/wikipedia/commons/9/92/2005_Lamborghini_Murcielago.jpg</imagen>
           <enlace>https://www.altanave.uy/2024/10/lamborghini-murcielago-coupe-de-2.html</enlace>
         </auto>
-        <auto id="34">
+        <auto id="34" terminado="false">
           <nombre>Lamborghini Murcielago Roadster</nombre>
           <año>2005</año>
           <chasis>Roadster de 2 puertas</chasis>
@@ -931,7 +881,7 @@ Finalmente, el modo Quality aprovecha al máximo la potencia del sistema motriz 
         </auto>
       </generacion>
       <generacion nombre="Murcielago LP" añoInicio="2006" añoFin="2011">
-        <auto id="36">
+        <auto id="36" terminado="false">
           <nombre>Lamborghini Murcielago LP640</nombre>
           <año>2010</año>
           <chasis>Coupe 2 puertas</chasis>
@@ -944,7 +894,7 @@ Finalmente, el modo Quality aprovecha al máximo la potencia del sistema motriz 
           <imagen>https://upload.wikimedia.org/wikipedia/commons/b/bb/Gray_Lamborghini_LP640.jpg</imagen>
           <enlace>https://www.altanave.uy/2024/10/lamborghini-murcielago-lp640-coupe-de-2.html</enlace>
         </auto>
-        <auto id="35">
+        <auto id="35" terminado="false">
           <nombre>Lamborghini Murcielago LP640 Roadster</nombre>
           <año>2009</año>
           <chasis>Roadster de 2 puertas</chasis>
@@ -957,7 +907,7 @@ Finalmente, el modo Quality aprovecha al máximo la potencia del sistema motriz 
           <imagen>https://upload.wikimedia.org/wikipedia/commons/d/dc/2005_Lamborghini_Murcielago_Roadster.jpg</imagen>
           <enlace>https://www.altanave.uy/2024/10/lamborghini-murcielago-lp640-roadster.html</enlace>
         </auto>
-        <auto id="37">
+        <auto id="37" terminado="false">
           <nombre>Lamborghini Murciélago SV (SuperVeloce)</nombre>
           <año>2010</año>
           <chasis>Coupe 2 puertas</chasis>
@@ -980,7 +930,7 @@ Finalmente, el modo Quality aprovecha al máximo la potencia del sistema motriz 
     <url>https://www.altanave.uy/2024/10/lynk-co.html</url>
     <modelo nombre="03">
       <generacion nombre="Lynk 03" añoInicio="2019" añoFin="2025">
-        <auto id="31">
+        <auto id="31" terminado="false">
           <nombre>Lynk &amp; Co 03+</nombre>
           <año>2016</año>
           <chasis>Sedan 4 puertas</chasis>
@@ -993,7 +943,7 @@ Finalmente, el modo Quality aprovecha al máximo la potencia del sistema motriz 
           <imagen>https://upload.wikimedia.org/wikipedia/commons/a/a8/Lynk_%26_Co_03_facelift_006.jpg</imagen>
           <enlace>https://www.altanave.uy/2024/10/lynk-co-03-sedan-4-puertas-2016.html</enlace>
         </auto>
-        <auto id="32">
+        <auto id="32" terminado="false">
           <nombre>Lynk &amp; Co 03+ Cyan Edition</nombre>
           <año>2016</año>
           <chasis>Sedan 4 puertas</chasis>
@@ -1038,7 +988,7 @@ Finalmente, el modo Quality aprovecha al máximo la potencia del sistema motriz 
     <url>https://www.altanave.uy/2024/10/mclaren.html</url>
     <modelo nombre="F1">
       <generacion nombre="McLaren F1" añoInicio="1992" añoFin="1998">
-        <auto id="64">
+        <auto id="64" terminado="false">
           <nombre>F1 Prototype</nombre>
           <año>1992</año>
           <chasis>Coupe 2 puertas</chasis>
@@ -1058,7 +1008,7 @@ Finalmente, el modo Quality aprovecha al máximo la potencia del sistema motriz 
             </bloque>
           </bloques>
         </auto>
-        <auto id="63">
+        <auto id="63" terminado="false">
           <nombre>F1 GTR</nombre>
           <año>1995</año>
           <chasis>Coupe 2 puertas</chasis>
@@ -1075,7 +1025,7 @@ Finalmente, el modo Quality aprovecha al máximo la potencia del sistema motriz 
     </modelo>
     <modelo nombre="P1">
       <generacion nombre="McLaren P1" añoInicio="2013" añoFin="2015">
-        <auto id="65">
+        <auto id="65" terminado="false">
           <nombre>McLaren P1</nombre>
           <año>2013</año>
           <chasis>Coupe 2 puertas</chasis>
@@ -1097,7 +1047,7 @@ Finalmente, el modo Quality aprovecha al máximo la potencia del sistema motriz 
     </modelo>
     <modelo nombre="720S">
       <generacion nombre="McLaren 720S" añoInicio="2017" añoFin="2023">
-        <auto id="10">
+        <auto id="10" terminado="false">
           <nombre>McLaren 720S</nombre>
           <año>2017</año>
           <chasis>Coupe 2 puertas</chasis>
@@ -1137,7 +1087,7 @@ Finalmente, el modo Quality aprovecha al máximo la potencia del sistema motriz 
     <url>https://www.altanave.uy/2024/10/mg.html</url>
     <modelo nombre="ZS">
       <generacion nombre="MG ZS" añoInicio="2022" añoFin="2025">
-        <auto id="16">
+        <auto id="16" terminado="false">
           <nombre>MG ZS EV</nombre>
           <año>2022</año>
           <chasis>SUV</chasis>
@@ -1161,7 +1111,7 @@ Finalmente, el modo Quality aprovecha al máximo la potencia del sistema motriz 
     <url>https://www.altanave.uy/2024/10/peugeot.html</url>
     <modelo nombre="208">
       <generacion nombre="Generacion 1" añoInicio="2012" añoFin="2019">
-        <auto id="38">
+        <auto id="38" terminado="true">
           <nombre>Peugeot 208 1.2 PureTech</nombre>
           <año>2019</año>
           <chasis>Hatchback 4 puertas</chasis>
@@ -1173,10 +1123,27 @@ Finalmente, el modo Quality aprovecha al máximo la potencia del sistema motriz 
           <precio>25000</precio>
           <imagen>https://upload.wikimedia.org/wikipedia/commons/5/5c/PEUGEOT_208_%28A9%29_front_view.jpg</imagen>
           <enlace>https://www.altanave.uy/2024/10/peugeot-208-12-puretech-hatchback-de-4.html</enlace>
+          <bloques>
+            <bloque>
+              <imagenurl>https://upload.wikimedia.org/wikipedia/commons/e/ee/Peugeot_208_%28A9%29_rear.jpg</imagenurl>
+              <titulo>Coche del Año</titulo>
+              <texto>Fue escogido como Coche del Año en España de 2013.</texto>
+            </bloque>
+            <bloque>
+              <imagenurl>https://upload.wikimedia.org/wikipedia/commons/a/a6/Antonio_Fern%C3%A1ndez_Valcarcel-_Botafumeiro_2019.jpg</imagenurl>
+              <titulo>Peugeot 208 Rally</titulo>
+              <texto>El Peugeot 208 cuenta con dos homologaciones de grupo R para competición: R2 y R5.</texto>
+            </bloque>
+            <bloque>
+              <imagenurl>https://upload.wikimedia.org/wikipedia/commons/3/3d/Peugeot_-_208_R5_-_Mondial_de_l%27Automobile_de_Paris_2012_-_204.jpg</imagenurl>
+              <titulo>Peugeot 208 R5</titulo>
+              <texto>El Peugeot 208 R5 fue renombrado como "208 T16" en honor al celebre Peugeot 205 Turbo 16 </texto>
+            </bloque>
+          </bloques>
         </auto>
       </generacion>
       <generacion nombre="Generacion 2" añoInicio="2019" añoFin="2024">
-        <auto id="39">
+        <auto id="39" terminado="true">
           <nombre>Peugeot 208 PureTech 75</nombre>
           <año>2021</año>
           <chasis>Hatchback 4 puertas</chasis>
@@ -1188,22 +1155,154 @@ Finalmente, el modo Quality aprovecha al máximo la potencia del sistema motriz 
           <precio>23000</precio>
           <imagen>https://upload.wikimedia.org/wikipedia/commons/7/72/2021_Peugeot_208_Allure_Pack.jpg</imagen>
           <enlace>https://www.altanave.uy/2024/10/peugeot-208-puretech-75-hatchback-de-5.html</enlace>
+          <bloques>
+            <bloque>
+              <imagenurl>https://upload.wikimedia.org/wikipedia/commons/7/79/Peugeot_208_II_GT_Line_rouge_%28avant%29.jpg</imagenurl>
+              <titulo>Coche europeo del año</titulo>
+              <texto>El 208 II fue elegido coche europeo del año 2020, y en esta generacion fue el coche más vendido en Francia en 2020, 2021 y 2022 </texto>
+            </bloque>
+            <bloque>
+              <imagenurl>https://upload.wikimedia.org/wikipedia/commons/f/fc/Peugeot_e-208_Allure_Genf_2019_1Y7A5132.jpg</imagenurl>
+              <titulo>Peugeot 208 electrico</titulo>
+              <texto>En 2019 se presentó una versión eléctrica con una potencia de 136 CV y una batería de 50 kWh. Dispone de tres modos de conducción: Normal, Sport y Eco. En modo deportivo acelera de 0 a 100 km/h en 8,1 segundos.</texto>
+            </bloque>
+          </bloques>
+          <masimagenes>
+            <extraimagenurl>https://upload.wikimedia.org/wikipedia/commons/9/9b/2020_Peugeot_208_GT_Line_Front.jpg</extraimagenurl>
+          </masimagenes>
         </auto>
       </generacion>
       <generacion nombre="Generacion 3" añoInicio="2024" añoFin="2025">
-        <auto id="40">
-          <nombre>Peugeot 208</nombre>
-          <año>2024</año>
-          <chasis>Hatchback 4 puertas</chasis>
-          <propulsion>Gasolina</propulsion>
-          <velocidad>164</velocidad>
-          <potencia>74</potencia>
-          <aceleracion>14,9</aceleracion>
-          <tipo>Normal</tipo>
-          <precio>20000</precio>
-          <imagen>https://upload.wikimedia.org/wikipedia/commons/9/91/Peugeot_208_B_facelift_Automesse_Ludwigsburg_2024_IMG_1527.jpg</imagen>
-          <enlace>https://www.altanave.uy/2024/10/peugeot-208-hatchback-de-5-puertas-2024.html</enlace>
-        </auto>
+        <auto id="40" terminado="false"><nombre>Peugeot 208</nombre><año>2024</año><chasis>Hatchback 4 puertas</chasis><propulsion>Gasolina</propulsion><velocidad>164</velocidad><potencia>74</potencia><aceleracion>14,9</aceleracion><tipo>Normal</tipo><precio>20000</precio><imagen>https://upload.wikimedia.org/wikipedia/commons/9/91/Peugeot_208_B_facelift_Automesse_Ludwigsburg_2024_IMG_1527.jpg</imagen><enlace>https://www.altanave.uy/2024/10/peugeot-208-hatchback-de-5-puertas-2024.html</enlace><bloques><bloque><titulo>Versiones</titulo><texto>&lt;table class="table2"&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+
+      &lt;th&gt;Active&lt;/th&gt;
+      &lt;th&gt;Style&lt;/th&gt;
+      &lt;th&gt;Allure&lt;/th&gt;
+      &lt;th&gt;GT&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+
+      &lt;td&gt;1.0 L, 3 cilindros, 75 cv, 105 Nm, caja manual 5 velocidades (BVM5)&lt;/td&gt;
+      &lt;td&gt;1.0 L, 3 cilindros, 75 cv, 105 Nm, caja manual 5 velocidades (BVM5)&lt;/td&gt;
+      &lt;td&gt;1.6 L, 4 cilindros, 115 cv, 150 Nm, caja manual 5 velocidades (BVM5)&lt;/td&gt;
+      &lt;td&gt;1.0 L Turbo 200, 3 cilindros, 120 cv, 200 Nm, caja automática CVT 7 marchas pre-fijadas&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;</texto></bloque><bloque><imagenurl>https://upload.wikimedia.org/wikipedia/commons/4/45/Peugeot_e-208_facelift_1X7A2502.jpg</imagenurl><titulo>Peugeot 208 facelift </titulo><texto>En 2023, el Peugeot 208 recibió un facelift o restyling que renovó su apariencia, especialmente en la parte frontal, adoptando la nueva identidad de la marca del león. Además de la actualización del logotipo, el modelo incorpora una nueva firma lumínica LED en la parte delantera y faros traseros LED rediseñados.</texto></bloque><bloque><titulo>Peugeot 208 Equipamiento</titulo><texto>&lt;table class="table2"&gt;
+    &lt;thead&gt;
+        &lt;tr&gt;
+            &lt;th scope="col"&gt;Equipamiento&lt;/th&gt;
+            &lt;th scope="col"&gt;Active&lt;/th&gt;
+            &lt;th scope="col"&gt;Style&lt;/th&gt;
+            &lt;th scope="col"&gt;Allure&lt;/th&gt;
+            &lt;th scope="col"&gt;GT&lt;/th&gt;
+        &lt;/tr&gt;
+    &lt;/thead&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;th scope="row"&gt;Cantidad de airbags&lt;/th&gt;
+            &lt;td&gt;Cuatro&lt;/td&gt;
+            &lt;td&gt;Cuatro&lt;/td&gt;
+            &lt;td&gt;Seis (con airbags de cortina)&lt;/td&gt;
+            &lt;td&gt;Seis (con airbags de cortina)&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;th scope="row"&gt;Frenos ABS+REF&lt;/th&gt;
+            &lt;td&gt;✅&lt;/td&gt;
+            &lt;td&gt;✅&lt;/td&gt;
+            &lt;td&gt;✅&lt;/td&gt;
+            &lt;td&gt;✅&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;th scope="row"&gt;Asistente de arranque en pendientes (HAC)&lt;/th&gt;
+            &lt;td&gt;✅&lt;/td&gt;
+            &lt;td&gt;✅&lt;/td&gt;
+            &lt;td&gt;✅&lt;/td&gt;
+            &lt;td&gt;✅&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;th scope="row"&gt;Controles de tracción (ASR) y estabilidad (ESC)&lt;/th&gt;
+            &lt;td&gt;✅&lt;/td&gt;
+            &lt;td&gt;✅&lt;/td&gt;
+            &lt;td&gt;✅&lt;/td&gt;
+            &lt;td&gt;✅&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;th scope="row"&gt;Monitoreo de presión de neumáticos&lt;/th&gt;
+            &lt;td&gt;✅&lt;/td&gt;
+            &lt;td&gt;✅&lt;/td&gt;
+            &lt;td&gt;✅&lt;/td&gt;
+            &lt;td&gt;✅&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;th scope="row"&gt;Sistema multimedia con pantalla táctil&lt;/th&gt;
+            &lt;td&gt;10,25 pulgadas&lt;/td&gt;
+            &lt;td&gt;10,25 pulgadas&lt;/td&gt;
+            &lt;td&gt;10 pulgadas i-Cockpit Digital&lt;/td&gt;
+            &lt;td&gt;10 pulgadas i-Cockpit Digital 3D&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;th scope="row"&gt;Tapizados&lt;/th&gt;
+            &lt;td&gt;Tela&lt;/td&gt;
+            &lt;td&gt;Tela con costuras azul “Style”&lt;/td&gt;
+            &lt;td&gt;TEP/eco-cuero&lt;/td&gt;
+            &lt;td&gt;TEP/eco-cuero “GT”&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;th scope="row"&gt;Aire acondicionado&lt;/th&gt;
+            &lt;td&gt;Automático digital&lt;/td&gt;
+            &lt;td&gt;Automático digital&lt;/td&gt;
+            &lt;td&gt;Automático digital&lt;/td&gt;
+            &lt;td&gt;Automático digital&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;th scope="row"&gt;Faros delanteros&lt;/th&gt;
+            &lt;td&gt;Halógenos&lt;/td&gt;
+            &lt;td&gt;Eco LED&lt;/td&gt;
+            &lt;td&gt;Eco LED&lt;/td&gt;
+            &lt;td&gt;Eco LED&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;th scope="row"&gt;Llantas&lt;/th&gt;
+            &lt;td&gt;15 pulgadas&lt;/td&gt;
+            &lt;td&gt;16 pulgadas "Black Ghana"&lt;/td&gt;
+            &lt;td&gt;16 pulgadas "Kenobi"&lt;/td&gt;
+            &lt;td&gt;17 pulgadas "Yanaka"&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;th scope="row"&gt;Cámara de retroceso&lt;/th&gt;
+            &lt;td&gt;❌&lt;/td&gt;
+            &lt;td&gt;Visiopark 1&lt;/td&gt;
+            &lt;td&gt;Visiopark 1&lt;/td&gt;
+            &lt;td&gt;Visiopark 1&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;th scope="row"&gt;Alerta de mantenimiento de carril (LKA)&lt;/th&gt;
+            &lt;td&gt;❌&lt;/td&gt;
+            &lt;td&gt;❌&lt;/td&gt;
+            &lt;td&gt;❌&lt;/td&gt;
+            &lt;td&gt;✅&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;th scope="row"&gt;Frenado autónomo de emergencia (AEB)&lt;/th&gt;
+            &lt;td&gt;❌&lt;/td&gt;
+            &lt;td&gt;❌&lt;/td&gt;
+            &lt;td&gt;❌&lt;/td&gt;
+            &lt;td&gt;✅&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;th scope="row"&gt;Techo panorámico&lt;/th&gt;
+            &lt;td&gt;❌&lt;/td&gt;
+            &lt;td&gt;✅&lt;/td&gt;
+            &lt;td&gt;✅&lt;/td&gt;
+            &lt;td&gt;✅&lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;</texto></bloque></bloques></auto>
       </generacion>
     </modelo>
   </marca>
@@ -1214,7 +1313,7 @@ Finalmente, el modo Quality aprovecha al máximo la potencia del sistema motriz 
     <url>https://www.altanave.uy/2024/10/porsche.html</url>
     <modelo nombre="911">
       <generacion nombre="Porsche 911 (modelo 911)" añoInicio="1964" añoFin="1989">
-        <auto id="1">
+        <auto id="1" terminado="false">
           <nombre>Porsche 911</nombre>
           <año>1965</año>
           <chasis>Coupe 2 puertas</chasis>
@@ -1227,7 +1326,7 @@ Finalmente, el modo Quality aprovecha al máximo la potencia del sistema motriz 
           <imagen>https://upload.wikimedia.org/wikipedia/commons/d/d8/Stuttgart_Jul_2012_20_%28Porsche_Museum_-_1965_Porsche_911_2.0_Coupe%29.jpg</imagen>
           <enlace>https://www.altanave.uy/2024/10/porsche-911-coupe-de-2-puertas-1965.html</enlace>
         </auto>
-        <auto id="2">
+        <auto id="2" terminado="false">
           <nombre>Porsche 911</nombre>
           <año>1968</año>
           <chasis>Targa</chasis>
@@ -1241,7 +1340,7 @@ Finalmente, el modo Quality aprovecha al máximo la potencia del sistema motriz 
                         https://upload.wikimedia.org/wikipedia/commons/a/ae/Saxony_Classic_Rallye_2010_-_Porsche_911_T_1969_%28aka%29.jpg</imagen>
           <enlace>https://www.altanave.uy/2024/10/porsche-911-targa-1968.html</enlace>
         </auto>
-        <auto id="3">
+        <auto id="3" terminado="false">
           <nombre>Porsche 911</nombre>
           <año>1987</año>
           <chasis>Coupe 2 puertas</chasis>
@@ -1254,7 +1353,7 @@ Finalmente, el modo Quality aprovecha al máximo la potencia del sistema motriz 
           <imagen>https://upload.wikimedia.org/wikipedia/commons/8/86/Porsche_911_Turbo_%281987%29_%2852574988328%29.jpg</imagen>
           <enlace>https://www.altanave.uy/2024/10/porsche-911-coupe-de-2-puertas-1987.html</enlace>
         </auto>
-        <auto id="4">
+        <auto id="4" terminado="false">
           <nombre>Porsche 911</nombre>
           <año>1987</año>
           <chasis>Convertible 2 puertas</chasis>
@@ -1267,7 +1366,7 @@ Finalmente, el modo Quality aprovecha al máximo la potencia del sistema motriz 
           <imagen>https://upload.wikimedia.org/wikipedia/commons/e/e7/Porsche_911_Carrera_Super_Sport_Cabrio_3.2_%281989%29_%2834717125242%29.jpg</imagen>
           <enlace>https://www.altanave.uy/2024/10/porsche-911-convertible-de-2-puertas.html</enlace>
         </auto>
-        <auto id="5">
+        <auto id="5" terminado="false">
           <nombre>Porsche 911</nombre>
           <año>1989</año>
           <chasis>Targa</chasis>
@@ -1282,7 +1381,7 @@ Finalmente, el modo Quality aprovecha al máximo la potencia del sistema motriz 
         </auto>
       </generacion>
       <generacion nombre="Porsche 911 (modelo 930) Turbo" añoInicio="1974" añoFin="1989">
-        <auto id="6">
+        <auto id="6" terminado="false">
           <nombre>Porsche 911 Turbo</nombre>
           <año>1989</año>
           <chasis>Convertible 2 puertas</chasis>
@@ -1295,7 +1394,7 @@ Finalmente, el modo Quality aprovecha al máximo la potencia del sistema motriz 
           <imagen>https://upload.wikimedia.org/wikipedia/commons/6/62/1989_Porsche_911_Turbo_Cabriolet_from_Britain_%2850675034823%29.jpg</imagen>
           <enlace>https://www.altanave.uy/2024/10/porsche-911-turbo-convertible-de-2.html</enlace>
         </auto>
-        <auto id="7">
+        <auto id="7" terminado="false">
           <nombre>Porsche 911 Turbo Flatnose</nombre>
           <año>1989</año>
           <chasis>Convertible 2 puertas</chasis>
@@ -1308,7 +1407,7 @@ Finalmente, el modo Quality aprovecha al máximo la potencia del sistema motriz 
           <imagen>https://upload.wikimedia.org/wikipedia/commons/a/a3/Porsche_930_Turbo_Cabriolet_Flatnose_%2815574169294%29.jpg</imagen>
           <enlace>https://www.altanave.uy/2024/10/porsche-911-turbo-flatnose-convertible.html</enlace>
         </auto>
-        <auto id="8">
+        <auto id="8" terminado="false">
           <nombre>Porsche 911 Turbo</nombre>
           <año>1975</año>
           <chasis>Coupe 2 puertas</chasis>
@@ -1323,7 +1422,7 @@ Finalmente, el modo Quality aprovecha al máximo la potencia del sistema motriz 
         </auto>
       </generacion>
       <generacion nombre="Porsche 911 (modelo 964)" añoInicio="1988" añoFin="1994">
-        <auto id="11">
+        <auto id="11" terminado="false">
           <nombre>Porsche 911 Carrera 2</nombre>
           <año>1992</año>
           <chasis>Coupe 2 puertas</chasis>
@@ -1336,7 +1435,7 @@ Finalmente, el modo Quality aprovecha al máximo la potencia del sistema motriz 
           <imagen>https://upload.wikimedia.org/wikipedia/commons/e/eb/1992_Porsche_911_Carrera_%28964%29.jpg</imagen>
           <enlace>https://www.altanave.uy/2024/10/porsche-911-carrera-2-coupe-de-2.html</enlace>
         </auto>
-        <auto id="12">
+        <auto id="12" terminado="false">
           <nombre>Porsche 911 Carrera 2</nombre>
           <año>1991</año>
           <chasis>Targa</chasis>
@@ -1349,7 +1448,7 @@ Finalmente, el modo Quality aprovecha al máximo la potencia del sistema motriz 
           <imagen>https://upload.wikimedia.org/wikipedia/commons/7/74/Porsche_911_Carrera_Targa_07-27-2019.jpg</imagen>
           <enlace>https://www.altanave.uy/2024/10/porsche-911-carrera-2-targa-1991.html</enlace>
         </auto>
-        <auto id="13">
+        <auto id="13" terminado="false">
           <nombre>Porsche 911 Carrera 2</nombre>
           <año>1990</año>
           <chasis>Convertible 2 puertas</chasis>
@@ -1364,7 +1463,7 @@ Finalmente, el modo Quality aprovecha al máximo la potencia del sistema motriz 
         </auto>
       </generacion>
       <generacion nombre="Porsche 911 (modelo 993)" añoInicio="1993" añoFin="1998">
-        <auto id="41">
+        <auto id="41" terminado="false">
           <nombre>Porsche 911 Carrera 4 Coupe</nombre>
           <año>1995</año>
           <chasis>Coupe 2 puertas</chasis>
@@ -1377,7 +1476,7 @@ Finalmente, el modo Quality aprovecha al máximo la potencia del sistema motriz 
           <imagen>https://upload.wikimedia.org/wikipedia/commons/f/f7/1995_Porsche_911_%28993%29_Carrera_FOS21.jpg</imagen>
           <enlace>https://www.altanave.uy/2024/10/porsche-911-carrera-4-coupe-coupe-de-2.html</enlace>
         </auto>
-        <auto id="42">
+        <auto id="42" terminado="false">
           <nombre>Porsche 911 Carrera 4</nombre>
           <año>1997</año>
           <chasis>Convertible 2 puertas</chasis>
@@ -1392,7 +1491,7 @@ Finalmente, el modo Quality aprovecha al máximo la potencia del sistema motriz 
         </auto>
       </generacion>
       <generacion nombre="Porsche 911 (modelo 996)" añoInicio="1997" añoFin="2005">
-        <auto id="57">
+        <auto id="57" terminado="false">
           <nombre>Porsche 911 Carrera 4</nombre>
           <año>2002</año>
           <chasis>Convertible 2 puertas</chasis>
@@ -1407,7 +1506,7 @@ Finalmente, el modo Quality aprovecha al máximo la potencia del sistema motriz 
         </auto>
       </generacion>
       <generacion nombre="Porsche 911 (modelo 997)" añoInicio="2004" añoFin="2012">
-        <auto id="58">
+        <auto id="58" terminado="false">
           <nombre>Porsche 911 Carrera 4</nombre>
           <año>2008</año>
           <chasis>Convertible 2 puertas</chasis>
@@ -1422,7 +1521,7 @@ Finalmente, el modo Quality aprovecha al máximo la potencia del sistema motriz 
         </auto>
       </generacion>
       <generacion nombre="Porsche 911 (modelo 991)" añoInicio="2011" añoFin="2019">
-        <auto id="43">
+        <auto id="43" terminado="false">
           <nombre>Porsche 911 Carrera 4 (991.1) Cabriolet</nombre>
           <año>2014</año>
           <chasis>Convertible 2 puertas</chasis>
@@ -1435,7 +1534,7 @@ Finalmente, el modo Quality aprovecha al máximo la potencia del sistema motriz 
           <imagen>https://upload.wikimedia.org/wikipedia/commons/6/65/The_frontview_of_Porsche_991_Carrera_4S_Cabriolet.JPG</imagen>
           <enlace>https://www.altanave.uy/2024/10/porsche-911-carrera-4-cabriolet.html</enlace>
         </auto>
-        <auto id="44">
+        <auto id="44" terminado="false">
           <nombre>Porsche 911 (991.1) Targa 4</nombre>
           <año>2015</año>
           <chasis>Targa</chasis>
@@ -1448,7 +1547,7 @@ Finalmente, el modo Quality aprovecha al máximo la potencia del sistema motriz 
           <imagen>https://upload.wikimedia.org/wikipedia/commons/8/89/Porsche_911_Targa_4S_%28991%29_%2826380557922%29.jpg</imagen>
           <enlace>https://www.altanave.uy/2024/10/porsche-911-targa-4-targa-2015.html</enlace>
         </auto>
-        <auto id="45">
+        <auto id="45" terminado="false">
           <nombre>Porsche 911 (991.1) Carrera 4</nombre>
           <año>2015</año>
           <chasis>Coupe 2 puertas</chasis>
@@ -1461,7 +1560,7 @@ Finalmente, el modo Quality aprovecha al máximo la potencia del sistema motriz 
           <imagen>https://upload.wikimedia.org/wikipedia/commons/7/7c/2015_Porsche_911_Turbo_991.1_Coupe.jpg</imagen>
           <enlace>https://www.altanave.uy/2024/10/porsche-911-carrera-4-9911-coupe-de-2.html</enlace>
         </auto>
-        <auto id="46">
+        <auto id="46" terminado="false">
           <nombre>Porsche 911 Carrera (991.2) Cabriolet</nombre>
           <año>2015</año>
           <chasis>Convertible 2 puertas</chasis>
@@ -1474,7 +1573,7 @@ Finalmente, el modo Quality aprovecha al máximo la potencia del sistema motriz 
           <imagen>https://upload.wikimedia.org/wikipedia/commons/1/1a/PORSCHE_911_%28991%29_CONVERTIBLE_China.jpg</imagen>
           <enlace>https://www.altanave.uy/2024/10/porsche-911-carrera-9912-cabriolet.html</enlace>
         </auto>
-        <auto id="47">
+        <auto id="47" terminado="false">
           <nombre>Porsche 911 Carrera 4 (991.2)</nombre>
           <año>2018</año>
           <chasis>Coupe 2 puertas</chasis>
@@ -1487,7 +1586,7 @@ Finalmente, el modo Quality aprovecha al máximo la potencia del sistema motriz 
           <imagen>https://upload.wikimedia.org/wikipedia/commons/d/d5/2018_Porsche_911_%28991.2%29_Carrera_T.jpg</imagen>
           <enlace>https://www.altanave.uy/2024/10/porsche-911-carrera-4-9912-coupe-de-2.html</enlace>
         </auto>
-        <auto id="48">
+        <auto id="48" terminado="false">
           <nombre>Porsche 911 GT2 RS</nombre>
           <año>2018</año>
           <chasis>Coupe 2 puertas</chasis>
@@ -1525,7 +1624,7 @@ Finalmente, el modo Quality aprovecha al máximo la potencia del sistema motriz 
     <url>https://www.altanave.uy/2024/11/xiaomi.html</url>
     <modelo nombre="SU7">
       <generacion nombre="SU7" añoInicio="2025" añoFin="2025">
-        <auto id="77">
+        <auto id="77" terminado="false">
           <nombre>Xiaomi SU7</nombre>
           <año>2025</año>
           <chasis>Sedan 4 puertas</chasis>
@@ -1547,7 +1646,7 @@ Finalmente, el modo Quality aprovecha al máximo la potencia del sistema motriz 
             <extraimagenurl>https://upload.wikimedia.org/wikipedia/commons/8/87/Xiaomi_SU7_004.jpg</extraimagenurl>
           </masimagenes>
         </auto>
-        <auto id="78">
+        <auto id="78" terminado="false">
           <nombre>Xiaomi SU7 Max</nombre>
           <año>2025</año>
           <chasis>Sedan 4 puertas</chasis>
@@ -1590,7 +1689,7 @@ Afirman tener en marcha motores de mayor rendimiento que los Porsche Taycan.</te
     <url>https://www.altanave.uy/2024/11/de-tomaso.html</url>
     <modelo nombre="Pantera">
       <generacion nombre="De Tomaso Pantera" añoInicio="1970" añoFin="1991">
-        <auto id="80">
+        <auto id="80" terminado="false">
           <nombre>De Tomaso Pantera</nombre>
           <año>1970</año>
           <chasis>Coupe 2 puertas</chasis>
@@ -1629,19 +1728,7 @@ Afirman tener en marcha motores de mayor rendimiento que los Porsche Taycan.</te
     </modelo>
     <modelo nombre="Mangusta">
       <generacion nombre="Mangusta" añoInicio="1967" añoFin="1971">
-        <auto id="81">
-          <nombre>De Tomaso Mangusta</nombre>
-          <año>1971</año>
-          <chasis>Coupe 2 puertas</chasis>
-          <propulsion>Gasolina</propulsion>
-          <velocidad>250</velocidad>
-          <potencia>302</potencia>
-          <aceleracion>5</aceleracion>
-          <tipo>Deportivo</tipo>
-          <precio>400000</precio>
-          <imagen>https://upload.wikimedia.org/wikipedia/commons/5/56/1971_De_Tomaso_Mangusta.jpg</imagen>
-          <enlace>https://www.altanave.uy/2024/11/de-tomaso-mangusta-coupe-de-2-puertas.html</enlace>
-        </auto>
+        <auto id="81"><nombre>De Tomaso Mangusta</nombre><año>1971</año><chasis>Coupe 2 puertas</chasis><propulsion>Gasolina</propulsion><velocidad>250</velocidad><potencia>302</potencia><aceleracion>5</aceleracion><tipo>Deportivo</tipo><precio>400000</precio><imagen>https://upload.wikimedia.org/wikipedia/commons/5/56/1971_De_Tomaso_Mangusta.jpg</imagen><enlace>https://www.altanave.uy/2024/11/de-tomaso-mangusta-coupe-de-2-puertas.html</enlace></auto>
       </generacion>
     </modelo>
   </marca>
@@ -1652,7 +1739,7 @@ Afirman tener en marcha motores de mayor rendimiento que los Porsche Taycan.</te
     <url>https://www.altanave.uy/2024/11/pontiac.html</url>
     <modelo nombre="GTO">
       <generacion nombre="1era Generacion (Tempest Le Mans GTO)" añoInicio="1964" añoFin="1967">
-        <auto id="82">
+        <auto id="82" terminado="false">
           <nombre>Pontiac GTO</nombre>
           <año>1964</año>
           <chasis>Hardtop 2 puertas</chasis>
@@ -1665,7 +1752,7 @@ Afirman tener en marcha motores de mayor rendimiento que los Porsche Taycan.</te
           <imagen>https://upload.wikimedia.org/wikipedia/commons/7/79/1964_Pontiac_GTO_Hardtop_%288638753037%29.jpg</imagen>
           <enlace>https://www.altanave.uy/2024/11/pontiac-gto-1964-hardtop-2-puertas.html</enlace>
         </auto>
-        <auto id="83">
+        <auto id="83" terminado="false">
           <nombre>Pontiac GTO</nombre>
           <año>1964</año>
           <chasis>Convertible 2 puertas</chasis>
