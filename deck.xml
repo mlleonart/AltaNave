@@ -298,45 +298,9 @@ El Ferrari SF90 Spider, además de mantener la silueta del SF90 Stradale, presen
     </modelo>
     <modelo nombre="488">
       <generacion nombre="488" añoInicio="2015" añoFin="2019">
-        <auto id="25" terminado="false">
-          <nombre>Ferrari 488 GTB</nombre>
-          <año>2017</año>
-          <chasis>Coupe 2 puertas</chasis>
-          <propulsion>Gasolina</propulsion>
-          <velocidad>330</velocidad>
-          <potencia>661</potencia>
-          <aceleracion>3</aceleracion>
-          <tipo>Deportivo</tipo>
-          <precio>300000</precio>
-          <imagen>https://upload.wikimedia.org/wikipedia/commons/1/18/2017_Ferrari_488.jpg</imagen>
-          <enlace>https://www.altanave.uy/2024/10/ferrari-488-gtb-coupe-de-2-puertas-2017.html</enlace>
-        </auto>
-        <auto id="26" terminado="false">
-          <nombre>Ferrari 488 Spider</nombre>
-          <año>2019</año>
-          <chasis>Convertible 2 puertas</chasis>
-          <propulsion>Gasolina</propulsion>
-          <velocidad>325</velocidad>
-          <potencia>661</potencia>
-          <aceleracion>3</aceleracion>
-          <tipo>Deportivo</tipo>
-          <precio>250000</precio>
-          <imagen>https://upload.wikimedia.org/wikipedia/commons/9/97/Ferrari_488_Spider_7.jpg</imagen>
-          <enlace>https://www.altanave.uy/2024/10/ferrari-488-spider-convertible-de-2.html</enlace>
-        </auto>
-        <auto id="27" terminado="false">
-          <nombre>Ferrari 488 Pista</nombre>
-          <año>2019</año>
-          <chasis>Coupe 2 puertas</chasis>
-          <propulsion>Gasolina</propulsion>
-          <velocidad>340</velocidad>
-          <potencia>720</potencia>
-          <aceleracion>2,85</aceleracion>
-          <tipo>Superauto</tipo>
-          <precio>350000</precio>
-          <imagen>https://upload.wikimedia.org/wikipedia/commons/8/8d/Ferrari_488_Pista_8.jpg</imagen>
-          <enlace>https://www.altanave.uy/2024/10/ferrari-488-pista-coupe-de-2-puertas.html</enlace>
-        </auto>
+        <auto id="25"><nombre>Ferrari 488 GTB</nombre><año>2017</año><chasis>Coupe 2 puertas</chasis><propulsion>Gasolina</propulsion><velocidad>330</velocidad><potencia>661</potencia><aceleracion>3</aceleracion><tipo>Deportivo</tipo><precio>300000</precio><imagen>https://upload.wikimedia.org/wikipedia/commons/1/18/2017_Ferrari_488.jpg</imagen><enlace>https://www.altanave.uy/2024/11/ferrari-488-gtb-2017-coupe.html</enlace><bloques><bloque><imagenurl>https://commons.wikimedia.org/wiki/File:Ferrari_488_GTB_at_Geneva_International_Motor_Show_2015_(Ank_Kumar)_02.jpg</imagenurl><titulo>Ferrari 488 motor </titulo><texto>El Ferrari 488 es un vehículo biplaza con motor central trasero y tracción trasera. Está impulsado por un motor V8 de 3.9 litros, identificado con el código "F154CB", y fabricado completamente con aleaciones de aluminio.</texto></bloque><bloque><imagenurl>https://upload.wikimedia.org/wikipedia/commons/1/1f/Ferrari_488_GTB_at_Geneva_International_Motor_Show_2015_%28Ank_Kumar%2C_Infosys%29_05.jpg</imagenurl><titulo>488 GTB aerodinámica </titulo><texto>La carrocería de este modelo fue diseñada para incrementar la carga aerodinámica en un 50% en comparación con el 458, al mismo tiempo que disminuye la resistencia al aire.</texto></bloque></bloques></auto>
+        <auto id="26"><nombre>Ferrari 488 Spider</nombre><año>2019</año><chasis>Convertible 2 puertas</chasis><propulsion>Gasolina</propulsion><velocidad>325</velocidad><potencia>661</potencia><aceleracion>3</aceleracion><tipo>Deportivo</tipo><precio>250000</precio><imagen>https://upload.wikimedia.org/wikipedia/commons/9/97/Ferrari_488_Spider_7.jpg</imagen><enlace>https://www.altanave.uy/2024/11/ferrari-488-spider-2019-convertible.html</enlace><bloques><bloque><imagenurl>https://upload.wikimedia.org/wikipedia/commons/f/f5/Ferrari_488_Spider_front.jpg</imagenurl><titulo>Ferrari 488 descapotable</titulo><texto>Se trata de una versión con techo rígido descapotable, que comparte la misma mecánica que el 488 GTB, incluido su motor. En su momento, fue el Spider más eficiente que Ferrari había producido en toda su historia.</texto></bloque></bloques></auto>
+        <auto id="27"><nombre>Ferrari 488 Pista</nombre><año>2019</año><chasis>Coupe 2 puertas</chasis><propulsion>Gasolina</propulsion><velocidad>340</velocidad><potencia>710</potencia><aceleracion>2,85</aceleracion><tipo>Superauto</tipo><precio>350000</precio><imagen>https://upload.wikimedia.org/wikipedia/commons/8/8d/Ferrari_488_Pista_8.jpg</imagen><enlace>https://www.altanave.uy/2024/10/ferrari-488-pista-coupe-de-2-puertas.html</enlace><bloques><bloque><imagenurl>https://upload.wikimedia.org/wikipedia/commons/8/87/Ferrari_480%2C_Mexico_2019p2.jpg</imagenurl><titulo>488 fibra de carbono</titulo><texto>Está impulsado por el mismo motor que la versión estándar, aunque su potencia máxima se eleva a 710 HP gracias a numerosas modificaciones mecánicas y exteriores que lo hacen aún más competitivo que el 488 GTB. Además, se emplea fibra de carbono en diversas partes para aligerar su peso. En comparación con el 488 GTB, es 91 kg más ligero debido al uso de fibra de carbono en elementos como el capó, las defensas y el alerón trasero.</texto></bloque></bloques><masimagenes><extraimagenurl>https://upload.wikimedia.org/wikipedia/commons/b/b3/2019_Ferrari_488_Pista_6.jpg</extraimagenurl><extraimagenurl>https://upload.wikimedia.org/wikipedia/commons/2/24/2020_Ferrari_488_Pista_11.jpg</extraimagenurl><extraimagenurl>https://upload.wikimedia.org/wikipedia/commons/d/d7/2020_Ferrari_488_Pista_9.jpg</extraimagenurl><extraimagenurl>https://upload.wikimedia.org/wikipedia/commons/f/f8/Ferrari_488_Pista_11.jpg</extraimagenurl><extraimagenurl>https://upload.wikimedia.org/wikipedia/commons/f/f1/Ferrari_488_Pista_13.jpg</extraimagenurl><extraimagenurl>https://upload.wikimedia.org/wikipedia/commons/b/b2/Ferrari_488_Pista_14.jpg</extraimagenurl><extraimagenurl>https://upload.wikimedia.org/wikipedia/commons/b/b0/Ferrari_488_Pista_10.jpg</extraimagenurl></masimagenes></auto>
       </generacion>
     </modelo>
   </marca>
