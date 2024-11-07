@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE deck [
 <!ELEMENT deck (marca)+>
-<!ELEMENT marca (logoURL? , country? , flagURL? , url? , modelo+)>
+<!ELEMENT marca (logoURL?, country?, flagURL?, url?, modelo+)>
 <!ATTLIST marca nombre CDATA #REQUIRED>
 <!ELEMENT logoURL (#PCDATA)>
 <!ELEMENT country (#PCDATA)>
@@ -10,12 +10,16 @@
 <!ELEMENT modelo (generacion)+>
 <!ATTLIST modelo nombre CDATA #REQUIRED>
 <!ELEMENT generacion (auto)+>
-<!ATTLIST generacion nombre CDATA #REQUIRED>
-<!ATTLIST generacion añoInicio CDATA #REQUIRED>
-<!ATTLIST generacion añoFin CDATA #REQUIRED>
-<!ELEMENT auto (nombre , año , chasis , propulsion , velocidad , potencia , aceleracion , tipo , precio , imagen , enlace , bloques? , masimagenes?)>
-<!ATTLIST auto id CDATA #REQUIRED>
-<!ATTLIST auto terminado (true | false) "false">
+<!ATTLIST generacion 
+    nombre CDATA #REQUIRED
+    añoInicio CDATA #REQUIRED
+    añoFin CDATA #REQUIRED
+>
+<!ELEMENT auto (nombre, año, chasis, propulsion, velocidad, potencia, aceleracion, tipo, precio, imagen, enlace, bloques?, masimagenes?)>
+<!ATTLIST auto 
+    id CDATA #REQUIRED
+    terminado (true | false) "false"
+>
 <!ELEMENT nombre (#PCDATA)>
 <!ELEMENT año (#PCDATA)>
 <!ELEMENT chasis (#PCDATA)>
@@ -28,7 +32,7 @@
 <!ELEMENT imagen (#PCDATA)>
 <!ELEMENT enlace (#PCDATA)>
 <!ELEMENT bloques (bloque)*>
-<!ELEMENT bloque (imagenurl? , titulo , texto)>
+<!ELEMENT bloque (imagenurl?, titulo, texto)>
 <!ELEMENT imagenurl (#PCDATA)>
 <!ELEMENT titulo (#PCDATA)>
 <!ELEMENT texto (#PCDATA)>
@@ -137,7 +141,7 @@ Parachoques hidráulicos, Ametralladoras delanteras, Escudo antibalas, Matrícul
         </auto>
       </generacion>
       <generacion nombre="Vantage 4ta generacion" añoInicio="2018" añoFin="2023">
-        <auto id="75">
+        <auto id="75" terminado="false">
           <nombre>Aston Martin V8 Vantage</nombre>
           <año>2018</año>
           <chasis>Coupe 2 puertas</chasis>
@@ -164,32 +168,8 @@ En cuanto a su diseño exterior, además de la sofisticación de Aston Martin in
           </masimagenes>
         </auto>
       </generacion>
-      <generacion nombre="Vantage 2024" añoInicio="2024" añoFin="2025">
-        <auto id="73" terminado="false">
-          <nombre>Aston Martin V8 Vantage</nombre>
-          <año>2024</año>
-          <chasis>Coupe 2 puertas</chasis>
-          <propulsion>Gasolina</propulsion>
-          <velocidad>314</velocidad>
-          <potencia>503</potencia>
-          <aceleracion>3,6</aceleracion>
-          <tipo>Deportivo</tipo>
-          <precio>160000</precio>
-          <imagen>https://upload.wikimedia.org/wikipedia/commons/8/81/2024_Aston_Martin_Vantage_V8_2.jpg</imagen>
-          <enlace>https://www.altanave.uy/2024/11/aston-martin-v8-vantage-coupe-de-2.html</enlace>
-          <bloques>
-            <bloque>
-              <imagenurl>https://upload.wikimedia.org/wikipedia/commons/6/6f/2024_Aston_Martin_Vantage_V8_F1_Safety_Car_5.jpg</imagenurl>
-              <titulo>Que auto es el Safety Car en la Fórmula 1 </titulo>
-              <texto>El Safety Car, o coche de seguridad, es un vehículo que entra a la pista para regular el ritmo de los autos de carrera cuando se presenta una situación de riesgo, como escombros, colisión o condiciones meteorológicas adversas. Su función es dar tiempo a los comisarios para restablecer la pista y garantizar la seguridad de los pilotos. Para la temporada 2024 es el Aston Martin Vantage.</texto>
-            </bloque>
-            <bloque>
-              <imagenurl>https://upload.wikimedia.org/wikipedia/commons/7/7e/2024_Aston_Martin_Vantage_V8_F1_Safety_Car.jpg</imagenurl>
-              <titulo>Aston Martin Safety Car</titulo>
-              <texto>El Vantage se suma a la parrilla de Fórmula 1® en 2024 junto con 20 coches que llevan la velocidad al límite. Es el Safety Car oficial de la FIA de Fórmula 1® acompañando al equipo de Fernando Alonso y mostrando su rica tradición de competición. </texto>
-            </bloque>
-          </bloques>
-        </auto>
+      <generacion nombre="Vantage 5ta generacion" añoInicio="2024" añoFin="2025">
+        <auto id="73"><nombre>Aston Martin V8 Vantage</nombre><año>2024</año><chasis>Coupe 2 puertas</chasis><propulsion>Gasolina</propulsion><velocidad>314</velocidad><potencia>503</potencia><aceleracion>3,6</aceleracion><tipo>Deportivo</tipo><precio>160000</precio><imagen>https://upload.wikimedia.org/wikipedia/commons/8/81/2024_Aston_Martin_Vantage_V8_2.jpg</imagen><enlace>https://www.altanave.uy/2024/11/aston-martin-v8-vantage-2024-coupe.html</enlace><bloques><bloque><imagenurl>https://upload.wikimedia.org/wikipedia/commons/6/6f/2024_Aston_Martin_Vantage_V8_F1_Safety_Car_5.jpg</imagenurl><titulo>Que auto es el Safety Car en la Fórmula 1 </titulo><texto>El Safety Car, o coche de seguridad, es un vehículo que entra a la pista para regular el ritmo de los autos de carrera cuando se presenta una situación de riesgo, como escombros, colisión o condiciones meteorológicas adversas. Su función es dar tiempo a los comisarios para restablecer la pista y garantizar la seguridad de los pilotos. Para la temporada 2024 es el Aston Martin Vantage.</texto></bloque><bloque><imagenurl>https://upload.wikimedia.org/wikipedia/commons/7/7e/2024_Aston_Martin_Vantage_V8_F1_Safety_Car.jpg</imagenurl><titulo>Aston Martin Safety Car</titulo><texto>El Vantage se suma a la parrilla de Fórmula 1® en 2024 junto con 20 coches que llevan la velocidad al límite. Es el Safety Car oficial de la FIA de Fórmula 1® acompañando al equipo de Fernando Alonso y mostrando su rica tradición de competición. </texto></bloque></bloques></auto>
       </generacion>
     </modelo>
     <modelo nombre="One-77">
