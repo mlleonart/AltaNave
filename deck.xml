@@ -796,53 +796,17 @@ Motor V8 biturbo de 5 litros con transmisión de doble embrague y 7 velocidades.
     </modelo>
     <modelo nombre="Jesko">
       <generacion nombre="Koenigsegg Jesko" añoInicio="2020" añoFin="2025">
-        <auto id="54" terminado="false">
-          <nombre>Koenigsegg Jesko</nombre>
-          <año>2023</año>
-          <chasis>Coupé targa de 2 puertas</chasis>
-          <propulsion>Gasolina</propulsion>
-          <velocidad>438</velocidad>
-          <potencia>1602</potencia>
-          <aceleracion>2,4</aceleracion>
-          <tipo>Superauto</tipo>
-          <precio>3500000</precio>
-          <imagen>https://upload.wikimedia.org/wikipedia/commons/9/9b/2023_Koenigsegg_Jesko_LC24.jpg</imagen>
-          <enlace>https://www.altanave.uy/2024/10/koenigsegg-jesko-coupe-targa-de-2.html</enlace>
-        </auto>
+        <auto id="54" terminado="true"><nombre>Koenigsegg Jesko</nombre><año>2023</año><chasis>Targa 2 puertas</chasis><propulsion>Gasolina</propulsion><velocidad>438</velocidad><potencia>1602</potencia><aceleracion>2,4</aceleracion><tipo>Superauto</tipo><precio>3500000</precio><imagen>https://upload.wikimedia.org/wikipedia/commons/9/9b/2023_Koenigsegg_Jesko_LC24.jpg</imagen><enlace>https://www.altanave.uy/2024/11/koenigsegg-jesko-2023-targa.html</enlace><bloques><bloque><imagenurl>https://upload.wikimedia.org/wikipedia/commons/1/14/2023_Koenigsegg_Jesko_Rear_LC24.jpg</imagenurl><titulo>Jesko von Koenigsegg</titulo><texto>El Jesko reemplaza al Agera y su nombre rinde homenaje a Jesko von Koenigsegg, el padre del fundador de la marca.</texto></bloque><bloque><imagenurl>https://upload.wikimedia.org/wikipedia/commons/7/79/Koenigsegg_Jesko_Genf_2019_1Y7A5543.jpg</imagenurl><titulo>Jesko Motor</titulo><texto>Motor V8 biturbo de 5,1 litros, con doble árbol de levas (DOHC) y cuatro válvulas por cilindro.</texto></bloque></bloques><masimagenes><extraimagenurl>https://upload.wikimedia.org/wikipedia/commons/f/fb/Koenigsegg_Jesko_Genf_2019_1Y7A5552.jpg</extraimagenurl><extraimagenurl>https://upload.wikimedia.org/wikipedia/commons/c/c5/Koenigsegg_Jesko%2C_GIMS_2019%2C_Le_Grand-Saconnex_%28GIMS1046%29.jpg</extraimagenurl><extraimagenurl>https://upload.wikimedia.org/wikipedia/commons/4/4e/Koenigsegg_Jesko_Auto_Zuerich_2023_1X7A1398.jpg</extraimagenurl><extraimagenurl>https://upload.wikimedia.org/wikipedia/commons/8/82/Koenigsegg_Jesko_Auto_Zuerich_2023_1X7A0924.jpg</extraimagenurl><extraimagenurl>https://upload.wikimedia.org/wikipedia/commons/a/a9/Koenigsegg_Jesko_Auto_Zuerich_2023_1X7A1377.jpg</extraimagenurl></masimagenes></auto>
       </generacion>
     </modelo>
     <modelo nombre="Gemera">
       <generacion nombre="Koenigsegg Gemera" añoInicio="2020" añoFin="2025">
-        <auto id="55" terminado="false">
-          <nombre>Koenigsegg Gemera</nombre>
-          <año>2020</año>
-          <chasis>Cupé de 2 puertas</chasis>
-          <propulsion>Gasolina</propulsion>
-          <velocidad>432</velocidad>
-          <potencia>1699</potencia>
-          <aceleracion>3,6</aceleracion>
-          <tipo>Superauto</tipo>
-          <precio>2000000</precio>
-          <imagen>https://upload.wikimedia.org/wikipedia/commons/2/2e/2020_Koenigsegg_Gemera_2.0.jpg</imagen>
-          <enlace>https://www.altanave.uy/2024/10/koenigsegg-gemera-cupe-de-2-puertas-2020.html</enlace>
-        </auto>
+        <auto id="55" terminado="true"><nombre>Koenigsegg Gemera</nombre><año>2020</año><chasis>Coupe 2 puertas</chasis><propulsion>Híbrido Enchufable</propulsion><velocidad>432</velocidad><potencia>1699</potencia><aceleracion>3,6</aceleracion><tipo>Superauto</tipo><precio>2000000</precio><imagen>https://upload.wikimedia.org/wikipedia/commons/2/2e/2020_Koenigsegg_Gemera_2.0.jpg</imagen><enlace>https://www.altanave.uy/2024/11/koenigsegg-gemera-2020-coupe.html</enlace><bloques><bloque><imagenurl>https://upload.wikimedia.org/wikipedia/commons/d/d2/Koenigsegg_Gemera_%2852561129050%29.jpg</imagenurl><titulo>Koenigsegg híbrido </titulo><texto>El Koenigsegg Gemera es un superdeportivo híbrido eléctrico de tipo Gran Turismo, con un motor central-trasero de 3 cilindros biturbo de 2 litros, complementado por tres motores eléctricos.</texto></bloque><bloque><imagenurl>https://upload.wikimedia.org/wikipedia/commons/8/8a/Koenigsegg_Gemera_%2852561129015%29.jpg</imagenurl><titulo>Gemera carrocería </titulo><texto>Su carrocería tipo Gran Turismo cuenta con faros LED en la parte delantera y trasera, además de grandes entradas de aire en las fascias, que proporcionan flujo de aire tanto al motor de combustión como a los sistemas eléctricos.</texto></bloque></bloques></auto>
       </generacion>
     </modelo>
     <modelo nombre="Regera">
       <generacion nombre="Koenigsegg Regera" añoInicio="2020" añoFin="2025">
-        <auto id="56" terminado="false">
-          <nombre>Koenigsegg Regera</nombre>
-          <año>2022</año>
-          <chasis>Coupé targa de 2 puertas</chasis>
-          <propulsion>Gasolina</propulsion>
-          <velocidad>410</velocidad>
-          <potencia>1489</potencia>
-          <aceleracion>2,7</aceleracion>
-          <tipo>Superauto</tipo>
-          <precio>2500000</precio>
-          <imagen>https://upload.wikimedia.org/wikipedia/commons/7/71/Koenigsegg_Regera_White.jpg</imagen>
-          <enlace>https://www.altanave.uy/2024/10/koenigsegg-regera-coupe-targa-de-2.html</enlace>
-        </auto>
+        <auto id="56" terminado="true"><nombre>Koenigsegg Regera</nombre><año>2022</año><chasis>Coupe 2 puertas</chasis><propulsion>Gasolina</propulsion><velocidad>410</velocidad><potencia>1489</potencia><aceleracion>2,7</aceleracion><tipo>Superauto</tipo><precio>2500000</precio><imagen>https://upload.wikimedia.org/wikipedia/commons/7/71/Koenigsegg_Regera_White.jpg</imagen><enlace>https://www.altanave.uy/2024/11/koenigsegg-regera-2022-coupe.html</enlace><bloques><bloque><imagenurl>https://upload.wikimedia.org/wikipedia/commons/4/4c/Koenigsegg_Regera_Front.jpg</imagenurl><titulo>Superdeportivo híbrido</titulo><texto>Koenigsegg Regera es un superdeportivo híbrido eléctrico enchufable de edición limitada.</texto></bloque><bloque><imagenurl>https://upload.wikimedia.org/wikipedia/commons/d/d6/2019_Koenigsegg_Regera_Rear_Side_Detail.jpg</imagenurl><titulo>Koenigsegg Regera motor </titulo><texto>El motor V8 biturbo de 5 litros, construido completamente en aluminio y desarrollado internamente por la marca, está acompañado por tres motores eléctricos que generan una potencia total de 520 kW. Además, este motor cuenta con soportes hidráulicos activos y un colector de admisión de fibra de carbono.</texto></bloque><bloque><imagenurl>https://upload.wikimedia.org/wikipedia/commons/e/e0/Koenigsegg_Regera_7193.jpg</imagenurl><titulo>Koenigsegg Regera chasis </titulo><texto>Está construido sobre un chasis de aluminio tipo panal de abejas reforzado con fibra de carbono.</texto></bloque></bloques></auto>
       </generacion>
     </modelo>
   </marca>
