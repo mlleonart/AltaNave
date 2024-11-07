@@ -55,26 +55,12 @@ Parachoques hidráulicos, Ametralladoras delanteras, Escudo antibalas, Matrícul
     </modelo>
     <modelo nombre="Vantage">
       <generacion nombre="Vantage 3era generacion" añoInicio="2005" añoFin="2018">
-        <auto id="74"><nombre>Aston Martin Vantage V8</nombre><año>2009</año><chasis>Coupe 2 puertas</chasis><propulsion>Gasolina</propulsion><velocidad>290</velocidad><potencia>420</potencia><aceleracion>4,9</aceleracion><tipo>Deportivo</tipo><precio>60000</precio><imagen>https://upload.wikimedia.org/wikipedia/commons/e/eb/2009_Aston_Martin_Vantage_V8_2.jpg</imagen><enlace>https://www.altanave.uy/2024/11/aston-martin-vantage-v8-2009-coupe.html</enlace><bloques><bloque><imagenurl>https://upload.wikimedia.org/wikipedia/commons/6/61/Aston_Martin_V8_Vantage_-_Flickr_-_Alexandre_Pr%C3%A9vot_%2859%29.jpg</imagenurl><titulo>Que significa Vantage</titulo><texto>Vantage, significa ventaja en inglés.</texto></bloque><bloque><imagenurl>https://upload.wikimedia.org/wikipedia/commons/1/10/Grey_Aston_Martin_V8_Vantage_-_20090805.jpg</imagenurl><titulo>Aston Martin Vantage Motor</titulo><texto>El vehículo cuenta con un chasis compuesto por aleaciones de aluminio y magnesio, lo que le otorga un peso de 1570 kg. La versión mejorada incorporaba un motor V8 de 4,7 litros y 32 válvulas, capaz de generar una potencia máxima de 420 caballos de fuerza. Estaba disponible con una transmisión manual o automática de seis velocidades, destacándose por su suavidad y menor esfuerzo al momento de operar el sistema de cambio de marchas.</texto></bloque></bloques></auto>
+        <auto id="74" terminado="true"><nombre>Aston Martin Vantage V8</nombre><año>2009</año><chasis>Coupe 2 puertas</chasis><propulsion>Gasolina</propulsion><velocidad>290</velocidad><potencia>420</potencia><aceleracion>4,9</aceleracion><tipo>Deportivo</tipo><precio>60000</precio><imagen>https://upload.wikimedia.org/wikipedia/commons/e/eb/2009_Aston_Martin_Vantage_V8_2.jpg</imagen><enlace>https://www.altanave.uy/2024/11/aston-martin-vantage-v8-2009-coupe.html</enlace><bloques><bloque><imagenurl>https://upload.wikimedia.org/wikipedia/commons/6/61/Aston_Martin_V8_Vantage_-_Flickr_-_Alexandre_Pr%C3%A9vot_%2859%29.jpg</imagenurl><titulo>Que significa Vantage</titulo><texto>Vantage, significa ventaja en inglés.</texto></bloque><bloque><imagenurl>https://upload.wikimedia.org/wikipedia/commons/1/10/Grey_Aston_Martin_V8_Vantage_-_20090805.jpg</imagenurl><titulo>Aston Martin Vantage Motor</titulo><texto>El vehículo cuenta con un chasis compuesto por aleaciones de aluminio y magnesio, lo que le otorga un peso de 1570 kg. La versión mejorada incorporaba un motor V8 de 4,7 litros y 32 válvulas, capaz de generar una potencia máxima de 420 caballos de fuerza. Estaba disponible con una transmisión manual o automática de seis velocidades, destacándose por su suavidad y menor esfuerzo al momento de operar el sistema de cambio de marchas.</texto></bloque></bloques></auto>
       </generacion>
       <generacion nombre="Vantage 2018" añoInicio="2018" añoFin="2023">
-        <auto id="75" terminado="false">
-          <nombre>Aston Martin V8 Vantage</nombre>
-          <año>2018</año>
-          <chasis>Coupe 2 puertas</chasis>
-          <propulsion>Gasolina</propulsion>
-          <velocidad>314</velocidad>
-          <potencia>503</potencia>
-          <aceleracion>3,6</aceleracion>
-          <tipo>Deportivo</tipo>
-          <precio>130000</precio>
-          <imagen>https://upload.wikimedia.org/wikipedia/commons/1/15/2018_Aston_Martin_Vantage_V8_Auto_2.jpg</imagen>
-          <enlace>https://www.altanave.uy/2024/11/aston-martin-v8-vantage-coupe-de-2_53.html</enlace>
-          <masimagenes>
-            <extraimagenurl>https://upload.wikimedia.org/wikipedia/commons/0/0c/Aston_Martin_V8_Vantage_Genf_2018.jpg</extraimagenurl>
-            <extraimagenurl>https://upload.wikimedia.org/wikipedia/commons/c/c5/2018_Aston_Martin_Vantage_V8_Auto_4.jpg</extraimagenurl>
-          </masimagenes>
-        </auto>
+        <auto id="75"><nombre>Aston Martin V8 Vantage</nombre><año>2018</año><chasis>Coupe 2 puertas</chasis><propulsion>Gasolina</propulsion><velocidad>314</velocidad><potencia>503</potencia><aceleracion>3,6</aceleracion><tipo>Deportivo</tipo><precio>130000</precio><imagen>https://upload.wikimedia.org/wikipedia/commons/1/15/2018_Aston_Martin_Vantage_V8_Auto_2.jpg</imagen><enlace>https://www.altanave.uy/2024/11/aston-martin-v8-vantage-coupe-de-2_53.html</enlace><bloques><bloque><imagenurl>https://upload.wikimedia.org/wikipedia/commons/9/9c/2020_Aston_Martin_Vantage_V8.jpg</imagenurl><titulo>Aston Martin vs Porsche</titulo><texto>El nuevo modelo fue creado para sustituir al que llevaba casi 12 años en el mercado, con la intención de competir directamente con el Porsche 911 y otros autos de la misma categoría.
+
+En cuanto a su diseño exterior, además de la sofisticación de Aston Martin incorpora elementos de mayor deportividad, dinamismo y agilidad.</texto></bloque></bloques><masimagenes><extraimagenurl>https://upload.wikimedia.org/wikipedia/commons/0/0c/Aston_Martin_V8_Vantage_Genf_2018.jpg</extraimagenurl><extraimagenurl>https://upload.wikimedia.org/wikipedia/commons/c/c5/2018_Aston_Martin_Vantage_V8_Auto_4.jpg</extraimagenurl></masimagenes></auto>
       </generacion>
       <generacion nombre="Vantage 2024" añoInicio="2024" añoFin="2025">
         <auto id="73" terminado="false">
