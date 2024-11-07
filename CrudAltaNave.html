@@ -1,0 +1,1845 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Gestión de Autos - CRUD XML</title>
+    <link rel="icon" href="./Dist/favicon.ico" type="image/x-icon">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .container {
+            background-color: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+
+        .form-group {
+            margin-bottom: 15px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+
+        input,
+        select,
+        textarea {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        button {
+            background-color: #007bff;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            /* margin-right: 10px; */
+            margin: 5px;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        th,
+        td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #007bff;
+            color: white;
+        }
+
+        .error {
+            color: red;
+            margin-top: 10px;
+        }
+
+        .success {
+            color: green;
+            margin-top: 10px;
+        }
+
+
+        #nombreArchivo {
+            font-size: 0.9em;
+            font-style: italic;
+        }
+
+        .container button {
+            white-space: nowrap;
+        }
+
+        .container input[type="file"] {
+            max-width: 300px;
+        }
+
+        /*  fichas */
+        .card-container {
+            display: flex;
+            justify-content: center;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .card {
+            width: 300px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            border: 2px solid #333;
+            position: relative;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .card img {
+            /* width: 100%; */
+            width: 300px;
+            height: 180px;
+            object-fit: cover;
+
+
+        }
+
+        .card-content {
+            padding: 20px;
+        }
+
+        .card-title,
+        .card-subtitle,
+        .card-info {
+            text-align: center;
+            margin-bottom: 10px;
+        }
+
+        .card-title {
+            font-size: 22px;
+            font-weight: bold;
+            color: #333;
+        }
+
+        .card-subtitle {
+            font-size: 18px;
+            color: #555;
+            margin-bottom: 5px;
+        }
+
+        .card-info {
+            font-size: 16px;
+            color: #555;
+            margin-bottom: 15px;
+        }
+
+        .card-stats {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px 0;
+            border-top: 1px solid #ddd;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .card:hover {
+            transform: scale(1.20);
+        }
+
+        .stat {
+            text-align: center;
+        }
+
+        .stat-title {
+            font-size: 14px;
+            color: #555;
+        }
+
+        .stat-value {
+            font-size: 18px;
+            font-weight: bold;
+            color: #333;
+        }
+
+        .badge {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            background-color: #f44336;
+            color: white;
+            padding: 5px 10px;
+            font-size: 14px;
+            border-radius: 5px;
+        }
+
+        /* Ajustar el ancho máximo para pantallas más pequeñas */
+        @media (max-width: 400px) {
+            .card {
+                width: 90%;
+            }
+        }
+
+        /* fichas */
+
+        /* Contenedor principal con diseño de dos columnas */
+        .container-two-columns {
+            display: flex;
+            gap: 20px;
+            /* Espacio entre columnas */
+        }
+
+        /* Estilo para el formulario en la primera columna */
+        .form-container {
+            flex: 1;
+            width: 70%;
+
+        }
+
+        .container {
+
+            width: 70%;
+
+        }
+
+        /* Estilo para la previsualización de la ficha en la segunda columna */
+        .ficha-preview {
+            flex: 1;
+            background-color: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Contenedor principal con diseño de dos columnas */
+
+        .select-warning {
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <div style="display: flex; justify-content: space-between; align-items: center;">
+        <h1>Gestión de Autos</h1>
+        <button type="button" onclick="recargarPagina()" style="background-color:red; color:white">Recargar
+            Página</button>
+    </div>
+    <details>
+        <summary>
+            Extractor de Información de Autos
+        </summary>
+        <textarea id="inputCatalog" placeholder="Pegue aquí el texto con la información del auto..."></textarea>
+        <button style="background-color:green; color:white" onclick="extractorCatalogo()">Extractor</button>
+    </details>
+
+    <div class="container-two-columns">
+        <div class="container">
+
+
+            <!-- Formulario principal -->
+            <form id="autoForm">
+                <div class="form-group">
+                    <label for="marca">Marca:</label>
+                    <input type="text" id="marca" required>
+                </div>
+                <div class="form-group">
+                    <label for="modelo">Modelo:</label>
+                    <input type="text" id="modelo" required>
+                </div>
+                <div class="form-group">
+                    <label for="generacion">Generación:</label>
+                    <input type="text" id="generacion" required>
+                </div>
+                <div class="form-group">
+                    <label for="añoInicio">Año Inicio:</label>
+                    <input type="number" id="añoInicio" required>
+                </div>
+                <div class="form-group">
+                    <label for="añoFin">Año Fin:</label>
+                    <input type="number" id="añoFin" required>
+                </div>
+                <div class="form-group">
+                    <label for="nombre">Nombre del Auto:</label>
+                    <input type="text" id="nombre" required>
+                </div>
+                <div class="form-group">
+                    <label for="año">Año:</label>
+                    <input type="number" id="año" required>
+                </div>
+                <div class="form-group">
+                    <label for="chasis">Chasis:</label>
+                    <select id="chasis" required>
+                        <option value="N/A">N/A</option>
+                        <option value="Coupe 2 puertas">Coupe 2 puertas</option>
+                        <option value="Convertible 2 puertas">Convertible 2 puertas</option>
+                        <option value="Hatchback 2 puertas">Hatchback 2 puertas</option>
+                        <option value="Sedan 2 puertas">Sedan 2 puertas</option>
+                        <option value="Targa 2 puertas">Targa 2 puertas</option>
+                        <option value="Techo Rígido 2 puertas">Techo Rígido 2 puertas</option>
+                        <option value="Hardtop 2 puertas">Hardtop 2 puertas</option>
+                        <option value="Pick Up 2 puertas">Pick Up 2 puertas</option>
+                        <option value="Roadster">Roadster</option>
+                        <option value="Convertible 4 puertas">Convertible 4 puertas</option>
+                        <option value="Hatchback 4 puertas">Hatchback 4 puertas</option>
+                        <option value="Sedan 4 puertas">Sedan 4 puertas</option>
+                        <option value="Hardtop 4 puertas">Hardtop 4 puertas</option>
+                        <option value="Pick Up 4 puertas">Pick Up 4 puertas</option>
+                        <option value="Station Wagon">Station Wagon</option>
+                        <option value="Crossover">Crossover</option>
+                        <option value="Minivan">Minivan</option>
+                    </select>
+                    <!-- <input type="text" id="chasis" required> -->
+                </div>
+                <div class="form-group">
+                    <label for="propulsion">Propulsión:</label>
+                    <select id="propulsion" required>
+                        <option value="N/A">N/A</option>
+                        <option value="Gasolina">Gasolina</option>
+                        <option value="Diesel">Diesel</option>
+                        <option value="Eléctrico ">Eléctrico</option>
+                        <option value="Híbrido">Híbrido</option>
+                        <option value="Híbrido Enchufable">Híbrido Enchufable</option>
+                    </select>
+                    <!-- <input type="text" id="propulsion" required> -->
+                </div>
+                <div class="form-group">
+                    <label for="velocidad">Velocidad:</label>
+                    <input type="text" id="velocidad" required>
+                </div>
+                <div class="form-group">
+                    <label for="potencia">Potencia:</label>
+                    <input type="text" id="potencia" required>
+                </div>
+                <div class="form-group">
+                    <label for="aceleracion">Aceleración:</label>
+                    <input type="text" id="aceleracion" required>
+                </div>
+                <div class="form-group">
+                    <label for="tipo">Tipo:</label>
+                    <select id="tipo" required>
+                        <option value="N/A">N/A</option>
+                        <option value="Compacto">Compacto</option>
+                        <option value="Normal">Normal</option>
+                        <option value="Deportivo">Deportivo</option>
+                        <option value="Ponycar">Ponycar</option>
+                        <option value="Musclecar">Musclecar</option>
+                        <option value="Superauto">Superauto</option>
+                        <option value="SUV">SUV</option>
+                        <option value="Prototipo">Prototipo</option>
+                    </select>
+                    <!-- <input type="text" id="tipo" required> -->
+                </div>
+                <div class="form-group">
+                    <label for="precio">Precio:</label>
+                    <input type="text" id="precio" required>
+                </div>
+                <div class="form-group">
+                    <label for="imagen">URL de Imagen:</label>
+                    <input type="url" id="imagen" required>
+                </div>
+                <div class="form-group">
+                    <button onclick="nuevoTitulo()" style="background-color: green;">Título</button>
+
+                </div>
+                <div class="form-group">
+                    <label for="enlace">Enlace:</label>
+                    <input type="url" id="enlace" required>
+                </div>
+
+                <div id="bloquesContainer" style="background-color: cadetblue;">
+                    <h3>Bloques</h3>
+                    <div style="text-align: right;">
+                        <button type="button" onclick="agregarBloque()"
+                            style="background-color: darkolivegreen ; color:white">Agregar Bloque</button>
+                    </div>
+                    <div id="bloques"></div>
+                </div>
+
+                <div id="masImagenesContainer" style="background-color: darkkhaki;">
+                    <h3>Más Imágenes</h3>
+                    <div style="text-align: right;">
+                        <button type="button" onclick="agregarImagen()"
+                            style="background-color: peru; color:white">Agregar
+                            Imagen</button>
+                    </div>
+                    <div id="masImagenes"></div>
+                </div>
+
+
+                <button type="submit" style="margin: 20px;">Guardar</button>
+                <button type="button" onclick="limpiarFormulario()" style="margin: 20px;">Nuevo</button>
+
+            </form>
+
+        </div>
+
+        <div id="ficha" style="padding: 40;">
+
+            <div id="fichaContent" style="margin: 40px;"></div>
+            <!--  <button type="button" onclick="verFichaAuto()">Ver Ficha</button> -->
+
+
+            <div id="marcaContent"
+                style="margin: 40px; background: dimgrey; padding: 20px; border-radius: 8px; color: white;">
+                <h3>Datos de la Marca</h3>
+
+                <div class="form-group">
+                    <label for="marcaName">Nombre de la Marca:</label>
+                    <input type="text" id="marcaName" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="logoURL">Logo URL:</label>
+                    <input type="text" id="logoURL">
+                </div>
+
+                <div class="form-group">
+                    <label for="country">País:</label>
+                    <input type="text" id="country">
+                </div>
+
+                <div class="form-group">
+                    <label for="flagURL">URL de la Bandera:</label>
+                    <input type="text" id="flagURL">
+                </div>
+
+                <div class="form-group">
+                    <label for="url">URL del Sitio de la Marca:</label>
+                    <input type="text" id="url">
+                </div>
+
+                <div class="form-group">
+                    <button type="button" onclick="mostrarDatosMarca()"
+                        style="background-color: green ; color:white">Mostrar Datos</button>
+                    <button type="button" onclick="grabarDatosMarca()">Guardar Datos</button>
+                </div>
+                <div class="form-group">
+                    <button type="button" onclick="GenerarTituloMarca()"
+                        style="background-color: green ; color:white">Generar Titulo
+                        Marca</button>
+                    <button type="button" onclick="GenerarPlantillaMarca()"
+                        style="background-color: green ; color:white">Generar Plantilla
+                        Marca</button>
+                </div>
+                <button type="button" onclick="GenerarMenuMarcas()"
+                    style="background-color: green ; color:white">Generar Menu Marcas</button>
+            </div>
+
+            <div id="HTMLGeneracionVersion"
+                style="margin: 40px; border: 2px solid #555; border-radius: 5px; padding: 10px;">
+                <h3>HTML - Generacion Version</h3>
+                <button type="button" onclick="GenerarTituloVersionGeneracion()"
+                    style="background-color: green ; color:white">Generar Titulo
+                    Version-Generacion</button>
+                <button type="button" onclick="GenerarPlantillaVersionGeneracion()"
+                    style="background-color: green ; color:white">Generar Plantilla
+                    Version-Generacion</button>
+            </div>
+            <!--
+            <div id="HTMLMarca" style="margin: 40px; border: 2px solid #555; border-radius: 5px; padding: 10px;" >
+                <h3>HTML - Marca</h3>
+              
+                <button type="button" onclick="GenerarTituloVersionGeneracion()"
+                    style="background-color: green ; color:white">Generar Titulo
+                    Version-Generacion</button>
+                <button type="button" onclick="GenerarPlantillaVersionGeneracion()"
+                    style="background-color: green ; color:white">Generar Plantilla
+                    Version-Generacion</button> 
+             
+            </div>
+   -->
+        </div>
+
+
+    </div>
+
+    <div id="mensaje"></div>
+
+    <!-- Tabla de autos -->
+    <div id="listaAutos"></div>
+
+
+    <script>
+        let xmlDoc = null;
+        let autoSeleccionado = null;
+
+        // Variable para almacenar el nombre del archivo actual
+        let nombreArchivoActual = 'autos.xml';
+
+        // Inicializar el documento XML si no existe
+        function inicializarXML() {
+            if (!xmlDoc) {
+                const parser = new DOMParser();
+                const xmlString = `<?xml version="1.0" encoding="UTF-8"?>
+                <deck></deck>`;
+                xmlDoc = parser.parseFromString(xmlString, "text/xml");
+            }
+            actualizarTabla();
+        }
+
+        // Cargar XML desde archivo
+        function cargarXML(event) {
+            const file = event.target.files[0];
+            if (file) {
+                nombreArchivoActual = file.name;
+                document.getElementById('nombreArchivo').textContent = `Archivo actual: ${nombreArchivoActual}`;
+
+                const reader = new FileReader();
+                reader.onload = function (e) {
+                    const parser = new DOMParser();
+                    xmlDoc = parser.parseFromString(e.target.result, "text/xml");
+                    actualizarTabla();
+                    mostrarMensaje('Archivo cargado correctamente', 'success');
+                };
+                reader.readAsText(file);
+            }
+        }
+
+
+        // Guardar XML a archivo
+        function guardarXML(esRespaldo) {
+            const serializer = new XMLSerializer();
+            let xmlString = serializer.serializeToString(xmlDoc);
+
+            // Expresión regular para eliminar la declaración XML y el DOCTYPE del XML serializado
+            xmlString = xmlString.replace(/<\?xml.*?\?>|<!DOCTYPE[^>]*>/g, "").trim();
+
+            // DTD personalizado que deseas incluir
+            const dtd = `<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE deck [
+<!ELEMENT deck (marca)+>
+<!ELEMENT marca (logoURL?, country?, flagURL?, url?, modelo+)>
+<!ATTLIST marca nombre CDATA #REQUIRED>
+<!ELEMENT logoURL (#PCDATA)>
+<!ELEMENT country (#PCDATA)>
+<!ELEMENT flagURL (#PCDATA)>
+<!ELEMENT url (#PCDATA)>
+<!ELEMENT modelo (generacion)+>
+<!ATTLIST modelo nombre CDATA #REQUIRED>
+<!ELEMENT generacion (auto)+>
+<!ATTLIST generacion 
+    nombre CDATA #REQUIRED
+    añoInicio CDATA #REQUIRED
+    añoFin CDATA #REQUIRED
+>
+<!ELEMENT auto (nombre, año, chasis, propulsion, velocidad, potencia, aceleracion, tipo, precio, imagen, enlace, bloques?, masimagenes?)>
+<!ATTLIST auto 
+    id CDATA #REQUIRED
+    terminado (true | false) "false"
+>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT año (#PCDATA)>
+<!ELEMENT chasis (#PCDATA)>
+<!ELEMENT propulsion (#PCDATA)>
+<!ELEMENT velocidad (#PCDATA)>
+<!ELEMENT potencia (#PCDATA)>
+<!ELEMENT aceleracion (#PCDATA)>
+<!ELEMENT tipo (#PCDATA)>
+<!ELEMENT precio (#PCDATA)>
+<!ELEMENT imagen (#PCDATA)>
+<!ELEMENT enlace (#PCDATA)>
+<!ELEMENT bloques (bloque)*>
+<!ELEMENT bloque (imagenurl?, titulo, texto)>
+<!ELEMENT imagenurl (#PCDATA)>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT texto (#PCDATA)>
+<!ELEMENT masimagenes (extraimagenurl)*>
+<!ELEMENT extraimagenurl (#PCDATA)>
+]>`;
+
+            // Combina el DTD personalizado con el contenido XML limpio
+            const fullXmlString = dtd + "\n" + xmlString;
+
+            const blob = new Blob([fullXmlString], { type: 'text/xml' });
+
+            let nombreArchivo;
+
+            // Genera nombre de archivo para respaldo o para el archivo principal
+            if (esRespaldo) {
+                const fecha = new Date();
+                const año = fecha.getFullYear();
+                const mes = String(fecha.getMonth() + 1).padStart(2, '0');
+                const dia = String(fecha.getDate()).padStart(2, '0');
+                const hora = String(fecha.getHours()).padStart(2, '0');
+                const minutos = String(fecha.getMinutes()).padStart(2, '0');
+
+                const nombreBase = nombreArchivoActual.replace('.xml', '');
+                nombreArchivo = `${nombreBase}_backup_${año}${mes}${dia}_${hora}${minutos}.xml`;
+            } else {
+                // Incrementar el contador en el nombre del archivo original
+                const nombreArchivoBase = nombreArchivoActual.replace(/(\d+)?\.xml$/, '');
+
+                // Busca el número actual si ya existe en el nombre del archivo
+                const match = nombreArchivoActual.match(/(\d+)\.xml$/);
+                let contador = match ? parseInt(match[1], 10) + 1 : 1;
+
+                nombreArchivo = `${nombreArchivoBase}${contador}.xml`;
+            }
+
+            console.log(nombreArchivo);
+
+            // Crear enlace de descarga
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = nombreArchivo;
+            a.click();
+            URL.revokeObjectURL(url);
+
+            mostrarMensaje(esRespaldo ? 'Respaldo creado correctamente' : 'Archivo guardado correctamente', 'success');
+        }
+
+
+
+
+        // Agregar bloque al formulario
+        function agregarBloque() {
+            const bloques = document.getElementById('bloques');
+            const div = document.createElement('div');
+            div.className = 'bloque form-group';
+            div.innerHTML = `
+                <label>Imagen URL:</label>
+                <input type="url" class="bloque-imagen">
+                <label>Título:</label>
+                <input type="text" class="bloque-titulo" required>
+                <label>Texto:</label>
+                <textarea class="bloque-texto" required></textarea>
+                <button type="button" style="background-color: red; onclick="this.parentElement.remove()">Eliminar Bloque</button>
+            `;
+            bloques.appendChild(div);
+        }
+
+        // Agregar campo de imagen adicional
+        function agregarImagen() {
+            const masImagenes = document.getElementById('masImagenes');
+            const div = document.createElement('div');
+            div.className = 'imagen-adicional form-group';
+            div.innerHTML = `
+                <input type="url" class="imagen-url" required placeholder="URL de la imagen">
+                <button type="button" style="background-color: red; onclick="this.parentElement.remove()">Eliminar Imagen</button>
+            `;
+            masImagenes.appendChild(div);
+        }
+
+        /* */
+
+        // Función para renderizar la ficha del coche
+        function renderCarCard(car) {
+            return `
+    <div class="card">
+      <div class="badge" style="background-color: ${car.badgeColor};">${car.tipo}</div>
+      <a title="${car.nombre} ${car.año}" href="${car.imagen}">
+          <img src="${car.thumb}" alt="${car.nombre} ${car.año} características y ficha técnica">
+      </a>
+      <div class="card-content">
+        <div class="card-title">${car.nombre}</div>
+        <div class="card-subtitle">${car.año}</div>
+        <div class="card-info">${car.chasis} | ${car.propulsion}</div>
+        <div class="card-stats">
+          <div class="stat">
+            <div class="stat-title">Velocidad</div>
+            <div class="stat-value">${car.velocidad} km/h</div>
+          </div>
+          <div class="stat">
+            <div class="stat-title">Potencia</div>
+            <div class="stat-value">${car.potencia} HP</div>
+          </div>
+          <div class="stat">
+            <div class="stat-title">0-100 km/h</div>
+            <div class="stat-value">${car.aceleracion} s</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  `;
+        }
+
+
+        // THUMBS -- Función para generar la URL de la miniatura a partir de la URL principal
+        const getThumbUrl = (largeImage, size = 480) => {
+            // Encuentra la posición de la carpeta "commons/" y después de eso inserta "/thumb"
+            const commonsIndex = largeImage.indexOf("/commons/") + 9;
+
+            // Partir la URL en tres secciones: antes de "commons/", después de "commons/" hasta el archivo, y el nombre del archivo
+            const beforeCommons = largeImage.slice(0, commonsIndex);
+            const afterCommons = largeImage.slice(commonsIndex);
+            const fileNameIndex = afterCommons.lastIndexOf("/") + 1;
+            const pathToFile = afterCommons.slice(0, fileNameIndex);
+            let fileName = afterCommons.slice(fileNameIndex);
+
+            // Si el archivo es SVG, agrega ".png" al final en la parte final de la URL
+            if (fileName.endsWith(".svg")) {
+                return `${beforeCommons}thumb/${pathToFile}${fileName}/${size}px-${fileName}.png`;
+            }
+
+            // Construye la URL redimensionada para archivos que no sean SVG
+            return `${beforeCommons}thumb/${pathToFile}${fileName}/${size}px-${fileName}`;
+        };
+
+        /**/
+        // Crear o actualizar auto
+        document.getElementById('autoForm').onsubmit = function (e) {
+            e.preventDefault();
+
+            const auto = {
+                id: autoSeleccionado ? autoSeleccionado.getAttribute('id') : getLastCarId() + 1,
+                marca: document.getElementById('marca').value,
+                modelo: document.getElementById('modelo').value,
+                generacion: document.getElementById('generacion').value,
+                añoInicio: document.getElementById('añoInicio').value,
+                añoFin: document.getElementById('añoFin').value,
+                nombre: document.getElementById('nombre').value,
+                año: document.getElementById('año').value,
+                chasis: document.getElementById('chasis').value,
+                propulsion: document.getElementById('propulsion').value,
+                velocidad: document.getElementById('velocidad').value,
+                potencia: document.getElementById('potencia').value,
+                aceleracion: document.getElementById('aceleracion').value,
+                tipo: document.getElementById('tipo').value,
+                precio: document.getElementById('precio').value,
+                imagen: document.getElementById('imagen').value,
+                enlace: document.getElementById('enlace').value,
+                bloques: Array.from(document.getElementsByClassName('bloque')).map(bloque => {
+                    const imagenURL = bloque.querySelector('.bloque-imagen').value;
+                    const titulo = bloque.querySelector('.bloque-titulo').value;
+                    const texto = bloque.querySelector('.bloque-texto').value;
+
+                    const bloqueData = { titulo, texto };
+                    if (imagenURL) {
+                        bloqueData.imagen = imagenURL;
+                    }
+                    return bloqueData;
+                }),
+                masImagenes: Array.from(document.getElementsByClassName('imagen-url')).map(img => img.value)
+            };
+
+
+
+            if (autoSeleccionado) {
+                actualizarAuto(auto);
+            } else {
+                agregarAuto(auto);
+            }
+
+            limpiarFormulario();
+            actualizarTabla();
+            mostrarMensaje('Auto guardado correctamente', 'success');
+        };
+
+        // Agregar nuevo auto
+        function agregarAuto(auto) {
+            let marca = xmlDoc.querySelector(`marca[nombre="${auto.marca}"]`);
+            if (!marca) {
+                marca = xmlDoc.createElement('marca');
+                marca.setAttribute('nombre', auto.marca);
+                xmlDoc.documentElement.appendChild(marca);
+            }
+
+            let modelo = marca.querySelector(`modelo[nombre="${auto.modelo}"]`);
+            if (!modelo) {
+                modelo = xmlDoc.createElement('modelo');
+                modelo.setAttribute('nombre', auto.modelo);
+                marca.appendChild(modelo);
+            }
+
+            let generacion = modelo.querySelector(`generacion[nombre="${auto.generacion}"]`);
+            if (!generacion) {
+                generacion = xmlDoc.createElement('generacion');
+                generacion.setAttribute('nombre', auto.generacion);
+                generacion.setAttribute('añoInicio', auto.añoInicio);
+                generacion.setAttribute('añoFin', auto.añoFin);
+                modelo.appendChild(generacion);
+            }
+
+            const autoElement = crearElementoAuto(auto);
+            generacion.appendChild(autoElement);
+        }
+
+        // Crear elemento de auto
+        function crearElementoAuto(auto) {
+            const autoElement = xmlDoc.createElement('auto');
+            autoElement.setAttribute('id', auto.id);
+
+            const campos = ['nombre', 'año', 'chasis', 'propulsion', 'velocidad', 'potencia',
+                'aceleracion', 'tipo', 'precio', 'imagen', 'enlace'];
+
+            campos.forEach(campo => {
+                const element = xmlDoc.createElement(campo);
+                element.textContent = auto[campo];
+                autoElement.appendChild(element);
+            });
+
+            if (auto.bloques.length > 0) {
+                const bloquesElement = xmlDoc.createElement('bloques');
+                auto.bloques.forEach(bloque => {
+                    const bloqueElement = xmlDoc.createElement('bloque');
+
+                    // Solo agrega 'imagenurl' si hay un valor
+                    if (bloque.imagen) {
+                        const imagenElement = xmlDoc.createElement('imagenurl');
+                        imagenElement.textContent = bloque.imagen;
+                        bloqueElement.appendChild(imagenElement);
+                    }
+
+                    // Agregar siempre título y texto
+                    ['titulo', 'texto'].forEach(campo => {
+                        const element = xmlDoc.createElement(campo);
+                        element.textContent = bloque[campo];
+                        bloqueElement.appendChild(element);
+                    });
+
+                    bloquesElement.appendChild(bloqueElement);
+                });
+                autoElement.appendChild(bloquesElement);
+            }
+
+            if (auto.masImagenes.length > 0) {
+                const masImagenesElement = xmlDoc.createElement('masimagenes');
+                auto.masImagenes.forEach(imagen => {
+                    const imagenElement = xmlDoc.createElement('extraimagenurl');
+                    imagenElement.textContent = imagen;
+                    masImagenesElement.appendChild(imagenElement);
+                });
+                autoElement.appendChild(masImagenesElement);
+            }
+
+            return autoElement;
+        }
+
+        // Actualizar auto existente
+        function actualizarAuto(auto) {
+            const autoElement = crearElementoAuto(auto);
+            autoSeleccionado.parentNode.replaceChild(autoElement, autoSeleccionado);
+        }
+
+        // Eliminar auto
+        function eliminarAuto(id) {
+            const auto = xmlDoc.querySelector(`auto[id="${id}"]`);
+            if (auto) {
+                // Mostrar confirmación antes de proceder
+                const confirmacion = confirm("¿Estás seguro de que deseas eliminar este auto?");
+                if (confirmacion) {
+                    auto.parentNode.removeChild(auto);
+                    actualizarTabla();
+                    mostrarMensaje('Auto eliminado correctamente', 'success');
+                }
+            }
+        }
+
+        // Editar auto
+        function editarAuto(id) {
+
+            const auto = xmlDoc.querySelector(`auto[id="${id}"]`);
+            if (auto) {
+                autoSeleccionado = auto;
+                const generacion = auto.parentNode;
+                const modelo = generacion.parentNode;
+                const marca = modelo.parentNode;
+
+                document.getElementById('marca').value = marca.getAttribute('nombre');
+                document.getElementById('modelo').value = modelo.getAttribute('nombre');
+                document.getElementById('generacion').value = generacion.getAttribute('nombre');
+                document.getElementById('añoInicio').value = generacion.getAttribute('añoInicio');
+                document.getElementById('añoFin').value = generacion.getAttribute('añoFin');
+
+                ['nombre', 'año', 'chasis', 'propulsion', 'velocidad', 'potencia',
+                    'aceleracion', 'tipo', 'precio', 'imagen', 'enlace'].forEach(campo => {
+                        const elemento = document.getElementById(campo);
+                        const valor = auto.querySelector(campo)?.textContent || '';
+
+                        if (!elemento) {
+                            console.error(`Elemento con id "${campo}" no encontrado en el DOM.`);
+                            return;
+                        }
+
+                        if (elemento.tagName === 'SELECT') {
+                            const opcion = Array.from(elemento.options).find(option => option.value === valor);
+                            if (!opcion) {
+                                console.warn(`Valor "${valor}" no encontrado en las opciones de <select> para el campo "${campo}".`);
+                                elemento.value = "N/A";  // Selecciona "N/A" si no se encuentra el valor
+
+                                // Aplica la clase de advertencia en rojo
+                                elemento.classList.add("select-warning");
+                            } else {
+                                elemento.value = valor;
+                                // Quita la clase de advertencia si el valor es encontrado
+                                elemento.classList.remove("select-warning");
+                            }
+                        } else {
+                            elemento.value = valor;
+                        }
+                    });
+
+                // Limpiar bloques y más imágenes existentes
+                document.getElementById('bloques').innerHTML = '';
+                document.getElementById('masImagenes').innerHTML = '';
+
+                // Cargar bloques
+                const bloques = auto.querySelector('bloques');
+                if (bloques) {
+                    bloques.querySelectorAll('bloque').forEach(() => {
+                        agregarBloque();
+                    });
+                    const bloquesInputs = document.getElementsByClassName('bloque');
+                    Array.from(bloques.querySelectorAll('bloque')).forEach((bloque, index) => {
+                        bloquesInputs[index].querySelector('.bloque-imagen').value =
+                            bloque.querySelector('imagenurl').textContent;
+                        bloquesInputs[index].querySelector('.bloque-titulo').value =
+                            bloque.querySelector('titulo').textContent;
+                        bloquesInputs[index].querySelector('.bloque-texto').value =
+                            bloque.querySelector('texto').textContent;
+                    });
+                }
+
+                // Cargar más imágenes
+                const masImagenes = auto.querySelector('masimagenes');
+                if (masImagenes) {
+                    masImagenes.querySelectorAll('extraimagenurl').forEach(() => {
+                        agregarImagen();
+                    });
+                    const imagenesInputs = document.getElementsByClassName('imagen-url');
+                    Array.from(masImagenes.querySelectorAll('extraimagenurl')).forEach((imagen, index) => {
+                        imagenesInputs[index].value = imagen.textContent;
+                    });
+                }
+            }
+
+            // Limpia el color de Select 
+            document.querySelectorAll('select').forEach(select => {
+                select.addEventListener('change', function () {
+                    if (this.value === "N/A") {
+                        this.classList.add("select-warning");
+                    } else {
+                        this.classList.remove("select-warning");
+                    }
+                });
+            });
+
+            // Definir colores según el tipo de auto
+            const typeColors = {
+                'Compacto': 'green',
+                'Normal': 'teal',
+                'Deportivo': 'Gold',
+                'Ponycar': 'red',
+                'Musclecar': 'orange',
+                'Superauto': 'purple',
+                'SUV': 'gray',
+                'Prototipo': 'blue'
+            };
+            let typeBadgeColor = typeColors[document.getElementById('tipo').value] || 'white';  // Color por defecto si el tipo no está definido
+
+            // Renderizar la ficha del coche
+            const car = {
+                nombre: document.getElementById('nombre').value,
+                año: document.getElementById('año').value,
+                chasis: document.getElementById('chasis').value,
+                propulsion: document.getElementById('propulsion').value,
+                velocidad: document.getElementById('velocidad').value,
+                potencia: document.getElementById('potencia').value,
+                aceleracion: document.getElementById('aceleracion').value,
+                tipo: document.getElementById('tipo').value,
+                imagen: document.getElementById('imagen').value,
+                thumb: getThumbUrl(document.getElementById('imagen').value), // Genera una miniatura si es necesario
+                badgeColor: typeBadgeColor // Color por defecto para el badge
+            };
+
+            const fichaHTML = renderCarCard(car);
+            document.getElementById('fichaContent').innerHTML = fichaHTML;
+
+        }
+
+
+
+        function nuevoTitulo(pNombre, pChasis, pAño) {
+
+            // Previene el comportamiento por defecto del botón (submit)
+            event.preventDefault();
+
+            const nombre = document.getElementById('nombre').value;
+            const chasis = document.getElementById('chasis').value.split(' ')[0]; // Toma solo la primera palabra del chasis
+            const anio = document.getElementById('año').value;
+
+            // Generar el título
+            const titulo = `${nombre} ${anio} ${chasis}`;
+
+            // Crear un elemento temporal para copiar el texto al portapapeles
+            const tempInput = document.createElement('input');
+            tempInput.value = titulo;
+            document.body.appendChild(tempInput);
+            tempInput.select();
+            document.execCommand('copy');
+            document.body.removeChild(tempInput);
+
+            // Opcional: Mostrar una alerta para confirmar la acción
+            //  alert('Título copiado al portapapeles: ' + titulo);
+        }
+
+
+        // Función para copiar Título al portapapeles, para crear la entrada 
+        function copiarTitulo(id) {
+            const auto = xmlDoc.querySelector(`auto[id="${id}"]`);
+            if (auto) {
+                const datos = {
+                    pNombre: auto.querySelector('nombre').textContent,
+                    pAnio: auto.querySelector('año').textContent,
+                    pChasis: auto.querySelector('chasis').textContent,
+                    pTipo: auto.querySelector('tipo').textContent,
+                    pPropulsion: auto.querySelector('propulsion').textContent,
+                    pVelocidad: auto.querySelector('velocidad').textContent,
+                    pPotencia: auto.querySelector('potencia').textContent,
+                    pAaceleracion: auto.querySelector('aceleracion').textContent,
+                    pImagen: auto.querySelector('imagen').textContent
+                };
+
+                // Construir el título en el formato deseado
+                //const titulo = `${datos.pNombre} ${datos.pChasis} ${datos.pAnio}`;
+                const chasisPrimeraPalabra = datos.pChasis.split(' ')[0]; // Extrae la primera palabra del chasis
+                const titulo = `${datos.pNombre} ${datos.pAnio} ${chasisPrimeraPalabra}`;
+
+                // Copiar al portapapeles
+                navigator.clipboard.writeText(titulo)
+                    .then(() => {
+                        mostrarMensaje('Título copiado al portapapeles', 'success');
+                    })
+                    .catch(err => {
+                        mostrarMensaje('Error al copiar el título', 'error');
+                        console.error('Error al copiar:', err);
+                    });
+            }
+        }
+
+        // Función para copiar plantilla al portapapeles, incluyendo bloques y más imágenes
+        function copiarPlantilla(id) {
+            const auto = xmlDoc.querySelector(`auto[id="${id}"]`);
+            if (auto) {
+                const datos = {
+                    pNombre: auto.querySelector('nombre').textContent,
+                    pAnio: auto.querySelector('año').textContent,
+                    pChasis: auto.querySelector('chasis').textContent,
+                    pTipo: auto.querySelector('tipo').textContent,
+                    pPropulsion: auto.querySelector('propulsion').textContent,
+                    pVelocidad: auto.querySelector('velocidad').textContent,
+                    pPotencia: auto.querySelector('potencia').textContent,
+                    pAaceleracion: auto.querySelector('aceleracion').textContent,
+                    pImagen: auto.querySelector('imagen').textContent,
+                    pThumb150: getThumbUrl(auto.querySelector('imagen').textContent, 150), // Genera una miniatura 150
+                    pThumb480: getThumbUrl(auto.querySelector('imagen').textContent, 480) // Genera una miniatura 480
+                };
+
+                // Definir colores según el tipo de auto
+                const typeColors = {
+                    'Compacto': 'green',
+                    'Normal': 'teal',
+                    'Deportivo': 'Gold',
+                    'Ponycar': 'red',
+                    'Musclecar': 'orange',
+                    'Superauto': 'purple',
+                    'SUV': 'gray',
+                    'Prototipo': 'blue'
+                };
+
+                let typeBadgeColor = typeColors[datos.pTipo] || 'white';  // Color por defecto si el tipo no está definido
+
+                // Extraer bloques
+                const bloques = [];
+                const bloquesElement = auto.querySelectorAll('bloques bloque');
+                bloquesElement.forEach(bloque => {
+                    bloques.push({
+                        imagenurl: bloque.querySelector('imagenurl')?.textContent || '',
+                        titulo: bloque.querySelector('titulo')?.textContent || '',
+                        texto: bloque.querySelector('texto')?.textContent || ''
+                    });
+                });
+
+                // Extraer imágenes adicionales
+                const masImagenes = [];
+                const masImagenesElement = auto.querySelectorAll('masimagenes extraimagenurl');
+                masImagenesElement.forEach(img => {
+                    masImagenes.push(img.textContent);
+                });
+
+                // Crear plantilla con los datos
+                let plantilla = `<div class="separator" style="clear: both; display: none;"><a href="${datos.pThumb150}" style="display: block; padding: 1em 0; text-align: center; ">
+                    <img alt="${datos.pNombre} ${datos.pAnio} ${datos.pChasis}" border="0" width="200" data-original-height="604" data-original-width="1098" src="${datos.pThumb150}"/></a></div>
+                <!-- imagen og:image NO DINAMICA -->     
+                
+<!-- Ficha técnica y características en español del ${datos.pNombre} ${datos.pAnio} ${datos.pChasis}. Potencia, velocidad, aceleración del modelo. -->
+
+<div id="container" class="card-container">
+     <div class="card">
+      <div class="badge" style="background-color: ${typeBadgeColor};">${datos.pTipo}</div>
+      <a title="${datos.pNombre} ${datos.pAnio}" href="${datos.pImagen}">
+          <img src="${datos.pThumb480}" alt="Características del ${datos.pNombre} ${datos.pAnio} ficha técnica">
+      </a>
+      <div class="card-content">
+        <div class="card-title">${datos.pNombre}</div>
+        <div class="card-subtitle">${datos.pAnio}</div>
+        <div class="card-info">${datos.pChasis} | ${datos.pPropulsion}</div>
+        <div class="card-stats">
+          <div class="stat">
+            <div class="stat-title">Velocidad</div>
+            <div class="stat-value">${datos.pVelocidad} km/h</div>
+          </div>
+          <div class="stat">
+            <div class="stat-title">Potencia</div>
+            <div class="stat-value">${datos.pPotencia} HP</div>
+          </div>
+          <div class="stat">
+            <div class="stat-title">0-100 km/h</div>
+            <div class="stat-value">${datos.pAaceleracion}s</div>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+
+<div id="description" class="descripcion-auto" style="background-color: #f0f0f0; border-radius: 8px; padding: 15px; margin-top: 20px;">
+  <details>
+    <summary>
+      <h1 style="font-family: 'serif'; font-size: 24px; color: #333;">Descripción del ${datos.pNombre} ${datos.pChasis}</h1>
+    </summary>
+
+    <h2 style="display: inline; font-family: 'serif'; font-size: 20px; color: #333; margin: 0; padding: 0;"> Especificaciones del ${datos.pNombre} ${datos.pAnio}"</h2>
+    <p style="display: inline; font-family: 'sans-serif'; font-size: 18px; color: #555; margin: 0; padding: 0;">
+      Es un <b>coche de tipo ${datos.pTipo}</b>. Equipado con un <i>chasis ${datos.pChasis}</i>. 
+      ¿El Motor del ${datos.pNombre}? <strong>Este vehículo del año ${datos.pAnio}</strong> está impulsado por un motor ${datos.pPropulsion}.  
+      ¿Cuál es la velocidad máxima del ${datos.pNombre}? Este motor le permite alcanzar una <u>velocidad máxima de ${datos.pVelocidad} km/h</u>. 
+      ¿Y la Potencia del ${datos.pNombre}? Con una <u>potencia de ${datos.pPotencia} HP</u> consigue una <u>aceleración de ${datos.pAaceleracion} segundos de 0 a 100 km/h</u>.
+    </p>
+    <h3 style="display: inline; font-family: 'serif'; font-size: 18px; color: #333; margin: 0; padding: 0;">
+      ${datos.pNombre} Ficha técnica, características y detalles</h3>
+    <p style="display: inline; font-family: 'sans-serif'; font-size: 18px; color: #555; margin: 0; padding: 0;">
+    Si deseas saber más, datos como <strong>sistema de transmisión</strong>, <strong>sistema de frenos</strong>,  
+    <strong>equipamiento de seguridad</strong> o incluso <strong>cómo es el diseño interior del ${datos.pNombre}</strong> 
+    no olvides consultar los bloques de datos adicionales. Ahi encontraras cosas como opciones de personalización o Tecnología a bordo
+    Esta ficha resume información clave de rendimiento y diseño para los entusiastas del automovilismo. 
+    Ahora que conocemos la Potencia y torque del ${datos.pNombre}, la Tecnología del ${datos.pNombre} y todos los detalles del motor del ${datos.pNombre} solo falta vivir la experiencia de conducción. 
+    </p>
+  </details>
+</div>
+<!-- descripcion NO DINAMICA -->`;
+
+                // Agregar bloques 
+                if (bloques.length > 0) {
+                    plantilla += `<div id="bloqueContainer">`;
+                    bloques.forEach(bloque => {
+                        // Verificar si hay una URL válida para la imagen
+                        if (bloque.imagenurl) {
+                            let bThumb480 = getThumbUrl(bloque.imagenurl, 480); // Genera una miniatura 480
+                            plantilla += `
+            <div class="callout" style="display: flex; align-items: center;">
+                <a href="${bloque.imagenurl}" style="width: 50%; height: auto;">
+                    <img class="alignleft borde-sombra" src="${bThumb480}" alt="Información de ${datos.pNombre} ${datos.pAnio}" style="width: auto; height: 150%;">
+                </a>
+                <div class="callout-content" style="flex: 1; padding-left: 10px;">
+                    <h2 class="blanco-sombra">${bloque.titulo}</h2>
+                    <p class="blanco-sombra">${bloque.texto}</p>
+                </div>
+            </div>`;
+                        } else {
+                            // Si no hay una imagen, mostrar solo el contenido de texto
+                            plantilla += `
+            <div class="callout" style="display: flex; align-items: center;">
+                <div class="callout-content" style="flex: 1; padding-left: 10px;">
+                    <h2 class="blanco-sombra">${bloque.titulo}</h2>
+                    <p class="blanco-sombra">${bloque.texto}</p>
+                </div>
+            </div>`;
+                        }
+                    });
+                    plantilla += `</div>`;
+                }
+
+                // Agregar galería de imágenes adicionales
+                if (masImagenes.length > 0) {
+                    plantilla += `<details class="spoiler" open>
+                    <summary class="btn">Galería de Fotos</summary>
+                    <div id="carousel" class="carousel"><button id="prevBtn" class="carousel-button">❮</button><div id="carousel-images" class="carousel-images-container">`;
+                    masImagenes.forEach(url => {
+                        let iThumb640 = getThumbUrl(url, 640); // Genera una miniatura 640
+                        plantilla += `<div class="carousel-slide">
+                            <a href="${url}" target="_blank">
+                                <img src="${iThumb640}" 
+                                alt="Imagen de ${datos.pNombre} ${datos.pChasis}" class="carousel-image">
+                            </a>
+                            </div>`;
+                    });
+                    plantilla += `</div><button id="nextBtn" class="carousel-button">❯</button></div></details>`;
+                }
+
+                // Copiar al portapapeles
+                navigator.clipboard.writeText(plantilla)
+                    .then(() => {
+                        mostrarMensaje('Plantilla copiada al portapapeles', 'success');
+                    })
+                    .catch(err => {
+                        mostrarMensaje('Error al copiar la plantilla', 'error');
+                        console.error('Error al copiar:', err);
+                    });
+            }
+        }
+
+        // Actualizar tabla de autos
+        function actualizarTabla() {
+            const tabla = document.createElement('table');
+            tabla.innerHTML = `
+        <tr>
+            <th>ID</th>
+            <th>Marca</th>
+            <th>Modelo</th>
+            <th>Generación</th>
+            <th>Nombre</th>
+            <th>Año</th>
+            <th>Chasis</th>
+            <th>Imagen</th>
+            <th>Tiene Bloques</th>
+            <th>Más Imágenes</th>
+            <th>Terminado</th>
+            <th>Acciones</th>
+        </tr>`;
+
+            // Convertir NodeList a array y luego invertir el orden
+            const autos = Array.from(xmlDoc.querySelectorAll('auto')).reverse();
+
+            autos.forEach(auto => {
+                const generacion = auto.parentNode;
+                const modelo = generacion.parentNode;
+                const marca = modelo.parentNode;
+
+                const imagenSrc = getThumbUrl(auto.querySelector('imagen').textContent, 150);
+                const pNombre = auto.querySelector('nombre').textContent;
+                const pAnio = auto.querySelector('año').textContent;
+
+                // Comprobar si tiene bloques
+                const tieneBloques = auto.querySelectorAll('bloque').length > 0 ? 'Sí' : 'No';
+
+                // Comprobar si tiene más imágenes
+                const tieneMasImagenes = auto.querySelector('masimagenes') && auto.querySelectorAll('masimagenes extraimagenurl').length > 0 ? 'Sí' : 'No';
+
+
+
+
+
+                // Verificar si el auto está marcado como terminado en el XML
+                const terminado = auto.getAttribute('terminado') === 'true';
+                const idAuto = auto.getAttribute('id');
+
+                // Checkbox para marcar como terminado, inicializado según el valor en el XML
+                const checkboxTerminado = `<input type="checkbox" id="terminado-${idAuto}" ${terminado ? 'checked' : ''} onchange="marcarTerminado('${idAuto}')" style="transform: scale(1.5);"/>`;
+
+                const tr = document.createElement('tr');
+
+                // Cambiar el color de fondo de las celdas según si tiene bloques o más imágenes
+                const colorBloques = tieneBloques === 'Sí' ? 'green' : 'red';
+                const colorImagenes = tieneMasImagenes === 'Sí' ? 'green' : 'red';
+
+                tr.innerHTML = `
+            <td style="background-color: #007BFF; color: white; text-align: center; font-size: 18px; font-weight: bold;" >${idAuto}</td>
+            <td style="background-color: #f0f0f0;">${marca.getAttribute('nombre')}</td>
+            <td style="background-color: #f0f0f0;">${modelo.getAttribute('nombre')}</td>
+            <td style="background-color: #f0f0f0;">${generacion.getAttribute('nombre')}</td>
+            <td>${pNombre}</td>
+            <td>${pAnio}</td>
+            <td>${auto.querySelector('chasis').textContent}</td>
+            <td><img src="${imagenSrc}" alt="${pNombre} ${pAnio} galería" width="150"></td>
+            <td style="background-color: cadetblue; color: ${colorBloques}; text-align: center; font-size: 18px;">${tieneBloques}</td>
+            <td style="background-color: darkkhaki; color: ${colorImagenes}; text-align: center; font-size: 18px;">${tieneMasImagenes}</td>
+            <td style="background-color: #53BDEB; text-align: center;">${checkboxTerminado}</td>
+            <td>
+                <button onclick="editarAuto('${idAuto}')">Editar</button>
+                <button onclick="eliminarAuto('${idAuto}')" style="background-color: red;">Eliminar</button>
+                <button onclick="copiarTitulo('${idAuto}')" style="background-color: green;">Título</button>
+                <button onclick="copiarPlantilla('${idAuto}')" style="background-color: green;">Plantilla</button>
+               <button onclick="copiarDatosFila(
+                    '${marca.getAttribute('nombre')}', 
+                    '${modelo.getAttribute('nombre')}', 
+                    '${generacion.getAttribute('nombre')}', 
+                    '${generacion.getAttribute('añoInicio')}', 
+                    '${generacion.getAttribute('añoFin')}'
+                )" style="background-color: blue;">Copiar Marca Modelo Generacion</button>
+            </td>`;
+
+                tabla.appendChild(tr);
+            });
+
+            document.getElementById('listaAutos').innerHTML = '';
+            document.getElementById('listaAutos').appendChild(tabla);
+        }
+
+        // Función para marcar el estado de "terminado" en el XML y actualizar el atributo en el nodo correspondiente
+        function marcarTerminado(idAuto) {
+            const checkbox = document.getElementById(`terminado-${idAuto}`);
+            const auto = xmlDoc.querySelector(`auto[id="${idAuto}"]`);
+
+            if (auto) {
+                auto.setAttribute('terminado', checkbox.checked ? 'true' : 'false');
+                console.log(`Auto ${idAuto} marcado como terminado: ${checkbox.checked}`);
+            } else {
+                console.error(`No se encontró el auto con ID ${idAuto} en el XML`);
+            }
+        }
+
+        // Función para copiar los datos de Marca, Modelo, Generación, Año Inicio y Año Fin a los inputs del formulario
+        function copiarDatosFila(marca, modelo, generacion, añoInicio, añoFin) {
+            document.getElementById('marca').value = marca;
+            document.getElementById('modelo').value = modelo;
+            document.getElementById('generacion').value = generacion;
+            document.getElementById('añoInicio').value = añoInicio;
+            document.getElementById('añoFin').value = añoFin;
+        }
+        // Limpiar formulario
+        function limpiarFormulario() {
+            document.getElementById('autoForm').reset();
+            document.getElementById('bloques').innerHTML = '';
+            document.getElementById('masImagenes').innerHTML = '';
+            document.getElementById('fichaContent').innerHTML = '';
+            autoSeleccionado = null;
+        }
+
+        // Mostrar mensaje
+        function mostrarMensaje(texto, tipo) {
+            const mensaje = document.getElementById('mensaje');
+            mensaje.textContent = texto;
+            mensaje.className = tipo;
+            setTimeout(() => {
+                mensaje.textContent = '';
+                mensaje.className = '';
+            }, 3000);
+        }
+
+        /* MArcas */
+
+        function mostrarDatosMarca() {
+            const marcaNombre = document.getElementById("marca").value.trim(); // Usar el valor de 'marca'
+            const marcaElement = xmlDoc.querySelector(`marca[nombre="${marcaNombre}"]`);
+
+            if (marcaElement) {
+                document.getElementById("marcaName").value = marcaNombre;
+                document.getElementById("logoURL").value = marcaElement.querySelector("logoURL")?.textContent || "";
+                document.getElementById("country").value = marcaElement.querySelector("country")?.textContent || "";
+                document.getElementById("flagURL").value = marcaElement.querySelector("flagURL")?.textContent || "";
+                document.getElementById("url").value = marcaElement.querySelector("url")?.textContent || "";
+            } else {
+                // Si no se encuentra la marca, limpiar los campos para ingresar nuevos datos
+                document.getElementById("marcaName").value = marcaNombre;
+                document.getElementById("logoURL").value = "";
+                document.getElementById("country").value = "";
+                document.getElementById("flagURL").value = "";
+                document.getElementById("url").value = "";
+                alert("Marca no encontrada. Puedes ingresar los datos para crearla.");
+            }
+        }
+
+        function grabarDatosMarca() {
+            const marcaNombre = document.getElementById("marcaName").value.trim();
+            const logoURL = document.getElementById("logoURL").value.trim();
+            const country = document.getElementById("country").value.trim();
+            const flagURL = document.getElementById("flagURL").value.trim();
+            const url = document.getElementById("url").value.trim();
+
+            // Busca si la marca ya existe
+            let marcaElement = xmlDoc.querySelector(`marca[nombre="${marcaNombre}"]`);
+
+            if (marcaElement) {
+                // Obtener el primer modelo, si existe, para insertar antes de él
+                const firstModel = marcaElement.querySelector("modelo");
+
+                // Verifica y crea cada sub-elemento si no existe, e insértalos antes del primer modelo
+                let logoElement = marcaElement.querySelector("logoURL");
+                if (!logoElement) {
+                    logoElement = xmlDoc.createElement("logoURL");
+                    logoElement.textContent = logoURL;
+                    marcaElement.insertBefore(logoElement, firstModel);
+                } else {
+                    logoElement.textContent = logoURL;
+                }
+
+                let countryElement = marcaElement.querySelector("country");
+                if (!countryElement) {
+                    countryElement = xmlDoc.createElement("country");
+                    countryElement.textContent = country;
+                    marcaElement.insertBefore(countryElement, firstModel);
+                } else {
+                    countryElement.textContent = country;
+                }
+
+                let flagElement = marcaElement.querySelector("flagURL");
+                if (!flagElement) {
+                    flagElement = xmlDoc.createElement("flagURL");
+                    flagElement.textContent = flagURL;
+                    marcaElement.insertBefore(flagElement, firstModel);
+                } else {
+                    flagElement.textContent = flagURL;
+                }
+
+                let urlElement = marcaElement.querySelector("url");
+                if (!urlElement) {
+                    urlElement = xmlDoc.createElement("url");
+                    urlElement.textContent = url;
+                    marcaElement.insertBefore(urlElement, firstModel);
+                } else {
+                    urlElement.textContent = url;
+                }
+
+            } else {
+                // Crear nueva marca si no existe
+                marcaElement = xmlDoc.createElement("marca");
+                marcaElement.setAttribute("nombre", marcaNombre);
+
+                // Crear y agregar los elementos con sus valores
+                const logoElement = xmlDoc.createElement("logoURL");
+                logoElement.textContent = logoURL;
+                marcaElement.appendChild(logoElement);
+
+                const countryElement = xmlDoc.createElement("country");
+                countryElement.textContent = country;
+                marcaElement.appendChild(countryElement);
+
+                const flagElement = xmlDoc.createElement("flagURL");
+                flagElement.textContent = flagURL;
+                marcaElement.appendChild(flagElement);
+
+                const urlElement = xmlDoc.createElement("url");
+                urlElement.textContent = url;
+                marcaElement.appendChild(urlElement);
+
+                // Agregar la nueva marca al documento XML
+                xmlDoc.documentElement.appendChild(marcaElement);
+            }
+
+            alert("Datos de la marca guardados correctamente.");
+            limpiarMarcaContent(); // Limpiar los campos después de guardar
+        }
+
+        function limpiarMarcaContent() {
+            document.getElementById("marcaName").value = "";
+            document.getElementById("logoURL").value = "";
+            document.getElementById("country").value = "";
+            document.getElementById("flagURL").value = "";
+            document.getElementById("url").value = "";
+        }
+
+        function GenerarMenuMarcas() {
+            // Selecciona todas las marcas en el documento XML
+            const marcas = xmlDoc.querySelectorAll("marca");
+
+            // Inicializa la variable que almacenará el HTML generado
+            let menuHTML = `<div class="car-brands-container">\n`;
+
+            // Recorre cada marca y construye el HTML con los datos del XML
+            marcas.forEach(marca => {
+                const marcaNombre = marca.getAttribute("nombre");
+                //thumb: getThumbUrl(document.getElementById('imagen').value), // Genera una miniatura si es necesario
+                const logoURL = getThumbUrl(marca.querySelector("logoURL")?.textContent, 180) || ""; // Genera una miniatura si es necesario
+                const country = marca.querySelector("country")?.textContent || "";
+                const flagURL = getThumbUrl(marca.querySelector("flagURL")?.textContent, 180) || "";// Genera una miniatura si es necesario
+                const url = marca.querySelector("url")?.textContent || "#";
+
+                // Añade el bloque de HTML para cada marca
+                menuHTML += `
+  <div class="car-brand">
+    <a href="${url}">
+      <img src="${logoURL}" alt="Imagen de la marca de autos ${marcaNombre}" />
+      <h3>${marcaNombre}</h3>
+      <span class="country-flag">
+        <img src="${flagURL}" alt="${country}" />
+      </span>
+      <span class="year"></span>
+    </a>
+  </div>\n`;
+            });
+
+            // Cierra el contenedor principal
+            menuHTML += `</div>`;
+
+            // Copia el HTML al portapapeles
+            navigator.clipboard.writeText(menuHTML)
+                .then(() => {
+                    alert("Menú de marcas copiado al portapapeles.");
+                })
+                .catch(err => {
+                    console.error("Error al copiar el menú:", err);
+                    alert("Error al copiar el menú al portapapeles.");
+                });
+        }
+
+        function GenerarTituloMarca() {
+            // Obtiene el valor del campo de entrada "nombre"
+            const nombre = document.getElementById("marca").value.trim();
+
+            // Verifica que el campo no esté vacío
+            if (!nombre) {
+                alert("Por favor, ingresa un nombre.");
+                return;
+            }
+
+            // Genera el título en el formato deseado
+            const titulo = `${nombre} Marca`;
+
+            // Copia el título al portapapeles
+            navigator.clipboard.writeText(titulo)
+                .then(() => {
+                    alert("Título copiado al portapapeles: " + titulo);
+                })
+                .catch(err => {
+                    console.error("Error al copiar el título:", err);
+                    alert("Error al copiar el título al portapapeles.");
+                });
+        }
+
+        function GenerarPlantillaMarca() {
+            // HTML de la plantilla
+            const nombre = document.getElementById("marcaName").value.trim();
+            const logoURL = getThumbUrl(document.getElementById("logoURL").value.trim(), 180);
+            //const logoURL = document.getElementById("logoURL").value.trim();
+            const country = document.getElementById("country").value.trim();
+
+            const plantillaHTML = `
+            <div class="separator" style="clear: both;">
+                <a href="${logoURL}" 
+                style="display: block; padding: 1em 0; text-align: center; ">
+                <img alt="Imagen de la marca ${nombre}" border="0" width="200" data-original-height="500" data-original-width="500" 
+                src="${logoURL}"/></a>
+                </div>
+
+<!--
+Lista de modelos de la marca de autos ${nombre} de ${country}. En cada coche veras versiones, características y datos en la ficha técnica del vehículo.
+-->
+
+<div class="lista-autos-container">
+<!--    <h2>Catalogo de autos ${nombre}</h2>   -->
+   
+    <ul class="lista-autos">      
+        <li>
+            <a href="Ej. https://www.altanave.uy/2024/11/pontiac-gto-versiones-generaciones.html" target="_self">
+                <!-- <img src="${logoURL}" alt="Imagen de modelo "> -->
+                <div>
+                    <h2 class="info">Ej. Pontiac GTO</h2>
+                    <p class="parrafo"> Ej. El Pontiac GTO, lanzado en 1964, es uno de los modelos más emblemáticos en la historia de los muscle cars estadounidenses. Concebido como un modelo de alto rendimiento dentro de la gama de Pontiac, el GTO fue un pionero en popularizar el concepto de autos deportivos accesibles. Con su diseño agresivo y su distintiva parrilla frontal, el GTO capturó la esencia de la potencia y el estilo de la era. Equipado con un motor V8 de hasta 389 caballos de fuerza, el GTO podía acelerar de 0 a 100 km/h en menos de 7 segundos, una hazaña impresionante para su época. Su suspensión ajustada y la transmisión manual de cuatro marchas lo convirtieron en un auto emocionante de conducir, mientras que su presencia en las pistas de carreras y en la cultura popular solidificaron su legado. Aunque la producción del GTO terminó en 1974, su impacto en la industria automotriz fue duradero, marcando el inicio de una nueva era para los autos de alto rendimiento y convirtiéndose en un ícono que sigue siendo venerado por coleccionistas y entusiastas del automovilismo.</p>
+                </div>
+            </a>
+        </li>
+
+        <!-- Agregar más elementos de la lista aquí -->
+    </ul>
+</div>
+`;
+            // Copia la plantilla al portapapeles
+            navigator.clipboard.writeText(plantillaHTML)
+                .then(() => {
+                    alert("Plantilla copiada al portapapeles.");
+                })
+                .catch(err => {
+                    console.error("Error al copiar la plantilla:", err);
+                    alert("Error al copiar la plantilla al portapapeles.");
+                });
+        }
+
+        /* MArcas */
+
+        /* Versiones Generaciones */
+
+        function GenerarTituloVersionGeneracion() {
+            // Obtiene el valor del campo de entrada "nombre"
+            const nombre = document.getElementById("nombre").value.trim();
+
+
+
+            // Verifica que el campo no esté vacío
+            if (!nombre) {
+                alert("Por favor, ingresa un nombre.");
+                return;
+            }
+
+            // Genera el título en el formato deseado
+            const titulo = `${nombre} Versiones Generaciones`;
+
+            // Copia el título al portapapeles
+            navigator.clipboard.writeText(titulo)
+                .then(() => {
+                    alert("Título copiado al portapapeles: " + titulo);
+                })
+                .catch(err => {
+                    console.error("Error al copiar el título:", err);
+                    alert("Error al copiar el título al portapapeles.");
+                });
+        }
+
+        function GenerarPlantillaVersionGeneracion() {
+            // HTML de la plantilla
+            const nombre = document.getElementById("nombre").value.trim();
+            //<input type="text" id="generacion" required>
+            const generacion = document.getElementById("generacion").value.trim();
+
+            const plantillaHTML = `
+<!-- Lista de versiones del modelo ${nombre}. Ficha técnica del vehículo con información y características ordenado por generaciones en español. -->
+
+<p style="font-size: 12px;">Nuestra lista de versiones del modelo <strong>${nombre}</strong>. Ficha técnica del vehículo con datos técnicos, información y características ordenado por años y generaciones.</p>
+
+<div id="container"></div>
+
+&lt;script&gt;
+  // Definir las generaciones que quieres mostrar
+  const generacionesAMostrar = ["${generacion}"];
+
+  // Función para cargar y procesar el XML de generaciones y coches
+  async function loadGenerationsData() {
+    const deckUrl = 'aHR0cHM6Ly9tbGxlb25hcnQuZ2l0aHViLmlvL0FsdGFOYXZlL2RlY2sueG1s';
+    try {
+      const response = await fetch(atob(deckUrl));
+      if (!response.ok) throw new Error('Error al cargar los datos: ' + response.statusText);
+
+      const xmlText = await response.text();
+      const parser = new DOMParser();
+      const xmlDoc = parser.parseFromString(xmlText, "text/xml");
+
+      console.log(xmlDoc); // Procesar el XML
+
+      // Recorrer las generaciones y sus coches
+      const container = document.getElementById('container');
+      container.innerHTML = ''; // Limpiar el contenedor
+
+      const generaciones = xmlDoc.querySelectorAll('generacion');
+      generaciones.forEach(generacion => {
+        const nombreGeneracion = generacion.getAttribute('nombre');
+        const añoInicio = generacion.getAttribute('añoInicio');
+        const añoFin = generacion.getAttribute('añoFin');
+
+        // Mostrar solo las generaciones seleccionadas
+        if (generacionesAMostrar.includes(nombreGeneracion)) {
+          // Agregar el título de la generación
+          container.innerHTML += renderGenerationTitle(nombreGeneracion, añoInicio, añoFin);
+
+          // Recoger los autos dentro de cada generación
+          const autos = Array.from(generacion.querySelectorAll('auto'));
+
+          // Ordenar los autos por año de menor a mayor
+          autos.sort((a, b) => {
+            const añoA = parseInt(a.querySelector('año').textContent);
+            const añoB = parseInt(b.querySelector('año').textContent);
+            return añoA - añoB;
+          });
+
+          // Agregar cada coche al contenedor
+          autos.forEach(auto => {
+            const carDetails = {
+              nombre: auto.querySelector('nombre').textContent,
+              año: auto.querySelector('año').textContent,
+              chasis: auto.querySelector('chasis').textContent,
+              propulsion: auto.querySelector('propulsion').textContent,
+              velocidad: auto.querySelector('velocidad').textContent,
+              potencia: auto.querySelector('potencia').textContent,
+              aceleracion: auto.querySelector('aceleracion').textContent,
+              tipo: auto.querySelector('tipo').textContent,
+              precio: auto.querySelector('precio').textContent,
+              imagen: auto.querySelector('imagen').textContent,
+              thumb: auto.querySelector('imagen')?.textContent ? getThumbUrl(auto.querySelector('imagen')?.textContent) : 'Desconocida',
+              enlace: auto.querySelector('enlace').textContent
+            };
+
+            container.innerHTML += renderCarCard(carDetails);
+          });
+        }
+      });
+    } catch (error) {
+      console.error('Error al cargar los datos:', error);
+    }
+  }
+  
+  // Función para renderizar la ficha del coche
+  function renderCarCard(car) {
+    return \`
+      <a title="\${car.nombre} \${car.año} \${car.chasis}" href="\${car.enlace}" target="_self">
+        <div class="lista-item">
+          <img src="\${car.thumb}" alt="Detalle del \${car.nombre} \${car.año} \${car.chasis}, datos técnicos">
+          <div class="lista-item-content">
+            <div class="marca">\${car.nombre} \${car.chasis}</div>
+            <div class="modelo">\${car.año}</div>
+          </div>
+        </div>
+      </a>
+    \`;
+  }
+
+  // Función para renderizar el título de la generación
+  function renderGenerationTitle(nombre, inicio, fin) {
+    return \`
+      <div class="car-title">
+        <p>\${nombre} <strong>(\${inicio}-\${fin})</strong></p>
+        <hr class="red">
+      </div>
+    \`;
+  }
+
+  // THUMBS -- Función para generar la URL de la miniatura a partir de la URL principal
+  const getThumbUrl = (largeImage, size = 180) => {
+    const commonsIndex = largeImage.indexOf("/commons/") + 9;
+    const beforeCommons = largeImage.slice(0, commonsIndex);
+    const afterCommons = largeImage.slice(commonsIndex);
+    const fileNameIndex = afterCommons.lastIndexOf("/") + 1;
+    const pathToFile = afterCommons.slice(0, fileNameIndex);
+    const fileName = afterCommons.slice(fileNameIndex);
+    return \`\${beforeCommons}thumb/\${pathToFile}\${fileName}/\${size}px-\${fileName}\`;
+  };
+
+  // Cargar los datos al inicio
+  loadGenerationsData();
+  &lt;/script&gt;
+  `;
+
+            // Reemplaza entidades HTML con los caracteres correspondientes para copiar correctamente
+            const contenidoReemplazado = plantillaHTML
+                .replace(/&lt;/g, "<")
+                .replace(/&gt;/g, ">")
+                .replace(/&amp;/g, "&");
+
+            // Copia la plantilla al portapapeles
+            navigator.clipboard.writeText(contenidoReemplazado)
+                .then(() => {
+                    alert("Plantilla copiada al portapapeles.");
+                })
+                .catch(err => {
+                    console.error("Error al copiar la plantilla:", err);
+                    alert("Error al copiar la plantilla al portapapeles.");
+                });
+        }
+
+
+        /* Versiones Generaciones */
+
+        /* extractorCatalogo */
+        function extractorCatalogo() {
+            // Obtén el texto de `inputCatalog`
+            const texto = document.getElementById('inputCatalog').value;
+
+            // Extrae los datos específicos usando las funciones de extracción
+            const nombre = extraerInfo(texto, 'más datos:', ' (') || 'NoNombre';
+            const chasis = extraerCarroceria(texto) || 'NoChasis';
+            const año = extraerAnio(texto) || 'NoAño';
+            const propulsion = extraerPropulsion(texto, 'Motor de ', '(') || 'NoPropulsion';
+            const velocidad = extraerInfo(texto, 'Velocidad máxima:', 'km/h') || 'NoVel.';
+            const potencia = extraerInfo(texto, 'kW /', 'hp') || 'NoPot.';
+            const aceleracion = extraerInfo(texto, '100 km/h', 's') || 'NoAcel.';
+
+            // Formatear `propulsion` a minúsculas y capitalizar la primera letra
+            const propulsionFormatted = propulsion.toLowerCase().replace(/^\w/, c => c.toUpperCase());
+
+            // Colocar los datos extraídos en los campos del formulario principal
+            document.getElementById('nombre').value = nombre;
+            document.getElementById('año').value = año;
+            document.getElementById('chasis').value = chasis;
+            document.getElementById('propulsion').value = propulsionFormatted;
+            document.getElementById('velocidad').value = velocidad;
+            document.getElementById('potencia').value = potencia;
+            document.getElementById('aceleracion').value = aceleracion;
+        }
+
+        // Función que capitaliza la primera letra de una cadena
+        function capitalizar(str) {
+            return str.charAt(0).toUpperCase() + str.slice(1);
+        }
+
+        function extraerInfo(texto, inicio, fin) {
+            const indexInicio = texto.indexOf(inicio);
+            if (indexInicio === -1) return null;
+            const indexFin = texto.indexOf(fin, indexInicio + inicio.length);
+            if (indexFin === -1) return null;
+            return texto.substring(indexInicio + inicio.length, indexFin).trim();
+        }
+
+        function extraerPotencia(texto) {
+            const match = texto.match(/(\d+)\s*hp/);
+            return match ? match[1] : 'No especificada';
+        }
+
+        function extraerAnio(texto) {
+            const match = texto.match(/(\d{4})/);
+            return match ? match[1] : 'No especificado';
+        }
+
+        function extraerCarroceria(texto) {
+            const match = texto.match(/Tipo de carrocería\s*([^\n]+)/);
+            //return match ? match[1].trim() : 'No especificada';
+            return capitalizar(match ? match[1].trim() : 'No especificada');
+        }
+
+        function extraerPropulsion(texto, inicio, fin) {
+            const indexInicio = texto.indexOf(inicio);
+            if (indexInicio === -1) return null;
+            const indexFin = texto.indexOf(fin, indexInicio + inicio.length);
+            if (indexFin === -1) return null;
+            //return texto.substring(indexInicio + inicio.length, indexFin).trim();
+            return capitalizar(texto.substring(indexInicio + inicio.length, indexFin).trim());
+        }
+
+        /* extractorCatalogo */
+
+        function getLastCarId() {
+            // Selecciona todos los elementos "auto" en el documento XML
+            const autos = xmlDoc.querySelectorAll("auto");
+
+            // Si no hay autos, devuelve 0 como valor predeterminado
+            if (autos.length === 0) return 0;
+
+            // Encuentra el id más alto entre los autos
+            let maxId = 0;
+            autos.forEach(auto => {
+                const id = parseInt(auto.getAttribute("id"), 10);
+                if (id > maxId) maxId = id;
+            });
+
+            return maxId;
+        }
+
+        function recargarPagina() {
+
+            // Mostrar confirmación antes de proceder
+            const confirmacion = confirm("¿recargamos la Pagina?");
+            if (confirmacion) {
+                location.reload(); // Esto recargará la página completamente
+            }
+
+
+
+        }
+
+
+        // Agregar controles de archivo
+        document.body.insertAdjacentHTML('afterbegin', `
+    <div class="container">
+        <div style="display: flex; gap: 10px; align-items: center;">
+            <input type="file" accept=".xml" onchange="cargarXML(event)" id="fileInput">
+            <button onclick="guardarXML(false)">Guardar XML</button>
+            <button onclick="guardarXML(true)">Respaldar XML</button>
+            <span id="nombreArchivo" style="margin-left: 10px; color: #666;"></span>
+        </div>
+    </div>
+`);
+
+        // Inicializar al cargar la página
+        window.onload = inicializarXML;
+    </script>
+</body>
+
+</html>
