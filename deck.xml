@@ -141,7 +141,7 @@ Parachoques hidráulicos, Ametralladoras delanteras, Escudo antibalas, Matrícul
         </auto>
       </generacion>
       <generacion nombre="Vantage 4ta generacion" añoInicio="2018" añoFin="2023">
-        <auto id="75" terminado="false">
+        <auto id="75" terminado="true">
           <nombre>Aston Martin V8 Vantage</nombre>
           <año>2018</año>
           <chasis>Coupe 2 puertas</chasis>
@@ -169,12 +169,60 @@ En cuanto a su diseño exterior, además de la sofisticación de Aston Martin in
         </auto>
       </generacion>
       <generacion nombre="Vantage 5ta generacion" añoInicio="2024" añoFin="2025">
-        <auto id="73" terminado="false"><nombre>Aston Martin V8 Vantage</nombre><año>2024</año><chasis>Coupe 2 puertas</chasis><propulsion>Gasolina</propulsion><velocidad>314</velocidad><potencia>503</potencia><aceleracion>3,6</aceleracion><tipo>Deportivo</tipo><precio>160000</precio><imagen>https://upload.wikimedia.org/wikipedia/commons/8/81/2024_Aston_Martin_Vantage_V8_2.jpg</imagen><enlace>https://www.altanave.uy/2024/11/aston-martin-v8-vantage-2024-coupe.html</enlace><bloques><bloque><imagenurl>https://upload.wikimedia.org/wikipedia/commons/6/6f/2024_Aston_Martin_Vantage_V8_F1_Safety_Car_5.jpg</imagenurl><titulo>Que auto es el Safety Car en la Fórmula 1 </titulo><texto>El Safety Car, o coche de seguridad, es un vehículo que entra a la pista para regular el ritmo de los autos de carrera cuando se presenta una situación de riesgo, como escombros, colisión o condiciones meteorológicas adversas. Su función es dar tiempo a los comisarios para restablecer la pista y garantizar la seguridad de los pilotos. Para la temporada 2024 es el Aston Martin Vantage.</texto></bloque><bloque><imagenurl>https://upload.wikimedia.org/wikipedia/commons/7/7e/2024_Aston_Martin_Vantage_V8_F1_Safety_Car.jpg</imagenurl><titulo>Aston Martin Safety Car</titulo><texto>El Vantage se suma a la parrilla de Fórmula 1® en 2024 junto con 20 coches que llevan la velocidad al límite. Es el Safety Car oficial de la FIA de Fórmula 1® acompañando al equipo de Fernando Alonso y mostrando su rica tradición de competición. </texto></bloque></bloques></auto>
+        <auto id="73" terminado="true">
+          <nombre>Aston Martin V8 Vantage</nombre>
+          <año>2024</año>
+          <chasis>Coupe 2 puertas</chasis>
+          <propulsion>Gasolina</propulsion>
+          <velocidad>314</velocidad>
+          <potencia>503</potencia>
+          <aceleracion>3,6</aceleracion>
+          <tipo>Deportivo</tipo>
+          <precio>160000</precio>
+          <imagen>https://upload.wikimedia.org/wikipedia/commons/8/81/2024_Aston_Martin_Vantage_V8_2.jpg</imagen>
+          <enlace>https://www.altanave.uy/2024/11/aston-martin-v8-vantage-2024-coupe.html</enlace>
+          <bloques>
+            <bloque>
+              <imagenurl>https://upload.wikimedia.org/wikipedia/commons/6/6f/2024_Aston_Martin_Vantage_V8_F1_Safety_Car_5.jpg</imagenurl>
+              <titulo>Que auto es el Safety Car en la Fórmula 1 </titulo>
+              <texto>El Safety Car, o coche de seguridad, es un vehículo que entra a la pista para regular el ritmo de los autos de carrera cuando se presenta una situación de riesgo, como escombros, colisión o condiciones meteorológicas adversas. Su función es dar tiempo a los comisarios para restablecer la pista y garantizar la seguridad de los pilotos. Para la temporada 2024 es el Aston Martin Vantage.</texto>
+            </bloque>
+            <bloque>
+              <imagenurl>https://upload.wikimedia.org/wikipedia/commons/7/7e/2024_Aston_Martin_Vantage_V8_F1_Safety_Car.jpg</imagenurl>
+              <titulo>Aston Martin Safety Car</titulo>
+              <texto>El Vantage se suma a la parrilla de Fórmula 1® en 2024 junto con 20 coches que llevan la velocidad al límite. Es el Safety Car oficial de la FIA de Fórmula 1® acompañando al equipo de Fernando Alonso y mostrando su rica tradición de competición. </texto>
+            </bloque>
+          </bloques>
+        </auto>
       </generacion>
     </modelo>
     <modelo nombre="One-77">
       <generacion nombre="One-77" añoInicio="2011" añoFin="2011">
-        <auto id="62"><nombre>One-77</nombre><año>2011</año><chasis>Coupe 2 puertas</chasis><propulsion>Gasolina</propulsion><velocidad>330</velocidad><potencia>700</potencia><aceleracion>3,5</aceleracion><tipo>Deportivo</tipo><precio>2500000</precio><imagen>https://upload.wikimedia.org/wikipedia/commons/9/98/Aston_Martin_One-77_Blue.jpg</imagen><enlace>https://www.altanave.uy/2024/11/one-77-2011-coupe.html</enlace><bloques><bloque><imagenurl>https://upload.wikimedia.org/wikipedia/commons/a/ae/2014_Aston_Martin_One-77_Blue.jpg</imagenurl><titulo>Mejor Concept Cars</titulo><texto>Se presentó por primera vez en el Salón del Automóvil de París en 2008, donde obtuvo el galardón al mejor diseño en la categoría de "Concept Cars" y Prototipos.</texto></bloque></bloques><masimagenes><extraimagenurl>https://upload.wikimedia.org/wikipedia/commons/1/16/Aston_Martin_One-77_7.jpg</extraimagenurl><extraimagenurl>https://upload.wikimedia.org/wikipedia/commons/6/60/Aston_Martin_One-77_4.jpg</extraimagenurl><extraimagenurl>https://upload.wikimedia.org/wikipedia/commons/8/86/Aston_Martin_One-77_8.jpg</extraimagenurl><extraimagenurl>https://upload.wikimedia.org/wikipedia/commons/9/98/Aston_Martin_One-77_5.jpg</extraimagenurl></masimagenes></auto>
+        <auto id="62" terminado="true">
+          <nombre>One-77</nombre>
+          <año>2011</año>
+          <chasis>Coupe 2 puertas</chasis>
+          <propulsion>Gasolina</propulsion>
+          <velocidad>330</velocidad>
+          <potencia>700</potencia>
+          <aceleracion>3,5</aceleracion>
+          <tipo>Deportivo</tipo>
+          <precio>2500000</precio>
+          <imagen>https://upload.wikimedia.org/wikipedia/commons/9/98/Aston_Martin_One-77_Blue.jpg</imagen>
+          <enlace>https://www.altanave.uy/2024/11/one-77-2011-coupe.html</enlace>
+          <bloques>
+            <bloque>
+              <imagenurl>https://upload.wikimedia.org/wikipedia/commons/a/ae/2014_Aston_Martin_One-77_Blue.jpg</imagenurl>
+              <titulo>Mejor Concept Cars</titulo>
+              <texto>Se presentó por primera vez en el Salón del Automóvil de París en 2008, donde obtuvo el galardón al mejor diseño en la categoría de "Concept Cars" y Prototipos.</texto>
+            </bloque>
+          </bloques>
+          <masimagenes>
+            <extraimagenurl>https://upload.wikimedia.org/wikipedia/commons/6/60/Aston_Martin_One-77_4.jpg</extraimagenurl>
+            <extraimagenurl>https://upload.wikimedia.org/wikipedia/commons/8/86/Aston_Martin_One-77_8.jpg</extraimagenurl>
+            <extraimagenurl>https://upload.wikimedia.org/wikipedia/commons/9/98/Aston_Martin_One-77_5.jpg</extraimagenurl>
+          </masimagenes>
+        </auto>
       </generacion>
     </modelo>
   </marca>
@@ -185,44 +233,7 @@ En cuanto a su diseño exterior, además de la sofisticación de Aston Martin in
     <url>https://www.altanave.uy/2024/10/bugatti.html</url>
     <modelo nombre="Veyron">
       <generacion nombre="Bugatti Veyron" añoInicio="2005" añoFin="2015">
-        <auto id="9" terminado="false">
-          <nombre>Bugatti Veyron 16.4</nombre>
-          <año>2005</año>
-          <chasis>Coupe 2 puertas</chasis>
-          <propulsion>Gasolina</propulsion>
-          <velocidad>407</velocidad>
-          <potencia>987</potencia>
-          <aceleracion>2,5</aceleracion>
-          <tipo>Superauto</tipo>
-          <precio>1920000</precio>
-          <imagen>https://upload.wikimedia.org/wikipedia/commons/6/6b/Bugatti_veyron_in_Tokyo.jpg</imagen>
-          <enlace>https://www.altanave.uy/2024/10/bugatti-veyron-164-coupe-de-2-puertas.html</enlace>
-          <bloques>
-            <bloque>
-              <imagenurl>https://upload.wikimedia.org/wikipedia/commons/c/c7/Bugatti_Veyron_16.4_2005_%2826779947960%29.jpg</imagenurl>
-              <titulo>Bugatti Veyron Velocidad maxima</titulo>
-              <texto>Este auto fue Récord de Velocidad. Alcanzando una velocidad impresionante de 431,072 km/h, el Veyron se consagró como el superdeportivo de producción legal más veloz del mundo, asegurando su lugar en el prestigioso Libro Guinness de los Récords.</texto>
-            </bloque>
-            <bloque>
-              <imagenurl>https://upload.wikimedia.org/wikipedia/commons/7/74/Volkswagen_W16.jpg</imagenurl>
-              <titulo>Bugatti Veyron Motor</titulo>
-              <texto>En su época, la potencia del Veyron era sin igual, estableciendo un nuevo estándar en el mundo automotriz. Considerado el primer superdeportivo, su extraordinario rendimiento se debe a su motor W16 de 8.0 litros y cuatro turbocompresores. El primer SuperAuto</texto>
-            </bloque>
-            <bloque>
-              <imagenurl>https://upload.wikimedia.org/wikipedia/commons/5/5d/Bugatti_Veyron_-_panoramio.jpg</imagenurl>
-              <titulo>Súper Exclusivo</titulo>
-              <texto>En 2011 se vendió el último Bugatti Veyron Coupé de una serie de 300 unidades, aunque su entrega se retrasó varios años. Para 2013, el modelo 400, sumando los 300 Coupé y 150 Roadster, también encontró dueño, completando la producción limitada de 450 ejemplares.</texto>
-            </bloque>
-            <bloque>
-              <imagenurl>https://upload.wikimedia.org/wikipedia/commons/8/8e/Bugatti_Veyron_EB_16.4_%282008%29_%2852569212082%29.jpg</imagenurl>
-              <titulo>Nombre Ganador</titulo>
-              <texto>El nombre Veyron se inspiró en el legendario piloto Pierre Veyron, ganador de las 24 Horas de Le Mans en 1939 a bordo del Bugatti Type 57SC..</texto>
-            </bloque>
-          </bloques>
-          <masimagenes>
-            <extraimagenurl>https://upload.wikimedia.org/wikipedia/commons/2/25/Bugatti_Veyron_%2810842630425%29.jpg</extraimagenurl>
-          </masimagenes>
-        </auto>
+        <auto id="9"><nombre>Bugatti Veyron 16.4</nombre><año>2005</año><chasis>Coupe 2 puertas</chasis><propulsion>Gasolina</propulsion><velocidad>407</velocidad><potencia>987</potencia><aceleracion>2,5</aceleracion><tipo>Superauto</tipo><precio>1920000</precio><imagen>https://upload.wikimedia.org/wikipedia/commons/6/6b/Bugatti_veyron_in_Tokyo.jpg</imagen><enlace>https://www.altanave.uy/2024/11/bugatti-veyron-2005-coupe.html</enlace><bloques><bloque><imagenurl>https://upload.wikimedia.org/wikipedia/commons/c/c7/Bugatti_Veyron_16.4_2005_%2826779947960%29.jpg</imagenurl><titulo>Bugatti Veyron Velocidad maxima</titulo><texto>Este auto fue Récord de Velocidad. Alcanzando una velocidad impresionante de 431,072 km/h, el Veyron se consagró como el superdeportivo de producción legal más veloz del mundo, asegurando su lugar en el prestigioso Libro Guinness de los Récords.</texto></bloque><bloque><imagenurl>https://upload.wikimedia.org/wikipedia/commons/7/74/Volkswagen_W16.jpg</imagenurl><titulo>Bugatti Veyron Motor</titulo><texto>En su época, la potencia del Veyron era sin igual, estableciendo un nuevo estándar en el mundo automotriz. Considerado el primer superdeportivo, su extraordinario rendimiento se debe a su motor W16 de 8.0 litros y cuatro turbocompresores. El primer SuperAuto</texto></bloque><bloque><imagenurl>https://upload.wikimedia.org/wikipedia/commons/5/5d/Bugatti_Veyron_-_panoramio.jpg</imagenurl><titulo>Súper Exclusivo</titulo><texto>En 2011 se vendió el último Bugatti Veyron Coupé de una serie de 300 unidades, aunque su entrega se retrasó varios años. Para 2013, el modelo 400, sumando los 300 Coupé y 150 Roadster, también encontró dueño, completando la producción limitada de 450 ejemplares.</texto></bloque><bloque><imagenurl>https://upload.wikimedia.org/wikipedia/commons/8/8e/Bugatti_Veyron_EB_16.4_%282008%29_%2852569212082%29.jpg</imagenurl><titulo>Porque se llama Veyron</titulo><texto>El nombre Veyron se inspiró en el legendario piloto Pierre Veyron, ganador de las 24 Horas de Le Mans en 1939 a bordo del Bugatti Type 57SC..</texto></bloque></bloques><masimagenes><extraimagenurl>https://upload.wikimedia.org/wikipedia/commons/2/25/Bugatti_Veyron_%2810842630425%29.jpg</extraimagenurl></masimagenes></auto>
       </generacion>
     </modelo>
   </marca>
