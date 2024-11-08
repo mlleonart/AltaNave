@@ -110,137 +110,154 @@ Parachoques hidráulicos, Ametralladoras delanteras, Escudo antibalas, Matrícul
                 &lt;table style="width: 100%; border-collapse: collapse; font-family: Arial, sans-serif; color: #ecf0f1;"&gt;
                     &lt;tr&gt;
                         &lt;td style="padding: 5px; font-weight: bold; width: 40%; text-align: left;"&gt;Motor:&lt;/td&gt;
-                        &lt;td style="padding: 5px; text-align: left;"&gt;DOHC , 6 cilindros en línea , 4,0 L &lt;/td&gt;
+                        &lt;td style="padding: 5px; text-align: left;"&gt;6 en línea 3,9 litros aspirado naturalmente&lt;/td&gt;
                     &lt;/tr&gt;
                     &lt;tr&gt;
-                        &lt;td style="padding: 5px; font-weight: bold; text-align: left;"&gt;Alimentación:&lt;/td&gt;
-                        &lt;td style="padding: 5px; text-align: left;"&gt;3 carburadores tipo SU&lt;/td&gt;
+                        &lt;td style="padding: 5px; font-weight: bold; text-align: left;"&gt;Válvulas:&lt;/td&gt;
+                        &lt;td style="padding: 5px; text-align: left;"&gt;12&lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td style="padding: 5px; font-weight: bold; text-align: left;"&gt;Destacados:&lt;/td&gt;
+                        &lt;td style="padding: 5px; text-align: left;"&gt;3 carburadores Weber 45DCOFF de 2 bocas&lt;/td&gt;
                     &lt;/tr&gt;
                     &lt;tr&gt;
                         &lt;td style="padding: 5px; font-weight: bold; text-align: left;"&gt;Transmisión:&lt;/td&gt;
-                        &lt;td style="padding: 5px; text-align: left;"&gt;Manual de 5 velocidades&lt;/td&gt;
+                        &lt;td style="padding: 5px; text-align: left;"&gt;manual de 5 marchas&lt;/td&gt;
                     &lt;/tr&gt;
                     &lt;tr&gt;
                         &lt;td style="padding: 5px; font-weight: bold; text-align: left;"&gt;Peso:&lt;/td&gt;
-                        &lt;td style="padding: 5px; text-align: left;"&gt;1502 Kg.&lt;/td&gt;
+                        &lt;td style="padding: 5px; text-align: left;"&gt;1465 Kg.&lt;/td&gt;
                     &lt;/tr&gt;
                 &lt;/table&gt;
             &lt;/div&gt;
             &lt;p&gt;
-        </texto></bloque><bloque><imagenurl>https://upload.wikimedia.org/wikipedia/commons/7/78/1966_Aston_Martin_DB5_V8_Prototype_HCC22.jpg</imagenurl><titulo>DB5 vs DB5 Vantage</titulo><texto>El Aston Martin DB5 Vantage se presenta como una versión mejorada del icónico DB5 estándar, destacándose por su motor más potente que produce hasta 325 caballos de fuerza, en comparación con los 282 del modelo original. Además, el Vantage incorpora características adicionales que realzan su rendimiento y experiencia de conducción, como un sistema de suspensión más avanzado y frenos de mayor capacidad.</texto></bloque></bloques></auto>
+               </texto></bloque><bloque><imagenurl>https://upload.wikimedia.org/wikipedia/commons/7/78/1966_Aston_Martin_DB5_V8_Prototype_HCC22.jpg</imagenurl><titulo>DB5 vs DB5 Vantage</titulo><texto>El Aston Martin DB5 Vantage se presenta como una versión mejorada del icónico DB5 estándar, destacándose por su motor más potente que produce hasta 325 caballos de fuerza, en comparación con los 282 del modelo original. Además, el Vantage incorpora características adicionales que realzan su rendimiento y experiencia de conducción, como un sistema de suspensión más avanzado y frenos de mayor capacidad.</texto></bloque></bloques></auto>
       </generacion>
     </modelo>
     <modelo nombre="Vantage">
       <generacion nombre="Vantage 3era generacion" añoInicio="2005" añoFin="2018">
-        <auto id="74" terminado="true">
-          <nombre>Aston Martin Vantage V8</nombre>
-          <año>2009</año>
-          <chasis>Coupe 2 puertas</chasis>
-          <propulsion>Gasolina</propulsion>
-          <velocidad>290</velocidad>
-          <potencia>420</potencia>
-          <aceleracion>4,9</aceleracion>
-          <tipo>Deportivo</tipo>
-          <precio>60000</precio>
-          <imagen>https://upload.wikimedia.org/wikipedia/commons/e/eb/2009_Aston_Martin_Vantage_V8_2.jpg</imagen>
-          <enlace>https://www.altanave.uy/2024/11/aston-martin-vantage-v8-2009-coupe.html</enlace>
-          <bloques>
-            <bloque>
-              <imagenurl>https://upload.wikimedia.org/wikipedia/commons/6/61/Aston_Martin_V8_Vantage_-_Flickr_-_Alexandre_Pr%C3%A9vot_%2859%29.jpg</imagenurl>
-              <titulo>Que significa Vantage</titulo>
-              <texto>Vantage, significa ventaja en inglés.</texto>
-            </bloque>
-            <bloque>
-              <imagenurl>https://upload.wikimedia.org/wikipedia/commons/1/10/Grey_Aston_Martin_V8_Vantage_-_20090805.jpg</imagenurl>
-              <titulo>Aston Martin Vantage Motor</titulo>
-              <texto>El vehículo cuenta con un chasis compuesto por aleaciones de aluminio y magnesio, lo que le otorga un peso de 1570 kg. La versión mejorada incorporaba un motor V8 de 4,7 litros y 32 válvulas, capaz de generar una potencia máxima de 420 caballos de fuerza. Estaba disponible con una transmisión manual o automática de seis velocidades, destacándose por su suavidad y menor esfuerzo al momento de operar el sistema de cambio de marchas.</texto>
-            </bloque>
-          </bloques>
-        </auto>
+        <auto id="74" terminado="true"><nombre>Aston Martin Vantage V8</nombre><año>2009</año><chasis>Coupe 2 puertas</chasis><propulsion>Gasolina</propulsion><velocidad>290</velocidad><potencia>420</potencia><aceleracion>4,9</aceleracion><tipo>Deportivo</tipo><precio>60000</precio><imagen>https://upload.wikimedia.org/wikipedia/commons/e/eb/2009_Aston_Martin_Vantage_V8_2.jpg</imagen><valoracionInput>20</valoracionInput><enlace>https://www.altanave.uy/2024/11/aston-martin-vantage-v8-2009-coupe.html</enlace><bloques><bloque><titulo>Aston Martin Vantage V8 » Ficha</titulo><texto>
+            &lt;/p&gt;
+            &lt;div style="border: 2px solid #ccc; padding: 15px; border-radius: 8px; background: #48505B; max-width: 400px; margin: 10px auto; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); color: #ecf0f1;"&gt;
+                &lt;table style="width: 100%; border-collapse: collapse; font-family: Arial, sans-serif; color: #ecf0f1;"&gt;
+                    &lt;tr&gt;
+                        &lt;td style="padding: 5px; font-weight: bold; width: 40%; text-align: left;"&gt;Motor:&lt;/td&gt;
+                        &lt;td style="padding: 5px; text-align: left;"&gt;V8 4,7 litros aspirado naturalmente&lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td style="padding: 5px; font-weight: bold; text-align: left;"&gt;Válvulas:&lt;/td&gt;
+                        &lt;td style="padding: 5px; text-align: left;"&gt;32&lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td style="padding: 5px; font-weight: bold; text-align: left;"&gt;Destacados:&lt;/td&gt;
+                        &lt;td style="padding: 5px; text-align: left;"&gt;Doble árbol de levas en cabeza - Control de emisiones: Catalizador de 3 vías Norma de emisión: Euro 4&lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td style="padding: 5px; font-weight: bold; text-align: left;"&gt;Transmisión:&lt;/td&gt;
+                        &lt;td style="padding: 5px; text-align: left;"&gt;manual de 6 marchas&lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td style="padding: 5px; font-weight: bold; text-align: left;"&gt;Peso:&lt;/td&gt;
+                        &lt;td style="padding: 5px; text-align: left;"&gt;1630 Kg.&lt;/td&gt;
+                    &lt;/tr&gt;
+                &lt;/table&gt;
+            &lt;/div&gt;
+            &lt;p&gt;
+        </texto></bloque><bloque><imagenurl>https://upload.wikimedia.org/wikipedia/commons/6/61/Aston_Martin_V8_Vantage_-_Flickr_-_Alexandre_Pr%C3%A9vot_%2859%29.jpg</imagenurl><titulo>Que significa Vantage</titulo><texto>Vantage, significa ventaja en inglés.</texto></bloque><bloque><imagenurl>https://upload.wikimedia.org/wikipedia/commons/1/10/Grey_Aston_Martin_V8_Vantage_-_20090805.jpg</imagenurl><titulo>Aston Martin Vantage Motor</titulo><texto>El vehículo cuenta con un chasis compuesto por aleaciones de aluminio y magnesio, lo que le otorga un peso de 1570 kg. La versión mejorada incorporaba un motor V8 de 4,7 litros y 32 válvulas, capaz de generar una potencia máxima de 420 caballos de fuerza. Estaba disponible con una transmisión manual o automática de seis velocidades, destacándose por su suavidad y menor esfuerzo al momento de operar el sistema de cambio de marchas.</texto></bloque></bloques></auto>
       </generacion>
       <generacion nombre="Vantage 4ta generacion" añoInicio="2018" añoFin="2023">
-        <auto id="75" terminado="true">
-          <nombre>Aston Martin V8 Vantage</nombre>
-          <año>2018</año>
-          <chasis>Coupe 2 puertas</chasis>
-          <propulsion>Gasolina</propulsion>
-          <velocidad>314</velocidad>
-          <potencia>503</potencia>
-          <aceleracion>3,6</aceleracion>
-          <tipo>Deportivo</tipo>
-          <precio>130000</precio>
-          <imagen>https://upload.wikimedia.org/wikipedia/commons/1/15/2018_Aston_Martin_Vantage_V8_Auto_2.jpg</imagen>
-          <enlace>https://www.altanave.uy/2024/11/aston-martin-v8-vantage-2018-coupe.html</enlace>
-          <bloques>
-            <bloque>
-              <imagenurl>https://upload.wikimedia.org/wikipedia/commons/9/9c/2020_Aston_Martin_Vantage_V8.jpg</imagenurl>
-              <titulo>Aston Martin vs Porsche</titulo>
-              <texto>El nuevo modelo fue creado para sustituir al que llevaba casi 12 años en el mercado, con la intención de competir directamente con el Porsche 911 y otros autos de la misma categoría.
+        <auto id="75" terminado="true"><nombre>Aston Martin Vantage V8</nombre><año>2018</año><chasis>Coupe 2 puertas</chasis><propulsion>Gasolina</propulsion><velocidad>314</velocidad><potencia>503</potencia><aceleracion>3,6</aceleracion><tipo>Deportivo</tipo><precio>130000</precio><imagen>https://upload.wikimedia.org/wikipedia/commons/1/15/2018_Aston_Martin_Vantage_V8_Auto_2.jpg</imagen><valoracionInput>20</valoracionInput><enlace>https://www.altanave.uy/2024/11/aston-martin-v8-vantage-2018-coupe.html</enlace><bloques><bloque><titulo>Aston Martin V8 Vantage » Ficha</titulo><texto>
+            &lt;/p&gt;
+            &lt;div style="border: 2px solid #ccc; padding: 15px; border-radius: 8px; background: #48505B; max-width: 400px; margin: 10px auto; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); color: #ecf0f1;"&gt;
+                &lt;table style="width: 100%; border-collapse: collapse; font-family: Arial, sans-serif; color: #ecf0f1;"&gt;
+                    &lt;tr&gt;
+                        &lt;td style="padding: 5px; font-weight: bold; width: 40%; text-align: left;"&gt;Motor:&lt;/td&gt;
+                        &lt;td style="padding: 5px; text-align: left;"&gt;V8 3,9 litros 2 turbocompresores&lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td style="padding: 5px; font-weight: bold; text-align: left;"&gt;Válvulas:&lt;/td&gt;
+                        &lt;td style="padding: 5px; text-align: left;"&gt;32&lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td style="padding: 5px; font-weight: bold; text-align: left;"&gt;Destacados:&lt;/td&gt;
+                        &lt;td style="padding: 5px; text-align: left;"&gt;Distribución variable del árbol de levas doble - Turbocompresores duales de una sola entrada (uno por banco) - Doble árbol de levas - Sistema Start-Stop - Norma de emisión:  Euro 6&lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td style="padding: 5px; font-weight: bold; text-align: left;"&gt;Transmisión:&lt;/td&gt;
+                        &lt;td style="padding: 5px; text-align: left;"&gt;automático con modo de cambio manual de 8 marchas&lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td style="padding: 5px; font-weight: bold; text-align: left;"&gt;Peso:&lt;/td&gt;
+                        &lt;td style="padding: 5px; text-align: left;"&gt;1625 Kg.&lt;/td&gt;
+                    &lt;/tr&gt;
+                &lt;/table&gt;
+            &lt;/div&gt;
+            &lt;p&gt;
+        </texto></bloque><bloque><imagenurl>https://upload.wikimedia.org/wikipedia/commons/9/9c/2020_Aston_Martin_Vantage_V8.jpg</imagenurl><titulo>Aston Martin vs Porsche</titulo><texto>El nuevo modelo fue creado para sustituir al que llevaba casi 12 años en el mercado, con la intención de competir directamente con el Porsche 911 y otros autos de la misma categoría.
 
-En cuanto a su diseño exterior, además de la sofisticación de Aston Martin incorpora elementos de mayor deportividad, dinamismo y agilidad.</texto>
-            </bloque>
-          </bloques>
-          <masimagenes>
-            <extraimagenurl>https://upload.wikimedia.org/wikipedia/commons/0/0c/Aston_Martin_V8_Vantage_Genf_2018.jpg</extraimagenurl>
-            <extraimagenurl>https://upload.wikimedia.org/wikipedia/commons/c/c5/2018_Aston_Martin_Vantage_V8_Auto_4.jpg</extraimagenurl>
-          </masimagenes>
-        </auto>
+En cuanto a su diseño exterior, además de la sofisticación de Aston Martin incorpora elementos de mayor deportividad, dinamismo y agilidad.</texto></bloque></bloques><masimagenes><extraimagenurl>https://upload.wikimedia.org/wikipedia/commons/0/0c/Aston_Martin_V8_Vantage_Genf_2018.jpg</extraimagenurl><extraimagenurl>https://upload.wikimedia.org/wikipedia/commons/c/c5/2018_Aston_Martin_Vantage_V8_Auto_4.jpg</extraimagenurl></masimagenes></auto>
       </generacion>
       <generacion nombre="Vantage 5ta generacion" añoInicio="2024" añoFin="2025">
-        <auto id="73" terminado="true">
-          <nombre>Aston Martin V8 Vantage</nombre>
-          <año>2024</año>
-          <chasis>Coupe 2 puertas</chasis>
-          <propulsion>Gasolina</propulsion>
-          <velocidad>314</velocidad>
-          <potencia>503</potencia>
-          <aceleracion>3,6</aceleracion>
-          <tipo>Deportivo</tipo>
-          <precio>160000</precio>
-          <imagen>https://upload.wikimedia.org/wikipedia/commons/8/81/2024_Aston_Martin_Vantage_V8_2.jpg</imagen>
-          <enlace>https://www.altanave.uy/2024/11/aston-martin-v8-vantage-2024-coupe.html</enlace>
-          <bloques>
-            <bloque>
-              <imagenurl>https://upload.wikimedia.org/wikipedia/commons/6/6f/2024_Aston_Martin_Vantage_V8_F1_Safety_Car_5.jpg</imagenurl>
-              <titulo>Que auto es el Safety Car en la Fórmula 1 </titulo>
-              <texto>El Safety Car, o coche de seguridad, es un vehículo que entra a la pista para regular el ritmo de los autos de carrera cuando se presenta una situación de riesgo, como escombros, colisión o condiciones meteorológicas adversas. Su función es dar tiempo a los comisarios para restablecer la pista y garantizar la seguridad de los pilotos. Para la temporada 2024 es el Aston Martin Vantage.</texto>
-            </bloque>
-            <bloque>
-              <imagenurl>https://upload.wikimedia.org/wikipedia/commons/7/7e/2024_Aston_Martin_Vantage_V8_F1_Safety_Car.jpg</imagenurl>
-              <titulo>Aston Martin Safety Car</titulo>
-              <texto>El Vantage se suma a la parrilla de Fórmula 1® en 2024 junto con 20 coches que llevan la velocidad al límite. Es el Safety Car oficial de la FIA de Fórmula 1® acompañando al equipo de Fernando Alonso y mostrando su rica tradición de competición. </texto>
-            </bloque>
-          </bloques>
-        </auto>
+        <auto id="73" terminado="true"><nombre>Aston Martin V8 Vantage</nombre><año>2024</año><chasis>Coupe 2 puertas</chasis><propulsion>Gasolina</propulsion><velocidad>314</velocidad><potencia>503</potencia><aceleracion>3,6</aceleracion><tipo>Deportivo</tipo><precio>160000</precio><imagen>https://upload.wikimedia.org/wikipedia/commons/8/81/2024_Aston_Martin_Vantage_V8_2.jpg</imagen><valoracionInput>20</valoracionInput><enlace>https://www.altanave.uy/2024/11/aston-martin-v8-vantage-2024-coupe.html</enlace><bloques><bloque><titulo>Aston Martin V8 Vantage » Ficha</titulo><texto>
+            &lt;/p&gt;
+            &lt;div style="border: 2px solid #ccc; padding: 15px; border-radius: 8px; background: #48505B; max-width: 400px; margin: 10px auto; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); color: #ecf0f1;"&gt;
+                &lt;table style="width: 100%; border-collapse: collapse; font-family: Arial, sans-serif; color: #ecf0f1;"&gt;
+                    &lt;tr&gt;
+                        &lt;td style="padding: 5px; font-weight: bold; width: 40%; text-align: left;"&gt;Motor:&lt;/td&gt;
+                        &lt;td style="padding: 5px; text-align: left;"&gt;V8 3,9 litros 2 turbocompresores&lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td style="padding: 5px; font-weight: bold; text-align: left;"&gt;Válvulas:&lt;/td&gt;
+                        &lt;td style="padding: 5px; text-align: left;"&gt;32&lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td style="padding: 5px; font-weight: bold; text-align: left;"&gt;Destacados:&lt;/td&gt;
+                        &lt;td style="padding: 5px; text-align: left;"&gt;Distribución variable del árbol de levas doble - Turbocompresores duales de una sola entrada (uno por banco) - Doble árbol de levas - Sistema Start-Stop - Norma de emisión:  Euro 6&lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td style="padding: 5px; font-weight: bold; text-align: left;"&gt;Transmisión:&lt;/td&gt;
+                        &lt;td style="padding: 5px; text-align: left;"&gt;automático con modo de cambio manual de 8 marchas&lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td style="padding: 5px; font-weight: bold; text-align: left;"&gt;Peso:&lt;/td&gt;
+                        &lt;td style="padding: 5px; text-align: left;"&gt;1745 Kg.&lt;/td&gt;
+                    &lt;/tr&gt;
+                &lt;/table&gt;
+            &lt;/div&gt;
+            &lt;p&gt;
+        </texto></bloque><bloque><imagenurl>https://upload.wikimedia.org/wikipedia/commons/6/6f/2024_Aston_Martin_Vantage_V8_F1_Safety_Car_5.jpg</imagenurl><titulo>Que auto es el Safety Car en la Fórmula 1 </titulo><texto>El Safety Car, o coche de seguridad, es un vehículo que entra a la pista para regular el ritmo de los autos de carrera cuando se presenta una situación de riesgo, como escombros, colisión o condiciones meteorológicas adversas. Su función es dar tiempo a los comisarios para restablecer la pista y garantizar la seguridad de los pilotos. Para la temporada 2024 es el Aston Martin Vantage.</texto></bloque><bloque><imagenurl>https://upload.wikimedia.org/wikipedia/commons/7/7e/2024_Aston_Martin_Vantage_V8_F1_Safety_Car.jpg</imagenurl><titulo>Aston Martin Safety Car</titulo><texto>El Vantage se suma a la parrilla de Fórmula 1® en 2024 junto con 20 coches que llevan la velocidad al límite. Es el Safety Car oficial de la FIA de Fórmula 1® acompañando al equipo de Fernando Alonso y mostrando su rica tradición de competición. </texto></bloque></bloques></auto>
       </generacion>
     </modelo>
     <modelo nombre="One-77">
       <generacion nombre="One-77" añoInicio="2011" añoFin="2011">
-        <auto id="62" terminado="true">
-          <nombre>One-77</nombre>
-          <año>2011</año>
-          <chasis>Coupe 2 puertas</chasis>
-          <propulsion>Gasolina</propulsion>
-          <velocidad>330</velocidad>
-          <potencia>700</potencia>
-          <aceleracion>3,5</aceleracion>
-          <tipo>Deportivo</tipo>
-          <precio>2500000</precio>
-          <imagen>https://upload.wikimedia.org/wikipedia/commons/9/98/Aston_Martin_One-77_Blue.jpg</imagen>
-          <enlace>https://www.altanave.uy/2024/11/one-77-2011-coupe.html</enlace>
-          <bloques>
-            <bloque>
-              <imagenurl>https://upload.wikimedia.org/wikipedia/commons/a/ae/2014_Aston_Martin_One-77_Blue.jpg</imagenurl>
-              <titulo>Mejor Concept Cars</titulo>
-              <texto>Se presentó por primera vez en el Salón del Automóvil de París en 2008, donde obtuvo el galardón al mejor diseño en la categoría de "Concept Cars" y Prototipos.</texto>
-            </bloque>
-          </bloques>
-          <masimagenes>
-            <extraimagenurl>https://upload.wikimedia.org/wikipedia/commons/6/60/Aston_Martin_One-77_4.jpg</extraimagenurl>
-            <extraimagenurl>https://upload.wikimedia.org/wikipedia/commons/8/86/Aston_Martin_One-77_8.jpg</extraimagenurl>
-            <extraimagenurl>https://upload.wikimedia.org/wikipedia/commons/9/98/Aston_Martin_One-77_5.jpg</extraimagenurl>
-          </masimagenes>
-        </auto>
+        <auto id="62" terminado="true"><nombre>One-77</nombre><año>2011</año><chasis>Coupe 2 puertas</chasis><propulsion>Gasolina</propulsion><velocidad>330</velocidad><potencia>700</potencia><aceleracion>3,5</aceleracion><tipo>Deportivo</tipo><precio>2500000</precio><imagen>https://upload.wikimedia.org/wikipedia/commons/9/98/Aston_Martin_One-77_Blue.jpg</imagen><valoracionInput>20</valoracionInput><enlace>https://www.altanave.uy/2024/11/one-77-2011-coupe.html</enlace><bloques><bloque><titulo>One-77 » Ficha</titulo><texto>
+            &lt;/p&gt;
+            &lt;div style="border: 2px solid #ccc; padding: 15px; border-radius: 8px; background: #48505B; max-width: 400px; margin: 10px auto; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); color: #ecf0f1;"&gt;
+                &lt;table style="width: 100%; border-collapse: collapse; font-family: Arial, sans-serif; color: #ecf0f1;"&gt;
+                    &lt;tr&gt;
+                        &lt;td style="padding: 5px; font-weight: bold; width: 40%; text-align: left;"&gt;Motor:&lt;/td&gt;
+                        &lt;td style="padding: 5px; text-align: left;"&gt;V12 7,3 litros aspirado naturalmente&lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td style="padding: 5px; font-weight: bold; text-align: left;"&gt;Válvulas:&lt;/td&gt;
+                        &lt;td style="padding: 5px; text-align: left;"&gt;48&lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td style="padding: 5px; font-weight: bold; text-align: left;"&gt;Destacados:&lt;/td&gt;
+                        &lt;td style="padding: 5px; text-align: left;"&gt;Doble (DOHC) árbol de levas a la cabeza&lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td style="padding: 5px; font-weight: bold; text-align: left;"&gt;Transmisión:&lt;/td&gt;
+                        &lt;td style="padding: 5px; text-align: left;"&gt;Manual secuencial robotizada de 6 velocidades&lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td style="padding: 5px; font-weight: bold; text-align: left;"&gt;Peso:&lt;/td&gt;
+                        &lt;td style="padding: 5px; text-align: left;"&gt;1500 Kg.&lt;/td&gt;
+                    &lt;/tr&gt;
+                &lt;/table&gt;
+            &lt;/div&gt;
+            &lt;p&gt;
+        </texto></bloque><bloque><imagenurl>https://upload.wikimedia.org/wikipedia/commons/a/ae/2014_Aston_Martin_One-77_Blue.jpg</imagenurl><titulo>Mejor Concept Cars</titulo><texto>Se presentó por primera vez en el Salón del Automóvil de París en 2008, donde obtuvo el galardón al mejor diseño en la categoría de "Concept Cars" y Prototipos.</texto></bloque></bloques><masimagenes><extraimagenurl>https://upload.wikimedia.org/wikipedia/commons/6/60/Aston_Martin_One-77_4.jpg</extraimagenurl><extraimagenurl>https://upload.wikimedia.org/wikipedia/commons/8/86/Aston_Martin_One-77_8.jpg</extraimagenurl><extraimagenurl>https://upload.wikimedia.org/wikipedia/commons/9/98/Aston_Martin_One-77_5.jpg</extraimagenurl></masimagenes></auto>
       </generacion>
     </modelo>
   </marca>
@@ -251,47 +268,34 @@ En cuanto a su diseño exterior, además de la sofisticación de Aston Martin in
     <url>https://www.altanave.uy/2024/10/bugatti.html</url>
     <modelo nombre="Veyron">
       <generacion nombre="Bugatti Veyron" añoInicio="2005" añoFin="2015">
-        <auto id="9" terminado="true">
-          <nombre>Bugatti Veyron 16.4</nombre>
-          <año>2005</año>
-          <chasis>Coupe 2 puertas</chasis>
-          <propulsion>Gasolina</propulsion>
-          <velocidad>407</velocidad>
-          <potencia>987</potencia>
-          <aceleracion>2,5</aceleracion>
-          <tipo>Superauto</tipo>
-          <precio>1920000</precio>
-          <imagen>https://upload.wikimedia.org/wikipedia/commons/6/6b/Bugatti_veyron_in_Tokyo.jpg</imagen>
-          <enlace>https://www.altanave.uy/2024/11/bugatti-veyron-2005-coupe.html</enlace>
-          <bloques>
-            <bloque>
-              <imagenurl>https://upload.wikimedia.org/wikipedia/commons/c/c7/Bugatti_Veyron_16.4_2005_%2826779947960%29.jpg</imagenurl>
-              <titulo>Bugatti Veyron Velocidad maxima</titulo>
-              <texto>Este auto fue Récord de Velocidad. Alcanzando una velocidad impresionante de 431,072 km/h, el Veyron se consagró como el superdeportivo de producción legal más veloz del mundo, asegurando su lugar en el prestigioso Libro Guinness de los Récords.</texto>
-            </bloque>
-            <bloque>
-              <imagenurl>https://upload.wikimedia.org/wikipedia/commons/7/74/Volkswagen_W16.jpg</imagenurl>
-              <titulo>Bugatti Veyron Motor</titulo>
-              <texto>En su época, la potencia del Veyron era sin igual, estableciendo un nuevo estándar en el mundo automotriz. Considerado el primer superdeportivo, su extraordinario rendimiento se debe a su motor W16 de 8.0 litros y cuatro turbocompresores. El primer SuperAuto</texto>
-            </bloque>
-            <bloque>
-              <imagenurl>https://upload.wikimedia.org/wikipedia/commons/5/5d/Bugatti_Veyron_-_panoramio.jpg</imagenurl>
-              <titulo>Súper Exclusivo</titulo>
-              <texto>En 2011 se vendió el último Bugatti Veyron Coupé de una serie de 300 unidades, aunque su entrega se retrasó varios años. Para 2013, el modelo 400, sumando los 300 Coupé y 150 Roadster, también encontró dueño, completando la producción limitada de 450 ejemplares.</texto>
-            </bloque>
-            <bloque>
-              <imagenurl>https://upload.wikimedia.org/wikipedia/commons/8/8e/Bugatti_Veyron_EB_16.4_%282008%29_%2852569212082%29.jpg</imagenurl>
-              <titulo>Porque se llama Veyron</titulo>
-              <texto>El nombre Veyron se inspiró en el legendario piloto Pierre Veyron, ganador de las 24 Horas de Le Mans en 1939 a bordo del Bugatti Type 57SC..</texto>
-            </bloque>
-          </bloques>
-          <masimagenes>
-            <extraimagenurl>https://upload.wikimedia.org/wikipedia/commons/2/25/Bugatti_Veyron_%2810842630425%29.jpg</extraimagenurl>
-            <extraimagenurl>https://upload.wikimedia.org/wikipedia/commons/a/a4/BugattiVeyron16.4_3.jpg</extraimagenurl>
-            <extraimagenurl>https://upload.wikimedia.org/wikipedia/commons/1/1f/BugattiVeyron16.4_2.jpg</extraimagenurl>
-            <extraimagenurl>https://upload.wikimedia.org/wikipedia/commons/9/9f/Bugatti_Veryon_16.4.JPG</extraimagenurl>
-          </masimagenes>
-        </auto>
+        <auto id="9" terminado="true"><nombre>Bugatti Veyron 16.4</nombre><año>2005</año><chasis>Coupe 2 puertas</chasis><propulsion>Gasolina</propulsion><velocidad>407</velocidad><potencia>987</potencia><aceleracion>2,5</aceleracion><tipo>Superauto</tipo><precio>1920000</precio><imagen>https://upload.wikimedia.org/wikipedia/commons/6/6b/Bugatti_veyron_in_Tokyo.jpg</imagen><valoracionInput>20</valoracionInput><enlace>https://www.altanave.uy/2024/11/bugatti-veyron-2005-coupe.html</enlace><bloques><bloque><titulo>Bugatti Veyron 16.4 » Ficha</titulo><texto>
+            &lt;/p&gt;
+            &lt;div style="border: 2px solid #ccc; padding: 15px; border-radius: 8px; background: #48505B; max-width: 400px; margin: 10px auto; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); color: #ecf0f1;"&gt;
+                &lt;table style="width: 100%; border-collapse: collapse; font-family: Arial, sans-serif; color: #ecf0f1;"&gt;
+                    &lt;tr&gt;
+                        &lt;td style="padding: 5px; font-weight: bold; width: 40%; text-align: left;"&gt;Motor:&lt;/td&gt;
+                        &lt;td style="padding: 5px; text-align: left;"&gt;W16 7,9 litros 4 turbocompresores&lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td style="padding: 5px; font-weight: bold; text-align: left;"&gt;Válvulas:&lt;/td&gt;
+                        &lt;td style="padding: 5px; text-align: left;"&gt;64&lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td style="padding: 5px; font-weight: bold; text-align: left;"&gt;Destacados:&lt;/td&gt;
+                        &lt;td style="padding: 5px; text-align: left;"&gt;VVT - 4x turbo; intercooler&lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td style="padding: 5px; font-weight: bold; text-align: left;"&gt;Transmisión:&lt;/td&gt;
+                        &lt;td style="padding: 5px; text-align: left;"&gt;automática de doble embrague con modo de cambio manual de 7 marchas &lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td style="padding: 5px; font-weight: bold; text-align: left;"&gt;Peso:&lt;/td&gt;
+                        &lt;td style="padding: 5px; text-align: left;"&gt;1888 Kg.&lt;/td&gt;
+                    &lt;/tr&gt;
+                &lt;/table&gt;
+            &lt;/div&gt;
+            &lt;p&gt;
+        </texto></bloque><bloque><imagenurl>https://upload.wikimedia.org/wikipedia/commons/c/c7/Bugatti_Veyron_16.4_2005_%2826779947960%29.jpg</imagenurl><titulo>Bugatti Veyron Velocidad maxima</titulo><texto>Este auto fue Récord de Velocidad. Alcanzando una velocidad impresionante de 431,072 km/h, el Veyron se consagró como el superdeportivo de producción legal más veloz del mundo, asegurando su lugar en el prestigioso Libro Guinness de los Récords.</texto></bloque><bloque><imagenurl>https://upload.wikimedia.org/wikipedia/commons/7/74/Volkswagen_W16.jpg</imagenurl><titulo>Bugatti Veyron Motor</titulo><texto>En su época, la potencia del Veyron era sin igual, estableciendo un nuevo estándar en el mundo automotriz. Considerado el primer superdeportivo, su extraordinario rendimiento se debe a su motor W16 de 8.0 litros y cuatro turbocompresores. El primer SuperAuto</texto></bloque><bloque><imagenurl>https://upload.wikimedia.org/wikipedia/commons/5/5d/Bugatti_Veyron_-_panoramio.jpg</imagenurl><titulo>Súper Exclusivo</titulo><texto>En 2011 se vendió el último Bugatti Veyron Coupé de una serie de 300 unidades, aunque su entrega se retrasó varios años. Para 2013, el modelo 400, sumando los 300 Coupé y 150 Roadster, también encontró dueño, completando la producción limitada de 450 ejemplares.</texto></bloque><bloque><imagenurl>https://upload.wikimedia.org/wikipedia/commons/8/8e/Bugatti_Veyron_EB_16.4_%282008%29_%2852569212082%29.jpg</imagenurl><titulo>Porque se llama Veyron</titulo><texto>El nombre Veyron se inspiró en el legendario piloto Pierre Veyron, ganador de las 24 Horas de Le Mans en 1939 a bordo del Bugatti Type 57SC..</texto></bloque></bloques><masimagenes><extraimagenurl>https://upload.wikimedia.org/wikipedia/commons/2/25/Bugatti_Veyron_%2810842630425%29.jpg</extraimagenurl><extraimagenurl>https://upload.wikimedia.org/wikipedia/commons/a/a4/BugattiVeyron16.4_3.jpg</extraimagenurl><extraimagenurl>https://upload.wikimedia.org/wikipedia/commons/1/1f/BugattiVeyron16.4_2.jpg</extraimagenurl><extraimagenurl>https://upload.wikimedia.org/wikipedia/commons/9/9f/Bugatti_Veryon_16.4.JPG</extraimagenurl></masimagenes></auto>
       </generacion>
     </modelo>
   </marca>
@@ -302,51 +306,34 @@ En cuanto a su diseño exterior, además de la sofisticación de Aston Martin in
     <url>https://www.altanave.uy/2024/10/delorean-motor-company.html</url>
     <modelo nombre="DMC-12">
       <generacion nombre="De Lorean DMC-12" añoInicio="1981" añoFin="1982">
-        <auto id="59" terminado="true">
-          <nombre>DMC De Lorean</nombre>
-          <año>1982</año>
-          <chasis>Coupe 2 puertas</chasis>
-          <propulsion>Gasolina</propulsion>
-          <velocidad>209</velocidad>
-          <potencia>130</potencia>
-          <aceleracion>9,4</aceleracion>
-          <tipo>Deportivo</tipo>
-          <precio>86500 </precio>
-          <imagen>https://upload.wikimedia.org/wikipedia/commons/6/63/DeLorean_DMC-12_%2815704582713%29.jpg</imagen>
-          <enlace>https://www.altanave.uy/2024/11/dmc-de-lorean-1982-coupe.html</enlace>
-          <bloques>
-            <bloque>
-              <imagenurl>https://upload.wikimedia.org/wikipedia/commons/3/35/DeLorean_DMC-12_%289979%29.jpg</imagenurl>
-              <titulo>Delorean DMC-12</titulo>
-              <texto>El DMC DeLorean es conocido como el DeLorean, ya que este fue el único modelo que fabricó dicha compañía. DMC-12 es su designación interna de preproducción. Sin embargo, el nombre DMC-12 nunca se usó para ventas o marketing del modelo de producción.</texto>
-            </bloque>
-            <bloque>
-              <imagenurl>https://upload.wikimedia.org/wikipedia/commons/2/2c/Delorean_DMC-12_side.jpg</imagenurl>
-              <titulo>DMC-12 Delorean</titulo>
-              <texto>El prototipo fue conocido como «DSV-1».  Pero luego se conocio como DMC (DeLorean Motor Company) 12 . Ya que tenía como objetivo un precio de venta de $ 12.000 en el momento del lanzamiento.</texto>
-            </bloque>
-            <bloque>
-              <imagenurl>https://upload.wikimedia.org/wikipedia/commons/8/86/DeLorean_DMC-12_with_doors_open.jpg</imagenurl>
-              <titulo>Puertas alas de gaviota</titulo>
-              <texto>El DeLorean se caracteriza por su carrocería con puertas de ala de gaviota y paneles de acero inoxidable sin pintura.</texto>
-            </bloque>
-            <bloque>
-              <imagenurl>https://upload.wikimedia.org/wikipedia/commons/3/3e/1981_DMC_DeLorean_Time_Machine_%2853581570735%29.jpg</imagenurl>
-              <titulo>Delorean Back to the future</titulo>
-              <texto>“En mi opinión, si vas a construir una máquina del tiempo, ¿por qué no hacerlo con estilo?”. El DeLorean DMC-12, es el deportivo que eligió el Doc Brown para darle forma a su máquina del tiempo en Volver al Futuro. </texto>
-            </bloque>
-            <bloque>
-              <imagenurl>https://upload.wikimedia.org/wikipedia/commons/f/fc/DeLorean_DMC-12_-_Back_to_the_Future_%E2%80%93_CeBIT_2016_15.jpg</imagenurl>
-              <titulo>Auto volver al futuro</titulo>
-              <texto>Cuando el vehículo alcanza una velocidad de 88 mph (142 km/h), inicia el viaje en el tiempo. En este momento, el condensador de flujo comienza a generar electricidad que se canaliza hacia la defensa del automóvil. Al mismo tiempo, la fricción de los neumáticos provoca llamas que emergen de ellos. Una vez que el auto alcanza esa velocidad, desaparece en una nube de partículas, dejando tras de sí un par de estelas de fuego, resultado de los efectos de la mecánica cuántica.</texto>
-            </bloque>
-          </bloques>
-          <masimagenes>
-            <extraimagenurl>https://upload.wikimedia.org/wikipedia/commons/d/da/1983_DeLorean_DMC-12%2C_front_right%2C_05-18-2024.jpg</extraimagenurl>
-            <extraimagenurl>https://upload.wikimedia.org/wikipedia/commons/9/9c/1983_DeLorean_DMC-12%2C_rear_right%2C_05-18-2024.jpg</extraimagenurl>
-            <extraimagenurl>https://upload.wikimedia.org/wikipedia/commons/4/43/1983_DMC_De_Lorean%2C_rear_left%2C_09-07-2024.jpg</extraimagenurl>
-          </masimagenes>
-        </auto>
+        <auto id="59" terminado="true"><nombre>DMC De Lorean</nombre><año>1982</año><chasis>Coupe 2 puertas</chasis><propulsion>Gasolina</propulsion><velocidad>209</velocidad><potencia>130</potencia><aceleracion>9,4</aceleracion><tipo>Deportivo</tipo><precio>86500 </precio><imagen>https://upload.wikimedia.org/wikipedia/commons/6/63/DeLorean_DMC-12_%2815704582713%29.jpg</imagen><valoracionInput>20</valoracionInput><enlace>https://www.altanave.uy/2024/11/dmc-de-lorean-1982-coupe.html</enlace><bloques><bloque><titulo>DMC De Lorean » Ficha</titulo><texto>
+            &lt;/p&gt;
+            &lt;div style="border: 2px solid #ccc; padding: 15px; border-radius: 8px; background: #48505B; max-width: 400px; margin: 10px auto; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); color: #ecf0f1;"&gt;
+                &lt;table style="width: 100%; border-collapse: collapse; font-family: Arial, sans-serif; color: #ecf0f1;"&gt;
+                    &lt;tr&gt;
+                        &lt;td style="padding: 5px; font-weight: bold; width: 40%; text-align: left;"&gt;Motor:&lt;/td&gt;
+                        &lt;td style="padding: 5px; text-align: left;"&gt;V6 2,8 litros inyección indirecta de gasolina&lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td style="padding: 5px; font-weight: bold; text-align: left;"&gt;Válvulas:&lt;/td&gt;
+                        &lt;td style="padding: 5px; text-align: left;"&gt;12&lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td style="padding: 5px; font-weight: bold; text-align: left;"&gt;Destacados:&lt;/td&gt;
+                        &lt;td style="padding: 5px; text-align: left;"&gt;Bosch K-Jetronic - SOHC&lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td style="padding: 5px; font-weight: bold; text-align: left;"&gt;Transmisión:&lt;/td&gt;
+                        &lt;td style="padding: 5px; text-align: left;"&gt;manual de 5 marchas &lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td style="padding: 5px; font-weight: bold; text-align: left;"&gt;Peso:&lt;/td&gt;
+                        &lt;td style="padding: 5px; text-align: left;"&gt;1244 Kg.&lt;/td&gt;
+                    &lt;/tr&gt;
+                &lt;/table&gt;
+            &lt;/div&gt;
+            &lt;p&gt;
+        </texto></bloque><bloque><imagenurl>https://upload.wikimedia.org/wikipedia/commons/3/35/DeLorean_DMC-12_%289979%29.jpg</imagenurl><titulo>Delorean DMC-12</titulo><texto>El DMC DeLorean es conocido como el DeLorean, ya que este fue el único modelo que fabricó dicha compañía. DMC-12 es su designación interna de preproducción. Sin embargo, el nombre DMC-12 nunca se usó para ventas o marketing del modelo de producción.</texto></bloque><bloque><imagenurl>https://upload.wikimedia.org/wikipedia/commons/2/2c/Delorean_DMC-12_side.jpg</imagenurl><titulo>DMC-12 Delorean</titulo><texto>El prototipo fue conocido como «DSV-1».  Pero luego se conocio como DMC (DeLorean Motor Company) 12 . Ya que tenía como objetivo un precio de venta de $ 12.000 en el momento del lanzamiento.</texto></bloque><bloque><imagenurl>https://upload.wikimedia.org/wikipedia/commons/8/86/DeLorean_DMC-12_with_doors_open.jpg</imagenurl><titulo>Puertas alas de gaviota</titulo><texto>El DeLorean se caracteriza por su carrocería con puertas de ala de gaviota y paneles de acero inoxidable sin pintura.</texto></bloque><bloque><imagenurl>https://upload.wikimedia.org/wikipedia/commons/3/3e/1981_DMC_DeLorean_Time_Machine_%2853581570735%29.jpg</imagenurl><titulo>Delorean Back to the future</titulo><texto>“En mi opinión, si vas a construir una máquina del tiempo, ¿por qué no hacerlo con estilo?”. El DeLorean DMC-12, es el deportivo que eligió el Doc Brown para darle forma a su máquina del tiempo en Volver al Futuro. </texto></bloque><bloque><imagenurl>https://upload.wikimedia.org/wikipedia/commons/f/fc/DeLorean_DMC-12_-_Back_to_the_Future_%E2%80%93_CeBIT_2016_15.jpg</imagenurl><titulo>Auto volver al futuro</titulo><texto>Cuando el vehículo alcanza una velocidad de 88 mph (142 km/h), inicia el viaje en el tiempo. En este momento, el condensador de flujo comienza a generar electricidad que se canaliza hacia la defensa del automóvil. Al mismo tiempo, la fricción de los neumáticos provoca llamas que emergen de ellos. Una vez que el auto alcanza esa velocidad, desaparece en una nube de partículas, dejando tras de sí un par de estelas de fuego, resultado de los efectos de la mecánica cuántica.</texto></bloque></bloques><masimagenes><extraimagenurl>https://upload.wikimedia.org/wikipedia/commons/d/da/1983_DeLorean_DMC-12%2C_front_right%2C_05-18-2024.jpg</extraimagenurl><extraimagenurl>https://upload.wikimedia.org/wikipedia/commons/9/9c/1983_DeLorean_DMC-12%2C_rear_right%2C_05-18-2024.jpg</extraimagenurl><extraimagenurl>https://upload.wikimedia.org/wikipedia/commons/4/43/1983_DMC_De_Lorean%2C_rear_left%2C_09-07-2024.jpg</extraimagenurl></masimagenes></auto>
       </generacion>
     </modelo>
   </marca>
@@ -357,164 +344,159 @@ En cuanto a su diseño exterior, además de la sofisticación de Aston Martin in
     <url>https://www.altanave.uy/2024/10/ferrari.html</url>
     <modelo nombre="250 GTO">
       <generacion nombre="Serie I" añoInicio="1962" añoFin="1963">
-        <auto id="14" terminado="true">
-          <nombre>Ferrari 250 GTO</nombre>
-          <año>1962</año>
-          <chasis>Coupe 2 puertas</chasis>
-          <propulsion>Gasolina</propulsion>
-          <velocidad>280</velocidad>
-          <potencia>286</potencia>
-          <aceleracion>4,4</aceleracion>
-          <tipo>Deportivo</tipo>
-          <precio>70000000</precio>
-          <imagen>https://upload.wikimedia.org/wikipedia/commons/0/08/1962_Ferrari_250_GTO_Scaglietti_Series_I.jpg</imagen>
-          <enlace>https://www.altanave.uy/2024/11/ferrari-250-gto-1962-coupe.html</enlace>
-          <bloques>
-            <bloque>
-              <imagenurl>https://upload.wikimedia.org/wikipedia/commons/a/a6/Ferrari_250_GTO_R_-_001.jpg</imagenurl>
-              <titulo>250 GTO</titulo>
-              <texto>Se le considera uno de los vehículos de alto rendimiento más destacados jamás fabricados y, en la actualidad es uno de los mas costosos del planeta.</texto>
-            </bloque>
-            <bloque>
-              <imagenurl>https://upload.wikimedia.org/wikipedia/commons/1/1a/1962_Ferrari_250_GTO_34_2.jpg</imagenurl>
-              <titulo>Gran Turismo Omologato</titulo>
-              <texto>El 250 GTO era un automóvil de competición de rendimiento sobresaliente. Cuando se lanzó, y dependiendo de la relación de su transmisión, era probablemente el vehículo más veloz en cualquier circuito de su categoría.</texto>
-            </bloque>
-            <bloque>
-              <imagenurl>https://upload.wikimedia.org/wikipedia/commons/b/b7/Ferrari_250_GTO%2C_Goodwood_Revival_-_geograph.org.uk_-_4659955.jpg</imagenurl>
-              <titulo>Ferrari 250 GTO Motor</titulo>
-              <texto>Acopla con un motor V12 atmosférico de 2953 cm³ (3 litros) y seis carburadores de 2 bocas Weber.</texto>
-            </bloque>
-          </bloques>
-        </auto>
+        <auto id="14" terminado="true"><nombre>Ferrari 250 GTO</nombre><año>1962</año><chasis>Coupe 2 puertas</chasis><propulsion>Gasolina</propulsion><velocidad>280</velocidad><potencia>286</potencia><aceleracion>4,4</aceleracion><tipo>Deportivo</tipo><precio>70000000</precio><imagen>https://upload.wikimedia.org/wikipedia/commons/0/08/1962_Ferrari_250_GTO_Scaglietti_Series_I.jpg</imagen><valoracionInput>20</valoracionInput><enlace>https://www.altanave.uy/2024/11/ferrari-250-gto-1962-coupe.html</enlace><bloques><bloque><titulo>Ferrari 250 GTO » Ficha</titulo><texto>
+            &lt;/p&gt;
+            &lt;div style="border: 2px solid #ccc; padding: 15px; border-radius: 8px; background: #48505B; max-width: 400px; margin: 10px auto; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); color: #ecf0f1;"&gt;
+                &lt;table style="width: 100%; border-collapse: collapse; font-family: Arial, sans-serif; color: #ecf0f1;"&gt;
+                    &lt;tr&gt;
+                        &lt;td style="padding: 5px; font-weight: bold; width: 40%; text-align: left;"&gt;Motor:&lt;/td&gt;
+                        &lt;td style="padding: 5px; text-align: left;"&gt;V12 2,9 litros aspirado naturalmente&lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td style="padding: 5px; font-weight: bold; text-align: left;"&gt;Válvulas:&lt;/td&gt;
+                        &lt;td style="padding: 5px; text-align: left;"&gt;24&lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td style="padding: 5px; font-weight: bold; text-align: left;"&gt;Destacados:&lt;/td&gt;
+                        &lt;td style="padding: 5px; text-align: left;"&gt;6 carburadores Weber 38 DCN&lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td style="padding: 5px; font-weight: bold; text-align: left;"&gt;Transmisión:&lt;/td&gt;
+                        &lt;td style="padding: 5px; text-align: left;"&gt;manual de 5 marchas&lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td style="padding: 5px; font-weight: bold; text-align: left;"&gt;Peso:&lt;/td&gt;
+                        &lt;td style="padding: 5px; text-align: left;"&gt;1000 Kg.&lt;/td&gt;
+                    &lt;/tr&gt;
+                &lt;/table&gt;
+            &lt;/div&gt;
+            &lt;p&gt;
+        </texto></bloque><bloque><imagenurl>https://upload.wikimedia.org/wikipedia/commons/a/a6/Ferrari_250_GTO_R_-_001.jpg</imagenurl><titulo>250 GTO</titulo><texto>Se le considera uno de los vehículos de alto rendimiento más destacados jamás fabricados y, en la actualidad es uno de los mas costosos del planeta.</texto></bloque><bloque><imagenurl>https://upload.wikimedia.org/wikipedia/commons/1/1a/1962_Ferrari_250_GTO_34_2.jpg</imagenurl><titulo>Gran Turismo Omologato</titulo><texto>El 250 GTO era un automóvil de competición de rendimiento sobresaliente. Cuando se lanzó, y dependiendo de la relación de su transmisión, era probablemente el vehículo más veloz en cualquier circuito de su categoría.</texto></bloque><bloque><imagenurl>https://upload.wikimedia.org/wikipedia/commons/b/b7/Ferrari_250_GTO%2C_Goodwood_Revival_-_geograph.org.uk_-_4659955.jpg</imagenurl><titulo>Ferrari 250 GTO Motor</titulo><texto>Acopla con un motor V12 atmosférico de 2953 cm³ (3 litros) y seis carburadores de 2 bocas Weber.</texto></bloque></bloques></auto>
       </generacion>
       <generacion nombre="Serie II" añoInicio="1964" añoFin="1964">
-        <auto id="15" terminado="true">
-          <nombre>Ferrari 250 GTO</nombre>
-          <año>1964</año>
-          <chasis>Coupe 2 puertas</chasis>
-          <propulsion>Gasolina</propulsion>
-          <velocidad>280</velocidad>
-          <potencia>296</potencia>
-          <aceleracion>4,6</aceleracion>
-          <tipo>Deportivo</tipo>
-          <precio>70000000</precio>
-          <imagen>https://upload.wikimedia.org/wikipedia/commons/1/11/2021_Pebble_Tour_Ferrari_250_GTO_5573GT.jpg</imagen>
-          <enlace>https://www.altanave.uy/2024/11/ferrari-250-gto-1964-coupe.html</enlace>
-          <bloques>
-            <bloque>
-              <imagenurl>https://upload.wikimedia.org/wikipedia/commons/e/ef/1964_Ferrari_250_GTO_Series_2.jpg</imagenurl>
-              <titulo>250 GTO actualizacion</titulo>
-              <texto>En 1964, Ferrari encargó a Mauro Forghieri y Mike Parkes la tarea de rediseñar la carrocería del 250 GTO, lo que dio lugar al modelo conocido como el GTO '64 (o Serie II)</texto>
-            </bloque>
-            <bloque>
-              <imagenurl>https://upload.wikimedia.org/wikipedia/commons/7/73/Ferrari_1964_250_GTO_Left_Side_on_Pebble_Beach_Tour_d%27Elegance_2011_-Moto%40Club4AG.jpg</imagenurl>
-              <titulo>250 GTO Carreras</titulo>
-              <texto>El GTO '64 logró destacarse en competiciones tanto con equipos oficiales como privados, incluyendo una victoria absoluta en las 24 Horas de Daytona de 1964.</texto>
-            </bloque>
-          </bloques>
-        </auto>
+        <auto id="15" terminado="true"><nombre>Ferrari 250 GTO</nombre><año>1964</año><chasis>Coupe 2 puertas</chasis><propulsion>Gasolina</propulsion><velocidad>280</velocidad><potencia>296</potencia><aceleracion>4,6</aceleracion><tipo>Deportivo</tipo><precio>70000000</precio><imagen>https://upload.wikimedia.org/wikipedia/commons/1/11/2021_Pebble_Tour_Ferrari_250_GTO_5573GT.jpg</imagen><valoracionInput>20</valoracionInput><enlace>https://www.altanave.uy/2024/11/ferrari-250-gto-1964-coupe.html</enlace><bloques><bloque><titulo>Ferrari 250 GTO » Ficha</titulo><texto>
+            &lt;/p&gt;
+            &lt;div style="border: 2px solid #ccc; padding: 15px; border-radius: 8px; background: #48505B; max-width: 400px; margin: 10px auto; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); color: #ecf0f1;"&gt;
+                &lt;table style="width: 100%; border-collapse: collapse; font-family: Arial, sans-serif; color: #ecf0f1;"&gt;
+                    &lt;tr&gt;
+                        &lt;td style="padding: 5px; font-weight: bold; width: 40%; text-align: left;"&gt;Motor:&lt;/td&gt;
+                        &lt;td style="padding: 5px; text-align: left;"&gt;V12 2,9 litros aspirado naturalmente&lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td style="padding: 5px; font-weight: bold; text-align: left;"&gt;Válvulas:&lt;/td&gt;
+                        &lt;td style="padding: 5px; text-align: left;"&gt;24&lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td style="padding: 5px; font-weight: bold; text-align: left;"&gt;Destacados:&lt;/td&gt;
+                        &lt;td style="padding: 5px; text-align: left;"&gt;6 carburadores Weber 38 DCN&lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td style="padding: 5px; font-weight: bold; text-align: left;"&gt;Transmisión:&lt;/td&gt;
+                        &lt;td style="padding: 5px; text-align: left;"&gt;manual de 5 marchas&lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td style="padding: 5px; font-weight: bold; text-align: left;"&gt;Peso:&lt;/td&gt;
+                        &lt;td style="padding: 5px; text-align: left;"&gt;950 Kg.&lt;/td&gt;
+                    &lt;/tr&gt;
+                &lt;/table&gt;
+            &lt;/div&gt;
+            &lt;p&gt;
+        </texto></bloque><bloque><imagenurl>https://upload.wikimedia.org/wikipedia/commons/e/ef/1964_Ferrari_250_GTO_Series_2.jpg</imagenurl><titulo>250 GTO actualizacion</titulo><texto>En 1964, Ferrari encargó a Mauro Forghieri y Mike Parkes la tarea de rediseñar la carrocería del 250 GTO, lo que dio lugar al modelo conocido como el GTO '64 (o Serie II)</texto></bloque><bloque><imagenurl>https://upload.wikimedia.org/wikipedia/commons/7/73/Ferrari_1964_250_GTO_Left_Side_on_Pebble_Beach_Tour_d%27Elegance_2011_-Moto%40Club4AG.jpg</imagenurl><titulo>250 GTO Carreras</titulo><texto>El GTO '64 logró destacarse en competiciones tanto con equipos oficiales como privados, incluyendo una victoria absoluta en las 24 Horas de Daytona de 1964.</texto></bloque></bloques></auto>
       </generacion>
     </modelo>
     <modelo nombre="Daytona">
       <generacion nombre="Daytona" añoInicio="1968" añoFin="1974">
-        <auto id="22" terminado="true">
-          <nombre>Ferrari 365 GTB/4 Daytona</nombre>
-          <año>1974</año>
-          <chasis>Coupe 2 puertas</chasis>
-          <propulsion>Gasolina</propulsion>
-          <velocidad>280</velocidad>
-          <potencia>347</potencia>
-          <aceleracion>5,7</aceleracion>
-          <tipo>Deportivo</tipo>
-          <precio>1000000</precio>
-          <imagen>https://upload.wikimedia.org/wikipedia/commons/7/7e/Ferrari_Daytona_365_GTB4_LC22.jpg</imagen>
-          <enlace>https://www.altanave.uy/2024/11/ferrari-365-gtb4-daytona-1974-coupe.html</enlace>
-          <bloques>
-            <bloque>
-              <imagenurl>https://upload.wikimedia.org/wikipedia/commons/b/b1/1970_Ferrari_365_GTB4_Daytona.jpg</imagenurl>
-              <titulo>Daytona Pininfarina</titulo>
-              <texto>Este hermoso biplaza con motor delantero y tracción trasera es obra de Pininfarina.</texto>
-            </bloque>
-            <bloque>
-              <imagenurl>https://upload.wikimedia.org/wikipedia/commons/2/25/Ferrari_365_GTB_4_IAA_2019_JM_0360.jpg</imagenurl>
-              <titulo>GT40 vs Daytona</titulo>
-              <texto>En 1966 Ford se imponía en las 24 horas de lemans cuando los tres Ford GT40 mk2 cruzaban la línea de meta completando el podio. En 1967 Ferrari respondía en los Estados Unidos al ganar las 24 horas de Daytona con la histórica entrada en la línea de meta de sus tres modelos a la vez que también ocupaban los tres lugares del podio. El éxito provocó que los medios de la época especularon con la posibilidad de que Ferrari bautizara su siguiente modelo con el nombre Daytona. Enzo Ferrari se negó a usarlo lo que no impidió que antes y después del lanzamiento del 365 gtb/4 tanto medios como aficionados bautizaron a a este coche como Ferrari Daytona. Denominación no oficial pero que perdura hasta nuestros días.</texto>
-            </bloque>
-            <bloque>
-              <imagenurl>https://upload.wikimedia.org/wikipedia/commons/6/65/1970_Ferrari_365_GTB-4.jpg</imagenurl>
-              <titulo>Ferrari Daytona Motor</titulo>
-              <texto>Imponente motor de gasolina refrigerado por agua con una arquitectura de doce cilindros en V, una distribución DOHC7 de 2 válvulas por cilindro (24 en total) de 4390 cm³ (4,4 L) alimentado por seis carburadores con doble cuerpo Weber.</texto>
-            </bloque>
-          </bloques>
-        </auto>
-        <auto id="23" terminado="true">
-          <nombre>Ferrari 365 GTS/4 Daytona</nombre>
-          <año>1973</año>
-          <chasis>Convertible 2 puertas</chasis>
-          <propulsion>Gasolina</propulsion>
-          <velocidad>280</velocidad>
-          <potencia>347</potencia>
-          <aceleracion>5,3</aceleracion>
-          <tipo>Deportivo</tipo>
-          <precio>2000000</precio>
-          <imagen>https://upload.wikimedia.org/wikipedia/commons/7/75/Ferrari_365_GTC-4.jpg</imagen>
-          <enlace>https://www.altanave.uy/2024/11/ferrari-365-gts4-daytona-1973.html</enlace>
-          <bloques>
-            <bloque>
-              <imagenurl>https://upload.wikimedia.org/wikipedia/commons/c/cc/1972_Ferrari_365_GTS4_Daytona.jpg</imagenurl>
-              <titulo>Ferrari Miami Vice</titulo>
-              <texto>James “Sony” Crockett (interpretado por Don Johnson) protagonista de Visio en Miami maneba un  Ferrari 365 GTS/4 Daytona Spider de 1972. En realidad se podía advertir que se trataba de réplicas (Chevrolet Corvette C3). Esto proboco que don Enzo se indignara al ver el éxito que estaban cosechando vehículos que eran una copia burda de su producto.</texto>
-            </bloque>
-            <bloque>
-              <imagenurl>https://upload.wikimedia.org/wikipedia/commons/7/7d/Ferrari_365_GTS_4_%281973%29_%2852863324170%29.jpg</imagenurl>
-              <titulo>Ferrari Vicio en Miami</titulo>
-              <texto>En esta ficción la trama indicaba que el coche pertenecía a un narcotraficante y luego de haber sido confiscado quedó en poder de Sony Crockett.</texto>
-            </bloque>
-            <bloque>
-              <imagenurl>https://upload.wikimedia.org/wikipedia/commons/d/df/1973_Ferrari_Daytona_Spyder_Verde_Pino_front_left.jpg</imagenurl>
-              <titulo>Daytona Spider</titulo>
-              <texto>GTS refiere a la versión Spider (convertible) del Daytona. Solo se fabricaron 121 unidades además de un prototipo que completa la cifra oficial de 122 Daytona spiders.</texto>
-            </bloque>
-          </bloques>
-        </auto>
+        <auto id="22" terminado="true"><nombre>Ferrari 365 GTB/4 Daytona</nombre><año>1974</año><chasis>Coupe 2 puertas</chasis><propulsion>Gasolina</propulsion><velocidad>280</velocidad><potencia>347</potencia><aceleracion>5,7</aceleracion><tipo>Deportivo</tipo><precio>1000000</precio><imagen>https://upload.wikimedia.org/wikipedia/commons/7/7e/Ferrari_Daytona_365_GTB4_LC22.jpg</imagen><valoracionInput>20</valoracionInput><enlace>https://www.altanave.uy/2024/11/ferrari-365-gtb4-daytona-1974-coupe.html</enlace><bloques><bloque><titulo>Ferrari 365 GTB/4 Daytona » Ficha</titulo><texto>
+            &lt;/p&gt;
+            &lt;div style="border: 2px solid #ccc; padding: 15px; border-radius: 8px; background: #48505B; max-width: 400px; margin: 10px auto; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); color: #ecf0f1;"&gt;
+                &lt;table style="width: 100%; border-collapse: collapse; font-family: Arial, sans-serif; color: #ecf0f1;"&gt;
+                    &lt;tr&gt;
+                        &lt;td style="padding: 5px; font-weight: bold; width: 40%; text-align: left;"&gt;Motor:&lt;/td&gt;
+                        &lt;td style="padding: 5px; text-align: left;"&gt;V12 4,3 aspirado naturalmente&lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td style="padding: 5px; font-weight: bold; text-align: left;"&gt;Válvulas:&lt;/td&gt;
+                        &lt;td style="padding: 5px; text-align: left;"&gt;24&lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td style="padding: 5px; font-weight: bold; text-align: left;"&gt;Destacados:&lt;/td&gt;
+                        &lt;td style="padding: 5px; text-align: left;"&gt;6 carburadores Weber 40 DCN/20&lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td style="padding: 5px; font-weight: bold; text-align: left;"&gt;Transmisión:&lt;/td&gt;
+                        &lt;td style="padding: 5px; text-align: left;"&gt;manual de 5 marchas&lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td style="padding: 5px; font-weight: bold; text-align: left;"&gt;Peso:&lt;/td&gt;
+                        &lt;td style="padding: 5px; text-align: left;"&gt;1600 Kg.&lt;/td&gt;
+                    &lt;/tr&gt;
+                &lt;/table&gt;
+            &lt;/div&gt;
+            &lt;p&gt;
+        </texto></bloque><bloque><imagenurl>https://upload.wikimedia.org/wikipedia/commons/b/b1/1970_Ferrari_365_GTB4_Daytona.jpg</imagenurl><titulo>Daytona Pininfarina</titulo><texto>Este hermoso biplaza con motor delantero y tracción trasera es obra de Pininfarina.</texto></bloque><bloque><imagenurl>https://upload.wikimedia.org/wikipedia/commons/2/25/Ferrari_365_GTB_4_IAA_2019_JM_0360.jpg</imagenurl><titulo>GT40 vs Daytona</titulo><texto>En 1966 Ford se imponía en las 24 horas de lemans cuando los tres Ford GT40 mk2 cruzaban la línea de meta completando el podio. En 1967 Ferrari respondía en los Estados Unidos al ganar las 24 horas de Daytona con la histórica entrada en la línea de meta de sus tres modelos a la vez que también ocupaban los tres lugares del podio. El éxito provocó que los medios de la época especularon con la posibilidad de que Ferrari bautizara su siguiente modelo con el nombre Daytona. Enzo Ferrari se negó a usarlo lo que no impidió que antes y después del lanzamiento del 365 gtb/4 tanto medios como aficionados bautizaron a a este coche como Ferrari Daytona. Denominación no oficial pero que perdura hasta nuestros días.</texto></bloque><bloque><imagenurl>https://upload.wikimedia.org/wikipedia/commons/6/65/1970_Ferrari_365_GTB-4.jpg</imagenurl><titulo>Ferrari Daytona Motor</titulo><texto>Imponente motor de gasolina refrigerado por agua con una arquitectura de doce cilindros en V, una distribución DOHC7 de 2 válvulas por cilindro (24 en total) de 4390 cm³ (4,4 L) alimentado por seis carburadores con doble cuerpo Weber.</texto></bloque></bloques></auto>
+        <auto id="23" terminado="true"><nombre>Ferrari 365 GTS/4 Daytona</nombre><año>1973</año><chasis>Convertible 2 puertas</chasis><propulsion>Gasolina</propulsion><velocidad>280</velocidad><potencia>347</potencia><aceleracion>5,3</aceleracion><tipo>Deportivo</tipo><precio>2000000</precio><imagen>https://upload.wikimedia.org/wikipedia/commons/7/75/Ferrari_365_GTC-4.jpg</imagen><valoracionInput>20</valoracionInput><enlace>https://www.altanave.uy/2024/11/ferrari-365-gts4-daytona-1973.html</enlace><bloques><bloque><titulo>Ferrari 365 GTS/4 Daytona » Ficha</titulo><texto>
+            &lt;/p&gt;
+            &lt;div style="border: 2px solid #ccc; padding: 15px; border-radius: 8px; background: #48505B; max-width: 400px; margin: 10px auto; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); color: #ecf0f1;"&gt;
+                &lt;table style="width: 100%; border-collapse: collapse; font-family: Arial, sans-serif; color: #ecf0f1;"&gt;
+                    &lt;tr&gt;
+                        &lt;td style="padding: 5px; font-weight: bold; width: 40%; text-align: left;"&gt;Motor:&lt;/td&gt;
+                        &lt;td style="padding: 5px; text-align: left;"&gt;V12 4,3 aspirado naturalmente&lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td style="padding: 5px; font-weight: bold; text-align: left;"&gt;Válvulas:&lt;/td&gt;
+                        &lt;td style="padding: 5px; text-align: left;"&gt;24&lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td style="padding: 5px; font-weight: bold; text-align: left;"&gt;Destacados:&lt;/td&gt;
+                        &lt;td style="padding: 5px; text-align: left;"&gt;6 carburadores Weber 40 DCN/20&lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td style="padding: 5px; font-weight: bold; text-align: left;"&gt;Transmisión:&lt;/td&gt;
+                        &lt;td style="padding: 5px; text-align: left;"&gt;manual de 5 marchas&lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td style="padding: 5px; font-weight: bold; text-align: left;"&gt;Peso:&lt;/td&gt;
+                        &lt;td style="padding: 5px; text-align: left;"&gt;1600 Kg.&lt;/td&gt;
+                    &lt;/tr&gt;
+                &lt;/table&gt;
+            &lt;/div&gt;
+            &lt;p&gt;
+        </texto></bloque><bloque><imagenurl>https://upload.wikimedia.org/wikipedia/commons/c/cc/1972_Ferrari_365_GTS4_Daytona.jpg</imagenurl><titulo>Ferrari Miami Vice</titulo><texto>James “Sony” Crockett (interpretado por Don Johnson) protagonista de Visio en Miami maneba un  Ferrari 365 GTS/4 Daytona Spider de 1972. En realidad se podía advertir que se trataba de réplicas (Chevrolet Corvette C3). Esto proboco que don Enzo se indignara al ver el éxito que estaban cosechando vehículos que eran una copia burda de su producto.</texto></bloque><bloque><imagenurl>https://upload.wikimedia.org/wikipedia/commons/7/7d/Ferrari_365_GTS_4_%281973%29_%2852863324170%29.jpg</imagenurl><titulo>Ferrari Vicio en Miami</titulo><texto>En esta ficción la trama indicaba que el coche pertenecía a un narcotraficante y luego de haber sido confiscado quedó en poder de Sony Crockett.</texto></bloque><bloque><imagenurl>https://upload.wikimedia.org/wikipedia/commons/d/df/1973_Ferrari_Daytona_Spyder_Verde_Pino_front_left.jpg</imagenurl><titulo>Daytona Spider</titulo><texto>GTS refiere a la versión Spider (convertible) del Daytona. Solo se fabricaron 121 unidades además de un prototipo que completa la cifra oficial de 122 Daytona spiders.</texto></bloque></bloques></auto>
       </generacion>
       <generacion nombre="Daytona SP3" añoInicio="2022" añoFin="2025">
-        <auto id="24" terminado="true">
-          <nombre>Ferrari Daytona SP3</nombre>
-          <año>2023</año>
-          <chasis>Coupe 2 puertas</chasis>
-          <propulsion>Gasolina</propulsion>
-          <velocidad>341</velocidad>
-          <potencia>823</potencia>
-          <aceleracion>2,85</aceleracion>
-          <tipo>Superauto</tipo>
-          <precio>2000000</precio>
-          <imagen>https://upload.wikimedia.org/wikipedia/commons/6/6f/Ferrari_Daytona_SP3.jpg</imagen>
-          <enlace>https://www.altanave.uy/2024/11/ferrari-daytona-sp3-2023-coupe.html</enlace>
-          <bloques>
-            <bloque>
-              <imagenurl>https://upload.wikimedia.org/wikipedia/commons/a/ae/Ferrari_Daytona_SP3_rear_side_at_CF_2022.jpg</imagenurl>
-              <titulo>El nuevo Daytona</titulo>
-              <texto>El Ferrari Daytona SP3 es un automóvil superdeportivo de alto rendimiento y edición limitada, producido por el fabricante italiano Ferrari.</texto>
-            </bloque>
-            <bloque>
-              <imagenurl>https://upload.wikimedia.org/wikipedia/commons/5/52/Ferrari_Daytona_SP3_front_at_CF_2022.jpg</imagenurl>
-              <titulo>Daytona SP3 diseño</titulo>
-              <texto>El diseño del SP3 rinde homenaje a los automóviles de carreras de la década de 1960. Su aerodinámica está cuidadosamente optimizada, fusionando elementos del estilo clásico de Ferrari con detalles de los modelos actuales. Los espejos retrovisores están montados en la parte superior de las aletas de las ruedas delanteras, una característica que recuerda a los autos de competición de los años 60.</texto>
-            </bloque>
-            <bloque>
-              <imagenurl>https://upload.wikimedia.org/wikipedia/commons/0/06/Ferrari_Daytona_SP3_front_side_at_CF_2022.jpg</imagenurl>
-              <titulo>Daytona SP3 motor </titulo>
-              <texto>El motor V12 de 6.5 litros está emparejado con una transmisión de doble embrague de siete velocidades, que permite cambios más rápidos. Este es uno de los últimos motores V12 centrales para los autos de carretera de Ferrari, ya que la compañía está dejando atrás los V12 tradicionales en favor de motores con menos cilindros, como los V8 turbocomprimidos y los sistemas híbridos eléctricos.</texto>
-            </bloque>
-          </bloques>
-        </auto>
+        <auto id="24" terminado="true"><nombre>Ferrari Daytona SP3</nombre><año>2023</año><chasis>Coupe 2 puertas</chasis><propulsion>Gasolina</propulsion><velocidad>341</velocidad><potencia>823</potencia><aceleracion>2,85</aceleracion><tipo>Superauto</tipo><precio>2000000</precio><imagen>https://upload.wikimedia.org/wikipedia/commons/6/6f/Ferrari_Daytona_SP3.jpg</imagen><valoracionInput>20</valoracionInput><enlace>https://www.altanave.uy/2024/11/ferrari-daytona-sp3-2023-coupe.html</enlace><bloques><bloque><titulo>Ferrari Daytona SP3 » Ficha</titulo><texto>
+            &lt;/p&gt;
+            &lt;div style="border: 2px solid #ccc; padding: 15px; border-radius: 8px; background: #48505B; max-width: 400px; margin: 10px auto; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); color: #ecf0f1;"&gt;
+                &lt;table style="width: 100%; border-collapse: collapse; font-family: Arial, sans-serif; color: #ecf0f1;"&gt;
+                    &lt;tr&gt;
+                        &lt;td style="padding: 5px; font-weight: bold; width: 40%; text-align: left;"&gt;Motor:&lt;/td&gt;
+                        &lt;td style="padding: 5px; text-align: left;"&gt;V12 6,4 litros aspirado naturalmente&lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td style="padding: 5px; font-weight: bold; text-align: left;"&gt;Válvulas:&lt;/td&gt;
+                        &lt;td style="padding: 5px; text-align: left;"&gt;48&lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td style="padding: 5px; font-weight: bold; text-align: left;"&gt;Destacados:&lt;/td&gt;
+                        &lt;td style="padding: 5px; text-align: left;"&gt;DOHC V-65 grados&lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td style="padding: 5px; font-weight: bold; text-align: left;"&gt;Transmisión:&lt;/td&gt;
+                        &lt;td style="padding: 5px; text-align: left;"&gt;automática de doble embrague con modo de cambio manual 7 de marchas&lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td style="padding: 5px; font-weight: bold; text-align: left;"&gt;Peso:&lt;/td&gt;
+                        &lt;td style="padding: 5px; text-align: left;"&gt;1630 Kg.&lt;/td&gt;
+                    &lt;/tr&gt;
+                &lt;/table&gt;
+            &lt;/div&gt;
+            &lt;p&gt;
+        </texto></bloque><bloque><imagenurl>https://upload.wikimedia.org/wikipedia/commons/a/ae/Ferrari_Daytona_SP3_rear_side_at_CF_2022.jpg</imagenurl><titulo>El nuevo Daytona</titulo><texto>El Ferrari Daytona SP3 es un automóvil superdeportivo de alto rendimiento y edición limitada, producido por el fabricante italiano Ferrari.</texto></bloque><bloque><imagenurl>https://upload.wikimedia.org/wikipedia/commons/5/52/Ferrari_Daytona_SP3_front_at_CF_2022.jpg</imagenurl><titulo>Daytona SP3 diseño</titulo><texto>El diseño del SP3 rinde homenaje a los automóviles de carreras de la década de 1960. Su aerodinámica está cuidadosamente optimizada, fusionando elementos del estilo clásico de Ferrari con detalles de los modelos actuales. Los espejos retrovisores están montados en la parte superior de las aletas de las ruedas delanteras, una característica que recuerda a los autos de competición de los años 60.</texto></bloque><bloque><imagenurl>https://upload.wikimedia.org/wikipedia/commons/0/06/Ferrari_Daytona_SP3_front_side_at_CF_2022.jpg</imagenurl><titulo>Daytona SP3 motor </titulo><texto>El motor V12 de 6.5 litros está emparejado con una transmisión de doble embrague de siete velocidades, que permite cambios más rápidos. Este es uno de los últimos motores V12 centrales para los autos de carretera de Ferrari, ya que la compañía está dejando atrás los V12 tradicionales en favor de motores con menos cilindros, como los V8 turbocomprimidos y los sistemas híbridos eléctricos.</texto></bloque></bloques></auto>
       </generacion>
     </modelo>
     <modelo nombre="360 Modena">
       <generacion nombre="360 Modena" añoInicio="1999" añoFin="2005">
-        <auto id="70" terminado="true">
+        <auto id="70" terminado="false">
           <nombre>Ferrari 360 Challenge Stradale</nombre>
           <año>2003</año>
           <chasis>Coupe 2 puertas</chasis>
