@@ -49,53 +49,61 @@
     <modelo nombre="DB5">
       <generacion nombre="Aston Martin DB5" añoInicio="1963" añoFin="1965">
         <auto id="66" terminado="true"><nombre>Aston Martin DB5</nombre><año>1964</año><chasis>Coupe 2 puertas</chasis><propulsion>Gasolina</propulsion><velocidad>233</velocidad><potencia>282</potencia><aceleracion>7,1</aceleracion><tipo>Deportivo</tipo><precio>1500000</precio><imagen>https://upload.wikimedia.org/wikipedia/commons/8/8b/1964_Aston_Martin_DB5_4.jpg</imagen><valoracionInput>50</valoracionInput><enlace>https://www.altanave.uy/2024/11/aston-martin-db5-1964-coupe.html</enlace><bloques><bloque><titulo>Aston Martin DB5 » Ficha</titulo><texto>
+            
             &lt;/p&gt;
             &lt;div style="border: 2px solid #ccc; padding: 15px; border-radius: 8px; background: #48505B; max-width: 400px; margin: 10px auto; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); color: #ecf0f1;"&gt;
                 &lt;table style="width: 100%; border-collapse: collapse; font-family: Arial, sans-serif; color: #ecf0f1;"&gt;
                     &lt;tr&gt;
                         &lt;td style="padding: 5px; font-weight: bold; width: 40%; text-align: left;"&gt;Motor:&lt;/td&gt;
-                        &lt;td style="padding: 5px; text-align: left;"&gt;3,7 litros&lt;/td&gt;
+                        &lt;td style="padding: 5px; text-align: left;"&gt;6 en línea 3,9 litros aspirado naturalmente&lt;/td&gt;
                     &lt;/tr&gt;
                     &lt;tr&gt;
-                        &lt;td style="padding: 5px; font-weight: bold; text-align: left;"&gt;Alimentación:&lt;/td&gt;
-                        &lt;td style="padding: 5px; text-align: left;"&gt;3 carburadores tipo SU&lt;/td&gt;
+                        &lt;td style="padding: 5px; font-weight: bold; text-align: left;"&gt;Válvulas:&lt;/td&gt;
+                        &lt;td style="padding: 5px; text-align: left;"&gt;12&lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td style="padding: 5px; font-weight: bold; text-align: left;"&gt;Destacados:&lt;/td&gt;
+                        &lt;td style="padding: 5px; text-align: left;"&gt;2 carburadores Su HD8&lt;/td&gt;
                     &lt;/tr&gt;
                     &lt;tr&gt;
                         &lt;td style="padding: 5px; font-weight: bold; text-align: left;"&gt;Transmisión:&lt;/td&gt;
-                        &lt;td style="padding: 5px; text-align: left;"&gt;Manual de 5 velocidades&lt;/td&gt;
+                        &lt;td style="padding: 5px; text-align: left;"&gt;manual 4 marchas&lt;/td&gt;
                     &lt;/tr&gt;
                     &lt;tr&gt;
                         &lt;td style="padding: 5px; font-weight: bold; text-align: left;"&gt;Peso:&lt;/td&gt;
-                        &lt;td style="padding: 5px; text-align: left;"&gt;1502 Kg.&lt;/td&gt;
+                        &lt;td style="padding: 5px; text-align: left;"&gt;1466 Kg.&lt;/td&gt;
                     &lt;/tr&gt;
                 &lt;/table&gt;
             &lt;/div&gt;
             &lt;p&gt;
         </texto></bloque><bloque><imagenurl>https://upload.wikimedia.org/wikipedia/commons/6/6f/Aston_Martin_DB5%2C_James_Bond_08.jpg</imagenurl><titulo>Aston Martin DB5 y James Bond: Un Ícono del Cine</titulo><texto>El Aston Martin DB5 es sinónimo de elegancia y sofisticación, y su asociación con la franquicia de James Bond ha cimentado su estatus como un ícono cultural. Desde su debut en la película "Goldfinger" en 1964, el DB5 ha sido el coche favorito del famoso agente 007, equipado con gadgets y tecnologías innovadoras que capturan la imaginación del público. Este modelo representa la conexión entre el lujo y la aventura. Su aparición en múltiples películas de Bond ha elevado su valor en el mercado de coleccionistas. La popularidad del DB5 ha consolidando su lugar como uno de los automóviles más reconocidos y venerados en la cultura popular.</texto></bloque><bloque><imagenurl>https://upload.wikimedia.org/wikipedia/commons/d/db/Aston_Martin_DB5_James_Bond_hotop2.JPG</imagenurl><titulo>Auto de james bond</titulo><texto>Repleto de gadgets le valió el apodo del «coche más famoso del mundo».
 Parachoques hidráulicos, Ametralladoras delanteras, Escudo antibalas, Matrículas giratorias, chorro de aceite y un dispositivo que lanzaba clavos, Teléfono móvil, Radar a bordo, Panel de armas y asiento eyectable.</texto></bloque></bloques></auto>
-        <auto id="68" terminado="true"><nombre>Aston Martin DB5</nombre><año>1964</año><chasis>Convertible 2 puertas</chasis><propulsion>Gasolina</propulsion><velocidad>231</velocidad><potencia>282</potencia><aceleracion>7,1</aceleracion><tipo>Deportivo</tipo><precio>1000000</precio><imagen>https://upload.wikimedia.org/wikipedia/commons/d/dc/1964_Aston_Martin_DB5_Convertible_LC.jpg</imagen><valoracionInput>40</valoracionInput><enlace>https://www.altanave.uy/2024/11/aston-martin-db5-1964-convertible.html</enlace><bloques><bloque><titulo>Aston Martin DB5 » Ficha</titulo><texto>            &lt;/p&gt;
+        <auto id="68" terminado="true"><nombre>Aston Martin DB5</nombre><año>1964</año><chasis>Convertible 2 puertas</chasis><propulsion>Gasolina</propulsion><velocidad>231</velocidad><potencia>282</potencia><aceleracion>7,1</aceleracion><tipo>Deportivo</tipo><precio>1000000</precio><imagen>https://upload.wikimedia.org/wikipedia/commons/d/dc/1964_Aston_Martin_DB5_Convertible_LC.jpg</imagen><valoracionInput>40</valoracionInput><enlace>https://www.altanave.uy/2024/11/aston-martin-db5-1964-convertible.html</enlace><bloques><bloque><titulo>Aston Martin DB5 » Ficha</titulo><texto>    &lt;/p&gt;
             &lt;div style="border: 2px solid #ccc; padding: 15px; border-radius: 8px; background: #48505B; max-width: 400px; margin: 10px auto; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); color: #ecf0f1;"&gt;
                 &lt;table style="width: 100%; border-collapse: collapse; font-family: Arial, sans-serif; color: #ecf0f1;"&gt;
                     &lt;tr&gt;
                         &lt;td style="padding: 5px; font-weight: bold; width: 40%; text-align: left;"&gt;Motor:&lt;/td&gt;
-                        &lt;td style="padding: 5px; text-align: left;"&gt;3,7 litros&lt;/td&gt;
+                        &lt;td style="padding: 5px; text-align: left;"&gt;6 en línea 3,9 litros aspirado naturalmente&lt;/td&gt;
                     &lt;/tr&gt;
                     &lt;tr&gt;
-                        &lt;td style="padding: 5px; font-weight: bold; text-align: left;"&gt;Alimentación:&lt;/td&gt;
-                        &lt;td style="padding: 5px; text-align: left;"&gt;3 carburadores tipo SU&lt;/td&gt;
+                        &lt;td style="padding: 5px; font-weight: bold; text-align: left;"&gt;Válvulas:&lt;/td&gt;
+                        &lt;td style="padding: 5px; text-align: left;"&gt;12&lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td style="padding: 5px; font-weight: bold; text-align: left;"&gt;Destacados:&lt;/td&gt;
+                        &lt;td style="padding: 5px; text-align: left;"&gt;2 carburadores Su HD8&lt;/td&gt;
                     &lt;/tr&gt;
                     &lt;tr&gt;
                         &lt;td style="padding: 5px; font-weight: bold; text-align: left;"&gt;Transmisión:&lt;/td&gt;
-                        &lt;td style="padding: 5px; text-align: left;"&gt;Manual de 5 velocidades&lt;/td&gt;
+                        &lt;td style="padding: 5px; text-align: left;"&gt;manual 4 marchas&lt;/td&gt;
                     &lt;/tr&gt;
                     &lt;tr&gt;
                         &lt;td style="padding: 5px; font-weight: bold; text-align: left;"&gt;Peso:&lt;/td&gt;
-                        &lt;td style="padding: 5px; text-align: left;"&gt;1502 Kg.&lt;/td&gt;
+                        &lt;td style="padding: 5px; text-align: left;"&gt;1466 Kg.&lt;/td&gt;
                     &lt;/tr&gt;
                 &lt;/table&gt;
             &lt;/div&gt;
-            &lt;p&gt;
-        </texto></bloque></bloques><masimagenes><extraimagenurl>https://upload.wikimedia.org/wikipedia/commons/8/85/Aston_Martin_DB5_%285643331563%29.jpg</extraimagenurl><extraimagenurl>https://upload.wikimedia.org/wikipedia/commons/d/dc/Aston_Martin_DB5_Convertible%2C_Grand_Basel_2018_%28Ank_Kumar%2C_Infosys%29_02.jpg</extraimagenurl></masimagenes></auto>
+            &lt;p&gt;</texto></bloque></bloques><masimagenes><extraimagenurl>https://upload.wikimedia.org/wikipedia/commons/8/85/Aston_Martin_DB5_%285643331563%29.jpg</extraimagenurl><extraimagenurl>https://upload.wikimedia.org/wikipedia/commons/d/dc/Aston_Martin_DB5_Convertible%2C_Grand_Basel_2018_%28Ank_Kumar%2C_Infosys%29_02.jpg</extraimagenurl></masimagenes></auto>
         <auto id="67" terminado="true"><nombre>Aston Martin DB5 Vantage</nombre><año>1964</año><chasis>Coupe 2 puertas</chasis><propulsion>Gasolina</propulsion><velocidad>260</velocidad><potencia>326</potencia><aceleracion>6,2</aceleracion><tipo>Deportivo</tipo><precio>2000000</precio><imagen>https://upload.wikimedia.org/wikipedia/commons/8/87/1964_Aston_Martin_DB5_Vantage_LC23.jpg</imagen><valoracionInput>35</valoracionInput><enlace>https://www.altanave.uy/2024/11/aston-martin-db5-vantage-1964-coupe.html</enlace><bloques><bloque><titulo>Aston Martin DB5 Vantage » Ficha</titulo><texto>
             &lt;/p&gt;
             &lt;div style="border: 2px solid #ccc; padding: 15px; border-radius: 8px; background: #48505B; max-width: 400px; margin: 10px auto; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); color: #ecf0f1;"&gt;
