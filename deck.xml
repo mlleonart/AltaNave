@@ -48,69 +48,78 @@
     <url>https://www.altanave.uy/2024/10/aston-martin.html</url>
     <modelo nombre="DB5">
       <generacion nombre="Aston Martin DB5" añoInicio="1963" añoFin="1965">
-        <auto id="66" terminado="true">
-          <nombre>Aston Martin DB5</nombre>
-          <año>1964</año>
-          <chasis>Coupe 2 puertas</chasis>
-          <propulsion>Gasolina</propulsion>
-          <velocidad>240</velocidad>
-          <potencia>282</potencia>
-          <aceleracion>6,8</aceleracion>
-          <tipo>Deportivo</tipo>
-          <precio>1500000</precio>
-          <imagen>https://upload.wikimedia.org/wikipedia/commons/8/8b/1964_Aston_Martin_DB5_4.jpg</imagen>
-          <enlace>https://www.altanave.uy/2024/11/aston-martin-db5-1964-coupe.html</enlace>
-          <bloques>
-            <bloque>
-              <imagenurl>https://upload.wikimedia.org/wikipedia/commons/6/6f/Aston_Martin_DB5%2C_James_Bond_08.jpg</imagenurl>
-              <titulo>Aston Martin DB5 y James Bond: Un Ícono del Cine</titulo>
-              <texto>El Aston Martin DB5 es sinónimo de elegancia y sofisticación, y su asociación con la franquicia de James Bond ha cimentado su estatus como un ícono cultural. Desde su debut en la película "Goldfinger" en 1964, el DB5 ha sido el coche favorito del famoso agente 007, equipado con gadgets y tecnologías innovadoras que capturan la imaginación del público. Este modelo representa la conexión entre el lujo y la aventura. Su aparición en múltiples películas de Bond ha elevado su valor en el mercado de coleccionistas. La popularidad del DB5 ha consolidando su lugar como uno de los automóviles más reconocidos y venerados en la cultura popular.</texto>
-            </bloque>
-            <bloque>
-              <imagenurl>https://upload.wikimedia.org/wikipedia/commons/d/db/Aston_Martin_DB5_James_Bond_hotop2.JPG</imagenurl>
-              <titulo>Auto de james bond</titulo>
-              <texto>Repleto de gadgets le valió el apodo del «coche más famoso del mundo».
-Parachoques hidráulicos, Ametralladoras delanteras, Escudo antibalas, Matrículas giratorias, chorro de aceite y un dispositivo que lanzaba clavos, Teléfono móvil, Radar a bordo, Panel de armas y asiento eyectable.</texto>
-            </bloque>
-          </bloques>
-        </auto>
-        <auto id="68" terminado="true">
-          <nombre>Aston Martin DB5</nombre>
-          <año>1964</año>
-          <chasis>Convertible 2 puertas</chasis>
-          <propulsion>Gasolina</propulsion>
-          <velocidad>231</velocidad>
-          <potencia>282</potencia>
-          <aceleracion>6,9</aceleracion>
-          <tipo>Deportivo</tipo>
-          <precio>1000000</precio>
-          <imagen>https://upload.wikimedia.org/wikipedia/commons/d/dc/1964_Aston_Martin_DB5_Convertible_LC.jpg</imagen>
-          <enlace>https://www.altanave.uy/2024/11/aston-martin-db5-1964-convertible.html</enlace>
-          <masimagenes>
-            <extraimagenurl>https://upload.wikimedia.org/wikipedia/commons/8/85/Aston_Martin_DB5_%285643331563%29.jpg</extraimagenurl>
-            <extraimagenurl>https://upload.wikimedia.org/wikipedia/commons/d/dc/Aston_Martin_DB5_Convertible%2C_Grand_Basel_2018_%28Ank_Kumar%2C_Infosys%29_02.jpg</extraimagenurl>
-          </masimagenes>
-        </auto>
-        <auto id="67" terminado="true">
-          <nombre>Aston Martin DB5 Vantage</nombre>
-          <año>1964</año>
-          <chasis>Coupe 2 puertas</chasis>
-          <propulsion>Gasolina</propulsion>
-          <velocidad>260</velocidad>
-          <potencia>325</potencia>
-          <aceleracion>6,2</aceleracion>
-          <tipo>Deportivo</tipo>
-          <precio>2000000</precio>
-          <imagen>https://upload.wikimedia.org/wikipedia/commons/8/87/1964_Aston_Martin_DB5_Vantage_LC23.jpg</imagen>
-          <enlace>https://www.altanave.uy/2024/11/aston-martin-db5-vantage-1964-coupe.html</enlace>
-          <bloques>
-            <bloque>
-              <imagenurl>https://upload.wikimedia.org/wikipedia/commons/7/78/1966_Aston_Martin_DB5_V8_Prototype_HCC22.jpg</imagenurl>
-              <titulo>DB5 vs DB5 Vantage</titulo>
-              <texto>El Aston Martin DB5 Vantage se presenta como una versión mejorada del icónico DB5 estándar, destacándose por su motor más potente que produce hasta 325 caballos de fuerza, en comparación con los 282 del modelo original. Además, el Vantage incorpora características adicionales que realzan su rendimiento y experiencia de conducción, como un sistema de suspensión más avanzado y frenos de mayor capacidad.</texto>
-            </bloque>
-          </bloques>
-        </auto>
+        <auto id="66" terminado="true"><nombre>Aston Martin DB5</nombre><año>1964</año><chasis>Coupe 2 puertas</chasis><propulsion>Gasolina</propulsion><velocidad>233</velocidad><potencia>282</potencia><aceleracion>7,1</aceleracion><tipo>Deportivo</tipo><precio>1500000</precio><imagen>https://upload.wikimedia.org/wikipedia/commons/8/8b/1964_Aston_Martin_DB5_4.jpg</imagen><valoracionInput>50</valoracionInput><enlace>https://www.altanave.uy/2024/11/aston-martin-db5-1964-coupe.html</enlace><bloques><bloque><titulo>Aston Martin DB5 » Ficha</titulo><texto>
+            &lt;/p&gt;
+            &lt;div style="border: 2px solid #ccc; padding: 15px; border-radius: 8px; background: #48505B; max-width: 400px; margin: 10px auto; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); color: #ecf0f1;"&gt;
+                &lt;table style="width: 100%; border-collapse: collapse; font-family: Arial, sans-serif; color: #ecf0f1;"&gt;
+                    &lt;tr&gt;
+                        &lt;td style="padding: 5px; font-weight: bold; width: 40%; text-align: left;"&gt;Motor:&lt;/td&gt;
+                        &lt;td style="padding: 5px; text-align: left;"&gt;3,7 litros&lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td style="padding: 5px; font-weight: bold; text-align: left;"&gt;Alimentación:&lt;/td&gt;
+                        &lt;td style="padding: 5px; text-align: left;"&gt;3 carburadores tipo SU&lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td style="padding: 5px; font-weight: bold; text-align: left;"&gt;Transmisión:&lt;/td&gt;
+                        &lt;td style="padding: 5px; text-align: left;"&gt;Manual de 5 velocidades&lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td style="padding: 5px; font-weight: bold; text-align: left;"&gt;Peso:&lt;/td&gt;
+                        &lt;td style="padding: 5px; text-align: left;"&gt;1502 Kg.&lt;/td&gt;
+                    &lt;/tr&gt;
+                &lt;/table&gt;
+            &lt;/div&gt;
+            &lt;p&gt;
+        </texto></bloque><bloque><imagenurl>https://upload.wikimedia.org/wikipedia/commons/6/6f/Aston_Martin_DB5%2C_James_Bond_08.jpg</imagenurl><titulo>Aston Martin DB5 y James Bond: Un Ícono del Cine</titulo><texto>El Aston Martin DB5 es sinónimo de elegancia y sofisticación, y su asociación con la franquicia de James Bond ha cimentado su estatus como un ícono cultural. Desde su debut en la película "Goldfinger" en 1964, el DB5 ha sido el coche favorito del famoso agente 007, equipado con gadgets y tecnologías innovadoras que capturan la imaginación del público. Este modelo representa la conexión entre el lujo y la aventura. Su aparición en múltiples películas de Bond ha elevado su valor en el mercado de coleccionistas. La popularidad del DB5 ha consolidando su lugar como uno de los automóviles más reconocidos y venerados en la cultura popular.</texto></bloque><bloque><imagenurl>https://upload.wikimedia.org/wikipedia/commons/d/db/Aston_Martin_DB5_James_Bond_hotop2.JPG</imagenurl><titulo>Auto de james bond</titulo><texto>Repleto de gadgets le valió el apodo del «coche más famoso del mundo».
+Parachoques hidráulicos, Ametralladoras delanteras, Escudo antibalas, Matrículas giratorias, chorro de aceite y un dispositivo que lanzaba clavos, Teléfono móvil, Radar a bordo, Panel de armas y asiento eyectable.</texto></bloque></bloques></auto>
+        <auto id="68" terminado="true"><nombre>Aston Martin DB5</nombre><año>1964</año><chasis>Convertible 2 puertas</chasis><propulsion>Gasolina</propulsion><velocidad>231</velocidad><potencia>282</potencia><aceleracion>7,1</aceleracion><tipo>Deportivo</tipo><precio>1000000</precio><imagen>https://upload.wikimedia.org/wikipedia/commons/d/dc/1964_Aston_Martin_DB5_Convertible_LC.jpg</imagen><valoracionInput>40</valoracionInput><enlace>https://www.altanave.uy/2024/11/aston-martin-db5-1964-convertible.html</enlace><bloques><bloque><titulo>Aston Martin DB5 » Ficha</titulo><texto>            &lt;/p&gt;
+            &lt;div style="border: 2px solid #ccc; padding: 15px; border-radius: 8px; background: #48505B; max-width: 400px; margin: 10px auto; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); color: #ecf0f1;"&gt;
+                &lt;table style="width: 100%; border-collapse: collapse; font-family: Arial, sans-serif; color: #ecf0f1;"&gt;
+                    &lt;tr&gt;
+                        &lt;td style="padding: 5px; font-weight: bold; width: 40%; text-align: left;"&gt;Motor:&lt;/td&gt;
+                        &lt;td style="padding: 5px; text-align: left;"&gt;3,7 litros&lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td style="padding: 5px; font-weight: bold; text-align: left;"&gt;Alimentación:&lt;/td&gt;
+                        &lt;td style="padding: 5px; text-align: left;"&gt;3 carburadores tipo SU&lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td style="padding: 5px; font-weight: bold; text-align: left;"&gt;Transmisión:&lt;/td&gt;
+                        &lt;td style="padding: 5px; text-align: left;"&gt;Manual de 5 velocidades&lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td style="padding: 5px; font-weight: bold; text-align: left;"&gt;Peso:&lt;/td&gt;
+                        &lt;td style="padding: 5px; text-align: left;"&gt;1502 Kg.&lt;/td&gt;
+                    &lt;/tr&gt;
+                &lt;/table&gt;
+            &lt;/div&gt;
+            &lt;p&gt;
+        </texto></bloque></bloques><masimagenes><extraimagenurl>https://upload.wikimedia.org/wikipedia/commons/8/85/Aston_Martin_DB5_%285643331563%29.jpg</extraimagenurl><extraimagenurl>https://upload.wikimedia.org/wikipedia/commons/d/dc/Aston_Martin_DB5_Convertible%2C_Grand_Basel_2018_%28Ank_Kumar%2C_Infosys%29_02.jpg</extraimagenurl></masimagenes></auto>
+        <auto id="67" terminado="true"><nombre>Aston Martin DB5 Vantage</nombre><año>1964</año><chasis>Coupe 2 puertas</chasis><propulsion>Gasolina</propulsion><velocidad>260</velocidad><potencia>326</potencia><aceleracion>6,2</aceleracion><tipo>Deportivo</tipo><precio>2000000</precio><imagen>https://upload.wikimedia.org/wikipedia/commons/8/87/1964_Aston_Martin_DB5_Vantage_LC23.jpg</imagen><valoracionInput>35</valoracionInput><enlace>https://www.altanave.uy/2024/11/aston-martin-db5-vantage-1964-coupe.html</enlace><bloques><bloque><titulo>Aston Martin DB5 Vantage » Ficha</titulo><texto>
+            &lt;/p&gt;
+            &lt;div style="border: 2px solid #ccc; padding: 15px; border-radius: 8px; background: #48505B; max-width: 400px; margin: 10px auto; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); color: #ecf0f1;"&gt;
+                &lt;table style="width: 100%; border-collapse: collapse; font-family: Arial, sans-serif; color: #ecf0f1;"&gt;
+                    &lt;tr&gt;
+                        &lt;td style="padding: 5px; font-weight: bold; width: 40%; text-align: left;"&gt;Motor:&lt;/td&gt;
+                        &lt;td style="padding: 5px; text-align: left;"&gt;DOHC , 6 cilindros en línea , 4,0 L &lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td style="padding: 5px; font-weight: bold; text-align: left;"&gt;Alimentación:&lt;/td&gt;
+                        &lt;td style="padding: 5px; text-align: left;"&gt;3 carburadores tipo SU&lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td style="padding: 5px; font-weight: bold; text-align: left;"&gt;Transmisión:&lt;/td&gt;
+                        &lt;td style="padding: 5px; text-align: left;"&gt;Manual de 5 velocidades&lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td style="padding: 5px; font-weight: bold; text-align: left;"&gt;Peso:&lt;/td&gt;
+                        &lt;td style="padding: 5px; text-align: left;"&gt;1502 Kg.&lt;/td&gt;
+                    &lt;/tr&gt;
+                &lt;/table&gt;
+            &lt;/div&gt;
+            &lt;p&gt;
+        </texto></bloque><bloque><imagenurl>https://upload.wikimedia.org/wikipedia/commons/7/78/1966_Aston_Martin_DB5_V8_Prototype_HCC22.jpg</imagenurl><titulo>DB5 vs DB5 Vantage</titulo><texto>El Aston Martin DB5 Vantage se presenta como una versión mejorada del icónico DB5 estándar, destacándose por su motor más potente que produce hasta 325 caballos de fuerza, en comparación con los 282 del modelo original. Además, el Vantage incorpora características adicionales que realzan su rendimiento y experiencia de conducción, como un sistema de suspensión más avanzado y frenos de mayor capacidad.</texto></bloque></bloques></auto>
       </generacion>
     </modelo>
     <modelo nombre="Vantage">
@@ -1084,7 +1093,7 @@ Motor V8 biturbo de 5 litros con transmisión de doble embrague y 7 velocidades.
     <url>https://www.altanave.uy/2024/10/lamborghini.html</url>
     <modelo nombre="350 GT">
       <generacion nombre="Lamborghini 350 GT" añoInicio="1964" añoFin="1966">
-        <auto id="18" terminado="false"><nombre>Lamborghini 350 GT</nombre><año>1965</año><chasis>Coupe 2 puertas</chasis><propulsion>Gasolina</propulsion><velocidad>260</velocidad><potencia>276</potencia><aceleracion>6,8</aceleracion><tipo>Deportivo</tipo><precio>600000</precio><imagen>https://upload.wikimedia.org/wikipedia/commons/4/40/12-10-25-autostadt-wolfsburg-by-RalfR-30.jpg</imagen><valoracionInput>35</valoracionInput><enlace>https://www.altanave.uy/2024/11/lamborghini-350-gt-1965-coupe.html</enlace><bloques><bloque><titulo>Lamborghini 350 GT » Ficha</titulo><texto>
+        <auto id="18" terminado="true"><nombre>Lamborghini 350 GT</nombre><año>1965</año><chasis>Coupe 2 puertas</chasis><propulsion>Gasolina</propulsion><velocidad>260</velocidad><potencia>276</potencia><aceleracion>6,8</aceleracion><tipo>Deportivo</tipo><precio>600000</precio><imagen>https://upload.wikimedia.org/wikipedia/commons/4/40/12-10-25-autostadt-wolfsburg-by-RalfR-30.jpg</imagen><valoracionInput>35</valoracionInput><enlace>https://www.altanave.uy/2024/11/lamborghini-350-gt-1965-coupe.html</enlace><bloques><bloque><titulo>Lamborghini 350 GT » Ficha</titulo><texto>
             &lt;/p&gt;
             &lt;div style="border: 2px solid #ccc; padding: 15px; border-radius: 8px; background: #48505B; max-width: 400px; margin: 10px auto; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); color: #ecf0f1;"&gt;
                 &lt;table style="width: 100%; border-collapse: collapse; font-family: Arial, sans-serif; color: #ecf0f1;"&gt;
@@ -1112,7 +1121,7 @@ Motor V8 biturbo de 5 litros con transmisión de doble embrague y 7 velocidades.
             &lt;/div&gt;
             &lt;p&gt;
         </texto></bloque><bloque><imagenurl>https://upload.wikimedia.org/wikipedia/commons/0/08/R%C3%A9tromobile_2017_-_Lamborghini_350_GT_coup%C3%A9_touring_-_1964_-_004.jpg</imagenurl><titulo>Lamborghini 350 GT vs Ferrari</titulo><texto>El Lamborghini 350 GT de 1964 debe su nombre (Gran Turismo) a su potente motor, equipado con levas cuádruples, un avance técnico notable en la época. Este modelo presenta una suspensión trasera independiente, lo que lo distingue de competidores como Ferrari, que aún utilizaban ejes rígidos traseros en sus vehículos. Su carrocería semi-fastback en configuración 2+1 ha sido objeto de controversia en cuanto a diseño, pero agrega un toque distintivo y exclusivo al perfil elegante y aerodinámico del 350 GT.</texto></bloque><bloque><imagenurl>https://upload.wikimedia.org/wikipedia/commons/6/67/R%C3%A9tromobile_2017_-_Lamborghini_350_GT_coup%C3%A9_touring_-_1964_-_001.jpg</imagenurl><titulo>350 GT peso</titulo><texto>La carrocería del 350 GT es un controvertido diseño 2+1 semi-fastback que con un peso en vacío de 1,210 kg, el 350 GT combina potencia diseño y ligereza, características que lo consolidan como un ícono de la ingeniería automotriz italiana de la época.</texto></bloque></bloques></auto>
-        <auto id="19" terminado="false"><nombre>Lamborghini 350 GT</nombre><año>1964</año><chasis>Coupe 2 puertas</chasis><propulsion>Gasolina</propulsion><velocidad>245</velocidad><potencia>276</potencia><aceleracion>6,8</aceleracion><tipo>Deportivo</tipo><precio>600000</precio><imagen>https://upload.wikimedia.org/wikipedia/commons/6/6b/Lamborghini_350_GT_1964.jpg</imagen><valoracionInput>35</valoracionInput><enlace>https://www.altanave.uy/2024/11/lamborghini-350-gt-1964-coupe.html</enlace><bloques><bloque><titulo>Lamborghini 350 GT » Ficha</titulo><texto>&lt;/p&gt;
+        <auto id="19" terminado="true"><nombre>Lamborghini 350 GT</nombre><año>1964</año><chasis>Coupe 2 puertas</chasis><propulsion>Gasolina</propulsion><velocidad>245</velocidad><potencia>276</potencia><aceleracion>6,8</aceleracion><tipo>Deportivo</tipo><precio>600000</precio><imagen>https://upload.wikimedia.org/wikipedia/commons/6/6b/Lamborghini_350_GT_1964.jpg</imagen><valoracionInput>35</valoracionInput><enlace>https://www.altanave.uy/2024/11/lamborghini-350-gt-1964-coupe.html</enlace><bloques><bloque><titulo>Lamborghini 350 GT » Ficha</titulo><texto>&lt;/p&gt;
             &lt;div style="border: 2px solid #ccc; padding: 15px; border-radius: 8px; background: #48505B; max-width: 400px; margin: 10px auto; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); color: #ecf0f1;"&gt;
                 &lt;table style="width: 100%; border-collapse: collapse; font-family: Arial, sans-serif; color: #ecf0f1;"&gt;
                     &lt;tr&gt;
@@ -1143,7 +1152,7 @@ Motor V8 biturbo de 5 litros con transmisión de doble embrague y 7 velocidades.
     </modelo>
     <modelo nombre="Urraco">
       <generacion nombre="Urraco" añoInicio="1972" añoFin="1979">
-        <auto id="76"><nombre>Lamborghini Urraco P250</nombre><año>1974</año><chasis>Coupe 2 puertas</chasis><propulsion>Gasolina</propulsion><velocidad>240</velocidad><potencia>215</potencia><aceleracion>6,9</aceleracion><tipo>Deportivo</tipo><precio>120000</precio><imagen>https://upload.wikimedia.org/wikipedia/commons/7/7a/1974_Lamborghini_Urraco_BS_O24.jpg</imagen><valoracionInput>20</valoracionInput><enlace>https://www.altanave.uy/2024/11/lamborghini-urraco-p250-1974-coupe.html</enlace><bloques><bloque><titulo>Lamborghini Urraco P250 » Ficha</titulo><texto>
+        <auto id="76" terminado="true"><nombre>Lamborghini Urraco P250</nombre><año>1974</año><chasis>Coupe 2 puertas</chasis><propulsion>Gasolina</propulsion><velocidad>240</velocidad><potencia>215</potencia><aceleracion>6,9</aceleracion><tipo>Deportivo</tipo><precio>120000</precio><imagen>https://upload.wikimedia.org/wikipedia/commons/7/7a/1974_Lamborghini_Urraco_BS_O24.jpg</imagen><valoracionInput>20</valoracionInput><enlace>https://www.altanave.uy/2024/11/lamborghini-urraco-p250-1974-coupe.html</enlace><bloques><bloque><titulo>Lamborghini Urraco P250 » Ficha</titulo><texto>
             &lt;/p&gt;
             &lt;div style="border: 2px solid #ccc; padding: 15px; border-radius: 8px; background: #48505B; max-width: 400px; margin: 10px auto; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); color: #ecf0f1;"&gt;
                 &lt;table style="width: 100%; border-collapse: collapse; font-family: Arial, sans-serif; color: #ecf0f1;"&gt;
@@ -1175,76 +1184,62 @@ Motor V8 biturbo de 5 litros con transmisión de doble embrague y 7 velocidades.
     </modelo>
     <modelo nombre="Miura ">
       <generacion nombre="Lamborghini Miura" añoInicio="1966" añoFin="1972">
-        <auto id="60" terminado="false">
-          <nombre>Lamborghini Miura P400</nombre>
-          <año>1968</año>
-          <chasis>Coupe 2 puertas</chasis>
-          <propulsion>Gasolina</propulsion>
-          <velocidad>280</velocidad>
-          <potencia>345</potencia>
-          <aceleracion>6,7</aceleracion>
-          <tipo>Deportivo</tipo>
-          <precio>2250000</precio>
-          <imagen>https://upload.wikimedia.org/wikipedia/commons/5/57/1968_Lamborghini_Miura_S_LC23.jpg</imagen>
-          <enlace>https://www.altanave.uy/2024/10/lamborghini-miura-p400-coupe-de-2.html</enlace>
-          <bloques>
-            <bloque>
-              <imagenurl>https://upload.wikimedia.org/wikipedia/commons/4/4d/1967_Lamborghini_Miura_P400_opened_up_LC24.jpg</imagenurl>
-              <titulo>Diseño Revolucionario</titulo>
-              <texto>El Lamborghini Miura fue uno de los primeros deportivos de estirpe con motor central, una configuración que revolucionó la industria automotriz y estableció un nuevo estándar en diseño y rendimiento.</texto>
-            </bloque>
-            <bloque>
-              <imagenurl>https://upload.wikimedia.org/wikipedia/commons/5/54/Moteur_de_lamborghini_Miura.jpg</imagenurl>
-              <titulo>Potencia Deslumbrante</titulo>
-              <texto>Equipado con un potente motor V12 de 3.9 litros, el Miura produce hasta 350 caballos de fuerza, permitiéndole alcanzar velocidades superiores a los 280 km/h, lo que lo convierte en un competidor formidable en la pista.</texto>
-            </bloque>
-            <bloque>
-              <imagenurl>https://upload.wikimedia.org/wikipedia/commons/6/6e/1970_Lamborghini_Miura_S_P400_Orange.jpg</imagenurl>
-              <titulo>Aceleración Impactante</titulo>
-              <texto>Con la capacidad de acelerar de 0 a 100 km/h en aproximadamente 6.7 segundos, el Miura desafió las expectativas de rendimiento de su época, consolidando su reputación como un auténtico deportivo.</texto>
-            </bloque>
-            <bloque>
-              <imagenurl>https://upload.wikimedia.org/wikipedia/commons/7/74/Lamborghini_Miura_SV.jpg</imagenurl>
-              <titulo>Herencia Legendaria</titulo>
-              <texto>El Miura no solo es un vehículo icónico; también es considerado el precursor de la serie de superdeportivos de Lamborghini. Su legado perdura como un símbolo de innovación y estilo en el mundo automotriz.</texto>
-            </bloque>
-            <bloque>
-              <imagenurl>https://upload.wikimedia.org/wikipedia/commons/5/5a/Lamborghini_Miura_S_Verde_rear.jpg</imagenurl>
-              <titulo>Mega Codiciado</titulo>
-              <texto>Hoy en día, el Lamborghini Miura es un objeto de deseo entre coleccionistas y entusiastas de automóviles, alcanzando precios que superan el millón de dólares en subastas, testificando su estatus como una joya del automovilismo clásico.</texto>
-            </bloque>
-          </bloques>
-        </auto>
-        <auto id="61" terminado="false">
-          <nombre>Lamborghini Miura</nombre>
-          <año>1968</año>
-          <chasis>Roadster</chasis>
-          <propulsion>Gasolina</propulsion>
-          <velocidad>280</velocidad>
-          <potencia>345</potencia>
-          <aceleracion>6,7</aceleracion>
-          <tipo>Deportivo</tipo>
-          <precio>2250000</precio>
-          <imagen>https://upload.wikimedia.org/wikipedia/commons/8/8c/Lamborghini_Miura_Roadster.jpg</imagen>
-          <enlace>https://www.altanave.uy/2024/10/lamborghini-miura-roadster-1968.html</enlace>
-          <bloques>
-            <bloque>
-              <imagenurl>https://upload.wikimedia.org/wikipedia/commons/2/2e/Lamborghini_Miura_Roadster_%2851206441163%29.jpg</imagenurl>
-              <titulo>Unico en su Clase</titulo>
-              <texto>El Lamborghini Miura Roadster, presentado como un prototipo en 1968, es famoso por su diseño de carrocería convertible que destaca la elegancia y deportividad del Miura, combinando estética audaz con un espíritu de libertad en la conducción.</texto>
-            </bloque>
-            <bloque>
-              <imagenurl>https://upload.wikimedia.org/wikipedia/commons/e/e3/Lamborghini_Miura_Roadster_1968_seitlich.JPG</imagenurl>
-              <titulo>Rendimiento Excepcional</titulo>
-              <texto>A pesar de su diseño descapotable, el Miura Roadster mantiene un rendimiento sobresaliente, permitiéndole acelerar de 0 a 100 km/h en menos de 7 segundos, lo que lo convierte en un superdeportivo emocionante y divertido de conducir.</texto>
-            </bloque>
-            <bloque>
-              <imagenurl>https://upload.wikimedia.org/wikipedia/commons/a/af/Lamborghini_Miura_Roadster_1968_Interieur.JPG</imagenurl>
-              <titulo>Motor Potente</titulo>
-              <texto>Al igual que su versión coupé, el Miura Roadster está equipado con un motor V12 de 3.9 litros que produce alrededor de 350 caballos de fuerza, ofreciendo un rendimiento excepcional y aceleración impresionante, manteniendo el legado de potencia de la línea Miura.</texto>
-            </bloque>
-          </bloques>
-        </auto>
+        <auto id="60" terminado="true"><nombre>Lamborghini Miura P400</nombre><año>1968</año><chasis>Coupe 2 puertas</chasis><propulsion>Gasolina</propulsion><velocidad>280</velocidad><potencia>345</potencia><aceleracion>6,7</aceleracion><tipo>Deportivo</tipo><precio>2250000</precio><imagen>https://upload.wikimedia.org/wikipedia/commons/5/57/1968_Lamborghini_Miura_S_LC23.jpg</imagen><valoracionInput>35</valoracionInput><enlace>https://www.altanave.uy/2024/11/lamborghini-miura-p400-1968-coupe.html</enlace><bloques><bloque><titulo>Lamborghini Miura P400 » Ficha</titulo><texto>
+            &lt;/p&gt;
+            &lt;div style="border: 2px solid #ccc; padding: 15px; border-radius: 8px; background: #48505B; max-width: 400px; margin: 10px auto; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); color: #ecf0f1;"&gt;
+                &lt;table style="width: 100%; border-collapse: collapse; font-family: Arial, sans-serif; color: #ecf0f1;"&gt;
+                    &lt;tr&gt;
+                        &lt;td style="padding: 5px; font-weight: bold; width: 40%; text-align: left;"&gt;Motor:&lt;/td&gt;
+                        &lt;td style="padding: 5px; text-align: left;"&gt;V12 atmosférico 3,9 litros&lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td style="padding: 5px; font-weight: bold; text-align: left;"&gt;Válvulas:&lt;/td&gt;
+                        &lt;td style="padding: 5px; text-align: left;"&gt;8 válvulas &lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td style="padding: 5px; font-weight: bold; text-align: left;"&gt;Alimentación:&lt;/td&gt;
+                        &lt;td style="padding: 5px; text-align: left;"&gt;cuatro carburadores Weber de tiro descendente de 3 cuerpos IDL40 3C&lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td style="padding: 5px; font-weight: bold; text-align: left;"&gt;Transmisión:&lt;/td&gt;
+                        &lt;td style="padding: 5px; text-align: left;"&gt;Manual de 5 velocidades&lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td style="padding: 5px; font-weight: bold; text-align: left;"&gt;Peso:&lt;/td&gt;
+                        &lt;td style="padding: 5px; text-align: left;"&gt;1.292 Kg.&lt;/td&gt;
+                    &lt;/tr&gt;
+                &lt;/table&gt;
+            &lt;/div&gt;
+            &lt;p&gt;
+        </texto></bloque><bloque><imagenurl>https://upload.wikimedia.org/wikipedia/commons/5/54/Moteur_de_lamborghini_Miura.jpg</imagenurl><titulo>Potencia Deslumbrante</titulo><texto>Equipado con un potente motor V12 de 3.9 litros, el Miura produce hasta 350 caballos de fuerza, permitiéndole alcanzar velocidades superiores a los 280 km/h, lo que lo convierte en un competidor formidable en la pista.</texto></bloque><bloque><imagenurl>https://upload.wikimedia.org/wikipedia/commons/6/6e/1970_Lamborghini_Miura_S_P400_Orange.jpg</imagenurl><titulo>Aceleración Impactante</titulo><texto>Con la capacidad de acelerar de 0 a 100 km/h en aproximadamente 6.7 segundos, el Miura desafió las expectativas de rendimiento de su época, consolidando su reputación como un auténtico deportivo.</texto></bloque><bloque><imagenurl>https://upload.wikimedia.org/wikipedia/commons/7/74/Lamborghini_Miura_SV.jpg</imagenurl><titulo>Herencia Legendaria</titulo><texto>El Miura no solo es un vehículo icónico; también es considerado el precursor de la serie de superdeportivos de Lamborghini. Su legado perdura como un símbolo de innovación y estilo en el mundo automotriz.</texto></bloque><bloque><imagenurl>https://upload.wikimedia.org/wikipedia/commons/5/5a/Lamborghini_Miura_S_Verde_rear.jpg</imagenurl><titulo>Mega Codiciado</titulo><texto>Hoy en día, el Lamborghini Miura es un objeto de deseo entre coleccionistas y entusiastas de automóviles, alcanzando precios que superan el millón de dólares en subastas, testificando su estatus como una joya del automovilismo clásico.</texto></bloque><bloque><imagenurl>https://upload.wikimedia.org/wikipedia/commons/4/4d/1967_Lamborghini_Miura_P400_opened_up_LC24.jpg</imagenurl><titulo>Diseño Revolucionario</titulo><texto>El Lamborghini Miura fue uno de los primeros deportivos de estirpe con motor central, una configuración que revolucionó la industria automotriz y estableció un nuevo estándar en diseño y rendimiento.</texto></bloque></bloques></auto>
+        <auto id="61" terminado="true"><nombre>Lamborghini Miura P400</nombre><año>1968</año><chasis>Roadster</chasis><propulsion>Gasolina</propulsion><velocidad>280</velocidad><potencia>345</potencia><aceleracion>6,7</aceleracion><tipo>Deportivo</tipo><precio>2250000</precio><imagen>https://upload.wikimedia.org/wikipedia/commons/8/8c/Lamborghini_Miura_Roadster.jpg</imagen><valoracionInput>40</valoracionInput><enlace>https://www.altanave.uy/2024/11/lamborghini-miura-p400-1968-roadster.html</enlace><bloques><bloque><titulo>Lamborghini Miura P400 » Ficha</titulo><texto>
+            &lt;/p&gt;
+            &lt;div style="border: 2px solid #ccc; padding: 15px; border-radius: 8px; background: #48505B; max-width: 400px; margin: 10px auto; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); color: #ecf0f1;"&gt;
+                &lt;table style="width: 100%; border-collapse: collapse; font-family: Arial, sans-serif; color: #ecf0f1;"&gt;
+                    &lt;tr&gt;
+                        &lt;td style="padding: 5px; font-weight: bold; width: 40%; text-align: left;"&gt;Motor:&lt;/td&gt;
+                        &lt;td style="padding: 5px; text-align: left;"&gt;V12 atmosférico 3,9 litros&lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td style="padding: 5px; font-weight: bold; text-align: left;"&gt;Válvulas:&lt;/td&gt;
+                        &lt;td style="padding: 5px; text-align: left;"&gt;8 válvulas &lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td style="padding: 5px; font-weight: bold; text-align: left;"&gt;Alimentación:&lt;/td&gt;
+                        &lt;td style="padding: 5px; text-align: left;"&gt;cuatro carburadores Weber de tiro descendente de 3 cuerpos IDL40 3C&lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td style="padding: 5px; font-weight: bold; text-align: left;"&gt;Transmisión:&lt;/td&gt;
+                        &lt;td style="padding: 5px; text-align: left;"&gt;Manual de 5 velocidades&lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td style="padding: 5px; font-weight: bold; text-align: left;"&gt;Peso:&lt;/td&gt;
+                        &lt;td style="padding: 5px; text-align: left;"&gt;1.292 Kg.&lt;/td&gt;
+                    &lt;/tr&gt;
+                &lt;/table&gt;
+            &lt;/div&gt;
+            &lt;p&gt;
+        </texto></bloque><bloque><imagenurl>https://upload.wikimedia.org/wikipedia/commons/e/e3/Lamborghini_Miura_Roadster_1968_seitlich.JPG</imagenurl><titulo>Rendimiento Excepcional</titulo><texto>A pesar de su diseño descapotable, el Miura Roadster mantiene un rendimiento sobresaliente, permitiéndole acelerar de 0 a 100 km/h en menos de 7 segundos, lo que lo convierte en un superdeportivo emocionante y divertido de conducir.</texto></bloque><bloque><imagenurl>https://upload.wikimedia.org/wikipedia/commons/a/af/Lamborghini_Miura_Roadster_1968_Interieur.JPG</imagenurl><titulo>Motor Potente</titulo><texto>Al igual que su versión coupé, el Miura Roadster está equipado con un motor V12 de 3.9 litros que produce alrededor de 350 caballos de fuerza, ofreciendo un rendimiento excepcional y aceleración impresionante, manteniendo el legado de potencia de la línea Miura.</texto></bloque><bloque><imagenurl>https://upload.wikimedia.org/wikipedia/commons/2/2e/Lamborghini_Miura_Roadster_%2851206441163%29.jpg</imagenurl><titulo>Unico en su Clase</titulo><texto>El Lamborghini Miura Roadster, presentado como un prototipo en 1968, es famoso por su diseño de carrocería convertible que destaca la elegancia y deportividad del Miura, combinando estética audaz con un espíritu de libertad en la conducción.</texto></bloque></bloques></auto>
       </generacion>
     </modelo>
     <modelo nombre="Urus">
