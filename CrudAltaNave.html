@@ -490,39 +490,63 @@ background:url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgPZR-4
 
             <details>
                 <summary>
+                    Convertidor de Potencia CV a HP
+                </summary>
+                <p><iframe class="iframe" title="calculadora de cv a hp" src="https://calculatorsconversion.com/calculadora/cv-a-hp-es/cv-a-hp-es.htm" width="100%" height="120"></iframe></p>
+
+        </details>
+        <br/><br/>
+
+            <details>
+                <summary>
                     Generador Ficha Features » Ficha
                 </summary>
+<!--
+                <form id="features-extractor">
+                    <label for="motor-data" style="display: block; margin-bottom: 5px;">Pega los datos aquí:</label>
+                    <textarea id="motor-data" name="motor-data" placeholder="Pega el texto completo aquí" style="width: 100%; height: 150px; padding: 5px; margin-bottom: 10px; border-radius: 4px; border: 1px solid #ccc;"></textarea>
+                    
+                    <button type="button" id="extract-button" style="padding: 10px 20px; background: #2980b9; color: #ecf0f1; border: none; border-radius: 4px; cursor: pointer; margin-top: 10px;">Extraer Datos</button>
+                </form>
+                <div id="output" style="margin-top: 20px;"></div>
+-->
                 <div id="form-features" style="border: 2px solid #ccc; padding: 15px; border-radius: 8px; background: #34495e; max-width: 400px; margin: 10px auto; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); color: #ecf0f1;">
                     <form id="data-form">
                         <label for="motor" style="display: block; margin-bottom: 5px;">Motor:</label>
-                        <input type="text" id="motor" name="motor" placeholder="Ej: V12 de 3,5 litros" style="width: 100%; padding: 5px; margin-bottom: 10px; border-radius: 4px; border: 1px solid #ccc;">
-                        
+                        <input type="text" id="motor" name="motor" placeholder="(Alineación de cilindros Ej.V 12)(Desplazamiento/1000 Ej.1199 cm3/1000) + (Sistema de carga Ej.aspirado naturalmente)" style="width: 100%; padding: 5px; margin-bottom: 10px; border-radius: 4px; border: 1px solid #ccc;">
+                        <label for="motor" style="display: block; margin-bottom: 5px; font-size: small; color: yellow;">( Alineación de cilindros Ej.V 12) + </label>
+                        <label for="motor" style="display: block; margin-bottom: 5px; font-size: small; color: yellow;">( Desplazamiento/1000 Ej.1199 cm3/1000) + </label>
+                        <label for="motor" style="display: block; margin-bottom: 5px; font-size: small; color: yellow;">( Sistema de carga Ej.aspirado naturalmente)</label>
+
+                        <hr>
                         <label for="valvulas" style="display: block; margin-bottom: 5px;">Válvulas:</label>
-                        <input type="text" id="valvulas" name="valvulas" placeholder="Ej: 24 válvulas (2 válvulas por cilindro)" style="width: 100%; padding: 5px; margin-bottom: 10px; border-radius: 4px; border: 1px solid #ccc;">
+                        <input type="text" id="valvulas" name="valvulas" placeholder="(Válvulas por cilindro: 2) * (Alineación de cilindros: V 12)" style="width: 100%; padding: 5px; margin-bottom: 10px; border-radius: 4px; border: 1px solid #ccc;">
+                        <label for="valvulas" style="display: block; margin-bottom: 5px; font-size: small; color: yellow;">( Válvulas por cilindro: 2) X</label>
+                        <label for="valvulas" style="display: block; margin-bottom: 5px; font-size: small; color: yellow;">( Alineación de cilindros: V 12) =</label>
                         
-                        <label for="alimentacion" style="display: block; margin-bottom: 5px;">Alimentación:</label>
-                        <input type="text" id="alimentacion" name="alimentacion" placeholder="Ej: 6 carburadores Weber 40 DCOE 2" style="width: 100%; padding: 5px; margin-bottom: 10px; border-radius: 4px; border: 1px solid #ccc;">
+                        <hr>
+                        <label for="destacados" style="display: block; margin-bottom: 5px;">Destacados:</label>
+                        <input type="text" id="destacados" name="destacados" placeholder="Ej: 6 carburadores Weber 40 DCOE 2" style="width: 100%; padding: 5px; margin-bottom: 10px; border-radius: 4px; border: 1px solid #ccc;">
+                        <label for="destacados" style="display: block; margin-bottom: 5px; font-size: small; color: yellow;">( Características adicionales:) =</label>
                         
+                        <hr>
                         <label for="transmision" style="display: block; margin-bottom: 5px;">Transmisión:</label>
-                        <input type="text" id="transmision" name="transmision" placeholder="Ej: Caja manual de 5 velocidades" style="width: 100%; padding: 5px; margin-bottom: 10px; border-radius: 4px; border: 1px solid #ccc;">
+                        <input type="text" id="transmision" name="transmision" placeholder="(Tipo de transmisión: manual) + (Número de marchas: 5)" style="width: 100%; padding: 5px; margin-bottom: 10px; border-radius: 4px; border: 1px solid #ccc;">
+                        <label for="transmision" style="display: block; margin-bottom: 5px; font-size: small; color: yellow;">( Tipo de transmisión: manual) =</label>
+                        <label for="transmision" style="display: block; margin-bottom: 5px; font-size: small; color: yellow;">( Número de marchas: 5) =</label>
                         
+                        <hr>
                         <label for="peso" style="display: block; margin-bottom: 5px;">Peso:</label>
-                        <input type="text" id="peso" name="peso" placeholder="Ej: 1050 kg" style="width: 100%; padding: 5px; margin-bottom: 10px; border-radius: 4px; border: 1px solid #ccc;">
+                        <input type="text" id="peso" name="peso" placeholder="(Peso en vacío (sin conductor): 1210 kg)" style="width: 100%; padding: 5px; margin-bottom: 10px; border-radius: 4px; border: 1px solid #ccc;">
+                        <label for="peso" style="display: block; margin-bottom: 5px; font-size: small; color: yellow;">( Peso en vacío (sin conductor): 1210 kg) =</label>
                         
                         <button type="button" id="copy-button" style="padding: 10px 20px; background: #2980b9; color: #ecf0f1; border: none; border-radius: 4px; cursor: pointer; margin-top: 10px;">Copiar Tabla</button>
                     </form>
                 </div>
             </details>
 
-            <br/>
-            <details>
-                <summary>
-                    Convertidor de Potencia CV a HP
-                </summary>
-                <p><iframe class="iframe" title="calculadora de cv a hp" src="https://calculatorsconversion.com/calculadora/cv-a-hp-es/cv-a-hp-es.htm" width="100%" height="120"></iframe></p>
+          
 
-        </details>
-            
             <!--
             <div id="HTMLMarca" style="margin: 40px; border: 2px solid #555; border-radius: 5px; padding: 10px;" >
                 <h3>HTML - Marca</h3>
@@ -676,6 +700,7 @@ background:url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgPZR-4
             URL.revokeObjectURL(url);
 
             mostrarMensaje(esRespaldo ? 'Respaldo creado correctamente' : 'Archivo guardado correctamente', 'success');
+            recargarPagina();
         }
 
 
@@ -1914,7 +1939,7 @@ document.getElementById('copy-button').addEventListener('click', function() {
 
         const motor = document.getElementById('motor').value;
         const valvulas = document.getElementById('valvulas').value;
-        const alimentacion = document.getElementById('alimentacion').value;
+        const destacados = document.getElementById('destacados').value;
         const transmision = document.getElementById('transmision').value;
         const peso = document.getElementById('peso').value;
         
@@ -1931,8 +1956,8 @@ document.getElementById('copy-button').addEventListener('click', function() {
                         <td style="padding: 5px; text-align: left;">${valvulas}</td>
                     </tr>
                     <tr>
-                        <td style="padding: 5px; font-weight: bold; text-align: left;">Alimentación:</td>
-                        <td style="padding: 5px; text-align: left;">${alimentacion}</td>
+                        <td style="padding: 5px; font-weight: bold; text-align: left;">Destacados:</td>
+                        <td style="padding: 5px; text-align: left;">${destacados}</td>
                     </tr>
                     <tr>
                         <td style="padding: 5px; font-weight: bold; text-align: left;">Transmisión:</td>
@@ -1954,7 +1979,38 @@ document.getElementById('copy-button').addEventListener('click', function() {
         });
     });
 
+/*
+    document.getElementById('extract-button').addEventListener('click', function() {
+        // Obtener el texto completo del campo de entrada
+        var motorData = document.getElementById('motor-data').value;
+        
+        // Usar expresiones regulares para extraer el valor después de "RPM de línea roja:"
+        var rpmLineaRoja = motorData.match(/RPM de línea roja:\s*(\d+)/);
+        var caballosDeFuerza = motorData.match(/Caballos de fuerza netos:\s*(\d+)/);
+        var parNeto = motorData.match(/Par neto:\s*(\d+)/);
+        
+        // Comprobar si se encontraron coincidencias
+        var rpmResult = rpmLineaRoja ? rpmLineaRoja[1] : 'No encontrado';
+        var caballosResult = caballosDeFuerza ? caballosDeFuerza[1] : 'No encontrado';
+        var parResult = parNeto ? parNeto[1] : 'No encontrado';
 
+        // Generar la salida
+        var outputHtml = `
+            <label for="rpm" style="display: block; margin-bottom: 5px;">RPM de línea roja:</label>
+            <input type="text" value="${rpmResult}" disabled style="width: 100%; padding: 5px; margin-bottom: 10px; border-radius: 4px; border: 1px solid #ccc;">
+            
+            <label for="caballos" style="display: block; margin-bottom: 5px;">Caballos de Fuerza Netos:</label>
+            <input type="text" value="${caballosResult}" disabled style="width: 100%; padding: 5px; margin-bottom: 10px; border-radius: 4px; border: 1px solid #ccc;">
+            
+            <label for="par" style="display: block; margin-bottom: 5px;">Par Neto:</label>
+            <input type="text" value="${parResult}" disabled style="width: 100%; padding: 5px; margin-bottom: 10px; border-radius: 4px; border: 1px solid #ccc;">
+        `;
+
+        // Mostrar la salida
+        document.getElementById('output').innerHTML = outputHtml;
+    });
+
+  */
 
         // Agregar controles de archivo
         document.body.insertAdjacentHTML('afterbegin', `
