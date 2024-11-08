@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE deck [
 <!ELEMENT deck (marca)+>
-<!ELEMENT marca (logoURL?, country?, flagURL?, url?, modelo+)>
+<!ELEMENT marca (logoURL? , country? , flagURL? , url? , modelo+)>
 <!ATTLIST marca nombre CDATA #REQUIRED>
 <!ELEMENT logoURL (#PCDATA)>
 <!ELEMENT country (#PCDATA)>
@@ -10,16 +10,12 @@
 <!ELEMENT modelo (generacion)+>
 <!ATTLIST modelo nombre CDATA #REQUIRED>
 <!ELEMENT generacion (auto)+>
-<!ATTLIST generacion 
-    nombre CDATA #REQUIRED
-    añoInicio CDATA #REQUIRED
-    añoFin CDATA #REQUIRED
->
-<!ELEMENT auto (nombre, año, chasis, propulsion, velocidad, potencia, aceleracion, tipo, precio, imagen, enlace, bloques?, masimagenes?)>
-<!ATTLIST auto 
-    id CDATA #REQUIRED
-    terminado (true | false) "false"
->
+<!ATTLIST generacion nombre CDATA #REQUIRED>
+<!ATTLIST generacion añoInicio CDATA #REQUIRED>
+<!ATTLIST generacion añoFin CDATA #REQUIRED>
+<!ELEMENT auto (nombre , año , chasis , propulsion , velocidad , potencia , aceleracion , tipo , precio , imagen , enlace , bloques? , masimagenes?)>
+<!ATTLIST auto id CDATA #REQUIRED>
+<!ATTLIST auto terminado (true | false) "false">
 <!ELEMENT nombre (#PCDATA)>
 <!ELEMENT año (#PCDATA)>
 <!ELEMENT chasis (#PCDATA)>
@@ -32,7 +28,7 @@
 <!ELEMENT imagen (#PCDATA)>
 <!ELEMENT enlace (#PCDATA)>
 <!ELEMENT bloques (bloque)*>
-<!ELEMENT bloque (imagenurl?, titulo, texto)>
+<!ELEMENT bloque (imagenurl? , titulo , texto)>
 <!ELEMENT imagenurl (#PCDATA)>
 <!ELEMENT titulo (#PCDATA)>
 <!ELEMENT texto (#PCDATA)>
@@ -768,7 +764,35 @@ El Ferrari SF90 Spider, además de mantener la silueta del SF90 Stradale, presen
             </bloque>
           </bloques>
         </auto>
-        <auto id="27" terminado="true"><nombre>Ferrari 488 Pista</nombre><año>2019</año><chasis>Coupe 2 puertas</chasis><propulsion>Gasolina</propulsion><velocidad>340</velocidad><potencia>710</potencia><aceleracion>2,85</aceleracion><tipo>Superauto</tipo><precio>350000</precio><imagen>https://upload.wikimedia.org/wikipedia/commons/8/8d/Ferrari_488_Pista_8.jpg</imagen><enlace>https://www.altanave.uy/2024/11/ferrari-488-pista-2019-coupe.html</enlace><bloques><bloque><imagenurl>https://upload.wikimedia.org/wikipedia/commons/8/87/Ferrari_480%2C_Mexico_2019p2.jpg</imagenurl><titulo>488 fibra de carbono</titulo><texto>Está impulsado por el mismo motor que la versión estándar, aunque su potencia máxima se eleva a 710 HP gracias a numerosas modificaciones mecánicas y exteriores que lo hacen aún más competitivo que el 488 GTB. Además, se emplea fibra de carbono en diversas partes para aligerar su peso. En comparación con el 488 GTB, es 91 kg más ligero debido al uso de fibra de carbono en elementos como el capó, las defensas y el alerón trasero.</texto></bloque></bloques><masimagenes><extraimagenurl>https://upload.wikimedia.org/wikipedia/commons/b/b3/2019_Ferrari_488_Pista_6.jpg</extraimagenurl><extraimagenurl>https://upload.wikimedia.org/wikipedia/commons/2/24/2020_Ferrari_488_Pista_11.jpg</extraimagenurl><extraimagenurl>https://upload.wikimedia.org/wikipedia/commons/d/d7/2020_Ferrari_488_Pista_9.jpg</extraimagenurl><extraimagenurl>https://upload.wikimedia.org/wikipedia/commons/f/f8/Ferrari_488_Pista_11.jpg</extraimagenurl><extraimagenurl>https://upload.wikimedia.org/wikipedia/commons/f/f1/Ferrari_488_Pista_13.jpg</extraimagenurl><extraimagenurl>https://upload.wikimedia.org/wikipedia/commons/b/b2/Ferrari_488_Pista_14.jpg</extraimagenurl><extraimagenurl>https://upload.wikimedia.org/wikipedia/commons/b/b0/Ferrari_488_Pista_10.jpg</extraimagenurl></masimagenes></auto>
+        <auto id="27" terminado="true">
+          <nombre>Ferrari 488 Pista</nombre>
+          <año>2019</año>
+          <chasis>Coupe 2 puertas</chasis>
+          <propulsion>Gasolina</propulsion>
+          <velocidad>340</velocidad>
+          <potencia>710</potencia>
+          <aceleracion>2,85</aceleracion>
+          <tipo>Superauto</tipo>
+          <precio>350000</precio>
+          <imagen>https://upload.wikimedia.org/wikipedia/commons/8/8d/Ferrari_488_Pista_8.jpg</imagen>
+          <enlace>https://www.altanave.uy/2024/11/ferrari-488-pista-2019-coupe.html</enlace>
+          <bloques>
+            <bloque>
+              <imagenurl>https://upload.wikimedia.org/wikipedia/commons/8/87/Ferrari_480%2C_Mexico_2019p2.jpg</imagenurl>
+              <titulo>488 fibra de carbono</titulo>
+              <texto>Está impulsado por el mismo motor que la versión estándar, aunque su potencia máxima se eleva a 710 HP gracias a numerosas modificaciones mecánicas y exteriores que lo hacen aún más competitivo que el 488 GTB. Además, se emplea fibra de carbono en diversas partes para aligerar su peso. En comparación con el 488 GTB, es 91 kg más ligero debido al uso de fibra de carbono en elementos como el capó, las defensas y el alerón trasero.</texto>
+            </bloque>
+          </bloques>
+          <masimagenes>
+            <extraimagenurl>https://upload.wikimedia.org/wikipedia/commons/b/b3/2019_Ferrari_488_Pista_6.jpg</extraimagenurl>
+            <extraimagenurl>https://upload.wikimedia.org/wikipedia/commons/2/24/2020_Ferrari_488_Pista_11.jpg</extraimagenurl>
+            <extraimagenurl>https://upload.wikimedia.org/wikipedia/commons/d/d7/2020_Ferrari_488_Pista_9.jpg</extraimagenurl>
+            <extraimagenurl>https://upload.wikimedia.org/wikipedia/commons/f/f8/Ferrari_488_Pista_11.jpg</extraimagenurl>
+            <extraimagenurl>https://upload.wikimedia.org/wikipedia/commons/f/f1/Ferrari_488_Pista_13.jpg</extraimagenurl>
+            <extraimagenurl>https://upload.wikimedia.org/wikipedia/commons/b/b2/Ferrari_488_Pista_14.jpg</extraimagenurl>
+            <extraimagenurl>https://upload.wikimedia.org/wikipedia/commons/b/b0/Ferrari_488_Pista_10.jpg</extraimagenurl>
+          </masimagenes>
+        </auto>
       </generacion>
     </modelo>
   </marca>
@@ -779,34 +803,272 @@ El Ferrari SF90 Spider, además de mantener la silueta del SF90 Stradale, presen
     <url>https://www.altanave.uy/2024/10/koenigsegg.html</url>
     <modelo nombre="CC 8S">
       <generacion nombre="Koenigsegg CC Series" añoInicio="2002" añoFin="2004">
-        <auto id="49" terminado="true"><nombre>Koenigsegg CC 8S</nombre><año>2002</año><chasis>Coupe 2 puertas</chasis><propulsion>Gasolina</propulsion><velocidad>390</velocidad><potencia>646</potencia><aceleracion>3,5</aceleracion><tipo>Superauto</tipo><precio>700000</precio><imagen>https://upload.wikimedia.org/wikipedia/commons/7/7b/2015-03-03_Geneva_Motor_Show_3305_%28cropped%29.JPG</imagen><enlace>https://www.altanave.uy/2024/11/koenigsegg-cc-8s-2002-coupe.html</enlace><bloques><bloque><imagenurl>https://upload.wikimedia.org/wikipedia/commons/9/99/2003_Koenigsegg_CC8S_%2835862871624%29.jpg</imagenurl><titulo>Koenigsegg Superauto</titulo><texto>El Koenigsegg CC8S es un superdeportivo biplaza con motor central-trasero, resultado de 8 años de investigación y desarrollo. Tanto el chasis como la suspensión, los frenos y otros elementos clave fueron diseñados internamente por la marca.</texto></bloque><bloque><imagenurl>https://upload.wikimedia.org/wikipedia/commons/a/ae/2003_Koenigsegg_CC8S_%2836697853365%29.jpg</imagenurl><titulo>Koenigsegg puertas </titulo><texto>Contaba con varias características innovadoras, como un techo que se podía guardar en el compartimiento delantero, puertas diédricas de apertura vertical conocidas como "Synchrohelix®" y un sistema de escape central de flujo libre, también patentado.</texto></bloque></bloques><masimagenes><extraimagenurl>https://upload.wikimedia.org/wikipedia/commons/3/39/2003_Koenigsegg_CC8S_%2836651947496%29.jpg</extraimagenurl></masimagenes></auto>
-        <auto id="50" terminado="true"><nombre>Koenigsegg CCR</nombre><año>2004</año><chasis>Coupe 2 puertas</chasis><propulsion>Gasolina</propulsion><velocidad>395</velocidad><potencia>806</potencia><aceleracion>3,2</aceleracion><tipo>Superauto</tipo><precio>2000000</precio><imagen>https://upload.wikimedia.org/wikipedia/commons/b/b5/Koenigsegg_CCR_5.jpg</imagen><enlace>https://www.altanave.uy/2024/11/koenigsegg-ccr-2004-coupe.html</enlace><bloques><bloque><imagenurl>https://upload.wikimedia.org/wikipedia/commons/d/d6/2009_Koenigsegg_CCR_Far_shot.jpg</imagenurl><titulo>Koenigsegg CCR superauto</titulo><texto>Es el tercer automóvil producido por la empresa sueca, representando una evolución del CC8S, con mejoras significativas en comparación con sus predecesores. Entre las mejoras se incluyen un diseño de carrocería optimizado, con un separador frontal ("splitter") más grande, frenos más potentes, y neumáticos y llantas de mayor tamaño.</texto></bloque><bloque><imagenurl>https://upload.wikimedia.org/wikipedia/commons/5/50/Koenigsegg_CCR%2C_GIMS_2019%2C_Le_Grand-Saconnex_%28GIMS0036%29_%28cropped%29.jpg</imagenurl><titulo>Koenigsegg CCR kevlar</titulo><texto>La carrocería está construida a partir de fibra de carbono reforzada con kevlar para mejorar su resistencia.</texto></bloque><bloque><imagenurl>https://upload.wikimedia.org/wikipedia/commons/0/04/Koenigsegg_CCR%2C_GIMS_2019%2C_Le_Grand-Saconnex_%28GIMS0035%29.jpg</imagenurl><titulo>Koenigsegg CCR motor </titulo><texto>El vehículo cuenta con un motor V8 de 4,7 litros, suministrado por Ford, que genera una potencia de 806 caballos de fuerza, y está combinado con una transmisión manual Cima de seis marchas, diseñada específicamente para este modelo.</texto></bloque></bloques></auto>
-        <auto id="51" terminado="true"><nombre>Koenigsegg CCX</nombre><año>2008</año><chasis>Coupe 2 puertas</chasis><propulsion>Gasolina</propulsion><velocidad>420</velocidad><potencia>1004</potencia><aceleracion>3,1</aceleracion><tipo>Superauto</tipo><precio>3150000</precio><imagen>https://upload.wikimedia.org/wikipedia/commons/1/10/Koenigsegg_CCX_%289524008619%29.jpg</imagen><enlace>https://www.altanave.uy/2024/11/koenigsegg-ccx-2008-coupe.html</enlace><bloques><bloque><imagenurl>https://upload.wikimedia.org/wikipedia/commons/9/9c/Koenigsegg_CCX_%2816702216680%29.jpg</imagenurl><titulo>Koenigsegg CCX</titulo><texto>Es un automóvil biplaza de tecnología de vanguardia. La abreviatura CCX representa "Coupe de Competición X". Aunque se basa en el modelo anterior, este coche es esencialmente un nuevo diseño, ya que su ingeniería fue completamente reconfigurada en varios aspectos para cumplir con las normativas internacionales.</texto></bloque><bloque><imagenurl>https://upload.wikimedia.org/wikipedia/commons/b/b7/2008_Koenigsegg_CCX_R_Edition_LC24.jpg</imagenurl><titulo>Koenigsegg motor </titulo><texto>El motor V8 del Koenigsegg está equipado con dos supercargadores. Su bloque está fabricado en aluminio y dispone de cuatro válvulas por cilindro, junto con doble árbol de levas en cabeza. Tiene una cilindrada de 4,7 litros.</texto></bloque><bloque><imagenurl>https://upload.wikimedia.org/wikipedia/commons/4/44/Koenigsegg_CCXR_%2852558632108%29.jpg</imagenurl><titulo>Koenigsegg vs Bugatti Veyron</titulo><texto>El Koenigsegg CCX fue evaluado por expertos, y logró una velocidad máxima de 419 km/h, lo que lo posiciona como uno de los superautos más rápidos, aunque no supera al Bugatti Veyron en ese aspecto.</texto></bloque></bloques></auto>
+        <auto id="49" terminado="true">
+          <nombre>Koenigsegg CC 8S</nombre>
+          <año>2002</año>
+          <chasis>Coupe 2 puertas</chasis>
+          <propulsion>Gasolina</propulsion>
+          <velocidad>390</velocidad>
+          <potencia>646</potencia>
+          <aceleracion>3,5</aceleracion>
+          <tipo>Superauto</tipo>
+          <precio>700000</precio>
+          <imagen>https://upload.wikimedia.org/wikipedia/commons/7/7b/2015-03-03_Geneva_Motor_Show_3305_%28cropped%29.JPG</imagen>
+          <enlace>https://www.altanave.uy/2024/11/koenigsegg-cc-8s-2002-coupe.html</enlace>
+          <bloques>
+            <bloque>
+              <imagenurl>https://upload.wikimedia.org/wikipedia/commons/9/99/2003_Koenigsegg_CC8S_%2835862871624%29.jpg</imagenurl>
+              <titulo>Koenigsegg Superauto</titulo>
+              <texto>El Koenigsegg CC8S es un superdeportivo biplaza con motor central-trasero, resultado de 8 años de investigación y desarrollo. Tanto el chasis como la suspensión, los frenos y otros elementos clave fueron diseñados internamente por la marca.</texto>
+            </bloque>
+            <bloque>
+              <imagenurl>https://upload.wikimedia.org/wikipedia/commons/a/ae/2003_Koenigsegg_CC8S_%2836697853365%29.jpg</imagenurl>
+              <titulo>Koenigsegg puertas </titulo>
+              <texto>Contaba con varias características innovadoras, como un techo que se podía guardar en el compartimiento delantero, puertas diédricas de apertura vertical conocidas como "Synchrohelix®" y un sistema de escape central de flujo libre, también patentado.</texto>
+            </bloque>
+          </bloques>
+          <masimagenes>
+            <extraimagenurl>https://upload.wikimedia.org/wikipedia/commons/3/39/2003_Koenigsegg_CC8S_%2836651947496%29.jpg</extraimagenurl>
+          </masimagenes>
+        </auto>
+        <auto id="50" terminado="true">
+          <nombre>Koenigsegg CCR</nombre>
+          <año>2004</año>
+          <chasis>Coupe 2 puertas</chasis>
+          <propulsion>Gasolina</propulsion>
+          <velocidad>395</velocidad>
+          <potencia>806</potencia>
+          <aceleracion>3,2</aceleracion>
+          <tipo>Superauto</tipo>
+          <precio>2000000</precio>
+          <imagen>https://upload.wikimedia.org/wikipedia/commons/b/b5/Koenigsegg_CCR_5.jpg</imagen>
+          <enlace>https://www.altanave.uy/2024/11/koenigsegg-ccr-2004-coupe.html</enlace>
+          <bloques>
+            <bloque>
+              <imagenurl>https://upload.wikimedia.org/wikipedia/commons/d/d6/2009_Koenigsegg_CCR_Far_shot.jpg</imagenurl>
+              <titulo>Koenigsegg CCR superauto</titulo>
+              <texto>Es el tercer automóvil producido por la empresa sueca, representando una evolución del CC8S, con mejoras significativas en comparación con sus predecesores. Entre las mejoras se incluyen un diseño de carrocería optimizado, con un separador frontal ("splitter") más grande, frenos más potentes, y neumáticos y llantas de mayor tamaño.</texto>
+            </bloque>
+            <bloque>
+              <imagenurl>https://upload.wikimedia.org/wikipedia/commons/5/50/Koenigsegg_CCR%2C_GIMS_2019%2C_Le_Grand-Saconnex_%28GIMS0036%29_%28cropped%29.jpg</imagenurl>
+              <titulo>Koenigsegg CCR kevlar</titulo>
+              <texto>La carrocería está construida a partir de fibra de carbono reforzada con kevlar para mejorar su resistencia.</texto>
+            </bloque>
+            <bloque>
+              <imagenurl>https://upload.wikimedia.org/wikipedia/commons/0/04/Koenigsegg_CCR%2C_GIMS_2019%2C_Le_Grand-Saconnex_%28GIMS0035%29.jpg</imagenurl>
+              <titulo>Koenigsegg CCR motor </titulo>
+              <texto>El vehículo cuenta con un motor V8 de 4,7 litros, suministrado por Ford, que genera una potencia de 806 caballos de fuerza, y está combinado con una transmisión manual Cima de seis marchas, diseñada específicamente para este modelo.</texto>
+            </bloque>
+          </bloques>
+        </auto>
+        <auto id="51" terminado="true">
+          <nombre>Koenigsegg CCX</nombre>
+          <año>2008</año>
+          <chasis>Coupe 2 puertas</chasis>
+          <propulsion>Gasolina</propulsion>
+          <velocidad>420</velocidad>
+          <potencia>1004</potencia>
+          <aceleracion>3,1</aceleracion>
+          <tipo>Superauto</tipo>
+          <precio>3150000</precio>
+          <imagen>https://upload.wikimedia.org/wikipedia/commons/1/10/Koenigsegg_CCX_%289524008619%29.jpg</imagen>
+          <enlace>https://www.altanave.uy/2024/11/koenigsegg-ccx-2008-coupe.html</enlace>
+          <bloques>
+            <bloque>
+              <imagenurl>https://upload.wikimedia.org/wikipedia/commons/9/9c/Koenigsegg_CCX_%2816702216680%29.jpg</imagenurl>
+              <titulo>Koenigsegg CCX</titulo>
+              <texto>Es un automóvil biplaza de tecnología de vanguardia. La abreviatura CCX representa "Coupe de Competición X". Aunque se basa en el modelo anterior, este coche es esencialmente un nuevo diseño, ya que su ingeniería fue completamente reconfigurada en varios aspectos para cumplir con las normativas internacionales.</texto>
+            </bloque>
+            <bloque>
+              <imagenurl>https://upload.wikimedia.org/wikipedia/commons/b/b7/2008_Koenigsegg_CCX_R_Edition_LC24.jpg</imagenurl>
+              <titulo>Koenigsegg motor </titulo>
+              <texto>El motor V8 del Koenigsegg está equipado con dos supercargadores. Su bloque está fabricado en aluminio y dispone de cuatro válvulas por cilindro, junto con doble árbol de levas en cabeza. Tiene una cilindrada de 4,7 litros.</texto>
+            </bloque>
+            <bloque>
+              <imagenurl>https://upload.wikimedia.org/wikipedia/commons/4/44/Koenigsegg_CCXR_%2852558632108%29.jpg</imagenurl>
+              <titulo>Koenigsegg vs Bugatti Veyron</titulo>
+              <texto>El Koenigsegg CCX fue evaluado por expertos, y logró una velocidad máxima de 419 km/h, lo que lo posiciona como uno de los superautos más rápidos, aunque no supera al Bugatti Veyron en ese aspecto.</texto>
+            </bloque>
+          </bloques>
+        </auto>
       </generacion>
     </modelo>
     <modelo nombre="Agera">
       <generacion nombre="Koenigsegg Agera" añoInicio="2010" añoFin="2017">
-        <auto id="52" terminado="true"><nombre>Koenigsegg Agera R</nombre><año>2012</año><chasis>Coupe 2 puertas</chasis><propulsion>Gasolina</propulsion><velocidad>442</velocidad><potencia>1100</potencia><aceleracion>2,9</aceleracion><tipo>Superauto</tipo><precio>2210000</precio><imagen>https://upload.wikimedia.org/wikipedia/commons/9/9e/Koenigsegg_Agera_RSN_2_NDM.jpg</imagen><enlace>https://www.altanave.uy/2024/11/koenigsegg-agera-r-2012-coupe.html</enlace><bloques><bloque><imagenurl>https://upload.wikimedia.org/wikipedia/commons/8/80/Koenigsegg_Agera_RSN.jpg</imagenurl><titulo>Agera vs Veyron</titulo><texto>Es una versión mejorada del Agera, con mayor velocidad, potencia y eficiencia aerodinámica. En cuanto al diseño, se distingue por un alerón significativamente más grande y agresivo. Lo más destacado es el motor modificado, que genera 1085 HP, superando la potencia de la versión estándar del Bugatti Veyron.</texto></bloque><bloque><imagenurl>https://upload.wikimedia.org/wikipedia/commons/e/e5/Koenigsegg_Agera_R_%285488114439%29.jpg</imagenurl><titulo>Koenigsegg Agera Motor </titulo><texto>
-Motor V8 biturbo de 5 litros con transmisión de doble embrague y 7 velocidades.</texto></bloque></bloques></auto>
-        <auto id="69" terminado="true"><nombre>Koenigsegg Agera RS</nombre><año>2017</año><chasis>Coupe 2 puertas</chasis><propulsion>Gasolina</propulsion><velocidad>447</velocidad><potencia>1160</potencia><aceleracion>2,6</aceleracion><tipo>Superauto</tipo><precio>3000000</precio><imagen>https://upload.wikimedia.org/wikipedia/commons/2/2d/Agera_RS_Naraya.jpg</imagen><enlace>https://www.altanave.uy/2024/11/koenigsegg-agera-rs-2017-coupe.html</enlace><bloques><bloque><imagenurl>https://upload.wikimedia.org/wikipedia/commons/5/55/Geneva_Motor_Show_2015_Koenigsegg_Agera_RS_%2824225499210%29.jpg</imagenurl><titulo>Koenigsegg Agera velocidad maxima</titulo><texto>Con el Koenigsegg Agera RS, la marca estableció un nuevo récord mundial en el Libro Guinness al convertirse en el automóvil más veloz de su tiempo, logrando una impresionante velocidad de 447 km/h gracias a su motor V8 biturbo de 5.0 litros que produce 1.160 caballos de fuerza.</texto></bloque></bloques><masimagenes><extraimagenurl>https://upload.wikimedia.org/wikipedia/commons/7/7c/Geneva_Motor_Show_2015_Koenigsegg_Agera_RS_%2824225549750%29.jpg</extraimagenurl><extraimagenurl>https://upload.wikimedia.org/wikipedia/commons/d/dc/Geneva_Motor_Show_2015_Koenigsegg_Agera_RS_5.0_%2715_%2816937491151%29.jpg</extraimagenurl><extraimagenurl>https://upload.wikimedia.org/wikipedia/commons/8/88/Geneva_Motor_Show_2015_Koenigsegg_Agera_RS_5.0_%2716_%2819315056680%29.jpg</extraimagenurl><extraimagenurl>https://upload.wikimedia.org/wikipedia/commons/0/0b/Geneva_Motor_Show_2015_Koenigsegg_Agera_RS_5.0_%2715_%2816158355583%29.jpg</extraimagenurl><extraimagenurl>https://upload.wikimedia.org/wikipedia/commons/d/db/Koenigsegg_Agera_RS.JPG</extraimagenurl></masimagenes></auto>
+        <auto id="52" terminado="true">
+          <nombre>Koenigsegg Agera R</nombre>
+          <año>2012</año>
+          <chasis>Coupe 2 puertas</chasis>
+          <propulsion>Gasolina</propulsion>
+          <velocidad>442</velocidad>
+          <potencia>1100</potencia>
+          <aceleracion>2,9</aceleracion>
+          <tipo>Superauto</tipo>
+          <precio>2210000</precio>
+          <imagen>https://upload.wikimedia.org/wikipedia/commons/9/9e/Koenigsegg_Agera_RSN_2_NDM.jpg</imagen>
+          <enlace>https://www.altanave.uy/2024/11/koenigsegg-agera-r-2012-coupe.html</enlace>
+          <bloques>
+            <bloque>
+              <imagenurl>https://upload.wikimedia.org/wikipedia/commons/8/80/Koenigsegg_Agera_RSN.jpg</imagenurl>
+              <titulo>Agera vs Veyron</titulo>
+              <texto>Es una versión mejorada del Agera, con mayor velocidad, potencia y eficiencia aerodinámica. En cuanto al diseño, se distingue por un alerón significativamente más grande y agresivo. Lo más destacado es el motor modificado, que genera 1085 HP, superando la potencia de la versión estándar del Bugatti Veyron.</texto>
+            </bloque>
+            <bloque>
+              <imagenurl>https://upload.wikimedia.org/wikipedia/commons/e/e5/Koenigsegg_Agera_R_%285488114439%29.jpg</imagenurl>
+              <titulo>Koenigsegg Agera Motor </titulo>
+              <texto>
+Motor V8 biturbo de 5 litros con transmisión de doble embrague y 7 velocidades.</texto>
+            </bloque>
+          </bloques>
+        </auto>
+        <auto id="69" terminado="true">
+          <nombre>Koenigsegg Agera RS</nombre>
+          <año>2017</año>
+          <chasis>Coupe 2 puertas</chasis>
+          <propulsion>Gasolina</propulsion>
+          <velocidad>447</velocidad>
+          <potencia>1160</potencia>
+          <aceleracion>2,6</aceleracion>
+          <tipo>Superauto</tipo>
+          <precio>3000000</precio>
+          <imagen>https://upload.wikimedia.org/wikipedia/commons/2/2d/Agera_RS_Naraya.jpg</imagen>
+          <enlace>https://www.altanave.uy/2024/11/koenigsegg-agera-rs-2017-coupe.html</enlace>
+          <bloques>
+            <bloque>
+              <imagenurl>https://upload.wikimedia.org/wikipedia/commons/5/55/Geneva_Motor_Show_2015_Koenigsegg_Agera_RS_%2824225499210%29.jpg</imagenurl>
+              <titulo>Koenigsegg Agera velocidad maxima</titulo>
+              <texto>Con el Koenigsegg Agera RS, la marca estableció un nuevo récord mundial en el Libro Guinness al convertirse en el automóvil más veloz de su tiempo, logrando una impresionante velocidad de 447 km/h gracias a su motor V8 biturbo de 5.0 litros que produce 1.160 caballos de fuerza.</texto>
+            </bloque>
+          </bloques>
+          <masimagenes>
+            <extraimagenurl>https://upload.wikimedia.org/wikipedia/commons/7/7c/Geneva_Motor_Show_2015_Koenigsegg_Agera_RS_%2824225549750%29.jpg</extraimagenurl>
+            <extraimagenurl>https://upload.wikimedia.org/wikipedia/commons/d/dc/Geneva_Motor_Show_2015_Koenigsegg_Agera_RS_5.0_%2715_%2816937491151%29.jpg</extraimagenurl>
+            <extraimagenurl>https://upload.wikimedia.org/wikipedia/commons/8/88/Geneva_Motor_Show_2015_Koenigsegg_Agera_RS_5.0_%2716_%2819315056680%29.jpg</extraimagenurl>
+            <extraimagenurl>https://upload.wikimedia.org/wikipedia/commons/0/0b/Geneva_Motor_Show_2015_Koenigsegg_Agera_RS_5.0_%2715_%2816158355583%29.jpg</extraimagenurl>
+            <extraimagenurl>https://upload.wikimedia.org/wikipedia/commons/d/db/Koenigsegg_Agera_RS.JPG</extraimagenurl>
+          </masimagenes>
+        </auto>
       </generacion>
       <generacion nombre="Koenigsegg Agera One:1" añoInicio="2014" añoFin="2015">
-        <auto id="53" terminado="true"><nombre>Koenigsegg Agera One:1</nombre><año>2014</año><chasis>Coupe 2 puertas</chasis><propulsion>Gasolina</propulsion><velocidad>440</velocidad><potencia>1341</potencia><aceleracion>2,6</aceleracion><tipo>Superauto</tipo><precio>2925000</precio><imagen>https://upload.wikimedia.org/wikipedia/commons/8/85/Koenigsegg_%28Agera%29_One-1_at_Goodwood_2014_004.jpg</imagen><enlace>https://www.altanave.uy/2024/11/koenigsegg-agera-one1-2014-coupe.html</enlace><bloques><bloque><imagenurl>https://upload.wikimedia.org/wikipedia/commons/1/1d/Koenigsegg_%28Agera%29_One-1_at_Goodwood_2014_003.jpg</imagenurl><titulo>One:1 potencia peso</titulo><texto>El nombre One:1 hace referencia a su increíble relación de potencia a peso, con 1341 caballos de fuerza (1360 CV) y un peso de 1361 kg, lo que resulta en una proporción de 1 caballo de fuerza por kilogramo.</texto></bloque></bloques></auto>
+        <auto id="53" terminado="true">
+          <nombre>Koenigsegg Agera One:1</nombre>
+          <año>2014</año>
+          <chasis>Coupe 2 puertas</chasis>
+          <propulsion>Gasolina</propulsion>
+          <velocidad>440</velocidad>
+          <potencia>1341</potencia>
+          <aceleracion>2,6</aceleracion>
+          <tipo>Superauto</tipo>
+          <precio>2925000</precio>
+          <imagen>https://upload.wikimedia.org/wikipedia/commons/8/85/Koenigsegg_%28Agera%29_One-1_at_Goodwood_2014_004.jpg</imagen>
+          <enlace>https://www.altanave.uy/2024/11/koenigsegg-agera-one1-2014-coupe.html</enlace>
+          <bloques>
+            <bloque>
+              <imagenurl>https://upload.wikimedia.org/wikipedia/commons/1/1d/Koenigsegg_%28Agera%29_One-1_at_Goodwood_2014_003.jpg</imagenurl>
+              <titulo>One:1 potencia peso</titulo>
+              <texto>El nombre One:1 hace referencia a su increíble relación de potencia a peso, con 1341 caballos de fuerza (1360 CV) y un peso de 1361 kg, lo que resulta en una proporción de 1 caballo de fuerza por kilogramo.</texto>
+            </bloque>
+          </bloques>
+        </auto>
       </generacion>
     </modelo>
     <modelo nombre="Jesko">
       <generacion nombre="Koenigsegg Jesko" añoInicio="2020" añoFin="2025">
-        <auto id="54" terminado="true"><nombre>Koenigsegg Jesko</nombre><año>2023</año><chasis>Targa 2 puertas</chasis><propulsion>Gasolina</propulsion><velocidad>438</velocidad><potencia>1602</potencia><aceleracion>2,4</aceleracion><tipo>Superauto</tipo><precio>3500000</precio><imagen>https://upload.wikimedia.org/wikipedia/commons/9/9b/2023_Koenigsegg_Jesko_LC24.jpg</imagen><enlace>https://www.altanave.uy/2024/11/koenigsegg-jesko-2023-targa.html</enlace><bloques><bloque><imagenurl>https://upload.wikimedia.org/wikipedia/commons/1/14/2023_Koenigsegg_Jesko_Rear_LC24.jpg</imagenurl><titulo>Jesko von Koenigsegg</titulo><texto>El Jesko reemplaza al Agera y su nombre rinde homenaje a Jesko von Koenigsegg, el padre del fundador de la marca.</texto></bloque><bloque><imagenurl>https://upload.wikimedia.org/wikipedia/commons/7/79/Koenigsegg_Jesko_Genf_2019_1Y7A5543.jpg</imagenurl><titulo>Jesko Motor</titulo><texto>Motor V8 biturbo de 5,1 litros, con doble árbol de levas (DOHC) y cuatro válvulas por cilindro.</texto></bloque></bloques><masimagenes><extraimagenurl>https://upload.wikimedia.org/wikipedia/commons/f/fb/Koenigsegg_Jesko_Genf_2019_1Y7A5552.jpg</extraimagenurl><extraimagenurl>https://upload.wikimedia.org/wikipedia/commons/c/c5/Koenigsegg_Jesko%2C_GIMS_2019%2C_Le_Grand-Saconnex_%28GIMS1046%29.jpg</extraimagenurl><extraimagenurl>https://upload.wikimedia.org/wikipedia/commons/4/4e/Koenigsegg_Jesko_Auto_Zuerich_2023_1X7A1398.jpg</extraimagenurl><extraimagenurl>https://upload.wikimedia.org/wikipedia/commons/8/82/Koenigsegg_Jesko_Auto_Zuerich_2023_1X7A0924.jpg</extraimagenurl><extraimagenurl>https://upload.wikimedia.org/wikipedia/commons/a/a9/Koenigsegg_Jesko_Auto_Zuerich_2023_1X7A1377.jpg</extraimagenurl></masimagenes></auto>
+        <auto id="54" terminado="true">
+          <nombre>Koenigsegg Jesko</nombre>
+          <año>2023</año>
+          <chasis>Targa 2 puertas</chasis>
+          <propulsion>Gasolina</propulsion>
+          <velocidad>438</velocidad>
+          <potencia>1602</potencia>
+          <aceleracion>2,4</aceleracion>
+          <tipo>Superauto</tipo>
+          <precio>3500000</precio>
+          <imagen>https://upload.wikimedia.org/wikipedia/commons/9/9b/2023_Koenigsegg_Jesko_LC24.jpg</imagen>
+          <enlace>https://www.altanave.uy/2024/11/koenigsegg-jesko-2023-targa.html</enlace>
+          <bloques>
+            <bloque>
+              <imagenurl>https://upload.wikimedia.org/wikipedia/commons/1/14/2023_Koenigsegg_Jesko_Rear_LC24.jpg</imagenurl>
+              <titulo>Jesko von Koenigsegg</titulo>
+              <texto>El Jesko reemplaza al Agera y su nombre rinde homenaje a Jesko von Koenigsegg, el padre del fundador de la marca.</texto>
+            </bloque>
+            <bloque>
+              <imagenurl>https://upload.wikimedia.org/wikipedia/commons/7/79/Koenigsegg_Jesko_Genf_2019_1Y7A5543.jpg</imagenurl>
+              <titulo>Jesko Motor</titulo>
+              <texto>Motor V8 biturbo de 5,1 litros, con doble árbol de levas (DOHC) y cuatro válvulas por cilindro.</texto>
+            </bloque>
+          </bloques>
+          <masimagenes>
+            <extraimagenurl>https://upload.wikimedia.org/wikipedia/commons/f/fb/Koenigsegg_Jesko_Genf_2019_1Y7A5552.jpg</extraimagenurl>
+            <extraimagenurl>https://upload.wikimedia.org/wikipedia/commons/c/c5/Koenigsegg_Jesko%2C_GIMS_2019%2C_Le_Grand-Saconnex_%28GIMS1046%29.jpg</extraimagenurl>
+            <extraimagenurl>https://upload.wikimedia.org/wikipedia/commons/4/4e/Koenigsegg_Jesko_Auto_Zuerich_2023_1X7A1398.jpg</extraimagenurl>
+            <extraimagenurl>https://upload.wikimedia.org/wikipedia/commons/8/82/Koenigsegg_Jesko_Auto_Zuerich_2023_1X7A0924.jpg</extraimagenurl>
+            <extraimagenurl>https://upload.wikimedia.org/wikipedia/commons/a/a9/Koenigsegg_Jesko_Auto_Zuerich_2023_1X7A1377.jpg</extraimagenurl>
+          </masimagenes>
+        </auto>
       </generacion>
     </modelo>
     <modelo nombre="Gemera">
       <generacion nombre="Koenigsegg Gemera" añoInicio="2020" añoFin="2025">
-        <auto id="55" terminado="true"><nombre>Koenigsegg Gemera</nombre><año>2020</año><chasis>Coupe 2 puertas</chasis><propulsion>Híbrido Enchufable</propulsion><velocidad>432</velocidad><potencia>1699</potencia><aceleracion>3,6</aceleracion><tipo>Superauto</tipo><precio>2000000</precio><imagen>https://upload.wikimedia.org/wikipedia/commons/2/2e/2020_Koenigsegg_Gemera_2.0.jpg</imagen><enlace>https://www.altanave.uy/2024/11/koenigsegg-gemera-2020-coupe.html</enlace><bloques><bloque><imagenurl>https://upload.wikimedia.org/wikipedia/commons/d/d2/Koenigsegg_Gemera_%2852561129050%29.jpg</imagenurl><titulo>Koenigsegg híbrido </titulo><texto>El Koenigsegg Gemera es un superdeportivo híbrido eléctrico de tipo Gran Turismo, con un motor central-trasero de 3 cilindros biturbo de 2 litros, complementado por tres motores eléctricos.</texto></bloque><bloque><imagenurl>https://upload.wikimedia.org/wikipedia/commons/8/8a/Koenigsegg_Gemera_%2852561129015%29.jpg</imagenurl><titulo>Gemera carrocería </titulo><texto>Su carrocería tipo Gran Turismo cuenta con faros LED en la parte delantera y trasera, además de grandes entradas de aire en las fascias, que proporcionan flujo de aire tanto al motor de combustión como a los sistemas eléctricos.</texto></bloque></bloques></auto>
+        <auto id="55" terminado="true">
+          <nombre>Koenigsegg Gemera</nombre>
+          <año>2020</año>
+          <chasis>Coupe 2 puertas</chasis>
+          <propulsion>Híbrido Enchufable</propulsion>
+          <velocidad>432</velocidad>
+          <potencia>1699</potencia>
+          <aceleracion>3,6</aceleracion>
+          <tipo>Superauto</tipo>
+          <precio>2000000</precio>
+          <imagen>https://upload.wikimedia.org/wikipedia/commons/2/2e/2020_Koenigsegg_Gemera_2.0.jpg</imagen>
+          <enlace>https://www.altanave.uy/2024/11/koenigsegg-gemera-2020-coupe.html</enlace>
+          <bloques>
+            <bloque>
+              <imagenurl>https://upload.wikimedia.org/wikipedia/commons/d/d2/Koenigsegg_Gemera_%2852561129050%29.jpg</imagenurl>
+              <titulo>Koenigsegg híbrido </titulo>
+              <texto>El Koenigsegg Gemera es un superdeportivo híbrido eléctrico de tipo Gran Turismo, con un motor central-trasero de 3 cilindros biturbo de 2 litros, complementado por tres motores eléctricos.</texto>
+            </bloque>
+            <bloque>
+              <imagenurl>https://upload.wikimedia.org/wikipedia/commons/8/8a/Koenigsegg_Gemera_%2852561129015%29.jpg</imagenurl>
+              <titulo>Gemera carrocería </titulo>
+              <texto>Su carrocería tipo Gran Turismo cuenta con faros LED en la parte delantera y trasera, además de grandes entradas de aire en las fascias, que proporcionan flujo de aire tanto al motor de combustión como a los sistemas eléctricos.</texto>
+            </bloque>
+          </bloques>
+        </auto>
       </generacion>
     </modelo>
     <modelo nombre="Regera">
       <generacion nombre="Koenigsegg Regera" añoInicio="2020" añoFin="2025">
-        <auto id="56" terminado="true"><nombre>Koenigsegg Regera</nombre><año>2022</año><chasis>Coupe 2 puertas</chasis><propulsion>Gasolina</propulsion><velocidad>410</velocidad><potencia>1489</potencia><aceleracion>2,7</aceleracion><tipo>Superauto</tipo><precio>2500000</precio><imagen>https://upload.wikimedia.org/wikipedia/commons/7/71/Koenigsegg_Regera_White.jpg</imagen><enlace>https://www.altanave.uy/2024/11/koenigsegg-regera-2022-coupe.html</enlace><bloques><bloque><imagenurl>https://upload.wikimedia.org/wikipedia/commons/4/4c/Koenigsegg_Regera_Front.jpg</imagenurl><titulo>Superdeportivo híbrido</titulo><texto>Koenigsegg Regera es un superdeportivo híbrido eléctrico enchufable de edición limitada.</texto></bloque><bloque><imagenurl>https://upload.wikimedia.org/wikipedia/commons/d/d6/2019_Koenigsegg_Regera_Rear_Side_Detail.jpg</imagenurl><titulo>Koenigsegg Regera motor </titulo><texto>El motor V8 biturbo de 5 litros, construido completamente en aluminio y desarrollado internamente por la marca, está acompañado por tres motores eléctricos que generan una potencia total de 520 kW. Además, este motor cuenta con soportes hidráulicos activos y un colector de admisión de fibra de carbono.</texto></bloque><bloque><imagenurl>https://upload.wikimedia.org/wikipedia/commons/e/e0/Koenigsegg_Regera_7193.jpg</imagenurl><titulo>Koenigsegg Regera chasis </titulo><texto>Está construido sobre un chasis de aluminio tipo panal de abejas reforzado con fibra de carbono.</texto></bloque></bloques></auto>
+        <auto id="56" terminado="true">
+          <nombre>Koenigsegg Regera</nombre>
+          <año>2022</año>
+          <chasis>Coupe 2 puertas</chasis>
+          <propulsion>Gasolina</propulsion>
+          <velocidad>410</velocidad>
+          <potencia>1489</potencia>
+          <aceleracion>2,7</aceleracion>
+          <tipo>Superauto</tipo>
+          <precio>2500000</precio>
+          <imagen>https://upload.wikimedia.org/wikipedia/commons/7/71/Koenigsegg_Regera_White.jpg</imagen>
+          <enlace>https://www.altanave.uy/2024/11/koenigsegg-regera-2022-coupe.html</enlace>
+          <bloques>
+            <bloque>
+              <imagenurl>https://upload.wikimedia.org/wikipedia/commons/4/4c/Koenigsegg_Regera_Front.jpg</imagenurl>
+              <titulo>Superdeportivo híbrido</titulo>
+              <texto>Koenigsegg Regera es un superdeportivo híbrido eléctrico enchufable de edición limitada.</texto>
+            </bloque>
+            <bloque>
+              <imagenurl>https://upload.wikimedia.org/wikipedia/commons/d/d6/2019_Koenigsegg_Regera_Rear_Side_Detail.jpg</imagenurl>
+              <titulo>Koenigsegg Regera motor </titulo>
+              <texto>El motor V8 biturbo de 5 litros, construido completamente en aluminio y desarrollado internamente por la marca, está acompañado por tres motores eléctricos que generan una potencia total de 520 kW. Además, este motor cuenta con soportes hidráulicos activos y un colector de admisión de fibra de carbono.</texto>
+            </bloque>
+            <bloque>
+              <imagenurl>https://upload.wikimedia.org/wikipedia/commons/e/e0/Koenigsegg_Regera_7193.jpg</imagenurl>
+              <titulo>Koenigsegg Regera chasis </titulo>
+              <texto>Está construido sobre un chasis de aluminio tipo panal de abejas reforzado con fibra de carbono.</texto>
+            </bloque>
+          </bloques>
+        </auto>
       </generacion>
     </modelo>
   </marca>
@@ -817,7 +1079,22 @@ Motor V8 biturbo de 5 litros con transmisión de doble embrague y 7 velocidades.
     <url>https://www.altanave.uy/2024/10/lamborghini.html</url>
     <modelo nombre="350 GT">
       <generacion nombre="Lamborghini 350 GT" añoInicio="1964" añoFin="1966">
-        <auto id="18"><nombre>Lamborghini 350 GT</nombre><año>1965</año><chasis>Coupe 2 puertas</chasis><propulsion>Gasolina</propulsion><velocidad>260</velocidad><potencia>276</potencia><aceleracion>6,8</aceleracion><tipo>Deportivo</tipo><precio>160000</precio><imagen>https://upload.wikimedia.org/wikipedia/commons/4/40/12-10-25-autostadt-wolfsburg-by-RalfR-30.jpg</imagen><enlace>https://www.altanave.uy/2024/11/lamborghini-350-gt-1965-coupe.html</enlace><bloques><bloque><titulo>Lamborghini 350 GT motor</titulo><texto>&lt;div class="motor-info"&gt;
+        <auto id="18">
+          <nombre>Lamborghini 350 GT</nombre>
+          <año>1965</año>
+          <chasis>Coupe 2 puertas</chasis>
+          <propulsion>Gasolina</propulsion>
+          <velocidad>260</velocidad>
+          <potencia>276</potencia>
+          <aceleracion>6,8</aceleracion>
+          <tipo>Deportivo</tipo>
+          <precio>160000</precio>
+          <imagen>https://upload.wikimedia.org/wikipedia/commons/4/40/12-10-25-autostadt-wolfsburg-by-RalfR-30.jpg</imagen>
+          <enlace>https://www.altanave.uy/2024/11/lamborghini-350-gt-1965-coupe.html</enlace>
+          <bloques>
+            <bloque>
+              <titulo>Lamborghini 350 GT motor</titulo>
+              <texto>&lt;div class="motor-info"&gt;
     &lt;h3&gt;Especificaciones del Motor&lt;/h3&gt;
     &lt;div class="motor-detail"&gt;
         &lt;strong&gt;Tipo de Motor:&lt;/strong&gt; Motor 12 en V, 3,5 litros&lt;br&gt;
@@ -825,7 +1102,20 @@ Motor V8 biturbo de 5 litros con transmisión de doble embrague y 7 velocidades.
         &lt;strong&gt;Alimentación:&lt;/strong&gt; 6 carburadores Weber 40 DCOE 2&lt;br&gt;
         &lt;strong&gt;Transmisión:&lt;/strong&gt; Caja manual de 5 velocidades
     &lt;/div&gt;
-&lt;/div&gt;</texto></bloque><bloque><imagenurl>https://upload.wikimedia.org/wikipedia/commons/0/08/R%C3%A9tromobile_2017_-_Lamborghini_350_GT_coup%C3%A9_touring_-_1964_-_004.jpg</imagenurl><titulo>Lamborghini 350 GT vs Ferrari</titulo><texto>El Lamborghini 350 GT de 1964 debe su nombre (Gran Turismo) a su potente motor, equipado con levas cuádruples, un avance técnico notable en la época. Este modelo presenta una suspensión trasera independiente, lo que lo distingue de competidores como Ferrari, que aún utilizaban ejes rígidos traseros en sus vehículos. Su carrocería semi-fastback en configuración 2+1 ha sido objeto de controversia en cuanto a diseño, pero agrega un toque distintivo y exclusivo al perfil elegante y aerodinámico del 350 GT.</texto></bloque><bloque><imagenurl>https://upload.wikimedia.org/wikipedia/commons/6/67/R%C3%A9tromobile_2017_-_Lamborghini_350_GT_coup%C3%A9_touring_-_1964_-_001.jpg</imagenurl><titulo>350 GT peso</titulo><texto>La carrocería del 350 GT es un controvertido diseño 2+1 semi-fastback que con un peso en vacío de 1,210 kg, el 350 GT combina potencia diseño y ligereza, características que lo consolidan como un ícono de la ingeniería automotriz italiana de la época.</texto></bloque></bloques></auto>
+&lt;/div&gt;</texto>
+            </bloque>
+            <bloque>
+              <imagenurl>https://upload.wikimedia.org/wikipedia/commons/0/08/R%C3%A9tromobile_2017_-_Lamborghini_350_GT_coup%C3%A9_touring_-_1964_-_004.jpg</imagenurl>
+              <titulo>Lamborghini 350 GT vs Ferrari</titulo>
+              <texto>El Lamborghini 350 GT de 1964 debe su nombre (Gran Turismo) a su potente motor, equipado con levas cuádruples, un avance técnico notable en la época. Este modelo presenta una suspensión trasera independiente, lo que lo distingue de competidores como Ferrari, que aún utilizaban ejes rígidos traseros en sus vehículos. Su carrocería semi-fastback en configuración 2+1 ha sido objeto de controversia en cuanto a diseño, pero agrega un toque distintivo y exclusivo al perfil elegante y aerodinámico del 350 GT.</texto>
+            </bloque>
+            <bloque>
+              <imagenurl>https://upload.wikimedia.org/wikipedia/commons/6/67/R%C3%A9tromobile_2017_-_Lamborghini_350_GT_coup%C3%A9_touring_-_1964_-_001.jpg</imagenurl>
+              <titulo>350 GT peso</titulo>
+              <texto>La carrocería del 350 GT es un controvertido diseño 2+1 semi-fastback que con un peso en vacío de 1,210 kg, el 350 GT combina potencia diseño y ligereza, características que lo consolidan como un ícono de la ingeniería automotriz italiana de la época.</texto>
+            </bloque>
+          </bloques>
+        </auto>
         <auto id="19" terminado="false">
           <nombre>Lamborghini 350 GT</nombre>
           <año>1964</año>
