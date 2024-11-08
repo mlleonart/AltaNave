@@ -236,6 +236,33 @@
         .select-warning {
             color: red;
         }
+
+        /* Estrellas de valoración
+----------------------------------------------- */
+.val-fieldset {
+width:100px;
+border:none;
+font-weight:bold;
+font-size:12px;
+}
+.valoracion {
+width: 100px;
+height: 21px;
+display: block;
+background:url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgPZR-4aUyBA3w8ZsJI9HH9-RBq3Jixt3y6DbGxUTslmx8mj4ZN138cEvg0tJsLqL1HLsBvoS4oaupc42WrRkYs_0s4ZOPCpwHfvnoH7cnt8EtGYSbVhvXo4P51RnWmDXm51bnxPMNEz9I/s0/estrellas.png) 0 0 no-repeat;
+}
+.val-0 {background-position: -100px -0;}
+.val-5 {background-position: -81px -21px;}
+.val-10 {background-position: -81px 0;}
+.val-15 {background-position: -61px -21px;}
+.val-20 {background-position: -60px 0;}
+.val-25 {background-position: -40px -21px;}
+.val-30 {background-position: -40px 0;}
+.val-35 {background-position: -21px -21px;}
+.val-40 {background-position: -21px 0;}
+.val-45 {background-position: 0 -21px;}
+.val-50 {background-position: 0 0;}
+
     </style>
 </head>
 
@@ -363,7 +390,11 @@
 
                 </div>
                 <div class="form-group">
-                    <label for="enlace">Enlace:</label>
+                    <label for="valoracionInput">Ingrese una calificación (0-50):</label>
+                    <input type="number" id="valoracionInput" min="0" max="50" step="5">
+                </div>
+                <div class="form-group">
+                    <label for="enlace">Enlace ALTANAVE:</label>
                     <input type="url" id="enlace" required>
                 </div>
 
@@ -456,6 +487,34 @@
                     style="background-color: green ; color:white">Generar Plantilla
                     Version-Generacion</button>
             </div>
+
+            <details>
+                <summary>
+                    Generador Ficha Features
+                </summary>
+                <div id="form-features" style="border: 2px solid #ccc; padding: 15px; border-radius: 8px; background: #34495e; max-width: 400px; margin: 10px auto; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); color: #ecf0f1;">
+                    <form id="data-form">
+                        <label for="motor" style="display: block; margin-bottom: 5px;">Motor:</label>
+                        <input type="text" id="motor" name="motor" placeholder="Ej: V12 de 3,5 litros" style="width: 100%; padding: 5px; margin-bottom: 10px; border-radius: 4px; border: 1px solid #ccc;">
+                        
+                        <label for="valvulas" style="display: block; margin-bottom: 5px;">Válvulas:</label>
+                        <input type="text" id="valvulas" name="valvulas" placeholder="Ej: 24 válvulas (2 válvulas por cilindro)" style="width: 100%; padding: 5px; margin-bottom: 10px; border-radius: 4px; border: 1px solid #ccc;">
+                        
+                        <label for="alimentacion" style="display: block; margin-bottom: 5px;">Alimentación:</label>
+                        <input type="text" id="alimentacion" name="alimentacion" placeholder="Ej: 6 carburadores Weber 40 DCOE 2" style="width: 100%; padding: 5px; margin-bottom: 10px; border-radius: 4px; border: 1px solid #ccc;">
+                        
+                        <label for="transmision" style="display: block; margin-bottom: 5px;">Transmisión:</label>
+                        <input type="text" id="transmision" name="transmision" placeholder="Ej: Caja manual de 5 velocidades" style="width: 100%; padding: 5px; margin-bottom: 10px; border-radius: 4px; border: 1px solid #ccc;">
+                        
+                        <label for="peso" style="display: block; margin-bottom: 5px;">Peso:</label>
+                        <input type="text" id="peso" name="peso" placeholder="Ej: 1050 kg" style="width: 100%; padding: 5px; margin-bottom: 10px; border-radius: 4px; border: 1px solid #ccc;">
+                        
+                        <button type="button" id="copy-button" style="padding: 10px 20px; background: #2980b9; color: #ecf0f1; border: none; border-radius: 4px; cursor: pointer; margin-top: 10px;">Copiar Tabla</button>
+                    </form>
+                </div>
+            </details>
+
+            
             <!--
             <div id="HTMLMarca" style="margin: 40px; border: 2px solid #555; border-radius: 5px; padding: 10px;" >
                 <h3>HTML - Marca</h3>
@@ -543,7 +602,7 @@
     añoInicio CDATA #REQUIRED
     añoFin CDATA #REQUIRED
 >
-<!ELEMENT auto (nombre, año, chasis, propulsion, velocidad, potencia, aceleracion, tipo, precio, imagen, enlace, bloques?, masimagenes?)>
+<!ELEMENT auto (nombre, año, chasis, propulsion, velocidad, potencia, aceleracion, tipo, precio, imagen, valoracionInput?, enlace, bloques?, masimagenes?)>
 <!ATTLIST auto 
     id CDATA #REQUIRED
     terminado (true | false) "false"
@@ -558,6 +617,7 @@
 <!ELEMENT tipo (#PCDATA)>
 <!ELEMENT precio (#PCDATA)>
 <!ELEMENT imagen (#PCDATA)>
+<!ELEMENT valoracionInput (#PCDATA)>
 <!ELEMENT enlace (#PCDATA)>
 <!ELEMENT bloques (bloque)*>
 <!ELEMENT bloque (imagenurl?, titulo, texto)>
@@ -625,7 +685,7 @@
                 <input type="text" class="bloque-titulo" required>
                 <label>Texto:</label>
                 <textarea class="bloque-texto" required></textarea>
-                <button type="button" style="background-color: red; onclick="this.parentElement.remove()">Eliminar Bloque</button>
+                <button type="button" style="background-color: red;" onclick="this.parentElement.remove()">Eliminar Bloque</button>
             `;
             bloques.appendChild(div);
         }
@@ -637,7 +697,7 @@
             div.className = 'imagen-adicional form-group';
             div.innerHTML = `
                 <input type="url" class="imagen-url" required placeholder="URL de la imagen">
-                <button type="button" style="background-color: red; onclick="this.parentElement.remove()">Eliminar Imagen</button>
+                <button type="button" style="background-color: red;" onclick="this.parentElement.remove()">Eliminar Imagen</button>
             `;
             masImagenes.appendChild(div);
         }
@@ -671,7 +731,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </div><fieldset class="val-fieldset"><legend>Calificación:</legend><span class="valoracion val-${car.valoracionInput}"></span></fieldset>
   `;
         }
 
@@ -719,6 +779,7 @@
                 tipo: document.getElementById('tipo').value,
                 precio: document.getElementById('precio').value,
                 imagen: document.getElementById('imagen').value,
+                valoracionInput: document.getElementById('valoracionInput').value,
                 enlace: document.getElementById('enlace').value,
                 bloques: Array.from(document.getElementsByClassName('bloque')).map(bloque => {
                     const imagenURL = bloque.querySelector('.bloque-imagen').value;
@@ -782,7 +843,7 @@
             autoElement.setAttribute('id', auto.id);
 
             const campos = ['nombre', 'año', 'chasis', 'propulsion', 'velocidad', 'potencia',
-                'aceleracion', 'tipo', 'precio', 'imagen', 'enlace'];
+                'aceleracion', 'tipo', 'precio', 'imagen', 'valoracionInput', 'enlace'];
 
             campos.forEach(campo => {
                 const element = xmlDoc.createElement(campo);
@@ -864,32 +925,29 @@
                 document.getElementById('añoFin').value = generacion.getAttribute('añoFin');
 
                 ['nombre', 'año', 'chasis', 'propulsion', 'velocidad', 'potencia',
-                    'aceleracion', 'tipo', 'precio', 'imagen', 'enlace'].forEach(campo => {
-                        const elemento = document.getElementById(campo);
-                        const valor = auto.querySelector(campo)?.textContent || '';
+        'aceleracion', 'tipo', 'precio', 'imagen', 'valoracionInput', 'enlace'].forEach(campo => {
+            const elemento = document.getElementById(campo);
+            const valor = auto.querySelector(campo)?.textContent || (campo === 'valoracionInput' ? '20' : '');
 
-                        if (!elemento) {
-                            console.error(`Elemento con id "${campo}" no encontrado en el DOM.`);
-                            return;
-                        }
+            if (!elemento) {
+                console.error(`Elemento con id "${campo}" no encontrado en el DOM.`);
+                return;
+            }
 
-                        if (elemento.tagName === 'SELECT') {
-                            const opcion = Array.from(elemento.options).find(option => option.value === valor);
-                            if (!opcion) {
-                                console.warn(`Valor "${valor}" no encontrado en las opciones de <select> para el campo "${campo}".`);
-                                elemento.value = "N/A";  // Selecciona "N/A" si no se encuentra el valor
-
-                                // Aplica la clase de advertencia en rojo
-                                elemento.classList.add("select-warning");
-                            } else {
-                                elemento.value = valor;
-                                // Quita la clase de advertencia si el valor es encontrado
-                                elemento.classList.remove("select-warning");
-                            }
-                        } else {
-                            elemento.value = valor;
-                        }
-                    });
+            if (elemento.tagName === 'SELECT') {
+                const opcion = Array.from(elemento.options).find(option => option.value === valor);
+                if (!opcion) {
+                    console.warn(`Valor "${valor}" no encontrado en las opciones de <select> para el campo "${campo}".`);
+                    elemento.value = "N/A";
+                    elemento.classList.add("select-warning");
+                } else {
+                    elemento.value = valor;
+                    elemento.classList.remove("select-warning");
+                }
+            } else {
+                elemento.value = campo === 'valoracionInput' ? parseInt(valor, 10) : valor;
+            }
+        });
 
                 // Limpiar bloques y más imágenes existentes
                 document.getElementById('bloques').innerHTML = '';
@@ -897,20 +955,21 @@
 
                 // Cargar bloques
                 const bloques = auto.querySelector('bloques');
-                if (bloques) {
-                    bloques.querySelectorAll('bloque').forEach(() => {
-                        agregarBloque();
-                    });
-                    const bloquesInputs = document.getElementsByClassName('bloque');
-                    Array.from(bloques.querySelectorAll('bloque')).forEach((bloque, index) => {
-                        bloquesInputs[index].querySelector('.bloque-imagen').value =
-                            bloque.querySelector('imagenurl').textContent;
-                        bloquesInputs[index].querySelector('.bloque-titulo').value =
-                            bloque.querySelector('titulo').textContent;
-                        bloquesInputs[index].querySelector('.bloque-texto').value =
-                            bloque.querySelector('texto').textContent;
-                    });
-                }
+if (bloques) {
+    bloques.querySelectorAll('bloque').forEach(() => {
+        agregarBloque();
+    });
+    const bloquesInputs = document.getElementsByClassName('bloque');
+    Array.from(bloques.querySelectorAll('bloque')).forEach((bloque, index) => {
+        // Verificar si existe imagenurl antes de asignar su valor
+        const imagenUrl = bloque.querySelector('imagenurl') ? bloque.querySelector('imagenurl').textContent : '';
+        bloquesInputs[index].querySelector('.bloque-imagen').value = imagenUrl;
+
+        // Asignar título y texto (se asume que estos son obligatorios y siempre estarán presentes)
+        bloquesInputs[index].querySelector('.bloque-titulo').value = bloque.querySelector('titulo').textContent;
+        bloquesInputs[index].querySelector('.bloque-texto').value = bloque.querySelector('texto').textContent;
+    });
+}
 
                 // Cargar más imágenes
                 const masImagenes = auto.querySelector('masimagenes');
@@ -961,6 +1020,7 @@
                 tipo: document.getElementById('tipo').value,
                 imagen: document.getElementById('imagen').value,
                 thumb: getThumbUrl(document.getElementById('imagen').value), // Genera una miniatura si es necesario
+                valoracionInput: getThumbUrl(document.getElementById('valoracionInput').value),
                 badgeColor: typeBadgeColor // Color por defecto para el badge
             };
 
@@ -1044,7 +1104,8 @@
                     pAaceleracion: auto.querySelector('aceleracion').textContent,
                     pImagen: auto.querySelector('imagen').textContent,
                     pThumb150: getThumbUrl(auto.querySelector('imagen').textContent, 150), // Genera una miniatura 150
-                    pThumb480: getThumbUrl(auto.querySelector('imagen').textContent, 480) // Genera una miniatura 480
+                    pThumb480: getThumbUrl(auto.querySelector('imagen').textContent, 480), // Genera una miniatura 480
+                    pValoracionInput: auto.querySelector('valoracionInput') ? parseInt(auto.querySelector('valoracionInput').textContent, 10) : 20
                 };
 
                 // Definir colores según el tipo de auto
@@ -1111,7 +1172,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </div><fieldset class="val-fieldset"><legend>Calificación:</legend><span class="valoracion val-${datos.pValoracionInput}"></span></fieldset>
 </div>
 
 <div id="description" class="descripcion-auto" style="background-color: #f0f0f0; border-radius: 8px; padding: 15px; margin-top: 20px;">
@@ -1824,6 +1885,49 @@ Lista de modelos de la marca de autos ${nombre} de ${country}. En cada coche ver
 
         }
 
+//ficha de features
+document.getElementById('copy-button').addEventListener('click', function() {
+        const motor = document.getElementById('motor').value;
+        const valvulas = document.getElementById('valvulas').value;
+        const alimentacion = document.getElementById('alimentacion').value;
+        const transmision = document.getElementById('transmision').value;
+        const peso = document.getElementById('peso').value;
+        
+        const tableHTML = `
+            </p>
+            <div style="border: 2px solid #ccc; padding: 15px; border-radius: 8px; background: #48505B; max-width: 400px; margin: 10px auto; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); color: #ecf0f1;">
+                <table style="width: 100%; border-collapse: collapse; font-family: Arial, sans-serif; color: #ecf0f1;">
+                    <tr>
+                        <td style="padding: 5px; font-weight: bold; width: 40%; text-align: left;">Motor:</td>
+                        <td style="padding: 5px; text-align: left;">${motor}</td>
+                    </tr>
+                    <tr>
+                        <td style="padding: 5px; font-weight: bold; text-align: left;">Válvulas:</td>
+                        <td style="padding: 5px; text-align: left;">${valvulas}</td>
+                    </tr>
+                    <tr>
+                        <td style="padding: 5px; font-weight: bold; text-align: left;">Alimentación:</td>
+                        <td style="padding: 5px; text-align: left;">${alimentacion}</td>
+                    </tr>
+                    <tr>
+                        <td style="padding: 5px; font-weight: bold; text-align: left;">Transmisión:</td>
+                        <td style="padding: 5px; text-align: left;">${transmision}</td>
+                    </tr>
+                    <tr>
+                        <td style="padding: 5px; font-weight: bold; text-align: left;">Peso:</td>
+                        <td style="padding: 5px; text-align: left;">${peso}</td>
+                    </tr>
+                </table>
+            </div>
+            <p>
+        `;
+
+        navigator.clipboard.writeText(tableHTML).then(function() {
+            alert('Tabla copiada al portapapeles');
+        }, function(err) {
+            console.error('Error al copiar al portapapeles: ', err);
+        });
+    });
 
         // Agregar controles de archivo
         document.body.insertAdjacentHTML('afterbegin', `
