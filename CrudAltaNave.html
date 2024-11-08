@@ -490,7 +490,7 @@ background:url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgPZR-4
 
             <details>
                 <summary>
-                    Generador Ficha Features
+                    Generador Ficha Features » Ficha
                 </summary>
                 <div id="form-features" style="border: 2px solid #ccc; padding: 15px; border-radius: 8px; background: #34495e; max-width: 400px; margin: 10px auto; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); color: #ecf0f1;">
                     <form id="data-form">
@@ -1895,6 +1895,23 @@ Lista de modelos de la marca de autos ${nombre} de ${country}. En cada coche ver
 
 //ficha de features
 document.getElementById('copy-button').addEventListener('click', function() {
+    // Obtener el valor del input #nombre
+    const nombreValue = document.getElementById('nombre').value.trim();
+
+    if (nombreValue) {
+        // Crear un nuevo label con el valor ingresado en #nombre
+        const nuevoLabel = document.createElement('label');
+        nuevoLabel.style.display = 'block';
+        nuevoLabel.style.marginBottom = '5px';
+        nuevoLabel.textContent = `Titulo:  ${nombreValue} » Ficha`;
+
+        // Insertar el nuevo label al formulario (antes del botón)
+        document.getElementById('data-form').insertBefore(nuevoLabel, document.getElementById('copy-button'));
+    } else {
+        // Si el campo #nombre está vacío, mostrar un mensaje de advertencia
+        alert('Por favor, ingresa un nombre antes de copiar.');
+    }
+
         const motor = document.getElementById('motor').value;
         const valvulas = document.getElementById('valvulas').value;
         const alimentacion = document.getElementById('alimentacion').value;
@@ -1923,7 +1940,7 @@ document.getElementById('copy-button').addEventListener('click', function() {
                     </tr>
                     <tr>
                         <td style="padding: 5px; font-weight: bold; text-align: left;">Peso:</td>
-                        <td style="padding: 5px; text-align: left;">${peso}</td>
+                        <td style="padding: 5px; text-align: left;">${peso} Kg.</td>
                     </tr>
                 </table>
             </div>
