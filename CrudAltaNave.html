@@ -378,6 +378,10 @@ background:url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgPZR-4
                     <!-- <input type="text" id="tipo" required> -->
                 </div>
                 <div class="form-group">
+                    <label for="peso">Peso:</label>
+                    <input type="text" id="peso" required>
+                </div>
+                <div class="form-group">
                     <label for="precio">Precio:</label>
                     <input type="text" id="precio" required>
                 </div>
@@ -536,11 +540,14 @@ background:url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgPZR-4
                         <label for="transmision" style="display: block; margin-bottom: 5px; font-size: small; color: yellow;">( Número de marchas: 5) =</label>
                         
                         <hr>
-                        <label for="peso" style="display: block; margin-bottom: 5px;">Peso:</label>
-                        <input type="text" id="peso" name="peso" placeholder="(Peso en vacío (sin conductor): 1210 kg)" style="width: 100%; padding: 5px; margin-bottom: 10px; border-radius: 4px; border: 1px solid #ccc;">
-                        <label for="peso" style="display: block; margin-bottom: 5px; font-size: small; color: yellow;">( Peso en vacío (sin conductor): 1210 kg) =</label>
+                        <label for="pesof" style="display: block; margin-bottom: 5px;">Peso:</label>
+                        <input type="text" id="pesof" name="peso" placeholder="(Peso en vacío (sin conductor): 1210 kg)" style="width: 100%; padding: 5px; margin-bottom: 10px; border-radius: 4px; border: 1px solid #ccc;">
+                        <label for="pesof" style="display: block; margin-bottom: 5px; font-size: small; color: yellow;">( Peso en vacío (sin conductor): 1210 kg) =</label>
                         
                         <button type="button" id="copy-button" style="padding: 10px 20px; background: #2980b9; color: #ecf0f1; border: none; border-radius: 4px; cursor: pointer; margin-top: 10px;">Copiar Tabla</button>
+                        <div style="text-align: right;">
+                        <button type="button" id="clear-button" style="padding: 10px 20px; background: red; color: white; border: none; border-radius: 4px; cursor: pointer; margin-top: 10px;">Limpiar Formulario</button>
+                        </div>
                     </form>
                 </div>
             </details>
@@ -634,7 +641,7 @@ background:url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgPZR-4
     añoInicio CDATA #REQUIRED
     añoFin CDATA #REQUIRED
 >
-<!ELEMENT auto (nombre, año, chasis, propulsion, velocidad, potencia, aceleracion, tipo, precio, imagen, valoracionInput?, enlace, bloques?, masimagenes?)>
+<!ELEMENT auto (nombre, año, chasis, propulsion, velocidad, potencia, aceleracion, tipo, peso, precio, imagen, valoracionInput?, enlace, bloques?, masimagenes?)>
 <!ATTLIST auto 
     id CDATA #REQUIRED
     terminado (true | false) "false"
@@ -647,6 +654,7 @@ background:url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgPZR-4
 <!ELEMENT potencia (#PCDATA)>
 <!ELEMENT aceleracion (#PCDATA)>
 <!ELEMENT tipo (#PCDATA)>
+<!ELEMENT peso (#PCDATA)>
 <!ELEMENT precio (#PCDATA)>
 <!ELEMENT imagen (#PCDATA)>
 <!ELEMENT valoracionInput (#PCDATA)>
@@ -810,7 +818,8 @@ background:url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgPZR-4
                 potencia: document.getElementById('potencia').value,
                 aceleracion: document.getElementById('aceleracion').value,
                 tipo: document.getElementById('tipo').value,
-                precio: document.getElementById('precio').value,
+                tipo: document.getElementById('peso').value,
+                peso: document.getElementById('precio').value,
                 imagen: document.getElementById('imagen').value,
                 valoracionInput: document.getElementById('valoracionInput').value,
                 enlace: document.getElementById('enlace').value,
@@ -876,7 +885,7 @@ background:url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgPZR-4
             autoElement.setAttribute('id', auto.id);
 
             const campos = ['nombre', 'año', 'chasis', 'propulsion', 'velocidad', 'potencia',
-                'aceleracion', 'tipo', 'precio', 'imagen', 'valoracionInput', 'enlace'];
+                'aceleracion', 'tipo', 'peso', 'precio', 'imagen', 'valoracionInput', 'enlace'];
 
             campos.forEach(campo => {
                 const element = xmlDoc.createElement(campo);
@@ -958,7 +967,7 @@ background:url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgPZR-4
                 document.getElementById('añoFin').value = generacion.getAttribute('añoFin');
 
                 ['nombre', 'año', 'chasis', 'propulsion', 'velocidad', 'potencia',
-        'aceleracion', 'tipo', 'precio', 'imagen', 'valoracionInput', 'enlace'].forEach(campo => {
+        'aceleracion', 'tipo', 'peso', 'precio', 'imagen', 'valoracionInput', 'enlace'].forEach(campo => {
             const elemento = document.getElementById(campo);
             const valor = auto.querySelector(campo)?.textContent || (campo === 'valoracionInput' ? '20' : '');
 
@@ -1835,6 +1844,7 @@ Lista de modelos de la marca de autos ${nombre} de ${country}. En cada coche ver
             const velocidad = extraerInfo(texto, 'Velocidad máxima:', 'km/h') || 'NoVel.';
             const potencia = extraerInfo(texto, 'kW /', 'hp') || 'NoPot.';
             const aceleracion = extraerInfo(texto, '100 km/h', 's') || 'NoAcel.';
+            const peso = extraerInfo(texto, 'peso en vacío base:', 'kg') || 'NoPeso.';
 
             // Formatear `propulsion` a minúsculas y capitalizar la primera letra
             const propulsionFormatted = propulsion.toLowerCase().replace(/^\w/, c => c.toUpperCase());
@@ -1847,6 +1857,7 @@ Lista de modelos de la marca de autos ${nombre} de ${country}. En cada coche ver
             document.getElementById('velocidad').value = velocidad;
             document.getElementById('potencia').value = potencia;
             document.getElementById('aceleracion').value = aceleracion;
+            document.getElementById('peso').value = peso;
         }
 
         // Función que capitaliza la primera letra de una cadena
@@ -1922,6 +1933,10 @@ Lista de modelos de la marca de autos ${nombre} de ${country}. En cada coche ver
 document.getElementById('copy-button').addEventListener('click', function() {
     // Obtener el valor del input #nombre
     const nombreValue = document.getElementById('nombre').value.trim();
+ // Obtener el valor del input #peso
+ const pesoValue = document.getElementById('peso').value.trim();
+          // Asignar el valor de pesoValue como el valor del input #pesof
+          document.getElementById('pesof').value = pesoValue;
 
     if (nombreValue) {
         // Crear un nuevo label con el valor ingresado en #nombre
@@ -1929,6 +1944,8 @@ document.getElementById('copy-button').addEventListener('click', function() {
         nuevoLabel.style.display = 'block';
         nuevoLabel.style.marginBottom = '5px';
         nuevoLabel.textContent = `Titulo:  ${nombreValue} » Ficha`;
+
+
 
         // Insertar el nuevo label al formulario (antes del botón)
         document.getElementById('data-form').insertBefore(nuevoLabel, document.getElementById('copy-button'));
@@ -1941,7 +1958,7 @@ document.getElementById('copy-button').addEventListener('click', function() {
         const valvulas = document.getElementById('valvulas').value;
         const destacados = document.getElementById('destacados').value;
         const transmision = document.getElementById('transmision').value;
-        const peso = document.getElementById('peso').value;
+        const peso = document.getElementById('pesof').value;
         
         const tableHTML = `
             </p>
@@ -1979,6 +1996,12 @@ document.getElementById('copy-button').addEventListener('click', function() {
         });
     });
 
+    
+    document.getElementById('clear-button').addEventListener('click', function() {
+        // Selecciona todos los inputs dentro del formulario y los limpia
+        const inputs = document.querySelectorAll('#data-form input[type="text"]');
+        inputs.forEach(input => input.value = '');
+    });
 /*
     document.getElementById('extract-button').addEventListener('click', function() {
         // Obtener el texto completo del campo de entrada
