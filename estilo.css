@@ -348,6 +348,22 @@ a[href="https://www.altanave.uy/p/rivales-juego-de-cartas-para-superar.html"]::a
     vertical-align: top; /* Alineación vertical */
 }
 
+a[href="https://www.altanave.uy/p/rivales-juego-de-cartas-para-superar.html"]::after {
+    content: '\1F0CF'; /* Emoji de la carta */
+    font-family: 'Segoe UI Emoji', sans-serif;
+    font-size: 24px; /* Ajusta el tamaño según lo necesites */
+    margin-left: 8px; /* Espacio entre el enlace y el emoji */
+    vertical-align: top; /* Alineación vertical */
+}
+
+a[href="https://www.altanave.uy/p/versus-compara-las-caracteristicas-de.html"]::after {
+    content: '\1F19A'; /* Emoji de la carta */
+    font-family: 'Segoe UI Emoji', sans-serif;
+    font-size: 24px; /* Ajusta el tamaño según lo necesites */
+    margin-left: 8px; /* Espacio entre el enlace y el emoji */
+    vertical-align: top; /* Alineación vertical */
+}
+
 	/* Lista Modelos*/
     .lista-autos-container {
     	font-family: Arial, sans-serif;
