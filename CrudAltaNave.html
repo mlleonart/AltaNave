@@ -541,7 +541,7 @@ background:url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgPZR-4
                         
                         <hr>
                         <label for="pesof" style="display: block; margin-bottom: 5px;">Peso:</label>
-                        <input type="text" id="pesof" name="peso" placeholder="(Peso en vacío (sin conductor): 1210 kg)" style="width: 100%; padding: 5px; margin-bottom: 10px; border-radius: 4px; border: 1px solid #ccc;">
+                        <input type="text" id="pesof" name="pesof" placeholder="(Peso en vacío (sin conductor): 1210 kg)" style="width: 100%; padding: 5px; margin-bottom: 10px; border-radius: 4px; border: 1px solid #ccc;">
                         <label for="pesof" style="display: block; margin-bottom: 5px; font-size: small; color: yellow;">( Peso en vacío (sin conductor): 1210 kg) =</label>
                         
                         <button type="button" id="copy-button" style="padding: 10px 20px; background: #2980b9; color: #ecf0f1; border: none; border-radius: 4px; cursor: pointer; margin-top: 10px;">Copiar Tabla</button>
@@ -1958,7 +1958,7 @@ document.getElementById('copy-button').addEventListener('click', function() {
         const valvulas = document.getElementById('valvulas').value;
         const destacados = document.getElementById('destacados').value;
         const transmision = document.getElementById('transmision').value;
-        const peso = document.getElementById('pesof').value;
+        const pesof = document.getElementById('pesof').value;
         
         const tableHTML = `
             </p>
@@ -1982,7 +1982,7 @@ document.getElementById('copy-button').addEventListener('click', function() {
                     </tr>
                     <tr>
                         <td style="padding: 5px; font-weight: bold; text-align: left;">Peso:</td>
-                        <td style="padding: 5px; text-align: left;">${peso} Kg.</td>
+                        <td style="padding: 5px; text-align: left;">${pesof} Kg.</td>
                     </tr>
                 </table>
             </div>
