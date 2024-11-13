@@ -48,7 +48,7 @@
     <modelo nombre="DB5">
       <modeloDescripcion />
       <generacion nombre="Aston Martin DB5" añoInicio="1963" añoFin="1965">
-        <generacionEnlaceAltaNaveURL >NO</generacionEnlaceAltaNaveURL >
+        <generacionEnlaceAltaNaveURL>https://www.altanave.uy/2024/11/db5-versiones-generaciones.html</generacionEnlaceAltaNaveURL >
         <auto id="66" terminado="false" publicado="false">
           <nombre>Aston Martin DB5</nombre>
           <año>1964</año>
