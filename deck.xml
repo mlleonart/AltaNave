@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE deck [
 <!ELEMENT deck (marca)+>
 <!ELEMENT marca (marcaLogoURL? , marcaPais? , marcaBanderaURL? , marcaEnlaceAltaNaveURL? , modelo+)>
@@ -6,18 +7,18 @@
 <!ELEMENT marcaPais (#PCDATA)>
 <!ELEMENT marcaBanderaURL (#PCDATA)>
 <!ELEMENT marcaEnlaceAltaNaveURL (#PCDATA)>
-<!ELEMENT modelo (modeloDescripcion? , generacion+)>
+<!ELEMENT modelo (modeloDescripcion? , modeloEnlaceAltaNaveURL? , generacion+)>
 <!ATTLIST modelo nombre CDATA #REQUIRED>
 <!ELEMENT modeloDescripcion (#PCDATA)>
-<!ELEMENT generacion (generacionEnlaceAltaNaveURL? , auto+)>
+<!ELEMENT modeloEnlaceAltaNaveURL (#PCDATA)>
+<!ELEMENT generacion (auto)+>
 <!ATTLIST generacion nombre CDATA #REQUIRED>
 <!ATTLIST generacion añoInicio CDATA #REQUIRED>
 <!ATTLIST generacion añoFin CDATA #REQUIRED>
-<!ELEMENT generacionEnlaceAltaNaveURL (#PCDATA)>
 <!ELEMENT auto (nombre , año , chasis , propulsion , velocidad , potencia , aceleracion , tipo , peso , precio , imagen , valoracionInput? , enlace , bloques? , extraImagenes?)>
 <!ATTLIST auto id CDATA #REQUIRED>
-<!ATTLIST auto terminado (true | false) 'false'>
-<!ATTLIST auto publicado (true | false) 'false'>
+<!ATTLIST auto terminado (true | false) "false">
+<!ATTLIST auto publicado (true | false) "false">
 <!ELEMENT nombre (#PCDATA)>
 <!ELEMENT año (#PCDATA)>
 <!ELEMENT chasis (#PCDATA)>
@@ -46,9 +47,9 @@
     <marcaBanderaURL>https://upload.wikimedia.org/wikipedia/commons/b/be/Flag_of_England.svg</marcaBanderaURL>
     <marcaEnlaceAltaNaveURL>https://www.altanave.uy/2024/10/aston-martin.html</marcaEnlaceAltaNaveURL>
     <modelo nombre="DB5">
-      <modeloDescripcion />
+      <modeloDescripcion/>
+      <modeloEnlaceAltaNaveURL>NO</modeloEnlaceAltaNaveURL>
       <generacion nombre="Aston Martin DB5" añoInicio="1963" añoFin="1965">
-        <generacionEnlaceAltaNaveURL>https://www.altanave.uy/2024/11/db5-versiones-generaciones.html</generacionEnlaceAltaNaveURL >
         <auto id="66" terminado="false" publicado="false">
           <nombre>Aston Martin DB5</nombre>
           <año>1964</año>
@@ -215,9 +216,9 @@ Parachoques hidráulicos, Ametralladoras delanteras, Escudo antibalas, Matrícul
       </generacion>
     </modelo>
     <modelo nombre="Vantage">
-      <modeloDescripcion />
+      <modeloDescripcion/>
+      <modeloEnlaceAltaNaveURL>NO</modeloEnlaceAltaNaveURL>
       <generacion nombre="Vantage 3era generacion" añoInicio="2005" añoFin="2018">
-        <generacionEnlaceAltaNaveURL >NO</generacionEnlaceAltaNaveURL >
         <auto id="74" terminado="true" publicado="false">
           <nombre>Aston Martin Vantage V8</nombre>
           <año>2009</año>
@@ -278,7 +279,6 @@ Parachoques hidráulicos, Ametralladoras delanteras, Escudo antibalas, Matrícul
         </auto>
       </generacion>
       <generacion nombre="Vantage 4ta generacion" añoInicio="2018" añoFin="2023">
-        <generacionEnlaceAltaNaveURL >NO</generacionEnlaceAltaNaveURL >
         <auto id="75" terminado="true" publicado="false">
           <nombre>Aston Martin Vantage V8</nombre>
           <año>2018</año>
@@ -340,7 +340,6 @@ En cuanto a su diseño exterior, además de la sofisticación de Aston Martin in
         </auto>
       </generacion>
       <generacion nombre="Vantage 5ta generacion" añoInicio="2024" añoFin="2025">
-        <generacionEnlaceAltaNaveURL >NO</generacionEnlaceAltaNaveURL >
         <auto id="73" terminado="true" publicado="false">
           <nombre>Aston Martin V8 Vantage</nombre>
           <año>2024</año>
@@ -402,9 +401,9 @@ En cuanto a su diseño exterior, además de la sofisticación de Aston Martin in
       </generacion>
     </modelo>
     <modelo nombre="One-77">
-      <modeloDescripcion />
+      <modeloDescripcion/>
+      <modeloEnlaceAltaNaveURL>NO</modeloEnlaceAltaNaveURL>
       <generacion nombre="One-77" añoInicio="2011" añoFin="2011">
-        <generacionEnlaceAltaNaveURL >NO</generacionEnlaceAltaNaveURL >
         <auto id="62" terminado="true" publicado="false">
           <nombre>One-77</nombre>
           <año>2011</año>
@@ -472,9 +471,9 @@ En cuanto a su diseño exterior, además de la sofisticación de Aston Martin in
     <marcaBanderaURL>https://upload.wikimedia.org/wikipedia/commons/b/bc/Flag_of_France_%281794%E2%80%931815%2C_1830%E2%80%931974%2C_2020%E2%80%93present%29.svg</marcaBanderaURL>
     <marcaEnlaceAltaNaveURL>https://www.altanave.uy/2024/10/bugatti.html</marcaEnlaceAltaNaveURL>
     <modelo nombre="Veyron">
-      <modeloDescripcion />
+      <modeloDescripcion/>
+      <modeloEnlaceAltaNaveURL>NO</modeloEnlaceAltaNaveURL>
       <generacion nombre="Bugatti Veyron" añoInicio="2005" añoFin="2015">
-        <generacionEnlaceAltaNaveURL >NO</generacionEnlaceAltaNaveURL >
         <auto id="9" terminado="true" publicado="false">
           <nombre>Bugatti Veyron 16.4</nombre>
           <año>2005</año>
@@ -558,9 +557,9 @@ En cuanto a su diseño exterior, además de la sofisticación de Aston Martin in
     <marcaBanderaURL>https://upload.wikimedia.org/wikipedia/commons/a/a4/Flag_of_the_United_States.svg</marcaBanderaURL>
     <marcaEnlaceAltaNaveURL>https://www.altanave.uy/2024/10/delorean-motor-company.html</marcaEnlaceAltaNaveURL>
     <modelo nombre="DMC-12">
-      <modeloDescripcion />
+      <modeloDescripcion/>
+      <modeloEnlaceAltaNaveURL>NO</modeloEnlaceAltaNaveURL>
       <generacion nombre="De Lorean DMC-12" añoInicio="1981" añoFin="1982">
-        <generacionEnlaceAltaNaveURL >NO</generacionEnlaceAltaNaveURL >
         <auto id="59" terminado="true" publicado="false">
           <nombre>DMC De Lorean</nombre>
           <año>1982</año>
@@ -648,9 +647,9 @@ En cuanto a su diseño exterior, además de la sofisticación de Aston Martin in
     <marcaBanderaURL>https://upload.wikimedia.org/wikipedia/commons/0/03/Flag_of_Italy.svg</marcaBanderaURL>
     <marcaEnlaceAltaNaveURL>https://www.altanave.uy/2024/10/ferrari.html</marcaEnlaceAltaNaveURL>
     <modelo nombre="250 GTO">
-      <modeloDescripcion />
+      <modeloDescripcion/>
+      <modeloEnlaceAltaNaveURL>NO</modeloEnlaceAltaNaveURL>
       <generacion nombre="Serie I" añoInicio="1962" añoFin="1963">
-        <generacionEnlaceAltaNaveURL >NO</generacionEnlaceAltaNaveURL >
         <auto id="14" terminado="true" publicado="false">
           <nombre>Ferrari 250 GTO</nombre>
           <año>1962</año>
@@ -716,7 +715,6 @@ En cuanto a su diseño exterior, además de la sofisticación de Aston Martin in
         </auto>
       </generacion>
       <generacion nombre="Serie II" añoInicio="1964" añoFin="1964">
-        <generacionEnlaceAltaNaveURL >NO</generacionEnlaceAltaNaveURL >
         <auto id="15" terminado="true" publicado="false">
           <nombre>Ferrari 250 GTO</nombre>
           <año>1964</año>
@@ -778,9 +776,9 @@ En cuanto a su diseño exterior, además de la sofisticación de Aston Martin in
       </generacion>
     </modelo>
     <modelo nombre="Daytona">
-      <modeloDescripcion />
+      <modeloDescripcion/>
+      <modeloEnlaceAltaNaveURL>NO</modeloEnlaceAltaNaveURL>
       <generacion nombre="Daytona" añoInicio="1968" añoFin="1974">
-        <generacionEnlaceAltaNaveURL >NO</generacionEnlaceAltaNaveURL >
         <auto id="22" terminado="true" publicado="false">
           <nombre>Ferrari 365 GTB/4 Daytona</nombre>
           <año>1974</año>
@@ -909,7 +907,6 @@ En cuanto a su diseño exterior, además de la sofisticación de Aston Martin in
         </auto>
       </generacion>
       <generacion nombre="Daytona SP3" añoInicio="2022" añoFin="2025">
-        <generacionEnlaceAltaNaveURL >NO</generacionEnlaceAltaNaveURL >
         <auto id="24" terminado="true" publicado="false">
           <nombre>Ferrari Daytona SP3</nombre>
           <año>2023</año>
@@ -976,9 +973,9 @@ En cuanto a su diseño exterior, además de la sofisticación de Aston Martin in
       </generacion>
     </modelo>
     <modelo nombre="360 Modena">
-      <modeloDescripcion />
+      <modeloDescripcion/>
+      <modeloEnlaceAltaNaveURL>NO</modeloEnlaceAltaNaveURL>
       <generacion nombre="360 Modena" añoInicio="1999" añoFin="2005">
-        <generacionEnlaceAltaNaveURL >NO</generacionEnlaceAltaNaveURL >
         <auto id="70" terminado="false" publicado="false">
           <nombre>Ferrari 360 Challenge Stradale</nombre>
           <año>2003</año>
@@ -1064,9 +1061,9 @@ El Challenge Stradale puede ser hasta 110 kg (240 lb) más liviano que el Modena
       </generacion>
     </modelo>
     <modelo nombre="SF90">
-      <modeloDescripcion />
+      <modeloDescripcion/>
+      <modeloEnlaceAltaNaveURL>NO</modeloEnlaceAltaNaveURL>
       <generacion nombre="SF90" añoInicio="2021" añoFin="2025">
-        <generacionEnlaceAltaNaveURL >NO</generacionEnlaceAltaNaveURL >
         <auto id="20" terminado="true" publicado="false">
           <nombre>Ferrari SF90 Stradale</nombre>
           <año>2021</año>
@@ -1150,9 +1147,9 @@ El Ferrari SF90 Spider, además de mantener la silueta del SF90 Stradale, presen
       </generacion>
     </modelo>
     <modelo nombre="458">
-      <modeloDescripcion />
+      <modeloDescripcion/>
+      <modeloEnlaceAltaNaveURL>NO</modeloEnlaceAltaNaveURL>
       <generacion nombre="458" añoInicio="2010" añoFin="2015">
-        <generacionEnlaceAltaNaveURL >NO</generacionEnlaceAltaNaveURL >
         <auto id="28" terminado="true" publicado="false">
           <nombre>Ferrari 458 Italia</nombre>
           <año>2012</año>
@@ -1227,9 +1224,9 @@ El Ferrari SF90 Spider, además de mantener la silueta del SF90 Stradale, presen
       </generacion>
     </modelo>
     <modelo nombre="488">
-      <modeloDescripcion />
+      <modeloDescripcion/>
+      <modeloEnlaceAltaNaveURL>NO</modeloEnlaceAltaNaveURL>
       <generacion nombre="488" añoInicio="2015" añoFin="2019">
-        <generacionEnlaceAltaNaveURL >NO</generacionEnlaceAltaNaveURL >
         <auto id="25" terminado="true" publicado="false">
           <nombre>Ferrari 488 GTB</nombre>
           <año>2017</año>
@@ -1319,9 +1316,9 @@ El Ferrari SF90 Spider, además de mantener la silueta del SF90 Stradale, presen
     <marcaBanderaURL>https://upload.wikimedia.org/wikipedia/commons/4/4c/Flag_of_Sweden.svg</marcaBanderaURL>
     <marcaEnlaceAltaNaveURL>https://www.altanave.uy/2024/10/koenigsegg.html</marcaEnlaceAltaNaveURL>
     <modelo nombre="CC 8S">
-      <modeloDescripcion />
+      <modeloDescripcion/>
+      <modeloEnlaceAltaNaveURL>NO</modeloEnlaceAltaNaveURL>
       <generacion nombre="Koenigsegg CC Series" añoInicio="2002" añoFin="2004">
-        <generacionEnlaceAltaNaveURL >NO</generacionEnlaceAltaNaveURL >
         <auto id="49" terminado="true" publicado="false">
           <nombre>Koenigsegg CC 8S</nombre>
           <año>2002</año>
@@ -1419,9 +1416,9 @@ El Ferrari SF90 Spider, además de mantener la silueta del SF90 Stradale, presen
       </generacion>
     </modelo>
     <modelo nombre="Agera">
-      <modeloDescripcion />
+      <modeloDescripcion/>
+      <modeloEnlaceAltaNaveURL>NO</modeloEnlaceAltaNaveURL>
       <generacion nombre="Koenigsegg Agera" añoInicio="2010" añoFin="2017">
-        <generacionEnlaceAltaNaveURL >NO</generacionEnlaceAltaNaveURL >
         <auto id="52" terminado="true" publicado="false">
           <nombre>Koenigsegg Agera R</nombre>
           <año>2012</año>
@@ -1481,7 +1478,6 @@ Motor V8 biturbo de 5 litros con transmisión de doble embrague y 7 velocidades.
         </auto>
       </generacion>
       <generacion nombre="Koenigsegg Agera One:1" añoInicio="2014" añoFin="2015">
-        <generacionEnlaceAltaNaveURL >NO</generacionEnlaceAltaNaveURL >
         <auto id="53" terminado="true" publicado="false">
           <nombre>Koenigsegg Agera One:1</nombre>
           <año>2014</año>
@@ -1507,9 +1503,9 @@ Motor V8 biturbo de 5 litros con transmisión de doble embrague y 7 velocidades.
       </generacion>
     </modelo>
     <modelo nombre="Jesko">
-      <modeloDescripcion />
+      <modeloDescripcion/>
+      <modeloEnlaceAltaNaveURL>NO</modeloEnlaceAltaNaveURL>
       <generacion nombre="Koenigsegg Jesko" añoInicio="2020" añoFin="2025">
-        <generacionEnlaceAltaNaveURL >NO</generacionEnlaceAltaNaveURL >
         <auto id="54" terminado="true" publicado="false">
           <nombre>Koenigsegg Jesko</nombre>
           <año>2023</año>
@@ -1547,9 +1543,9 @@ Motor V8 biturbo de 5 litros con transmisión de doble embrague y 7 velocidades.
       </generacion>
     </modelo>
     <modelo nombre="Gemera">
-      <modeloDescripcion />
+      <modeloDescripcion/>
+      <modeloEnlaceAltaNaveURL>NO</modeloEnlaceAltaNaveURL>
       <generacion nombre="Koenigsegg Gemera" añoInicio="2020" añoFin="2025">
-        <generacionEnlaceAltaNaveURL >NO</generacionEnlaceAltaNaveURL >
         <auto id="55" terminado="true" publicado="false">
           <nombre>Koenigsegg Gemera</nombre>
           <año>2020</año>
@@ -1580,9 +1576,9 @@ Motor V8 biturbo de 5 litros con transmisión de doble embrague y 7 velocidades.
       </generacion>
     </modelo>
     <modelo nombre="Regera">
-      <modeloDescripcion />
+      <modeloDescripcion/>
+      <modeloEnlaceAltaNaveURL>NO</modeloEnlaceAltaNaveURL>
       <generacion nombre="Koenigsegg Regera" añoInicio="2020" añoFin="2025">
-        <generacionEnlaceAltaNaveURL >NO</generacionEnlaceAltaNaveURL >
         <auto id="56" terminado="true" publicado="false">
           <nombre>Koenigsegg Regera</nombre>
           <año>2022</año>
@@ -1624,9 +1620,9 @@ Motor V8 biturbo de 5 litros con transmisión de doble embrague y 7 velocidades.
     <marcaBanderaURL>https://upload.wikimedia.org/wikipedia/commons/0/03/Flag_of_Italy.svg</marcaBanderaURL>
     <marcaEnlaceAltaNaveURL>https://www.altanave.uy/2024/10/lamborghini.html</marcaEnlaceAltaNaveURL>
     <modelo nombre="350 GT">
-      <modeloDescripcion />
+      <modeloDescripcion/>
+      <modeloEnlaceAltaNaveURL>NO</modeloEnlaceAltaNaveURL>
       <generacion nombre="Lamborghini 350 GT" añoInicio="1964" añoFin="1966">
-        <generacionEnlaceAltaNaveURL >NO</generacionEnlaceAltaNaveURL >
         <auto id="18" terminado="true" publicado="false">
           <nombre>Lamborghini 350 GT</nombre>
           <año>1965</año>
@@ -1740,9 +1736,9 @@ Motor V8 biturbo de 5 litros con transmisión de doble embrague y 7 velocidades.
       </generacion>
     </modelo>
     <modelo nombre="Urraco">
-      <modeloDescripcion />
+      <modeloDescripcion/>
+      <modeloEnlaceAltaNaveURL>NO</modeloEnlaceAltaNaveURL>
       <generacion nombre="Urraco" añoInicio="1972" añoFin="1979">
-        <generacionEnlaceAltaNaveURL >NO</generacionEnlaceAltaNaveURL >
         <auto id="76" terminado="true" publicado="false">
           <nombre>Lamborghini Urraco P250</nombre>
           <año>1974</año>
@@ -1799,9 +1795,9 @@ Motor V8 biturbo de 5 litros con transmisión de doble embrague y 7 velocidades.
       </generacion>
     </modelo>
     <modelo nombre="Miura ">
-      <modeloDescripcion />
+      <modeloDescripcion/>
+      <modeloEnlaceAltaNaveURL>NO</modeloEnlaceAltaNaveURL>
       <generacion nombre="Lamborghini Miura" añoInicio="1966" añoFin="1972">
-        <generacionEnlaceAltaNaveURL >NO</generacionEnlaceAltaNaveURL >
         <auto id="60" terminado="true" publicado="false">
           <nombre>Lamborghini Miura P400</nombre>
           <año>1968</año>
@@ -1941,9 +1937,9 @@ Motor V8 biturbo de 5 litros con transmisión de doble embrague y 7 velocidades.
       </generacion>
     </modelo>
     <modelo nombre="Urus">
-      <modeloDescripcion />
+      <modeloDescripcion/>
+      <modeloEnlaceAltaNaveURL>NO</modeloEnlaceAltaNaveURL>
       <generacion nombre="Lamborghini Urus" añoInicio="2018" añoFin="2025">
-        <generacionEnlaceAltaNaveURL >NO</generacionEnlaceAltaNaveURL >
         <auto id="17" terminado="true" publicado="false">
           <nombre>Lamborghini Urus</nombre>
           <año>2022</año>
@@ -1991,9 +1987,9 @@ Motor V8 biturbo de 5 litros con transmisión de doble embrague y 7 velocidades.
       </generacion>
     </modelo>
     <modelo nombre="Murcielago">
-      <modeloDescripcion />
+      <modeloDescripcion/>
+      <modeloEnlaceAltaNaveURL>NO</modeloEnlaceAltaNaveURL>
       <generacion nombre="Murcielago" añoInicio="2001" añoFin="2006">
-        <generacionEnlaceAltaNaveURL >NO</generacionEnlaceAltaNaveURL >
         <auto id="33" terminado="false" publicado="false">
           <nombre>Lamborghini Murcielago</nombre>
           <año>2005</año>
@@ -2026,7 +2022,6 @@ Motor V8 biturbo de 5 litros con transmisión de doble embrague y 7 velocidades.
         </auto>
       </generacion>
       <generacion nombre="Murcielago LP" añoInicio="2006" añoFin="2011">
-        <generacionEnlaceAltaNaveURL >NO</generacionEnlaceAltaNaveURL >
         <auto id="36" terminado="false" publicado="false">
           <nombre>Lamborghini Murcielago LP640</nombre>
           <año>2010</año>
@@ -2081,9 +2076,9 @@ Motor V8 biturbo de 5 litros con transmisión de doble embrague y 7 velocidades.
     <marcaBanderaURL>https://upload.wikimedia.org/wikipedia/commons/f/fa/Flag_of_the_People%27s_Republic_of_China.svg</marcaBanderaURL>
     <marcaEnlaceAltaNaveURL>https://www.altanave.uy/2024/10/lynk-co.html</marcaEnlaceAltaNaveURL>
     <modelo nombre="03">
-      <modeloDescripcion />
+      <modeloDescripcion/>
+      <modeloEnlaceAltaNaveURL>NO</modeloEnlaceAltaNaveURL>
       <generacion nombre="Lynk 03" añoInicio="2019" añoFin="2025">
-        <generacionEnlaceAltaNaveURL >NO</generacionEnlaceAltaNaveURL >
         <auto id="31" terminado="false" publicado="false">
           <nombre>Lynk &amp; Co 03+</nombre>
           <año>2016</año>
@@ -2145,9 +2140,9 @@ Motor V8 biturbo de 5 litros con transmisión de doble embrague y 7 velocidades.
     <marcaBanderaURL>https://upload.wikimedia.org/wikipedia/commons/b/be/Flag_of_England.svg</marcaBanderaURL>
     <marcaEnlaceAltaNaveURL>https://www.altanave.uy/2024/10/mclaren.html</marcaEnlaceAltaNaveURL>
     <modelo nombre="F1">
-      <modeloDescripcion />
+      <modeloDescripcion/>
+      <modeloEnlaceAltaNaveURL>NO</modeloEnlaceAltaNaveURL>
       <generacion nombre="McLaren F1" añoInicio="1992" añoFin="1998">
-        <generacionEnlaceAltaNaveURL >NO</generacionEnlaceAltaNaveURL >
         <auto id="64" terminado="false" publicado="false">
           <nombre>F1 Prototype</nombre>
           <año>1992</año>
@@ -2188,9 +2183,9 @@ Motor V8 biturbo de 5 litros con transmisión de doble embrague y 7 velocidades.
       </generacion>
     </modelo>
     <modelo nombre="P1">
-      <modeloDescripcion />
+      <modeloDescripcion/>
+      <modeloEnlaceAltaNaveURL>NO</modeloEnlaceAltaNaveURL>
       <generacion nombre="McLaren P1" añoInicio="2013" añoFin="2015">
-        <generacionEnlaceAltaNaveURL >NO</generacionEnlaceAltaNaveURL >
         <auto id="65" terminado="false" publicado="false">
           <nombre>McLaren P1</nombre>
           <año>2013</año>
@@ -2214,9 +2209,9 @@ Motor V8 biturbo de 5 litros con transmisión de doble embrague y 7 velocidades.
       </generacion>
     </modelo>
     <modelo nombre="720S">
-      <modeloDescripcion />
+      <modeloDescripcion/>
+      <modeloEnlaceAltaNaveURL>NO</modeloEnlaceAltaNaveURL>
       <generacion nombre="McLaren 720S" añoInicio="2017" añoFin="2023">
-        <generacionEnlaceAltaNaveURL >NO</generacionEnlaceAltaNaveURL >
         <auto id="10" terminado="false" publicado="false">
           <nombre>McLaren 720S</nombre>
           <año>2017</año>
@@ -2258,9 +2253,9 @@ Motor V8 biturbo de 5 litros con transmisión de doble embrague y 7 velocidades.
     <marcaBanderaURL>https://upload.wikimedia.org/wikipedia/commons/f/fa/Flag_of_the_People%27s_Republic_of_China.svg</marcaBanderaURL>
     <marcaEnlaceAltaNaveURL>https://www.altanave.uy/2024/10/mg.html</marcaEnlaceAltaNaveURL>
     <modelo nombre="ZS">
-      <modeloDescripcion />
+      <modeloDescripcion/>
+      <modeloEnlaceAltaNaveURL>NO</modeloEnlaceAltaNaveURL>
       <generacion nombre="MG ZS" añoInicio="2022" añoFin="2025">
-        <generacionEnlaceAltaNaveURL >NO</generacionEnlaceAltaNaveURL >
         <auto id="16" terminado="false" publicado="false">
           <nombre>MG ZS EV</nombre>
           <año>2022</año>
@@ -2286,9 +2281,9 @@ Motor V8 biturbo de 5 litros con transmisión de doble embrague y 7 velocidades.
     <marcaBanderaURL>https://upload.wikimedia.org/wikipedia/commons/b/bc/Flag_of_France_%281794%E2%80%931815%2C_1830%E2%80%931974%2C_2020%E2%80%93present%29.svg</marcaBanderaURL>
     <marcaEnlaceAltaNaveURL>https://www.altanave.uy/2024/10/peugeot.html</marcaEnlaceAltaNaveURL>
     <modelo nombre="208">
-      <modeloDescripcion />
+      <modeloDescripcion/>
+      <modeloEnlaceAltaNaveURL>NO</modeloEnlaceAltaNaveURL>
       <generacion nombre="Generacion 1" añoInicio="2012" añoFin="2019">
-        <generacionEnlaceAltaNaveURL >NO</generacionEnlaceAltaNaveURL >
         <auto id="38" terminado="true" publicado="false">
           <nombre>Peugeot 208 1.2 PureTech</nombre>
           <año>2019</año>
@@ -2323,7 +2318,6 @@ Motor V8 biturbo de 5 litros con transmisión de doble embrague y 7 velocidades.
         </auto>
       </generacion>
       <generacion nombre="Generacion 2" añoInicio="2019" añoFin="2024">
-        <generacionEnlaceAltaNaveURL >NO</generacionEnlaceAltaNaveURL >
         <auto id="39" terminado="true" publicado="false">
           <nombre>Peugeot 208 PureTech 75</nombre>
           <año>2021</año>
@@ -2356,7 +2350,6 @@ Motor V8 biturbo de 5 litros con transmisión de doble embrague y 7 velocidades.
         </auto>
       </generacion>
       <generacion nombre="Generacion 3" añoInicio="2024" añoFin="2025">
-        <generacionEnlaceAltaNaveURL >NO</generacionEnlaceAltaNaveURL >
         <auto id="40" terminado="false" publicado="false">
           <nombre>Peugeot 208</nombre>
           <año>2024</año>
@@ -2525,9 +2518,9 @@ Motor V8 biturbo de 5 litros con transmisión de doble embrague y 7 velocidades.
     <marcaBanderaURL>https://upload.wikimedia.org/wikipedia/commons/b/ba/Flag_of_Germany.svg</marcaBanderaURL>
     <marcaEnlaceAltaNaveURL>https://www.altanave.uy/2024/10/porsche.html</marcaEnlaceAltaNaveURL>
     <modelo nombre="911">
-      <modeloDescripcion />
+      <modeloDescripcion/>
+      <modeloEnlaceAltaNaveURL>NO</modeloEnlaceAltaNaveURL>
       <generacion nombre="Porsche 911 (modelo 911)" añoInicio="1964" añoFin="1989">
-        <generacionEnlaceAltaNaveURL >NO</generacionEnlaceAltaNaveURL >
         <auto id="1" terminado="false" publicado="false">
           <nombre>Porsche 911</nombre>
           <año>1965</año>
@@ -2606,7 +2599,6 @@ Motor V8 biturbo de 5 litros con transmisión de doble embrague y 7 velocidades.
         </auto>
       </generacion>
       <generacion nombre="Porsche 911 (modelo 930) Turbo" añoInicio="1974" añoFin="1989">
-        <generacionEnlaceAltaNaveURL >NO</generacionEnlaceAltaNaveURL >
         <auto id="6" terminado="false" publicado="false">
           <nombre>Porsche 911 Turbo</nombre>
           <año>1989</año>
@@ -2654,7 +2646,6 @@ Motor V8 biturbo de 5 litros con transmisión de doble embrague y 7 velocidades.
         </auto>
       </generacion>
       <generacion nombre="Porsche 911 (modelo 964)" añoInicio="1988" añoFin="1994">
-        <generacionEnlaceAltaNaveURL >NO</generacionEnlaceAltaNaveURL >
         <auto id="11" terminado="false" publicado="false">
           <nombre>Porsche 911 Carrera 2</nombre>
           <año>1992</año>
@@ -2702,7 +2693,6 @@ Motor V8 biturbo de 5 litros con transmisión de doble embrague y 7 velocidades.
         </auto>
       </generacion>
       <generacion nombre="Porsche 911 (modelo 993)" añoInicio="1993" añoFin="1998">
-        <generacionEnlaceAltaNaveURL >NO</generacionEnlaceAltaNaveURL >
         <auto id="41" terminado="false" publicado="false">
           <nombre>Porsche 911 Carrera 4 Coupe</nombre>
           <año>1995</año>
@@ -2735,7 +2725,6 @@ Motor V8 biturbo de 5 litros con transmisión de doble embrague y 7 velocidades.
         </auto>
       </generacion>
       <generacion nombre="Porsche 911 (modelo 996)" añoInicio="1997" añoFin="2005">
-        <generacionEnlaceAltaNaveURL >NO</generacionEnlaceAltaNaveURL >
         <auto id="57" terminado="false" publicado="false">
           <nombre>Porsche 911 Carrera 4</nombre>
           <año>2002</año>
@@ -2753,7 +2742,6 @@ Motor V8 biturbo de 5 litros con transmisión de doble embrague y 7 velocidades.
         </auto>
       </generacion>
       <generacion nombre="Porsche 911 (modelo 997)" añoInicio="2004" añoFin="2012">
-        <generacionEnlaceAltaNaveURL >NO</generacionEnlaceAltaNaveURL >
         <auto id="58" terminado="false" publicado="false">
           <nombre>Porsche 911 Carrera 4</nombre>
           <año>2008</año>
@@ -2771,7 +2759,6 @@ Motor V8 biturbo de 5 litros con transmisión de doble embrague y 7 velocidades.
         </auto>
       </generacion>
       <generacion nombre="Porsche 911 (modelo 991)" añoInicio="2011" añoFin="2019">
-        <generacionEnlaceAltaNaveURL >NO</generacionEnlaceAltaNaveURL >
         <auto id="43" terminado="false" publicado="false">
           <nombre>Porsche 911 Carrera 4 (991.1) Cabriolet</nombre>
           <año>2014</año>
@@ -2886,9 +2873,9 @@ Motor V8 biturbo de 5 litros con transmisión de doble embrague y 7 velocidades.
     <marcaBanderaURL>https://upload.wikimedia.org/wikipedia/commons/f/fa/Flag_of_the_People%27s_Republic_of_China.svg</marcaBanderaURL>
     <marcaEnlaceAltaNaveURL>https://www.altanave.uy/2024/11/xiaomi.html</marcaEnlaceAltaNaveURL>
     <modelo nombre="SU7">
-      <modeloDescripcion />
+      <modeloDescripcion/>
+      <modeloEnlaceAltaNaveURL>NO</modeloEnlaceAltaNaveURL>
       <generacion nombre="SU7" añoInicio="2025" añoFin="2025">
-        <generacionEnlaceAltaNaveURL >NO</generacionEnlaceAltaNaveURL >
         <auto id="77" terminado="false" publicado="false">
           <nombre>Xiaomi SU7</nombre>
           <año>2025</año>
@@ -2957,9 +2944,9 @@ Afirman tener en marcha motores de mayor rendimiento que los Porsche Taycan.</bl
     <marcaBanderaURL>https://upload.wikimedia.org/wikipedia/commons/0/03/Flag_of_Italy.svg</marcaBanderaURL>
     <marcaEnlaceAltaNaveURL>https://www.altanave.uy/2024/11/de-tomaso.html</marcaEnlaceAltaNaveURL>
     <modelo nombre="Pantera">
-      <modeloDescripcion />
+      <modeloDescripcion/>
+      <modeloEnlaceAltaNaveURL>NO</modeloEnlaceAltaNaveURL>
       <generacion nombre="De Tomaso Pantera" añoInicio="1970" añoFin="1991">
-        <generacionEnlaceAltaNaveURL >NO</generacionEnlaceAltaNaveURL >
         <auto id="80" terminado="false" publicado="false">
           <nombre>De Tomaso Pantera</nombre>
           <año>1970</año>
@@ -3000,9 +2987,9 @@ Afirman tener en marcha motores de mayor rendimiento que los Porsche Taycan.</bl
       </generacion>
     </modelo>
     <modelo nombre="Mangusta">
-      <modeloDescripcion />
+      <modeloDescripcion/>
+      <modeloEnlaceAltaNaveURL>NO</modeloEnlaceAltaNaveURL>
       <generacion nombre="Mangusta" añoInicio="1967" añoFin="1971">
-        <generacionEnlaceAltaNaveURL >NO</generacionEnlaceAltaNaveURL >
         <auto id="81" terminado="false" publicado="false">
           <nombre>De Tomaso Mangusta</nombre>
           <año>1971</año>
@@ -3027,9 +3014,9 @@ Afirman tener en marcha motores de mayor rendimiento que los Porsche Taycan.</bl
     <marcaBanderaURL>https://upload.wikimedia.org/wikipedia/commons/a/a4/Flag_of_the_United_States.svg</marcaBanderaURL>
     <marcaEnlaceAltaNaveURL>https://www.altanave.uy/2024/11/pontiac.html</marcaEnlaceAltaNaveURL>
     <modelo nombre="GTO">
-      <modeloDescripcion />
+      <modeloDescripcion/>
+      <modeloEnlaceAltaNaveURL>NO</modeloEnlaceAltaNaveURL>
       <generacion nombre="1era Generacion (Tempest Le Mans GTO)" añoInicio="1964" añoFin="1967">
-        <generacionEnlaceAltaNaveURL >NO</generacionEnlaceAltaNaveURL >
         <auto id="82" terminado="false" publicado="false">
           <nombre>Pontiac GTO</nombre>
           <año>1964</año>
