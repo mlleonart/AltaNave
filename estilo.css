@@ -81,10 +81,6 @@ a {
 }*/
 
 .card {
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-
 
 	
     width: 300px;
@@ -108,9 +104,6 @@ a {
 }
 
 .card-content {
-  display: flex;
-  flex-direction: column;
-  flex-grow: 1;
 
 	
     padding: 20px;
