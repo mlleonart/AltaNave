@@ -170,6 +170,7 @@ a {
   width: 300px;
   height: 400px;
   perspective: 1000px; /* Da el efecto 3D */
+	margin: 0 auto;
 }
 
 .flip-card-inner {
