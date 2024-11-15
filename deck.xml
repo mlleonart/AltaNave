@@ -14,7 +14,7 @@
 <!ATTLIST generacion nombre CDATA #REQUIRED>
 <!ATTLIST generacion añoInicio CDATA #REQUIRED>
 <!ATTLIST generacion añoFin CDATA #REQUIRED>
-<!ELEMENT auto (nombre , año , chasis , propulsion , velocidad , potencia , aceleracion , tipo , peso , precio , imagen , valoracionInput? , enlace , bloques? , extraImagenes?)>
+<!ELEMENT auto (nombre , año , chasis , propulsion , velocidad , potencia , aceleracion , tipo , peso , motor? , valvulas? , destacados? , transmision? , precio , imagen , valoracionInput? , enlace , bloques? , extraImagenes?)>
 <!ATTLIST auto id CDATA #REQUIRED>
 <!ATTLIST auto terminado (true | false) 'false'>
 <!ATTLIST auto publicado (true | false) 'false'>
@@ -27,6 +27,10 @@
 <!ELEMENT aceleracion (#PCDATA)>
 <!ELEMENT tipo (#PCDATA)>
 <!ELEMENT peso (#PCDATA)>
+<!ELEMENT motor (#PCDATA)>
+<!ELEMENT valvulas (#PCDATA)>
+<!ELEMENT destacados (#PCDATA)>
+<!ELEMENT transmision (#PCDATA)>
 <!ELEMENT precio (#PCDATA)>
 <!ELEMENT imagen (#PCDATA)>
 <!ELEMENT valoracionInput (#PCDATA)>
@@ -46,10 +50,10 @@
     <marcaBanderaURL>https://upload.wikimedia.org/wikipedia/commons/b/be/Flag_of_England.svg</marcaBanderaURL>
     <marcaEnlaceAltaNaveURL>https://www.altanave.uy/2024/10/aston-martin.html</marcaEnlaceAltaNaveURL>
     <modelo nombre="DB5">
-      <modeloDescripcion>El Aston Martin DB5 es un automóvil emblemático que debutó en 1963, consolidando la reputación de la marca británica en lujo y elegancia. Con su diseño clásico y líneas refinadas, el DB5 es una verdadera joya automotriz, impulsado por un motor de 4.0 litros que produce 282 caballos de fuerza. Su capacidad para acelerar de 0 a 100 km/h en alrededor de 8 segundos fue destacada para su época, colocándolo como un referente en rendimiento y estilo. Su chasis robusto y su suspensión bien equilibrada ofrecen una experiencia de conducción cómoda y dinámica, mientras que el interior, adornado con detalles de cuero y madera, refleja la exclusividad y el refinamiento de Aston Martin. Con su combinación de elegancia, historia y notoriedad como el auto de James Bond, el Aston Martin DB5 se ha convertido en un símbolo de la herencia y el prestigio de la marca, codiciado por coleccionistas y aficionados de todo el mundo.</modeloDescripcion>
+      <modeloDescripcion>El Aston Martin DB5 es un automóvil gran turismo (GT) de dos puertas del que se fabricaron 1059 unidades. A pesar de que no fue el primero de la serie DB, es uno de los coche más conocidos en la historia del automovilismo. El Aston Martin DB5 es sinónimo de elegancia y sofisticación, y su asociación con la franquicia de James Bond ha cimentado su estatus como un ícono cultural. Este modelo representa la conexión entre el lujo y la aventura. La popularidad del DB5 ha consolidando su lugar como uno de los automóviles más reconocidos y venerados en la cultura popular.</modeloDescripcion>
       <modeloEnlaceAltaNaveURL>https://www.altanave.uy/2024/11/db5-versiones-generaciones.html</modeloEnlaceAltaNaveURL>
       <generacion nombre="Aston Martin DB5" añoInicio="1963" añoFin="1965">
-        <auto id="66" terminado="false" publicado="false">
+        <auto id="66" terminado="true" publicado="false">
           <nombre>Aston Martin DB5</nombre>
           <año>1964</año>
           <chasis>Coupe 2 puertas</chasis>
@@ -58,42 +62,16 @@
           <potencia>282</potencia>
           <aceleracion>7,1</aceleracion>
           <tipo>Deportivo</tipo>
-          <peso>1000</peso>
-          <precio>1500000</precio>
+          <peso>1466</peso>
+          <motor>6 en línea 3,9 litros aspirado naturalmente</motor>
+          <valvulas>12</valvulas>
+          <destacados>2 carburadores Su HD8</destacados>
+          <transmision>manual 4 marchas</transmision>
+          <precio>1800000</precio>
           <imagen>https://upload.wikimedia.org/wikipedia/commons/8/8b/1964_Aston_Martin_DB5_4.jpg</imagen>
           <valoracionInput>40</valoracionInput>
           <enlace>https://www.altanave.uy/2024/11/aston-martin-db5-1964-coupe.html</enlace>
           <bloques>
-            <bloque>
-              <bloqueTitulo>Aston Martin DB5 » Ficha</bloqueTitulo>
-              <bloqueTexto>&lt;/p&gt;
-            &lt;div style="border: 2px solid #ccc; padding: 15px; border-radius: 8px; background: #48505B; max-width: 400px; margin: 10px auto; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); color: #ecf0f1;"&gt;
-                &lt;table style="width: 100%; border-collapse: collapse; font-family: Arial, sans-serif; color: #ecf0f1;"&gt;
-                    &lt;tr&gt;
-                        &lt;td style="padding: 5px; font-weight: bold; width: 40%; text-align: left;"&gt;Motor:&lt;/td&gt;
-                        &lt;td style="padding: 5px; text-align: left;"&gt;6 en línea 3,9 litros aspirado naturalmente&lt;/td&gt;
-                    &lt;/tr&gt;
-                    &lt;tr&gt;
-                        &lt;td style="padding: 5px; font-weight: bold; text-align: left;"&gt;Válvulas:&lt;/td&gt;
-                        &lt;td style="padding: 5px; text-align: left;"&gt;12&lt;/td&gt;
-                    &lt;/tr&gt;
-                    &lt;tr&gt;
-                        &lt;td style="padding: 5px; font-weight: bold; text-align: left;"&gt;Destacados:&lt;/td&gt;
-                        &lt;td style="padding: 5px; text-align: left;"&gt;2 carburadores Su HD8&lt;/td&gt;
-                    &lt;/tr&gt;
-                    &lt;tr&gt;
-                        &lt;td style="padding: 5px; font-weight: bold; text-align: left;"&gt;Transmisión:&lt;/td&gt;
-                        &lt;td style="padding: 5px; text-align: left;"&gt;manual 4 marchas&lt;/td&gt;
-                    &lt;/tr&gt;
-                    &lt;tr&gt;
-                        &lt;td style="padding: 5px; font-weight: bold; text-align: left;"&gt;Peso:&lt;/td&gt;
-                        &lt;td style="padding: 5px; text-align: left;"&gt;1466 Kg.&lt;/td&gt;
-                    &lt;/tr&gt;
-                &lt;/table&gt;
-            &lt;/div&gt;
-            &lt;p&gt;
-        </bloqueTexto>
-            </bloque>
             <bloque>
               <bloqueImagenURL>https://upload.wikimedia.org/wikipedia/commons/6/6f/Aston_Martin_DB5%2C_James_Bond_08.jpg</bloqueImagenURL>
               <bloqueTitulo>Aston Martin DB5 y James Bond: Un Ícono del Cine</bloqueTitulo>
@@ -106,6 +84,9 @@
 Parachoques hidráulicos, Ametralladoras delanteras, Escudo antibalas, Matrículas giratorias, chorro de aceite y un dispositivo que lanzaba clavos, Teléfono móvil, Radar a bordo, Panel de armas y asiento eyectable.</bloqueTexto>
             </bloque>
           </bloques>
+          <extraImagenes>
+            <extraImagenURL>https://upload.wikimedia.org/wikipedia/commons/8/8b/1964_Aston_Martin_DB5_4.jpg</extraImagenURL>
+          </extraImagenes>
         </auto>
         <auto id="68" terminado="true" publicado="false">
           <nombre>Aston Martin DB5</nombre>
@@ -116,45 +97,19 @@ Parachoques hidráulicos, Ametralladoras delanteras, Escudo antibalas, Matrícul
           <potencia>282</potencia>
           <aceleracion>7,1</aceleracion>
           <tipo>Deportivo</tipo>
-          <peso>1000</peso>
-          <precio>1000000</precio>
+          <peso>1466</peso>
+          <motor>6 en línea 3,9 litros aspirado naturalmente</motor>
+          <valvulas>12</valvulas>
+          <destacados>2 carburadores Su HD8</destacados>
+          <transmision>manual 4 marchas</transmision>
+          <precio>2200000</precio>
           <imagen>https://upload.wikimedia.org/wikipedia/commons/d/dc/1964_Aston_Martin_DB5_Convertible_LC.jpg</imagen>
           <valoracionInput>40</valoracionInput>
           <enlace>https://www.altanave.uy/2024/11/aston-martin-db5-1964-convertible.html</enlace>
-          <bloques>
-            <bloque>
-              <bloqueTitulo>Aston Martin DB5 » Ficha</bloqueTitulo>
-              <bloqueTexto>    &lt;/p&gt;
-            &lt;div style="border: 2px solid #ccc; padding: 15px; border-radius: 8px; background: #48505B; max-width: 400px; margin: 10px auto; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); color: #ecf0f1;"&gt;
-                &lt;table style="width: 100%; border-collapse: collapse; font-family: Arial, sans-serif; color: #ecf0f1;"&gt;
-                    &lt;tr&gt;
-                        &lt;td style="padding: 5px; font-weight: bold; width: 40%; text-align: left;"&gt;Motor:&lt;/td&gt;
-                        &lt;td style="padding: 5px; text-align: left;"&gt;6 en línea 3,9 litros aspirado naturalmente&lt;/td&gt;
-                    &lt;/tr&gt;
-                    &lt;tr&gt;
-                        &lt;td style="padding: 5px; font-weight: bold; text-align: left;"&gt;Válvulas:&lt;/td&gt;
-                        &lt;td style="padding: 5px; text-align: left;"&gt;12&lt;/td&gt;
-                    &lt;/tr&gt;
-                    &lt;tr&gt;
-                        &lt;td style="padding: 5px; font-weight: bold; text-align: left;"&gt;Destacados:&lt;/td&gt;
-                        &lt;td style="padding: 5px; text-align: left;"&gt;2 carburadores Su HD8&lt;/td&gt;
-                    &lt;/tr&gt;
-                    &lt;tr&gt;
-                        &lt;td style="padding: 5px; font-weight: bold; text-align: left;"&gt;Transmisión:&lt;/td&gt;
-                        &lt;td style="padding: 5px; text-align: left;"&gt;manual 4 marchas&lt;/td&gt;
-                    &lt;/tr&gt;
-                    &lt;tr&gt;
-                        &lt;td style="padding: 5px; font-weight: bold; text-align: left;"&gt;Peso:&lt;/td&gt;
-                        &lt;td style="padding: 5px; text-align: left;"&gt;1466 Kg.&lt;/td&gt;
-                    &lt;/tr&gt;
-                &lt;/table&gt;
-            &lt;/div&gt;
-            &lt;p&gt;</bloqueTexto>
-            </bloque>
-          </bloques>
           <extraImagenes>
             <extraImagenURL>https://upload.wikimedia.org/wikipedia/commons/8/85/Aston_Martin_DB5_%285643331563%29.jpg</extraImagenURL>
             <extraImagenURL>https://upload.wikimedia.org/wikipedia/commons/d/dc/Aston_Martin_DB5_Convertible%2C_Grand_Basel_2018_%28Ank_Kumar%2C_Infosys%29_02.jpg</extraImagenURL>
+            <extraImagenURL>https://upload.wikimedia.org/wikipedia/commons/d/dc/1964_Aston_Martin_DB5_Convertible_LC.jpg</extraImagenURL>
           </extraImagenes>
         </auto>
         <auto id="67" terminado="true" publicado="false">
@@ -166,49 +121,25 @@ Parachoques hidráulicos, Ametralladoras delanteras, Escudo antibalas, Matrícul
           <potencia>326</potencia>
           <aceleracion>6,2</aceleracion>
           <tipo>Deportivo</tipo>
-          <peso>1000</peso>
-          <precio>2000000</precio>
+          <peso>1465</peso>
+          <motor>6 en línea 3,9 litros aspirado naturalmente</motor>
+          <valvulas>12</valvulas>
+          <destacados>3 carburadores Weber 45DCOFF de 2 bocas</destacados>
+          <transmision>manual de 5 marchas</transmision>
+          <precio>2500000</precio>
           <imagen>https://upload.wikimedia.org/wikipedia/commons/8/87/1964_Aston_Martin_DB5_Vantage_LC23.jpg</imagen>
           <valoracionInput>40</valoracionInput>
           <enlace>https://www.altanave.uy/2024/11/aston-martin-db5-vantage-1964-coupe.html</enlace>
           <bloques>
-            <bloque>
-              <bloqueTitulo>Aston Martin DB5 Vantage » Ficha</bloqueTitulo>
-              <bloqueTexto>
-            &lt;/p&gt;
-            &lt;div style="border: 2px solid #ccc; padding: 15px; border-radius: 8px; background: #48505B; max-width: 400px; margin: 10px auto; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); color: #ecf0f1;"&gt;
-                &lt;table style="width: 100%; border-collapse: collapse; font-family: Arial, sans-serif; color: #ecf0f1;"&gt;
-                    &lt;tr&gt;
-                        &lt;td style="padding: 5px; font-weight: bold; width: 40%; text-align: left;"&gt;Motor:&lt;/td&gt;
-                        &lt;td style="padding: 5px; text-align: left;"&gt;6 en línea 3,9 litros aspirado naturalmente&lt;/td&gt;
-                    &lt;/tr&gt;
-                    &lt;tr&gt;
-                        &lt;td style="padding: 5px; font-weight: bold; text-align: left;"&gt;Válvulas:&lt;/td&gt;
-                        &lt;td style="padding: 5px; text-align: left;"&gt;12&lt;/td&gt;
-                    &lt;/tr&gt;
-                    &lt;tr&gt;
-                        &lt;td style="padding: 5px; font-weight: bold; text-align: left;"&gt;Destacados:&lt;/td&gt;
-                        &lt;td style="padding: 5px; text-align: left;"&gt;3 carburadores Weber 45DCOFF de 2 bocas&lt;/td&gt;
-                    &lt;/tr&gt;
-                    &lt;tr&gt;
-                        &lt;td style="padding: 5px; font-weight: bold; text-align: left;"&gt;Transmisión:&lt;/td&gt;
-                        &lt;td style="padding: 5px; text-align: left;"&gt;manual de 5 marchas&lt;/td&gt;
-                    &lt;/tr&gt;
-                    &lt;tr&gt;
-                        &lt;td style="padding: 5px; font-weight: bold; text-align: left;"&gt;Peso:&lt;/td&gt;
-                        &lt;td style="padding: 5px; text-align: left;"&gt;1465 Kg.&lt;/td&gt;
-                    &lt;/tr&gt;
-                &lt;/table&gt;
-            &lt;/div&gt;
-            &lt;p&gt;
-               </bloqueTexto>
-            </bloque>
             <bloque>
               <bloqueImagenURL>https://upload.wikimedia.org/wikipedia/commons/7/78/1966_Aston_Martin_DB5_V8_Prototype_HCC22.jpg</bloqueImagenURL>
               <bloqueTitulo>DB5 vs DB5 Vantage</bloqueTitulo>
               <bloqueTexto>El Aston Martin DB5 Vantage se presenta como una versión mejorada del icónico DB5 estándar, destacándose por su motor más potente que produce hasta 325 caballos de fuerza, en comparación con los 282 del modelo original. Además, el Vantage incorpora características adicionales que realzan su rendimiento y experiencia de conducción, como un sistema de suspensión más avanzado y frenos de mayor capacidad.</bloqueTexto>
             </bloque>
           </bloques>
+          <extraImagenes>
+            <extraImagenURL>https://upload.wikimedia.org/wikipedia/commons/8/87/1964_Aston_Martin_DB5_Vantage_LC23.jpg</extraImagenURL>
+          </extraImagenes>
         </auto>
       </generacion>
     </modelo>
@@ -225,43 +156,16 @@ Parachoques hidráulicos, Ametralladoras delanteras, Escudo antibalas, Matrícul
           <potencia>420</potencia>
           <aceleracion>4,9</aceleracion>
           <tipo>Deportivo</tipo>
-          <peso>1000</peso>
+          <peso>1630</peso>
+          <motor>V8 4,7 litros aspirado naturalmente</motor>
+          <valvulas>32</valvulas>
+          <destacados>Doble árbol de levas en cabeza - Control de emisiones: Catalizador de 3 vías Norma de emisión: Euro 4</destacados>
+          <transmision>manual de 6 marchas</transmision>
           <precio>60000</precio>
           <imagen>https://upload.wikimedia.org/wikipedia/commons/e/eb/2009_Aston_Martin_Vantage_V8_2.jpg</imagen>
           <valoracionInput>35</valoracionInput>
           <enlace>https://www.altanave.uy/2024/11/aston-martin-vantage-v8-2009-coupe.html</enlace>
           <bloques>
-            <bloque>
-              <bloqueTitulo>Aston Martin Vantage V8 » Ficha</bloqueTitulo>
-              <bloqueTexto>
-            &lt;/p&gt;
-            &lt;div style="border: 2px solid #ccc; padding: 15px; border-radius: 8px; background: #48505B; max-width: 400px; margin: 10px auto; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); color: #ecf0f1;"&gt;
-                &lt;table style="width: 100%; border-collapse: collapse; font-family: Arial, sans-serif; color: #ecf0f1;"&gt;
-                    &lt;tr&gt;
-                        &lt;td style="padding: 5px; font-weight: bold; width: 40%; text-align: left;"&gt;Motor:&lt;/td&gt;
-                        &lt;td style="padding: 5px; text-align: left;"&gt;V8 4,7 litros aspirado naturalmente&lt;/td&gt;
-                    &lt;/tr&gt;
-                    &lt;tr&gt;
-                        &lt;td style="padding: 5px; font-weight: bold; text-align: left;"&gt;Válvulas:&lt;/td&gt;
-                        &lt;td style="padding: 5px; text-align: left;"&gt;32&lt;/td&gt;
-                    &lt;/tr&gt;
-                    &lt;tr&gt;
-                        &lt;td style="padding: 5px; font-weight: bold; text-align: left;"&gt;Destacados:&lt;/td&gt;
-                        &lt;td style="padding: 5px; text-align: left;"&gt;Doble árbol de levas en cabeza - Control de emisiones: Catalizador de 3 vías Norma de emisión: Euro 4&lt;/td&gt;
-                    &lt;/tr&gt;
-                    &lt;tr&gt;
-                        &lt;td style="padding: 5px; font-weight: bold; text-align: left;"&gt;Transmisión:&lt;/td&gt;
-                        &lt;td style="padding: 5px; text-align: left;"&gt;manual de 6 marchas&lt;/td&gt;
-                    &lt;/tr&gt;
-                    &lt;tr&gt;
-                        &lt;td style="padding: 5px; font-weight: bold; text-align: left;"&gt;Peso:&lt;/td&gt;
-                        &lt;td style="padding: 5px; text-align: left;"&gt;1630 Kg.&lt;/td&gt;
-                    &lt;/tr&gt;
-                &lt;/table&gt;
-            &lt;/div&gt;
-            &lt;p&gt;
-        </bloqueTexto>
-            </bloque>
             <bloque>
               <bloqueImagenURL>https://upload.wikimedia.org/wikipedia/commons/6/61/Aston_Martin_V8_Vantage_-_Flickr_-_Alexandre_Pr%C3%A9vot_%2859%29.jpg</bloqueImagenURL>
               <bloqueTitulo>Que significa Vantage</bloqueTitulo>
@@ -273,6 +177,9 @@ Parachoques hidráulicos, Ametralladoras delanteras, Escudo antibalas, Matrícul
               <bloqueTexto>El vehículo cuenta con un chasis compuesto por aleaciones de aluminio y magnesio, lo que le otorga un peso de 1570 kg. La versión mejorada incorporaba un motor V8 de 4,7 litros y 32 válvulas, capaz de generar una potencia máxima de 420 caballos de fuerza. Estaba disponible con una transmisión manual o automática de seis velocidades, destacándose por su suavidad y menor esfuerzo al momento de operar el sistema de cambio de marchas.</bloqueTexto>
             </bloque>
           </bloques>
+          <extraImagenes>
+            <extraImagenURL>https://upload.wikimedia.org/wikipedia/commons/e/eb/2009_Aston_Martin_Vantage_V8_2.jpg</extraImagenURL>
+          </extraImagenes>
         </auto>
       </generacion>
       <generacion nombre="Vantage 4ta generacion" añoInicio="2018" añoFin="2023">
@@ -285,43 +192,16 @@ Parachoques hidráulicos, Ametralladoras delanteras, Escudo antibalas, Matrícul
           <potencia>503</potencia>
           <aceleracion>3,6</aceleracion>
           <tipo>Deportivo</tipo>
-          <peso>1000</peso>
-          <precio>130000</precio>
+          <peso>1625</peso>
+          <motor>V8 3,9 litros 2 turbocompresores</motor>
+          <valvulas>32</valvulas>
+          <destacados>Distribución variable del árbol de levas doble - Sistema Start-Stop </destacados>
+          <transmision>automático con modo de cambio manual de 8 marchas</transmision>
+          <precio>120000</precio>
           <imagen>https://upload.wikimedia.org/wikipedia/commons/1/15/2018_Aston_Martin_Vantage_V8_Auto_2.jpg</imagen>
           <valoracionInput>35</valoracionInput>
           <enlace>https://www.altanave.uy/2024/11/aston-martin-v8-vantage-2018-coupe.html</enlace>
           <bloques>
-            <bloque>
-              <bloqueTitulo>Aston Martin V8 Vantage » Ficha</bloqueTitulo>
-              <bloqueTexto>
-            &lt;/p&gt;
-            &lt;div style="border: 2px solid #ccc; padding: 15px; border-radius: 8px; background: #48505B; max-width: 400px; margin: 10px auto; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); color: #ecf0f1;"&gt;
-                &lt;table style="width: 100%; border-collapse: collapse; font-family: Arial, sans-serif; color: #ecf0f1;"&gt;
-                    &lt;tr&gt;
-                        &lt;td style="padding: 5px; font-weight: bold; width: 40%; text-align: left;"&gt;Motor:&lt;/td&gt;
-                        &lt;td style="padding: 5px; text-align: left;"&gt;V8 3,9 litros 2 turbocompresores&lt;/td&gt;
-                    &lt;/tr&gt;
-                    &lt;tr&gt;
-                        &lt;td style="padding: 5px; font-weight: bold; text-align: left;"&gt;Válvulas:&lt;/td&gt;
-                        &lt;td style="padding: 5px; text-align: left;"&gt;32&lt;/td&gt;
-                    &lt;/tr&gt;
-                    &lt;tr&gt;
-                        &lt;td style="padding: 5px; font-weight: bold; text-align: left;"&gt;Destacados:&lt;/td&gt;
-                        &lt;td style="padding: 5px; text-align: left;"&gt;Distribución variable del árbol de levas doble - Turbocompresores duales de una sola entrada (uno por banco) - Doble árbol de levas - Sistema Start-Stop - Norma de emisión:  Euro 6&lt;/td&gt;
-                    &lt;/tr&gt;
-                    &lt;tr&gt;
-                        &lt;td style="padding: 5px; font-weight: bold; text-align: left;"&gt;Transmisión:&lt;/td&gt;
-                        &lt;td style="padding: 5px; text-align: left;"&gt;automático con modo de cambio manual de 8 marchas&lt;/td&gt;
-                    &lt;/tr&gt;
-                    &lt;tr&gt;
-                        &lt;td style="padding: 5px; font-weight: bold; text-align: left;"&gt;Peso:&lt;/td&gt;
-                        &lt;td style="padding: 5px; text-align: left;"&gt;1625 Kg.&lt;/td&gt;
-                    &lt;/tr&gt;
-                &lt;/table&gt;
-            &lt;/div&gt;
-            &lt;p&gt;
-        </bloqueTexto>
-            </bloque>
             <bloque>
               <bloqueImagenURL>https://upload.wikimedia.org/wikipedia/commons/9/9c/2020_Aston_Martin_Vantage_V8.jpg</bloqueImagenURL>
               <bloqueTitulo>Aston Martin vs Porsche</bloqueTitulo>
@@ -332,6 +212,7 @@ En cuanto a su diseño exterior, además de la sofisticación de Aston Martin in
           <extraImagenes>
             <extraImagenURL>https://upload.wikimedia.org/wikipedia/commons/0/0c/Aston_Martin_V8_Vantage_Genf_2018.jpg</extraImagenURL>
             <extraImagenURL>https://upload.wikimedia.org/wikipedia/commons/c/c5/2018_Aston_Martin_Vantage_V8_Auto_4.jpg</extraImagenURL>
+            <extraImagenURL>https://upload.wikimedia.org/wikipedia/commons/1/15/2018_Aston_Martin_Vantage_V8_Auto_2.jpg</extraImagenURL>
           </extraImagenes>
         </auto>
       </generacion>
@@ -345,43 +226,16 @@ En cuanto a su diseño exterior, además de la sofisticación de Aston Martin in
           <potencia>503</potencia>
           <aceleracion>3,6</aceleracion>
           <tipo>Deportivo</tipo>
-          <peso>1000</peso>
-          <precio>160000</precio>
+          <peso>1745</peso>
+          <motor>V8 3,9 litros 2 turbocompresores</motor>
+          <valvulas>32</valvulas>
+          <destacados>Distribución variable del árbol de levas doble - Turbocompresores duales</destacados>
+          <transmision>automático con modo de cambio manual de 8 marchas</transmision>
+          <precio>175000</precio>
           <imagen>https://upload.wikimedia.org/wikipedia/commons/8/81/2024_Aston_Martin_Vantage_V8_2.jpg</imagen>
           <valoracionInput>35</valoracionInput>
           <enlace>https://www.altanave.uy/2024/11/aston-martin-v8-vantage-2024-coupe.html</enlace>
           <bloques>
-            <bloque>
-              <bloqueTitulo>Aston Martin V8 Vantage » Ficha</bloqueTitulo>
-              <bloqueTexto>
-            &lt;/p&gt;
-            &lt;div style="border: 2px solid #ccc; padding: 15px; border-radius: 8px; background: #48505B; max-width: 400px; margin: 10px auto; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); color: #ecf0f1;"&gt;
-                &lt;table style="width: 100%; border-collapse: collapse; font-family: Arial, sans-serif; color: #ecf0f1;"&gt;
-                    &lt;tr&gt;
-                        &lt;td style="padding: 5px; font-weight: bold; width: 40%; text-align: left;"&gt;Motor:&lt;/td&gt;
-                        &lt;td style="padding: 5px; text-align: left;"&gt;V8 3,9 litros 2 turbocompresores&lt;/td&gt;
-                    &lt;/tr&gt;
-                    &lt;tr&gt;
-                        &lt;td style="padding: 5px; font-weight: bold; text-align: left;"&gt;Válvulas:&lt;/td&gt;
-                        &lt;td style="padding: 5px; text-align: left;"&gt;32&lt;/td&gt;
-                    &lt;/tr&gt;
-                    &lt;tr&gt;
-                        &lt;td style="padding: 5px; font-weight: bold; text-align: left;"&gt;Destacados:&lt;/td&gt;
-                        &lt;td style="padding: 5px; text-align: left;"&gt;Distribución variable del árbol de levas doble - Turbocompresores duales de una sola entrada (uno por banco) - Doble árbol de levas - Sistema Start-Stop - Norma de emisión:  Euro 6&lt;/td&gt;
-                    &lt;/tr&gt;
-                    &lt;tr&gt;
-                        &lt;td style="padding: 5px; font-weight: bold; text-align: left;"&gt;Transmisión:&lt;/td&gt;
-                        &lt;td style="padding: 5px; text-align: left;"&gt;automático con modo de cambio manual de 8 marchas&lt;/td&gt;
-                    &lt;/tr&gt;
-                    &lt;tr&gt;
-                        &lt;td style="padding: 5px; font-weight: bold; text-align: left;"&gt;Peso:&lt;/td&gt;
-                        &lt;td style="padding: 5px; text-align: left;"&gt;1745 Kg.&lt;/td&gt;
-                    &lt;/tr&gt;
-                &lt;/table&gt;
-            &lt;/div&gt;
-            &lt;p&gt;
-        </bloqueTexto>
-            </bloque>
             <bloque>
               <bloqueImagenURL>https://upload.wikimedia.org/wikipedia/commons/6/6f/2024_Aston_Martin_Vantage_V8_F1_Safety_Car_5.jpg</bloqueImagenURL>
               <bloqueTitulo>Que auto es el Safety Car en la Fórmula 1 </bloqueTitulo>
@@ -393,11 +247,14 @@ En cuanto a su diseño exterior, además de la sofisticación de Aston Martin in
               <bloqueTexto>El Vantage se suma a la parrilla de Fórmula 1® en 2024 junto con 20 coches que llevan la velocidad al límite. Es el Safety Car oficial de la FIA de Fórmula 1® acompañando al equipo de Fernando Alonso y mostrando su rica tradición de competición. </bloqueTexto>
             </bloque>
           </bloques>
+          <extraImagenes>
+            <extraImagenURL>https://upload.wikimedia.org/wikipedia/commons/8/81/2024_Aston_Martin_Vantage_V8_2.jpg</extraImagenURL>
+          </extraImagenes>
         </auto>
       </generacion>
     </modelo>
     <modelo nombre="One-77">
-      <modeloDescripcion>El Aston Martin One-77 es un superdeportivo excepcional que debutó en 2009, marcando un hito en la ingeniería y el diseño británico. Con su línea esculpida y aerodinámica, el One-77 es una verdadera obra de arte sobre ruedas, impulsado por un potente motor V12 de 7.3 litros que produce 750 caballos de fuerza. Su impresionante capacidad para acelerar de 0 a 100 km/h en tan solo 3.7 segundos lo sitúa entre los coches más veloces del mundo, estableciendo un nuevo referente en rendimiento y tecnología. El chasis de carbono y la suspensión adaptativa aseguran una experiencia de conducción que combina agilidad y confort, mientras que el interior, elaborado con materiales de lujo, refleja la atención al detalle y la exclusividad de la marca. Con su fusión de potencia, sofisticación y raridad, el Aston Martin One-77 se ha consolidado como un objeto de deseo para coleccionistas y entusiastas, simbolizando el legado y la excelencia de Aston Martin en el panorama automotriz.</modeloDescripcion>
+      <modeloDescripcion>El One-77, el Aston Martin más exclusivo de la "era Gaydon", se limitó a 77 ejemplares únicos. El Aston Martin definitivo. El One-77, que combina tecnología avanzada con un diseño espectacular, se presentó como el Aston Martin más rápido de la historia, con una velocidad máxima de 350 km/h. Representa lo que posiblemente sea la forma de arte automovilístico más deseada del mundo, con un monocasco de fibra de carbono ligero e inmensamente rígido revestido de una carrocería sin costuras hecha a mano con aluminio en su núcleo.</modeloDescripcion>
       <modeloEnlaceAltaNaveURL>https://www.altanave.uy/2024/10/one-77-versiones-generaciones.html</modeloEnlaceAltaNaveURL>
       <generacion nombre="One-77" añoInicio="2011" añoFin="2011">
         <auto id="62" terminado="true" publicado="false">
@@ -405,47 +262,20 @@ En cuanto a su diseño exterior, además de la sofisticación de Aston Martin in
           <año>2011</año>
           <chasis>Coupe 2 puertas</chasis>
           <propulsion>Gasolina</propulsion>
-          <velocidad>330</velocidad>
+          <velocidad>350</velocidad>
           <potencia>700</potencia>
           <aceleracion>3,5</aceleracion>
           <tipo>Deportivo</tipo>
-          <peso>1000</peso>
-          <precio>2500000</precio>
+          <peso>1500</peso>
+          <motor>V12 7,3 litros aspirado naturalmente</motor>
+          <valvulas>48</valvulas>
+          <destacados>Doble (DOHC) árbol de levas a la cabeza</destacados>
+          <transmision>Manual secuencial robotizada de 6 velocidades</transmision>
+          <precio>3000000</precio>
           <imagen>https://upload.wikimedia.org/wikipedia/commons/9/98/Aston_Martin_One-77_Blue.jpg</imagen>
           <valoracionInput>40</valoracionInput>
           <enlace>https://www.altanave.uy/2024/11/one-77-2011-coupe.html</enlace>
           <bloques>
-            <bloque>
-              <bloqueTitulo>One-77 » Ficha</bloqueTitulo>
-              <bloqueTexto>
-            &lt;/p&gt;
-            &lt;div style="border: 2px solid #ccc; padding: 15px; border-radius: 8px; background: #48505B; max-width: 400px; margin: 10px auto; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); color: #ecf0f1;"&gt;
-                &lt;table style="width: 100%; border-collapse: collapse; font-family: Arial, sans-serif; color: #ecf0f1;"&gt;
-                    &lt;tr&gt;
-                        &lt;td style="padding: 5px; font-weight: bold; width: 40%; text-align: left;"&gt;Motor:&lt;/td&gt;
-                        &lt;td style="padding: 5px; text-align: left;"&gt;V12 7,3 litros aspirado naturalmente&lt;/td&gt;
-                    &lt;/tr&gt;
-                    &lt;tr&gt;
-                        &lt;td style="padding: 5px; font-weight: bold; text-align: left;"&gt;Válvulas:&lt;/td&gt;
-                        &lt;td style="padding: 5px; text-align: left;"&gt;48&lt;/td&gt;
-                    &lt;/tr&gt;
-                    &lt;tr&gt;
-                        &lt;td style="padding: 5px; font-weight: bold; text-align: left;"&gt;Destacados:&lt;/td&gt;
-                        &lt;td style="padding: 5px; text-align: left;"&gt;Doble (DOHC) árbol de levas a la cabeza&lt;/td&gt;
-                    &lt;/tr&gt;
-                    &lt;tr&gt;
-                        &lt;td style="padding: 5px; font-weight: bold; text-align: left;"&gt;Transmisión:&lt;/td&gt;
-                        &lt;td style="padding: 5px; text-align: left;"&gt;Manual secuencial robotizada de 6 velocidades&lt;/td&gt;
-                    &lt;/tr&gt;
-                    &lt;tr&gt;
-                        &lt;td style="padding: 5px; font-weight: bold; text-align: left;"&gt;Peso:&lt;/td&gt;
-                        &lt;td style="padding: 5px; text-align: left;"&gt;1500 Kg.&lt;/td&gt;
-                    &lt;/tr&gt;
-                &lt;/table&gt;
-            &lt;/div&gt;
-            &lt;p&gt;
-        </bloqueTexto>
-            </bloque>
             <bloque>
               <bloqueImagenURL>https://upload.wikimedia.org/wikipedia/commons/a/ae/2014_Aston_Martin_One-77_Blue.jpg</bloqueImagenURL>
               <bloqueTitulo>Mejor Concept Cars</bloqueTitulo>
@@ -456,6 +286,7 @@ En cuanto a su diseño exterior, además de la sofisticación de Aston Martin in
             <extraImagenURL>https://upload.wikimedia.org/wikipedia/commons/6/60/Aston_Martin_One-77_4.jpg</extraImagenURL>
             <extraImagenURL>https://upload.wikimedia.org/wikipedia/commons/8/86/Aston_Martin_One-77_8.jpg</extraImagenURL>
             <extraImagenURL>https://upload.wikimedia.org/wikipedia/commons/9/98/Aston_Martin_One-77_5.jpg</extraImagenURL>
+            <extraImagenURL>https://upload.wikimedia.org/wikipedia/commons/9/98/Aston_Martin_One-77_Blue.jpg</extraImagenURL>
           </extraImagenes>
         </auto>
       </generacion>
@@ -467,7 +298,7 @@ En cuanto a su diseño exterior, además de la sofisticación de Aston Martin in
     <marcaBanderaURL>https://upload.wikimedia.org/wikipedia/commons/b/bc/Flag_of_France_%281794%E2%80%931815%2C_1830%E2%80%931974%2C_2020%E2%80%93present%29.svg</marcaBanderaURL>
     <marcaEnlaceAltaNaveURL>https://www.altanave.uy/2024/10/bugatti.html</marcaEnlaceAltaNaveURL>
     <modelo nombre="Veyron">
-      <modeloDescripcion>El Bugatti Veyron es un hypercar lanzado en 2005 que revolucionó el mundo del automovilismo al establecer nuevos estándares de rendimiento y lujo. Diseñado para los entusiastas de la velocidad, cuenta con un motor W16 de 8.0 litros que produce hasta 1,001 caballos de fuerza, permitiéndole alcanzar velocidades superiores a los 400 km/h. Su impresionante diseño aerodinámico no solo lo hace visualmente impactante, sino que también mejora su estabilidad a altas velocidades. Entre sus características más destacadas se encuentran un interior exquisitamente diseñado con materiales de alta gama y tecnologías avanzadas. El Veyron ha sido aclamado no solo por su potencia, sino también por su exclusividad, convirtiéndolo en un símbolo de estatus y un sueño automovilístico para muchos.</modeloDescripcion>
+      <modeloDescripcion>El Bugatti Veyron marcó el regreso de Bugatti al mundo de los superdeportivos, ya bajo el ala del Grupo Volkswagen. Este modelo se convirtió en el automóvil insignia del grupo, incorporando las tecnologías más innovadoras de su tiempo que supusieron una verdadera revolución en la industria automotriz, elevando el rendimiento y las capacidades a niveles que superaban las expectativas de marcas como Ferrari, Lamborghini o Porsche en esa época.</modeloDescripcion>
       <modeloEnlaceAltaNaveURL>NO</modeloEnlaceAltaNaveURL>
       <generacion nombre="Bugatti Veyron" añoInicio="2005" añoFin="2015">
         <auto id="9" terminado="true" publicado="false">
@@ -479,43 +310,16 @@ En cuanto a su diseño exterior, además de la sofisticación de Aston Martin in
           <potencia>987</potencia>
           <aceleracion>2,5</aceleracion>
           <tipo>Superauto</tipo>
-          <peso>1000</peso>
+          <peso>1888</peso>
+          <motor>W16 7,9 litros 4 turbocompresores</motor>
+          <valvulas>64</valvulas>
+          <destacados>VVT - 4x turbo; intercooler</destacados>
+          <transmision>automática de doble embrague con modo de cambio manual de 7 marchas</transmision>
           <precio>1920000</precio>
           <imagen>https://upload.wikimedia.org/wikipedia/commons/6/6b/Bugatti_veyron_in_Tokyo.jpg</imagen>
           <valoracionInput>50</valoracionInput>
           <enlace>https://www.altanave.uy/2024/11/bugatti-veyron-2005-coupe.html</enlace>
           <bloques>
-            <bloque>
-              <bloqueTitulo>Bugatti Veyron 16.4 » Ficha</bloqueTitulo>
-              <bloqueTexto>
-            &lt;/p&gt;
-            &lt;div style="border: 2px solid #ccc; padding: 15px; border-radius: 8px; background: #48505B; max-width: 400px; margin: 10px auto; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); color: #ecf0f1;"&gt;
-                &lt;table style="width: 100%; border-collapse: collapse; font-family: Arial, sans-serif; color: #ecf0f1;"&gt;
-                    &lt;tr&gt;
-                        &lt;td style="padding: 5px; font-weight: bold; width: 40%; text-align: left;"&gt;Motor:&lt;/td&gt;
-                        &lt;td style="padding: 5px; text-align: left;"&gt;W16 7,9 litros 4 turbocompresores&lt;/td&gt;
-                    &lt;/tr&gt;
-                    &lt;tr&gt;
-                        &lt;td style="padding: 5px; font-weight: bold; text-align: left;"&gt;Válvulas:&lt;/td&gt;
-                        &lt;td style="padding: 5px; text-align: left;"&gt;64&lt;/td&gt;
-                    &lt;/tr&gt;
-                    &lt;tr&gt;
-                        &lt;td style="padding: 5px; font-weight: bold; text-align: left;"&gt;Destacados:&lt;/td&gt;
-                        &lt;td style="padding: 5px; text-align: left;"&gt;VVT - 4x turbo; intercooler&lt;/td&gt;
-                    &lt;/tr&gt;
-                    &lt;tr&gt;
-                        &lt;td style="padding: 5px; font-weight: bold; text-align: left;"&gt;Transmisión:&lt;/td&gt;
-                        &lt;td style="padding: 5px; text-align: left;"&gt;automática de doble embrague con modo de cambio manual de 7 marchas &lt;/td&gt;
-                    &lt;/tr&gt;
-                    &lt;tr&gt;
-                        &lt;td style="padding: 5px; font-weight: bold; text-align: left;"&gt;Peso:&lt;/td&gt;
-                        &lt;td style="padding: 5px; text-align: left;"&gt;1888 Kg.&lt;/td&gt;
-                    &lt;/tr&gt;
-                &lt;/table&gt;
-            &lt;/div&gt;
-            &lt;p&gt;
-        </bloqueTexto>
-            </bloque>
             <bloque>
               <bloqueImagenURL>https://upload.wikimedia.org/wikipedia/commons/c/c7/Bugatti_Veyron_16.4_2005_%2826779947960%29.jpg</bloqueImagenURL>
               <bloqueTitulo>Bugatti Veyron Velocidad maxima</bloqueTitulo>
@@ -542,6 +346,7 @@ En cuanto a su diseño exterior, además de la sofisticación de Aston Martin in
             <extraImagenURL>https://upload.wikimedia.org/wikipedia/commons/a/a4/BugattiVeyron16.4_3.jpg</extraImagenURL>
             <extraImagenURL>https://upload.wikimedia.org/wikipedia/commons/1/1f/BugattiVeyron16.4_2.jpg</extraImagenURL>
             <extraImagenURL>https://upload.wikimedia.org/wikipedia/commons/9/9f/Bugatti_Veryon_16.4.JPG</extraImagenURL>
+            <extraImagenURL>https://upload.wikimedia.org/wikipedia/commons/6/6b/Bugatti_veyron_in_Tokyo.jpg</extraImagenURL>
           </extraImagenes>
         </auto>
       </generacion>
@@ -556,7 +361,7 @@ En cuanto a su diseño exterior, además de la sofisticación de Aston Martin in
       <modeloDescripcion>El DeLorean DMC-12, lanzado en 1981, es un ícono atemporal que combina diseño futurista con un enfoque innovador en la fabricación automotriz. Su estructura de acero inoxidable y puertas de ala de gaviota lo distinguen de otros vehículos de su época, atrayendo miradas y estableciendo una identidad única en el mundo del automóvil. Equipado con un motor PRV V6 de 2.85 litros y un diseño aerodinámico, el DMC-12 ofrece una experiencia de manejo característica, siendo tanto un vehículo de culto como un símbolo de exclusividad. Aunque sus prestaciones no compitieron directamente con los deportivos más rápidos de su tiempo, su impacto en la cultura y su estética revolucionaria lo han convertido en un clásico de culto y en un emblema de los años 80.</modeloDescripcion>
       <modeloEnlaceAltaNaveURL>NO</modeloEnlaceAltaNaveURL>
       <generacion nombre="De Lorean DMC-12" añoInicio="1981" añoFin="1982">
-        <auto id="59" terminado="true" publicado="false">
+        <auto id="59" terminado="false" publicado="false">
           <nombre>DMC De Lorean</nombre>
           <año>1982</año>
           <chasis>Coupe 2 puertas</chasis>
@@ -566,6 +371,10 @@ En cuanto a su diseño exterior, además de la sofisticación de Aston Martin in
           <aceleracion>9,4</aceleracion>
           <tipo>Deportivo</tipo>
           <peso>1000</peso>
+          <motor>na</motor>
+          <valvulas>na</valvulas>
+          <destacados>na</destacados>
+          <transmision>na</transmision>
           <precio>86500 </precio>
           <imagen>https://upload.wikimedia.org/wikipedia/commons/6/63/DeLorean_DMC-12_%2815704582713%29.jpg</imagen>
           <valoracionInput>50</valoracionInput>
@@ -646,7 +455,7 @@ En cuanto a su diseño exterior, además de la sofisticación de Aston Martin in
       <modeloDescripcion>El Ferrari 250 GTO es un deportivo de alto rendimiento lanzado en 1962 que se ha convertido en una de las leyendas más icónicas de la marca italiana. Diseñado para la competición, cuenta con un motor V12 de 3.0 litros que produce 300 caballos de fuerza, permitiéndole alcanzar velocidades de hasta 280 km/h, algo impresionante para su época. Su chasis ligero y aerodinámico fue optimizado para dominar tanto en las pistas de carreras como en las carreteras. Entre sus características más notables se encuentran su diseño clásico y elegante, y un equilibrio perfecto entre potencia y maniobrabilidad. El 250 GTO es considerado una joya de la ingeniería automotriz, cotizándose actualmente como uno de los autos más valiosos y codiciados del mundo, admirado por su exclusividad, historia y rendimiento.</modeloDescripcion>
       <modeloEnlaceAltaNaveURL>NO</modeloEnlaceAltaNaveURL>
       <generacion nombre="Serie I" añoInicio="1962" añoFin="1963">
-        <auto id="14" terminado="true" publicado="false">
+        <auto id="14" terminado="false" publicado="false">
           <nombre>Ferrari 250 GTO</nombre>
           <año>1962</año>
           <chasis>Coupe 2 puertas</chasis>
@@ -656,6 +465,10 @@ En cuanto a su diseño exterior, además de la sofisticación de Aston Martin in
           <aceleracion>4,4</aceleracion>
           <tipo>Deportivo</tipo>
           <peso>1000</peso>
+          <motor>na</motor>
+          <valvulas>na</valvulas>
+          <destacados>na</destacados>
+          <transmision>na</transmision>
           <precio>70000000</precio>
           <imagen>https://upload.wikimedia.org/wikipedia/commons/0/08/1962_Ferrari_250_GTO_Scaglietti_Series_I.jpg</imagen>
           <valoracionInput>50</valoracionInput>
@@ -711,7 +524,7 @@ En cuanto a su diseño exterior, además de la sofisticación de Aston Martin in
         </auto>
       </generacion>
       <generacion nombre="Serie II" añoInicio="1964" añoFin="1964">
-        <auto id="15" terminado="true" publicado="false">
+        <auto id="15" terminado="false" publicado="false">
           <nombre>Ferrari 250 GTO</nombre>
           <año>1964</año>
           <chasis>Coupe 2 puertas</chasis>
@@ -721,6 +534,10 @@ En cuanto a su diseño exterior, además de la sofisticación de Aston Martin in
           <aceleracion>4,6</aceleracion>
           <tipo>Deportivo</tipo>
           <peso>1000</peso>
+          <motor>na</motor>
+          <valvulas>na</valvulas>
+          <destacados>na</destacados>
+          <transmision>na</transmision>
           <precio>70000000</precio>
           <imagen>https://upload.wikimedia.org/wikipedia/commons/1/11/2021_Pebble_Tour_Ferrari_250_GTO_5573GT.jpg</imagen>
           <valoracionInput>50</valoracionInput>
@@ -775,7 +592,7 @@ En cuanto a su diseño exterior, además de la sofisticación de Aston Martin in
       <modeloDescripcion>El Ferrari 365 GTB/4 Daytona es un icónico deportivo lanzado en 1968, considerado uno de los modelos más representativos de la marca italiana en la era clásica. Con un poderoso motor V12 de 4.4 litros que produce 352 caballos de fuerza, el Daytona puede alcanzar velocidades superiores a los 280 km/h, ofreciendo un rendimiento excepcional para su tiempo. Su diseño elegante y aerodinámico, con líneas distintivas y un chasis de acero ligero, no solo realza su belleza, sino que también optimiza su comportamiento en carretera. Entre sus características más destacadas se encuentran su sistema de tracción trasera y una suspensión avanzada que garantizan una experiencia de conducción emocionante y dinámica. El 365 GTB/4 Daytona es más que un simple automóvil; es un símbolo de la ingeniería automotriz de los años 60, admirado por su exclusividad y legado, convirtiéndose en un verdadero tesoro para coleccionistas y entusiastas de Ferrari.</modeloDescripcion>
       <modeloEnlaceAltaNaveURL>NO</modeloEnlaceAltaNaveURL>
       <generacion nombre="Daytona" añoInicio="1968" añoFin="1974">
-        <auto id="22" terminado="true" publicado="false">
+        <auto id="22" terminado="false" publicado="false">
           <nombre>Ferrari 365 GTB/4 Daytona</nombre>
           <año>1974</año>
           <chasis>Coupe 2 puertas</chasis>
@@ -785,6 +602,10 @@ En cuanto a su diseño exterior, además de la sofisticación de Aston Martin in
           <aceleracion>5,7</aceleracion>
           <tipo>Deportivo</tipo>
           <peso>1000</peso>
+          <motor>na</motor>
+          <valvulas>na</valvulas>
+          <destacados>na</destacados>
+          <transmision>na</transmision>
           <precio>1000000</precio>
           <imagen>https://upload.wikimedia.org/wikipedia/commons/7/7e/Ferrari_Daytona_365_GTB4_LC22.jpg</imagen>
           <valoracionInput>45</valoracionInput>
@@ -838,7 +659,7 @@ En cuanto a su diseño exterior, además de la sofisticación de Aston Martin in
             </bloque>
           </bloques>
         </auto>
-        <auto id="23" terminado="true" publicado="false">
+        <auto id="23" terminado="false" publicado="false">
           <nombre>Ferrari 365 GTS/4 Daytona</nombre>
           <año>1973</año>
           <chasis>Convertible 2 puertas</chasis>
@@ -848,6 +669,10 @@ En cuanto a su diseño exterior, además de la sofisticación de Aston Martin in
           <aceleracion>5,3</aceleracion>
           <tipo>Deportivo</tipo>
           <peso>1000</peso>
+          <motor>na</motor>
+          <valvulas>na</valvulas>
+          <destacados>na</destacados>
+          <transmision>na</transmision>
           <precio>2000000</precio>
           <imagen>https://upload.wikimedia.org/wikipedia/commons/7/75/Ferrari_365_GTC-4.jpg</imagen>
           <valoracionInput>45</valoracionInput>
@@ -903,7 +728,7 @@ En cuanto a su diseño exterior, además de la sofisticación de Aston Martin in
         </auto>
       </generacion>
       <generacion nombre="Daytona SP3" añoInicio="2022" añoFin="2025">
-        <auto id="24" terminado="true" publicado="false">
+        <auto id="24" terminado="false" publicado="false">
           <nombre>Ferrari Daytona SP3</nombre>
           <año>2023</año>
           <chasis>Coupe 2 puertas</chasis>
@@ -913,6 +738,10 @@ En cuanto a su diseño exterior, además de la sofisticación de Aston Martin in
           <aceleracion>2,85</aceleracion>
           <tipo>Superauto</tipo>
           <peso>1000</peso>
+          <motor>na</motor>
+          <valvulas>na</valvulas>
+          <destacados>na</destacados>
+          <transmision>na</transmision>
           <precio>2000000</precio>
           <imagen>https://upload.wikimedia.org/wikipedia/commons/6/6f/Ferrari_Daytona_SP3.jpg</imagen>
           <valoracionInput>45</valoracionInput>
@@ -982,6 +811,10 @@ En cuanto a su diseño exterior, además de la sofisticación de Aston Martin in
           <aceleracion>4,1</aceleracion>
           <tipo>Superauto</tipo>
           <peso>1000</peso>
+          <motor>na</motor>
+          <valvulas>na</valvulas>
+          <destacados>na</destacados>
+          <transmision>na</transmision>
           <precio>300000</precio>
           <imagen>https://upload.wikimedia.org/wikipedia/commons/b/b9/2000_Ferrari_360_Challenge_Stradale.jpg</imagen>
           <valoracionInput>40</valoracionInput>
@@ -1000,7 +833,7 @@ El Challenge Stradale puede ser hasta 110 kg (240 lb) más liviano que el Modena
             </bloque>
           </bloques>
         </auto>
-        <auto id="71" terminado="true" publicado="false">
+        <auto id="71" terminado="false" publicado="false">
           <nombre>Ferrari 360 Modena</nombre>
           <año>2000</año>
           <chasis>Coupe 2 puertas</chasis>
@@ -1010,6 +843,10 @@ El Challenge Stradale puede ser hasta 110 kg (240 lb) más liviano que el Modena
           <aceleracion>4,6</aceleracion>
           <tipo>Deportivo</tipo>
           <peso>1000</peso>
+          <motor>na</motor>
+          <valvulas>na</valvulas>
+          <destacados>na</destacados>
+          <transmision>na</transmision>
           <precio>150000</precio>
           <imagen>https://upload.wikimedia.org/wikipedia/commons/1/15/Ferrari_360%2C_BAS_24%2C_Brussels_%28P1170344-RR%29.jpg</imagen>
           <valoracionInput>35</valoracionInput>
@@ -1027,7 +864,7 @@ El Challenge Stradale puede ser hasta 110 kg (240 lb) más liviano que el Modena
             </bloque>
           </bloques>
         </auto>
-        <auto id="72" terminado="true" publicado="false">
+        <auto id="72" terminado="false" publicado="false">
           <nombre>Ferrari 360 Spider</nombre>
           <año>2001</año>
           <chasis>Convertible 2 puertas</chasis>
@@ -1037,6 +874,10 @@ El Challenge Stradale puede ser hasta 110 kg (240 lb) más liviano que el Modena
           <aceleracion>4,6</aceleracion>
           <tipo>Deportivo</tipo>
           <peso>1000</peso>
+          <motor>na</motor>
+          <valvulas>na</valvulas>
+          <destacados>na</destacados>
+          <transmision>na</transmision>
           <precio>120000</precio>
           <imagen>https://upload.wikimedia.org/wikipedia/commons/1/1c/2001-ferrari-360-rc.jpg</imagen>
           <valoracionInput>35</valoracionInput>
@@ -1060,7 +901,7 @@ El Challenge Stradale puede ser hasta 110 kg (240 lb) más liviano que el Modena
       <modeloDescripcion>El Ferrari SF90 Stradale es un superdeportivo de última generación lanzado en 2019, representando un avance significativo en la tecnología y el diseño de la marca italiana. Equipado con un potente motor V8 de 4.0 litros twin-turbo, combinado con tres motores eléctricos, genera una asombrosa potencia total de 1,000 caballos, permitiéndole acelerar de 0 a 100 km/h en apenas 2.5 segundos. Su chasis, construido con materiales ultraligeros y una aerodinámica avanzada, garantiza un rendimiento excepcional tanto en pista como en carretera. Entre sus características destacadas se encuentran su sistema híbrido, un diseño futurista y elegante, y una impresionante tecnología de conducción asistida. La SF90 Stradale no solo es una obra maestra de la ingeniería, sino que también establece nuevos estándares en el mundo de los superdeportivos, consolidándose como un símbolo de innovación y exclusividad.</modeloDescripcion>
       <modeloEnlaceAltaNaveURL>NO</modeloEnlaceAltaNaveURL>
       <generacion nombre="SF90" añoInicio="2021" añoFin="2025">
-        <auto id="20" terminado="true" publicado="false">
+        <auto id="20" terminado="false" publicado="false">
           <nombre>Ferrari SF90 Stradale</nombre>
           <año>2021</año>
           <chasis>Coupe 2 puertas</chasis>
@@ -1070,6 +911,10 @@ El Challenge Stradale puede ser hasta 110 kg (240 lb) más liviano que el Modena
           <aceleracion>2,5</aceleracion>
           <tipo>Deportivo</tipo>
           <peso>1000</peso>
+          <motor>na</motor>
+          <valvulas>na</valvulas>
+          <destacados>na</destacados>
+          <transmision>na</transmision>
           <precio>500000</precio>
           <imagen>https://upload.wikimedia.org/wikipedia/commons/e/ee/2021_Ferrari_SF90.jpg</imagen>
           <valoracionInput>35</valoracionInput>
@@ -1090,7 +935,7 @@ Finalmente, el modo Quality aprovecha al máximo la potencia del sistema motriz 
             </bloque>
           </bloques>
         </auto>
-        <auto id="21" terminado="true" publicado="false">
+        <auto id="21" terminado="false" publicado="false">
           <nombre>Ferrari SF90 Spider</nombre>
           <año>2023</año>
           <chasis>Convertible 2 puertas</chasis>
@@ -1100,6 +945,10 @@ Finalmente, el modo Quality aprovecha al máximo la potencia del sistema motriz 
           <aceleracion>2,5</aceleracion>
           <tipo>Deportivo</tipo>
           <peso>1000</peso>
+          <motor>na</motor>
+          <valvulas>na</valvulas>
+          <destacados>na</destacados>
+          <transmision>na</transmision>
           <precio>500000</precio>
           <imagen>https://upload.wikimedia.org/wikipedia/commons/2/24/Ferrari_reims_1200871.jpg</imagen>
           <valoracionInput>35</valoracionInput>
@@ -1113,7 +962,7 @@ El Ferrari SF90 Spider, además de mantener la silueta del SF90 Stradale, presen
             </bloque>
           </bloques>
         </auto>
-        <auto id="79" terminado="true" publicado="false">
+        <auto id="79" terminado="false" publicado="false">
           <nombre>Ferrari SF90 Stradale Assetto Fiorano</nombre>
           <año>2024</año>
           <chasis>Coupe 2 puertas</chasis>
@@ -1123,6 +972,10 @@ El Ferrari SF90 Spider, además de mantener la silueta del SF90 Stradale, presen
           <aceleracion>2,5</aceleracion>
           <tipo>Superauto</tipo>
           <peso>1000</peso>
+          <motor>na</motor>
+          <valvulas>na</valvulas>
+          <destacados>na</destacados>
+          <transmision>na</transmision>
           <precio>625000</precio>
           <imagen>https://upload.wikimedia.org/wikipedia/commons/1/1e/Ferrari_SF90_Stradale.jpg</imagen>
           <valoracionInput>40</valoracionInput>
@@ -1146,7 +999,7 @@ El Ferrari SF90 Spider, además de mantener la silueta del SF90 Stradale, presen
       <modeloDescripcion>El Ferrari 458 Italia es un superdeportivo emblemático lanzado en 2009, aclamado por su diseño aerodinámico y su excepcional rendimiento. Equipado con un motor V8 de 4.5 litros que produce 570 caballos de fuerza, el 458 puede alcanzar velocidades superiores a los 325 km/h, ofreciendo una aceleración impresionante de 0 a 100 km/h en solo 3.4 segundos. Su chasis ligero, construido con materiales avanzados, junto con una suspensión de alto rendimiento, proporciona una maniobrabilidad excepcional en la pista y en carretera. Entre sus características más destacadas se incluyen un sistema de tracción trasera y una dirección precisa que hacen que cada conducción sea una experiencia emocionante. El 458 Italia no solo es una obra maestra de la ingeniería automotriz, sino que también se ha convertido en un ícono contemporáneo, admirado por su belleza, tecnología y el legado que deja en la historia de Ferrari.</modeloDescripcion>
       <modeloEnlaceAltaNaveURL>NO</modeloEnlaceAltaNaveURL>
       <generacion nombre="458" añoInicio="2010" añoFin="2015">
-        <auto id="28" terminado="true" publicado="false">
+        <auto id="28" terminado="false" publicado="false">
           <nombre>Ferrari 458 Italia</nombre>
           <año>2012</año>
           <chasis>Coupe 2 puertas</chasis>
@@ -1156,6 +1009,10 @@ El Ferrari SF90 Spider, además de mantener la silueta del SF90 Stradale, presen
           <aceleracion>3,4</aceleracion>
           <tipo>Deportivo</tipo>
           <peso>1000</peso>
+          <motor>na</motor>
+          <valvulas>na</valvulas>
+          <destacados>na</destacados>
+          <transmision>na</transmision>
           <precio>200000</precio>
           <imagen>https://upload.wikimedia.org/wikipedia/commons/c/c2/2012_Ferrari_458_4.jpg</imagen>
           <valoracionInput>35</valoracionInput>
@@ -1173,7 +1030,7 @@ El Ferrari SF90 Spider, además de mantener la silueta del SF90 Stradale, presen
             </bloque>
           </bloques>
         </auto>
-        <auto id="29" terminado="true" publicado="false">
+        <auto id="29" terminado="false" publicado="false">
           <nombre>Ferrari 458 Spider</nombre>
           <año>2011</año>
           <chasis>Convertible 2 puertas</chasis>
@@ -1183,6 +1040,10 @@ El Ferrari SF90 Spider, además de mantener la silueta del SF90 Stradale, presen
           <aceleracion>3,4</aceleracion>
           <tipo>Deportivo</tipo>
           <peso>1000</peso>
+          <motor>na</motor>
+          <valvulas>na</valvulas>
+          <destacados>na</destacados>
+          <transmision>na</transmision>
           <precio>220000</precio>
           <imagen>https://upload.wikimedia.org/wikipedia/commons/4/42/Ferrari_458_9.jpg</imagen>
           <valoracionInput>35</valoracionInput>
@@ -1195,7 +1056,7 @@ El Ferrari SF90 Spider, además de mantener la silueta del SF90 Stradale, presen
             </bloque>
           </bloques>
         </auto>
-        <auto id="30" terminado="true" publicado="false">
+        <auto id="30" terminado="false" publicado="false">
           <nombre>Ferrari 458 Speciale</nombre>
           <año>2015</año>
           <chasis>Coupe 2 puertas</chasis>
@@ -1205,6 +1066,10 @@ El Ferrari SF90 Spider, además de mantener la silueta del SF90 Stradale, presen
           <aceleracion>3</aceleracion>
           <tipo>Superauto</tipo>
           <peso>1000</peso>
+          <motor>na</motor>
+          <valvulas>na</valvulas>
+          <destacados>na</destacados>
+          <transmision>na</transmision>
           <precio>300000</precio>
           <imagen>https://upload.wikimedia.org/wikipedia/commons/9/9e/2015_Ferrari_458_Speciale_8.jpg</imagen>
           <valoracionInput>40</valoracionInput>
@@ -1223,7 +1088,7 @@ El Ferrari SF90 Spider, además de mantener la silueta del SF90 Stradale, presen
       <modeloDescripcion>El Ferrari 488 GTB es un superdeportivo lanzado en 2015, que representa una evolución significativa en la línea de modelos de la marca italiana. Equipado con un potente motor V8 biturbo de 3.9 litros que genera 661 caballos de fuerza, el 488 GTB puede acelerar de 0 a 100 km/h en apenas 3.0 segundos, destacándose por su impresionante rendimiento y respuesta inmediata. Su diseño aerodinámico y agresivo, con líneas fluidas y una parte trasera distintiva, no solo atrae las miradas, sino que también mejora la estabilidad a altas velocidades. Entre sus características más notables se encuentran su avanzado sistema de tracción trasera y una suspensión adaptativa que ofrecen una experiencia de conducción excepcional tanto en pista como en carretera. El Ferrari 488 GTB es más que un automóvil; es un testimonio de la innovación y la excelencia en la ingeniería automotriz moderna, convirtiéndose en un favorito entre los entusiastas y coleccionistas de superdeportivos.</modeloDescripcion>
       <modeloEnlaceAltaNaveURL>NO</modeloEnlaceAltaNaveURL>
       <generacion nombre="488" añoInicio="2015" añoFin="2019">
-        <auto id="25" terminado="true" publicado="false">
+        <auto id="25" terminado="false" publicado="false">
           <nombre>Ferrari 488 GTB</nombre>
           <año>2017</año>
           <chasis>Coupe 2 puertas</chasis>
@@ -1233,6 +1098,10 @@ El Ferrari SF90 Spider, además de mantener la silueta del SF90 Stradale, presen
           <aceleracion>3</aceleracion>
           <tipo>Deportivo</tipo>
           <peso>1000</peso>
+          <motor>na</motor>
+          <valvulas>na</valvulas>
+          <destacados>na</destacados>
+          <transmision>na</transmision>
           <precio>300000</precio>
           <imagen>https://upload.wikimedia.org/wikipedia/commons/1/18/2017_Ferrari_488.jpg</imagen>
           <valoracionInput>35</valoracionInput>
@@ -1250,7 +1119,7 @@ El Ferrari SF90 Spider, además de mantener la silueta del SF90 Stradale, presen
             </bloque>
           </bloques>
         </auto>
-        <auto id="26" terminado="true" publicado="false">
+        <auto id="26" terminado="false" publicado="false">
           <nombre>Ferrari 488 Spider</nombre>
           <año>2019</año>
           <chasis>Convertible 2 puertas</chasis>
@@ -1260,6 +1129,10 @@ El Ferrari SF90 Spider, además de mantener la silueta del SF90 Stradale, presen
           <aceleracion>3</aceleracion>
           <tipo>Deportivo</tipo>
           <peso>1000</peso>
+          <motor>na</motor>
+          <valvulas>na</valvulas>
+          <destacados>na</destacados>
+          <transmision>na</transmision>
           <precio>250000</precio>
           <imagen>https://upload.wikimedia.org/wikipedia/commons/9/97/Ferrari_488_Spider_7.jpg</imagen>
           <valoracionInput>35</valoracionInput>
@@ -1272,7 +1145,7 @@ El Ferrari SF90 Spider, además de mantener la silueta del SF90 Stradale, presen
             </bloque>
           </bloques>
         </auto>
-        <auto id="27" terminado="true" publicado="false">
+        <auto id="27" terminado="false" publicado="false">
           <nombre>Ferrari 488 Pista</nombre>
           <año>2019</año>
           <chasis>Coupe 2 puertas</chasis>
@@ -1282,6 +1155,10 @@ El Ferrari SF90 Spider, además de mantener la silueta del SF90 Stradale, presen
           <aceleracion>2,85</aceleracion>
           <tipo>Superauto</tipo>
           <peso>1000</peso>
+          <motor>na</motor>
+          <valvulas>na</valvulas>
+          <destacados>na</destacados>
+          <transmision>na</transmision>
           <precio>350000</precio>
           <imagen>https://upload.wikimedia.org/wikipedia/commons/8/8d/Ferrari_488_Pista_8.jpg</imagen>
           <valoracionInput>40</valoracionInput>
@@ -1315,7 +1192,7 @@ El Ferrari SF90 Spider, además de mantener la silueta del SF90 Stradale, presen
       <modeloDescripcion>El Koenigsegg CC Series, presentado en 1996, es un símbolo de la innovación y la ingeniería de alto rendimiento en el mundo de los hypercars. Con su diseño aerodinámico y ligero, este modelo ha establecido nuevos estándares en velocidad y tecnología automotriz. Equipado con potentes motores V8 sobrealimentados, el CC Series ofrece una aceleración impresionante y un manejo preciso, convirtiéndolo en un competidor formidable en las pistas y en la carretera. Su exclusividad y atención meticulosa al detalle lo han hecho un referente en el segmento de los automóviles de lujo y alto rendimiento.</modeloDescripcion>
       <modeloEnlaceAltaNaveURL>NO</modeloEnlaceAltaNaveURL>
       <generacion nombre="Koenigsegg CC Series" añoInicio="2002" añoFin="2004">
-        <auto id="49" terminado="true" publicado="false">
+        <auto id="49" terminado="false" publicado="false">
           <nombre>Koenigsegg CC 8S</nombre>
           <año>2002</año>
           <chasis>Coupe 2 puertas</chasis>
@@ -1325,6 +1202,10 @@ El Ferrari SF90 Spider, además de mantener la silueta del SF90 Stradale, presen
           <aceleracion>3,5</aceleracion>
           <tipo>Superauto</tipo>
           <peso>1000</peso>
+          <motor>na</motor>
+          <valvulas>na</valvulas>
+          <destacados>na</destacados>
+          <transmision>na</transmision>
           <precio>700000</precio>
           <imagen>https://upload.wikimedia.org/wikipedia/commons/7/7b/2015-03-03_Geneva_Motor_Show_3305_%28cropped%29.JPG</imagen>
           <valoracionInput>40</valoracionInput>
@@ -1345,7 +1226,7 @@ El Ferrari SF90 Spider, además de mantener la silueta del SF90 Stradale, presen
             <extraImagenURL>https://upload.wikimedia.org/wikipedia/commons/3/39/2003_Koenigsegg_CC8S_%2836651947496%29.jpg</extraImagenURL>
           </extraImagenes>
         </auto>
-        <auto id="50" terminado="true" publicado="false">
+        <auto id="50" terminado="false" publicado="false">
           <nombre>Koenigsegg CCR</nombre>
           <año>2004</año>
           <chasis>Coupe 2 puertas</chasis>
@@ -1355,6 +1236,10 @@ El Ferrari SF90 Spider, además de mantener la silueta del SF90 Stradale, presen
           <aceleracion>3,2</aceleracion>
           <tipo>Superauto</tipo>
           <peso>1000</peso>
+          <motor>na</motor>
+          <valvulas>na</valvulas>
+          <destacados>na</destacados>
+          <transmision>na</transmision>
           <precio>2000000</precio>
           <imagen>https://upload.wikimedia.org/wikipedia/commons/b/b5/Koenigsegg_CCR_5.jpg</imagen>
           <valoracionInput>40</valoracionInput>
@@ -1377,7 +1262,7 @@ El Ferrari SF90 Spider, además de mantener la silueta del SF90 Stradale, presen
             </bloque>
           </bloques>
         </auto>
-        <auto id="51" terminado="true" publicado="false">
+        <auto id="51" terminado="false" publicado="false">
           <nombre>Koenigsegg CCX</nombre>
           <año>2008</año>
           <chasis>Coupe 2 puertas</chasis>
@@ -1387,6 +1272,10 @@ El Ferrari SF90 Spider, además de mantener la silueta del SF90 Stradale, presen
           <aceleracion>3,1</aceleracion>
           <tipo>Superauto</tipo>
           <peso>1000</peso>
+          <motor>na</motor>
+          <valvulas>na</valvulas>
+          <destacados>na</destacados>
+          <transmision>na</transmision>
           <precio>3150000</precio>
           <imagen>https://upload.wikimedia.org/wikipedia/commons/1/10/Koenigsegg_CCX_%289524008619%29.jpg</imagen>
           <valoracionInput>40</valoracionInput>
@@ -1415,7 +1304,7 @@ El Ferrari SF90 Spider, además de mantener la silueta del SF90 Stradale, presen
       <modeloDescripcion>El Koenigsegg Agera, presentado en 2010, representa la cúspide de la ingeniería automotriz y el rendimiento extremo en el mundo de los hypercars. Con su diseño elegante y aerodinámico, el Agera no solo es visualmente impactante, sino que también ha establecido récords de velocidad que lo posicionan entre los más rápidos del planeta. Equipado con un motor V8 sobrealimentado, este modelo ofrece una potencia excepcional y una aceleración vertiginosa, garantizando una experiencia de conducción única. Su tecnología innovadora, que incluye un sistema de transmisión de doble embrague y materiales ligeros de última generación, lo convierte en un referente en el segmento de automóviles de lujo y alto rendimiento. La exclusividad del Agera, junto con su atención al detalle, lo ha consagrado como un verdadero ícono en el mundo del automovilismo.</modeloDescripcion>
       <modeloEnlaceAltaNaveURL>NO</modeloEnlaceAltaNaveURL>
       <generacion nombre="Koenigsegg Agera" añoInicio="2010" añoFin="2017">
-        <auto id="52" terminado="true" publicado="false">
+        <auto id="52" terminado="false" publicado="false">
           <nombre>Koenigsegg Agera R</nombre>
           <año>2012</año>
           <chasis>Coupe 2 puertas</chasis>
@@ -1425,6 +1314,10 @@ El Ferrari SF90 Spider, además de mantener la silueta del SF90 Stradale, presen
           <aceleracion>2,9</aceleracion>
           <tipo>Superauto</tipo>
           <peso>1000</peso>
+          <motor>na</motor>
+          <valvulas>na</valvulas>
+          <destacados>na</destacados>
+          <transmision>na</transmision>
           <precio>2210000</precio>
           <imagen>https://upload.wikimedia.org/wikipedia/commons/9/9e/Koenigsegg_Agera_RSN_2_NDM.jpg</imagen>
           <valoracionInput>40</valoracionInput>
@@ -1442,7 +1335,7 @@ El Ferrari SF90 Spider, además de mantener la silueta del SF90 Stradale, presen
             </bloque>
           </bloques>
         </auto>
-        <auto id="69" terminado="true" publicado="false">
+        <auto id="69" terminado="false" publicado="false">
           <nombre>Koenigsegg Agera RS</nombre>
           <año>2017</año>
           <chasis>Coupe 2 puertas</chasis>
@@ -1452,6 +1345,10 @@ El Ferrari SF90 Spider, además de mantener la silueta del SF90 Stradale, presen
           <aceleracion>2,6</aceleracion>
           <tipo>Superauto</tipo>
           <peso>1000</peso>
+          <motor>na</motor>
+          <valvulas>na</valvulas>
+          <destacados>na</destacados>
+          <transmision>na</transmision>
           <precio>3000000</precio>
           <imagen>https://upload.wikimedia.org/wikipedia/commons/2/2d/Agera_RS_Naraya.jpg</imagen>
           <valoracionInput>40</valoracionInput>
@@ -1473,7 +1370,7 @@ El Ferrari SF90 Spider, además de mantener la silueta del SF90 Stradale, presen
         </auto>
       </generacion>
       <generacion nombre="Koenigsegg Agera One:1" añoInicio="2014" añoFin="2015">
-        <auto id="53" terminado="true" publicado="false">
+        <auto id="53" terminado="false" publicado="false">
           <nombre>Koenigsegg Agera One:1</nombre>
           <año>2014</año>
           <chasis>Coupe 2 puertas</chasis>
@@ -1483,6 +1380,10 @@ El Ferrari SF90 Spider, además de mantener la silueta del SF90 Stradale, presen
           <aceleracion>2,6</aceleracion>
           <tipo>Superauto</tipo>
           <peso>1000</peso>
+          <motor>na</motor>
+          <valvulas>na</valvulas>
+          <destacados>na</destacados>
+          <transmision>na</transmision>
           <precio>2925000</precio>
           <imagen>https://upload.wikimedia.org/wikipedia/commons/8/85/Koenigsegg_%28Agera%29_One-1_at_Goodwood_2014_004.jpg</imagen>
           <valoracionInput>40</valoracionInput>
@@ -1501,7 +1402,7 @@ El Ferrari SF90 Spider, además de mantener la silueta del SF90 Stradale, presen
       <modeloDescripcion>El Koenigsegg Jesko, presentado en 2019, redefine los límites de la ingeniería automotriz y el rendimiento en el ámbito de los hypercars. Con su diseño futurista y aerodinámico, el Jesko no solo cautiva con su estética, sino que también ha sido creado para alcanzar velocidades extraordinarias, posicionándose como uno de los vehículos más avanzados del mundo. Equipado con un potente motor V8 sobrealimentado que puede funcionar con combustible E85, este modelo ofrece una potencia impresionante y una aceleración explosiva, brindando una experiencia de conducción sin igual. Su innovadora tecnología, que incluye un sistema de transmisión de doble embrague y un chasis ultraligero, lo establece como un líder en el segmento de automóviles de lujo y alto rendimiento. La exclusividad del Jesko, sumada a su meticulosa atención al detalle, lo convierte en un verdadero símbolo del progreso en el automovilismo moderno.</modeloDescripcion>
       <modeloEnlaceAltaNaveURL>NO</modeloEnlaceAltaNaveURL>
       <generacion nombre="Koenigsegg Jesko" añoInicio="2020" añoFin="2025">
-        <auto id="54" terminado="true" publicado="false">
+        <auto id="54" terminado="false" publicado="false">
           <nombre>Koenigsegg Jesko</nombre>
           <año>2023</año>
           <chasis>Targa 2 puertas</chasis>
@@ -1511,6 +1412,10 @@ El Ferrari SF90 Spider, además de mantener la silueta del SF90 Stradale, presen
           <aceleracion>2,4</aceleracion>
           <tipo>Superauto</tipo>
           <peso>1000</peso>
+          <motor>na</motor>
+          <valvulas>na</valvulas>
+          <destacados>na</destacados>
+          <transmision>na</transmision>
           <precio>3500000</precio>
           <imagen>https://upload.wikimedia.org/wikipedia/commons/9/9b/2023_Koenigsegg_Jesko_LC24.jpg</imagen>
           <valoracionInput>40</valoracionInput>
@@ -1541,7 +1446,7 @@ El Ferrari SF90 Spider, además de mantener la silueta del SF90 Stradale, presen
       <modeloDescripcion>El Koenigsegg Gemera, presentado en 2020, revoluciona la noción de hypercar al combinar un rendimiento excepcional con la practicidad de un vehículo familiar. Con su diseño audaz y aerodinámico, el Gemera no solo es visualmente impactante, sino que también ha sido concebido para ofrecer una experiencia de conducción sin compromisos, logrando una sorprendente mezcla de lujo y potencia. Equipado con un innovador sistema híbrido que combina un motor de tres cilindros con motores eléctricos, este modelo genera más de 1,700 caballos de fuerza, asegurando una aceleración asombrosa. Su tecnología avanzada incluye un interior espacioso y un sistema de infotainment de última generación, elevándolo como un referente en el segmento de automóviles de alto rendimiento. La exclusividad del Gemera, junto con su atención meticulosa al detalle, lo establece como un ícono del futuro del automovilismo, desafiando las expectativas de lo que puede ser un hypercar.</modeloDescripcion>
       <modeloEnlaceAltaNaveURL>NO</modeloEnlaceAltaNaveURL>
       <generacion nombre="Koenigsegg Gemera" añoInicio="2020" añoFin="2025">
-        <auto id="55" terminado="true" publicado="false">
+        <auto id="55" terminado="false" publicado="false">
           <nombre>Koenigsegg Gemera</nombre>
           <año>2020</año>
           <chasis>Coupe 2 puertas</chasis>
@@ -1551,6 +1456,10 @@ El Ferrari SF90 Spider, además de mantener la silueta del SF90 Stradale, presen
           <aceleracion>3,6</aceleracion>
           <tipo>Superauto</tipo>
           <peso>1000</peso>
+          <motor>na</motor>
+          <valvulas>na</valvulas>
+          <destacados>na</destacados>
+          <transmision>na</transmision>
           <precio>2000000</precio>
           <imagen>https://upload.wikimedia.org/wikipedia/commons/2/2e/2020_Koenigsegg_Gemera_2.0.jpg</imagen>
           <valoracionInput>40</valoracionInput>
@@ -1574,7 +1483,7 @@ El Ferrari SF90 Spider, además de mantener la silueta del SF90 Stradale, presen
       <modeloDescripcion>El Koenigsegg Regera, presentado en 2016, redefine el concepto de hypercar al fusionar un rendimiento extraordinario con la sofisticación de un automóvil de lujo. Con su diseño elegante y aerodinámico, el Regera no solo atrae miradas, sino que también ha sido diseñado para ofrecer una experiencia de conducción sin igual, combinando tecnología avanzada con una potencia deslumbrante. Equipado con un sistema híbrido que incluye un motor V8 sobrealimentado y motores eléctricos, este modelo produce más de 1,500 caballos de fuerza, garantizando una aceleración vertiginosa. Su innovador sistema de transmisión de una sola velocidad y su chasis ligero lo posicionan como un líder en el mundo de los hypercars. La atención al detalle en su interior, que cuenta con materiales de alta gama y tecnología de última generación, establece al Regera como un símbolo de exclusividad y excelencia en la ingeniería automotriz, desafiando constantemente los límites de lo posible.</modeloDescripcion>
       <modeloEnlaceAltaNaveURL>NO</modeloEnlaceAltaNaveURL>
       <generacion nombre="Koenigsegg Regera" añoInicio="2020" añoFin="2025">
-        <auto id="56" terminado="true" publicado="false">
+        <auto id="56" terminado="false" publicado="false">
           <nombre>Koenigsegg Regera</nombre>
           <año>2022</año>
           <chasis>Coupe 2 puertas</chasis>
@@ -1584,6 +1493,10 @@ El Ferrari SF90 Spider, además de mantener la silueta del SF90 Stradale, presen
           <aceleracion>2,7</aceleracion>
           <tipo>Superauto</tipo>
           <peso>1000</peso>
+          <motor>na</motor>
+          <valvulas>na</valvulas>
+          <destacados>na</destacados>
+          <transmision>na</transmision>
           <precio>2500000</precio>
           <imagen>https://upload.wikimedia.org/wikipedia/commons/7/71/Koenigsegg_Regera_White.jpg</imagen>
           <valoracionInput>40</valoracionInput>
@@ -1618,7 +1531,7 @@ El Ferrari SF90 Spider, además de mantener la silueta del SF90 Stradale, presen
       <modeloDescripcion>El Lamborghini 350 GT Coupé es un icónico deportivo que fue presentado en 1964, marcando el inicio de la producción en serie de la marca italiana. Con un diseño elegante y aerodinámico, el 350 GT es una obra maestra de la ingeniería automotriz, equipado con un motor V12 de 3.5 litros que genera 280 caballos de fuerza. Su capacidad para acelerar de 0 a 100 km/h en aproximadamente 6.8 segundos fue impresionante para su época, estableciendo un nuevo estándar en términos de rendimiento. El chasis de aluminio y la suspensión independiente garantizan una experiencia de conducción ágil y confortable. En el interior, el 350 GT presenta un ambiente de lujo, con acabados de alta calidad y un diseño orientado al conductor. Con su combinación de potencia, estilo y exclusividad, el Lamborghini 350 GT Coupé se ha convertido en una joya coleccionable, admirada por los aficionados a los coches clásicos y reconocida como un símbolo del legado de Lamborghini en el mundo automotriz.</modeloDescripcion>
       <modeloEnlaceAltaNaveURL>NO</modeloEnlaceAltaNaveURL>
       <generacion nombre="Lamborghini 350 GT" añoInicio="1964" añoFin="1966">
-        <auto id="18" terminado="true" publicado="false">
+        <auto id="18" terminado="false" publicado="false">
           <nombre>Lamborghini 350 GT</nombre>
           <año>1965</año>
           <chasis>Coupe 2 puertas</chasis>
@@ -1628,6 +1541,10 @@ El Ferrari SF90 Spider, además de mantener la silueta del SF90 Stradale, presen
           <aceleracion>6,8</aceleracion>
           <tipo>Deportivo</tipo>
           <peso>1000</peso>
+          <motor>na</motor>
+          <valvulas>na</valvulas>
+          <destacados>na</destacados>
+          <transmision>na</transmision>
           <precio>600000</precio>
           <imagen>https://upload.wikimedia.org/wikipedia/commons/4/40/12-10-25-autostadt-wolfsburg-by-RalfR-30.jpg</imagen>
           <valoracionInput>35</valoracionInput>
@@ -1676,7 +1593,7 @@ El Ferrari SF90 Spider, además de mantener la silueta del SF90 Stradale, presen
             </bloque>
           </bloques>
         </auto>
-        <auto id="19" terminado="true" publicado="false">
+        <auto id="19" terminado="false" publicado="false">
           <nombre>Lamborghini 350 GT</nombre>
           <año>1964</año>
           <chasis>Coupe 2 puertas</chasis>
@@ -1686,6 +1603,10 @@ El Ferrari SF90 Spider, además de mantener la silueta del SF90 Stradale, presen
           <aceleracion>6,8</aceleracion>
           <tipo>Deportivo</tipo>
           <peso>1000</peso>
+          <motor>na</motor>
+          <valvulas>na</valvulas>
+          <destacados>na</destacados>
+          <transmision>na</transmision>
           <precio>600000</precio>
           <imagen>https://upload.wikimedia.org/wikipedia/commons/6/6b/Lamborghini_350_GT_1964.jpg</imagen>
           <valoracionInput>35</valoracionInput>
@@ -1734,7 +1655,7 @@ El Ferrari SF90 Spider, además de mantener la silueta del SF90 Stradale, presen
       <modeloDescripcion>El Lamborghini Urraco es un deportivo excepcional que hizo su debut en 1972, ampliando la gama de la marca italiana hacia modelos más accesibles sin sacrificar su esencia de alto rendimiento. Con un diseño distintivo y audaz, el Urraco es conocido por su motor V8 de 3.0 litros que produce 255 caballos de fuerza, ofreciendo una experiencia de conducción emocionante. Su capacidad para acelerar de 0 a 100 km/h en aproximadamente 6.5 segundos lo colocó en una posición competitiva en su época, reflejando el compromiso de Lamborghini con la innovación y el rendimiento. La configuración de tracción trasera, combinada con una suspensión independiente, proporciona una maniobrabilidad ágil y un manejo preciso. En el interior, el Urraco destaca por su enfoque en la comodidad y el lujo, con materiales de alta calidad y un diseño ergonómico que favorece al conductor. Con su singularidad, potencia y legado, el Lamborghini Urraco se ha convertido en un vehículo de culto, apreciado por coleccionistas y entusiastas del automovilismo, representando un capítulo significativo en la historia de Lamborghini.</modeloDescripcion>
       <modeloEnlaceAltaNaveURL>NO</modeloEnlaceAltaNaveURL>
       <generacion nombre="Urraco" añoInicio="1972" añoFin="1979">
-        <auto id="76" terminado="true" publicado="false">
+        <auto id="76" terminado="false" publicado="false">
           <nombre>Lamborghini Urraco P250</nombre>
           <año>1974</año>
           <chasis>Coupe 2 puertas</chasis>
@@ -1744,6 +1665,10 @@ El Ferrari SF90 Spider, además de mantener la silueta del SF90 Stradale, presen
           <aceleracion>6,9</aceleracion>
           <tipo>Deportivo</tipo>
           <peso>1000</peso>
+          <motor>na</motor>
+          <valvulas>na</valvulas>
+          <destacados>na</destacados>
+          <transmision>na</transmision>
           <precio>120000</precio>
           <imagen>https://upload.wikimedia.org/wikipedia/commons/7/7a/1974_Lamborghini_Urraco_BS_O24.jpg</imagen>
           <valoracionInput>30</valoracionInput>
@@ -1793,7 +1718,7 @@ El Ferrari SF90 Spider, además de mantener la silueta del SF90 Stradale, presen
       <modeloDescripcion>El Lamborghini Miura, presentado en 1966, es un superdeportivo pionero que redefinió el diseño y la ingeniería automotriz de alto rendimiento. Con sus líneas fluidas y un perfil bajo, el Miura fue revolucionario por su configuración de motor central, una característica inédita en los autos de carretera de la época. Equipado con un motor V12 de 3.9 litros que produce hasta 350 caballos de fuerza, el Miura podía acelerar de 0 a 100 km/h en alrededor de 6.7 segundos, un logro impresionante para los estándares de los años 60. Su chasis liviano y su suspensión avanzada proporcionan una experiencia de manejo ágil y precisa. En el interior, el Miura combina lujo y funcionalidad, con detalles de alta calidad que envuelven al conductor en un ambiente exclusivo y deportivo. Su audaz innovación y su diseño espectacular han convertido al Lamborghini Miura en una leyenda del automovilismo, apreciado por los coleccionistas y considerado un icono eterno del legado de Lamborghini.</modeloDescripcion>
       <modeloEnlaceAltaNaveURL>NO</modeloEnlaceAltaNaveURL>
       <generacion nombre="Lamborghini Miura" añoInicio="1966" añoFin="1972">
-        <auto id="60" terminado="true" publicado="false">
+        <auto id="60" terminado="false" publicado="false">
           <nombre>Lamborghini Miura P400</nombre>
           <año>1968</año>
           <chasis>Coupe 2 puertas</chasis>
@@ -1803,6 +1728,10 @@ El Ferrari SF90 Spider, además de mantener la silueta del SF90 Stradale, presen
           <aceleracion>6,7</aceleracion>
           <tipo>Deportivo</tipo>
           <peso>1000</peso>
+          <motor>na</motor>
+          <valvulas>na</valvulas>
+          <destacados>na</destacados>
+          <transmision>na</transmision>
           <precio>2250000</precio>
           <imagen>https://upload.wikimedia.org/wikipedia/commons/5/57/1968_Lamborghini_Miura_S_LC23.jpg</imagen>
           <valoracionInput>40</valoracionInput>
@@ -1866,7 +1795,7 @@ El Ferrari SF90 Spider, además de mantener la silueta del SF90 Stradale, presen
             </bloque>
           </bloques>
         </auto>
-        <auto id="61" terminado="true" publicado="false">
+        <auto id="61" terminado="false" publicado="false">
           <nombre>Lamborghini Miura P400</nombre>
           <año>1968</año>
           <chasis>Roadster</chasis>
@@ -1876,6 +1805,10 @@ El Ferrari SF90 Spider, además de mantener la silueta del SF90 Stradale, presen
           <aceleracion>6,7</aceleracion>
           <tipo>Deportivo</tipo>
           <peso>1000</peso>
+          <motor>na</motor>
+          <valvulas>na</valvulas>
+          <destacados>na</destacados>
+          <transmision>na</transmision>
           <precio>2250000</precio>
           <imagen>https://upload.wikimedia.org/wikipedia/commons/8/8c/Lamborghini_Miura_Roadster.jpg</imagen>
           <valoracionInput>40</valoracionInput>
@@ -1935,7 +1868,7 @@ El Ferrari SF90 Spider, además de mantener la silueta del SF90 Stradale, presen
       <modeloDescripcion>El Lamborghini Urus es un SUV de lujo que fue presentado en 2017, marcando la entrada de la marca italiana en el competitivo segmento de los todoterrenos. Con un diseño agresivo y distintivo, el Urus combina la elegancia y el rendimiento característico de Lamborghini, ofreciendo un motor V8 biturbo de 4.0 litros que produce 650 caballos de fuerza. Su aceleración de 0 a 100 km/h en solo 3.6 segundos resalta su carácter deportivo, mientras que su sistema de tracción integral y su chasis dinámico garantizan una experiencia de conducción excepcional tanto en carretera como fuera de ella. El interior del Urus es un refugio de lujo, equipado con tecnología de vanguardia, acabados de alta calidad y un amplio espacio para pasajeros y equipaje. Con su combinación de potencia, sofisticación y versatilidad, el Lamborghini Urus se ha consolidado como un referente en el segmento de los SUV de alto rendimiento, atrayendo a los entusiastas de la marca y a nuevos clientes por igual.</modeloDescripcion>
       <modeloEnlaceAltaNaveURL>NO</modeloEnlaceAltaNaveURL>
       <generacion nombre="Lamborghini Urus" añoInicio="2018" añoFin="2025">
-        <auto id="17" terminado="true" publicado="false">
+        <auto id="17" terminado="false" publicado="false">
           <nombre>Lamborghini Urus</nombre>
           <año>2022</año>
           <chasis>Crossover</chasis>
@@ -1945,6 +1878,10 @@ El Ferrari SF90 Spider, además de mantener la silueta del SF90 Stradale, presen
           <aceleracion>3,6</aceleracion>
           <tipo>SUV</tipo>
           <peso>1000</peso>
+          <motor>na</motor>
+          <valvulas>na</valvulas>
+          <destacados>na</destacados>
+          <transmision>na</transmision>
           <precio>220000</precio>
           <imagen>https://upload.wikimedia.org/wikipedia/commons/e/ed/2022_Lamborghini_Urus_in_Blue.jpg</imagen>
           <valoracionInput>30</valoracionInput>
@@ -1995,6 +1932,10 @@ El Ferrari SF90 Spider, además de mantener la silueta del SF90 Stradale, presen
           <aceleracion>3,85</aceleracion>
           <tipo>Deportivo</tipo>
           <peso>1740</peso>
+          <motor>na</motor>
+          <valvulas>na</valvulas>
+          <destacados>na</destacados>
+          <transmision>na</transmision>
           <precio>200000</precio>
           <imagen>https://upload.wikimedia.org/wikipedia/commons/9/92/2005_Lamborghini_Murcielago.jpg</imagen>
           <valoracionInput>35</valoracionInput>
@@ -2043,6 +1984,10 @@ El Ferrari SF90 Spider, además de mantener la silueta del SF90 Stradale, presen
           <aceleracion>3,85</aceleracion>
           <tipo>Deportivo</tipo>
           <peso>1000</peso>
+          <motor>na</motor>
+          <valvulas>na</valvulas>
+          <destacados>na</destacados>
+          <transmision>na</transmision>
           <precio>150000</precio>
           <imagen>https://upload.wikimedia.org/wikipedia/commons/d/d3/Murcielago_Roadster._%285237373061%29.jpg</imagen>
           <valoracionInput>35</valoracionInput>
@@ -2060,6 +2005,10 @@ El Ferrari SF90 Spider, además de mantener la silueta del SF90 Stradale, presen
           <aceleracion>3,4</aceleracion>
           <tipo>Deportivo</tipo>
           <peso>1000</peso>
+          <motor>na</motor>
+          <valvulas>na</valvulas>
+          <destacados>na</destacados>
+          <transmision>na</transmision>
           <precio>300000</precio>
           <imagen>https://upload.wikimedia.org/wikipedia/commons/b/bb/Gray_Lamborghini_LP640.jpg</imagen>
           <valoracionInput>35</valoracionInput>
@@ -2075,6 +2024,10 @@ El Ferrari SF90 Spider, además de mantener la silueta del SF90 Stradale, presen
           <aceleracion>3,4</aceleracion>
           <tipo>Deportivo</tipo>
           <peso>1000</peso>
+          <motor>na</motor>
+          <valvulas>na</valvulas>
+          <destacados>na</destacados>
+          <transmision>na</transmision>
           <precio>350000</precio>
           <imagen>https://upload.wikimedia.org/wikipedia/commons/d/dc/2005_Lamborghini_Murcielago_Roadster.jpg</imagen>
           <valoracionInput>35</valoracionInput>
@@ -2090,6 +2043,10 @@ El Ferrari SF90 Spider, además de mantener la silueta del SF90 Stradale, presen
           <aceleracion>3,2</aceleracion>
           <tipo>Superauto</tipo>
           <peso>1000</peso>
+          <motor>na</motor>
+          <valvulas>na</valvulas>
+          <destacados>na</destacados>
+          <transmision>na</transmision>
           <precio>450000</precio>
           <imagen>https://upload.wikimedia.org/wikipedia/commons/7/71/2009_Lamborghini_Murcielago_LP670-4_SV_SCD.jpg</imagen>
           <valoracionInput>40</valoracionInput>
@@ -2117,6 +2074,10 @@ El Ferrari SF90 Spider, además de mantener la silueta del SF90 Stradale, presen
           <aceleracion>5,7</aceleracion>
           <tipo>Deportivo</tipo>
           <peso>1000</peso>
+          <motor>na</motor>
+          <valvulas>na</valvulas>
+          <destacados>na</destacados>
+          <transmision>na</transmision>
           <precio>59990</precio>
           <imagen>https://upload.wikimedia.org/wikipedia/commons/a/a8/Lynk_%26_Co_03_facelift_006.jpg</imagen>
           <valoracionInput>25</valoracionInput>
@@ -2132,6 +2093,10 @@ El Ferrari SF90 Spider, además de mantener la silueta del SF90 Stradale, presen
           <aceleracion>5,2</aceleracion>
           <tipo>Deportivo</tipo>
           <peso>1000</peso>
+          <motor>na</motor>
+          <valvulas>na</valvulas>
+          <destacados>na</destacados>
+          <transmision>na</transmision>
           <precio>69990</precio>
           <imagen>https://upload.wikimedia.org/wikipedia/commons/4/46/2023_Lynk_%26_Co_03%2B_Cyan_%28front%29.jpg</imagen>
           <valoracionInput>25</valoracionInput>
@@ -2181,6 +2146,10 @@ El Ferrari SF90 Spider, además de mantener la silueta del SF90 Stradale, presen
           <aceleracion>3,1</aceleracion>
           <tipo>Prototipo</tipo>
           <peso>1000</peso>
+          <motor>na</motor>
+          <valvulas>na</valvulas>
+          <destacados>na</destacados>
+          <transmision>na</transmision>
           <precio>10000000</precio>
           <imagen>https://upload.wikimedia.org/wikipedia/commons/e/ef/A_Silver_McLaren_F1.jpg</imagen>
           <valoracionInput>50</valoracionInput>
@@ -2203,6 +2172,10 @@ El Ferrari SF90 Spider, además de mantener la silueta del SF90 Stradale, presen
           <aceleracion>3,2</aceleracion>
           <tipo>Superauto</tipo>
           <peso>1000</peso>
+          <motor>na</motor>
+          <valvulas>na</valvulas>
+          <destacados>na</destacados>
+          <transmision>na</transmision>
           <precio>6000000</precio>
           <imagen>https://upload.wikimedia.org/wikipedia/commons/f/f8/1996_McLaren_F1_GTR.jpg</imagen>
           <valoracionInput>50</valoracionInput>
@@ -2224,6 +2197,10 @@ El Ferrari SF90 Spider, además de mantener la silueta del SF90 Stradale, presen
           <aceleracion>2,8</aceleracion>
           <tipo>Superauto</tipo>
           <peso>1000</peso>
+          <motor>na</motor>
+          <valvulas>na</valvulas>
+          <destacados>na</destacados>
+          <transmision>na</transmision>
           <precio>2500000</precio>
           <imagen>https://upload.wikimedia.org/wikipedia/commons/0/03/2013_McLaren_P1_XP05.jpg</imagen>
           <valoracionInput>50</valoracionInput>
@@ -2250,6 +2227,10 @@ El Ferrari SF90 Spider, además de mantener la silueta del SF90 Stradale, presen
           <aceleracion>2,9</aceleracion>
           <tipo>Superauto</tipo>
           <peso>1000</peso>
+          <motor>na</motor>
+          <valvulas>na</valvulas>
+          <destacados>na</destacados>
+          <transmision>na</transmision>
           <precio>330000</precio>
           <imagen>https://upload.wikimedia.org/wikipedia/commons/a/ac/Osaka_Motor_Show_2017_%28217%29_-_McLaren_720S_COUPE.jpg</imagen>
           <valoracionInput>50</valoracionInput>
@@ -2294,6 +2275,10 @@ El Ferrari SF90 Spider, además de mantener la silueta del SF90 Stradale, presen
           <aceleracion>8,6</aceleracion>
           <tipo>SUV</tipo>
           <peso>1000</peso>
+          <motor>na</motor>
+          <valvulas>na</valvulas>
+          <destacados>na</destacados>
+          <transmision>na</transmision>
           <precio>32000</precio>
           <imagen>https://upload.wikimedia.org/wikipedia/commons/c/cd/%28SGP-Singapore%29_Showcar_MG_ZS_EV_No-plate_2024-09-14_-_1.jpg</imagen>
           <valoracionInput>20</valoracionInput>
@@ -2311,7 +2296,7 @@ El Ferrari SF90 Spider, además de mantener la silueta del SF90 Stradale, presen
       <modeloDescripcion>El Peugeot 208 es un hatchback compacto lanzado en 2012 que rápidamente ganó popularidad en el segmento B, destinado a usuarios urbanos que buscan un vehículo ágil y eficiente. Con motorizaciones que incluyen opciones de gasolina, diésel y versiones eléctricas en sus últimas generaciones, destaca por su versatilidad. Entre sus tecnologías más notables se encuentran el sistema i-Cockpit, que ofrece una experiencia de conducción moderna con un volante compacto y una pantalla táctil elevada. El 208 ha sido valorado por su equilibrio entre confort, seguridad y economía de combustible, convirtiéndolo en una excelente opción tanto para jóvenes como para familias pequeñas. </modeloDescripcion>
       <modeloEnlaceAltaNaveURL>NO</modeloEnlaceAltaNaveURL>
       <generacion nombre="Generacion 1" añoInicio="2012" añoFin="2019">
-        <auto id="38" terminado="true" publicado="false">
+        <auto id="38" terminado="false" publicado="false">
           <nombre>Peugeot 208 1.2 PureTech</nombre>
           <año>2019</año>
           <chasis>Hatchback 4 puertas</chasis>
@@ -2321,6 +2306,10 @@ El Ferrari SF90 Spider, además de mantener la silueta del SF90 Stradale, presen
           <aceleracion>13,8</aceleracion>
           <tipo>Normal</tipo>
           <peso>1000</peso>
+          <motor>na</motor>
+          <valvulas>na</valvulas>
+          <destacados>na</destacados>
+          <transmision>na</transmision>
           <precio>25000</precio>
           <imagen>https://upload.wikimedia.org/wikipedia/commons/5/5c/PEUGEOT_208_%28A9%29_front_view.jpg</imagen>
           <valoracionInput>20</valoracionInput>
@@ -2345,7 +2334,7 @@ El Ferrari SF90 Spider, además de mantener la silueta del SF90 Stradale, presen
         </auto>
       </generacion>
       <generacion nombre="Generacion 2" añoInicio="2019" añoFin="2024">
-        <auto id="39" terminado="true" publicado="false">
+        <auto id="39" terminado="false" publicado="false">
           <nombre>Peugeot 208 PureTech 75</nombre>
           <año>2021</año>
           <chasis>Hatchback 4 puertas</chasis>
@@ -2355,6 +2344,10 @@ El Ferrari SF90 Spider, además de mantener la silueta del SF90 Stradale, presen
           <aceleracion>13,2</aceleracion>
           <tipo>Normal</tipo>
           <peso>1000</peso>
+          <motor>na</motor>
+          <valvulas>na</valvulas>
+          <destacados>na</destacados>
+          <transmision>na</transmision>
           <precio>23000</precio>
           <imagen>https://upload.wikimedia.org/wikipedia/commons/7/72/2021_Peugeot_208_Allure_Pack.jpg</imagen>
           <valoracionInput>20</valoracionInput>
@@ -2387,6 +2380,10 @@ El Ferrari SF90 Spider, además de mantener la silueta del SF90 Stradale, presen
           <aceleracion>14,9</aceleracion>
           <tipo>Normal</tipo>
           <peso>1000</peso>
+          <motor>na</motor>
+          <valvulas>na</valvulas>
+          <destacados>na</destacados>
+          <transmision>na</transmision>
           <precio>20000</precio>
           <imagen>https://upload.wikimedia.org/wikipedia/commons/9/91/Peugeot_208_B_facelift_Automesse_Ludwigsburg_2024_IMG_1527.jpg</imagen>
           <valoracionInput>20</valoracionInput>
@@ -2556,6 +2553,10 @@ El Ferrari SF90 Spider, además de mantener la silueta del SF90 Stradale, presen
           <aceleracion>9,1</aceleracion>
           <tipo>Deportivo</tipo>
           <peso>1000</peso>
+          <motor>na</motor>
+          <valvulas>na</valvulas>
+          <destacados>na</destacados>
+          <transmision>na</transmision>
           <precio>58500</precio>
           <imagen>https://upload.wikimedia.org/wikipedia/commons/d/d8/Stuttgart_Jul_2012_20_%28Porsche_Museum_-_1965_Porsche_911_2.0_Coupe%29.jpg</imagen>
           <valoracionInput>30</valoracionInput>
@@ -2571,6 +2572,10 @@ El Ferrari SF90 Spider, además de mantener la silueta del SF90 Stradale, presen
           <aceleracion>11</aceleracion>
           <tipo>Deportivo</tipo>
           <peso>1000</peso>
+          <motor>na</motor>
+          <valvulas>na</valvulas>
+          <destacados>na</destacados>
+          <transmision>na</transmision>
           <precio>45895</precio>
           <imagen>https://upload.wikimedia.org/wikipedia/commons/a/ae/Saxony_Classic_Rallye_2010_-_Porsche_911_T_1969_%28aka%29.jpg</imagen>
           <valoracionInput>30</valoracionInput>
@@ -2586,6 +2591,10 @@ El Ferrari SF90 Spider, además de mantener la silueta del SF90 Stradale, presen
           <aceleracion>6</aceleracion>
           <tipo>Deportivo</tipo>
           <peso>1000</peso>
+          <motor>na</motor>
+          <valvulas>na</valvulas>
+          <destacados>na</destacados>
+          <transmision>na</transmision>
           <precio>122542</precio>
           <imagen>https://upload.wikimedia.org/wikipedia/commons/8/86/Porsche_911_Turbo_%281987%29_%2852574988328%29.jpg</imagen>
           <valoracionInput>30</valoracionInput>
@@ -2601,6 +2610,10 @@ El Ferrari SF90 Spider, además de mantener la silueta del SF90 Stradale, presen
           <aceleracion>6,7</aceleracion>
           <tipo>Deportivo</tipo>
           <peso>1000</peso>
+          <motor>na</motor>
+          <valvulas>na</valvulas>
+          <destacados>na</destacados>
+          <transmision>na</transmision>
           <precio>133664</precio>
           <imagen>https://upload.wikimedia.org/wikipedia/commons/e/e7/Porsche_911_Carrera_Super_Sport_Cabrio_3.2_%281989%29_%2834717125242%29.jpg</imagen>
           <valoracionInput>30</valoracionInput>
@@ -2616,6 +2629,10 @@ El Ferrari SF90 Spider, además de mantener la silueta del SF90 Stradale, presen
           <aceleracion>6,5</aceleracion>
           <tipo>Deportivo</tipo>
           <peso>1000</peso>
+          <motor>na</motor>
+          <valvulas>na</valvulas>
+          <destacados>na</destacados>
+          <transmision>na</transmision>
           <precio>128486</precio>
           <imagen>https://upload.wikimedia.org/wikipedia/commons/8/86/1979_Porsche_911_SC_Targa_%2813472886333%29.jpg</imagen>
           <valoracionInput>30</valoracionInput>
@@ -2633,6 +2650,10 @@ El Ferrari SF90 Spider, además de mantener la silueta del SF90 Stradale, presen
           <aceleracion>5,5</aceleracion>
           <tipo>Deportivo</tipo>
           <peso>1000</peso>
+          <motor>na</motor>
+          <valvulas>na</valvulas>
+          <destacados>na</destacados>
+          <transmision>na</transmision>
           <precio>225000</precio>
           <imagen>https://upload.wikimedia.org/wikipedia/commons/6/62/1989_Porsche_911_Turbo_Cabriolet_from_Britain_%2850675034823%29.jpg</imagen>
           <valoracionInput>35</valoracionInput>
@@ -2648,6 +2669,10 @@ El Ferrari SF90 Spider, además de mantener la silueta del SF90 Stradale, presen
           <aceleracion>5,5</aceleracion>
           <tipo>Deportivo</tipo>
           <peso>1000</peso>
+          <motor>na</motor>
+          <valvulas>na</valvulas>
+          <destacados>na</destacados>
+          <transmision>na</transmision>
           <precio>425000</precio>
           <imagen>https://upload.wikimedia.org/wikipedia/commons/a/a3/Porsche_930_Turbo_Cabriolet_Flatnose_%2815574169294%29.jpg</imagen>
           <valoracionInput>40</valoracionInput>
@@ -2663,6 +2688,10 @@ El Ferrari SF90 Spider, además de mantener la silueta del SF90 Stradale, presen
           <aceleracion>5,5</aceleracion>
           <tipo>Deportivo</tipo>
           <peso>1000</peso>
+          <motor>na</motor>
+          <valvulas>na</valvulas>
+          <destacados>na</destacados>
+          <transmision>na</transmision>
           <precio>120340</precio>
           <imagen>https://upload.wikimedia.org/wikipedia/commons/7/76/1975_Porsche_Homologation_930_Coupe_%2845687449482%29.jpg</imagen>
           <valoracionInput>35</valoracionInput>
@@ -2680,6 +2709,10 @@ El Ferrari SF90 Spider, además de mantener la silueta del SF90 Stradale, presen
           <aceleracion>5,7</aceleracion>
           <tipo>Deportivo</tipo>
           <peso>1000</peso>
+          <motor>na</motor>
+          <valvulas>na</valvulas>
+          <destacados>na</destacados>
+          <transmision>na</transmision>
           <precio>120000</precio>
           <imagen>https://upload.wikimedia.org/wikipedia/commons/e/eb/1992_Porsche_911_Carrera_%28964%29.jpg</imagen>
           <valoracionInput>35</valoracionInput>
@@ -2695,6 +2728,10 @@ El Ferrari SF90 Spider, además de mantener la silueta del SF90 Stradale, presen
           <aceleracion>5,7</aceleracion>
           <tipo>Deportivo</tipo>
           <peso>1000</peso>
+          <motor>na</motor>
+          <valvulas>na</valvulas>
+          <destacados>na</destacados>
+          <transmision>na</transmision>
           <precio>130000</precio>
           <imagen>https://upload.wikimedia.org/wikipedia/commons/7/74/Porsche_911_Carrera_Targa_07-27-2019.jpg</imagen>
           <valoracionInput>35</valoracionInput>
@@ -2710,6 +2747,10 @@ El Ferrari SF90 Spider, además de mantener la silueta del SF90 Stradale, presen
           <aceleracion>5,7</aceleracion>
           <tipo>Deportivo</tipo>
           <peso>1000</peso>
+          <motor>na</motor>
+          <valvulas>na</valvulas>
+          <destacados>na</destacados>
+          <transmision>na</transmision>
           <precio>140000</precio>
           <imagen>https://upload.wikimedia.org/wikipedia/commons/d/d9/Porsche_911_%28964%29_Carrera_2_Cabriolet_%287319386492%29.jpg</imagen>
           <valoracionInput>35</valoracionInput>
@@ -2727,6 +2768,10 @@ El Ferrari SF90 Spider, además de mantener la silueta del SF90 Stradale, presen
           <aceleracion>5,5</aceleracion>
           <tipo>Deportivo</tipo>
           <peso>1000</peso>
+          <motor>na</motor>
+          <valvulas>na</valvulas>
+          <destacados>na</destacados>
+          <transmision>na</transmision>
           <precio>132000</precio>
           <imagen>https://upload.wikimedia.org/wikipedia/commons/f/f7/1995_Porsche_911_%28993%29_Carrera_FOS21.jpg</imagen>
           <valoracionInput>35</valoracionInput>
@@ -2742,6 +2787,10 @@ El Ferrari SF90 Spider, además de mantener la silueta del SF90 Stradale, presen
           <aceleracion>5,3</aceleracion>
           <tipo>Deportivo</tipo>
           <peso>1000</peso>
+          <motor>na</motor>
+          <valvulas>na</valvulas>
+          <destacados>na</destacados>
+          <transmision>na</transmision>
           <precio>149000</precio>
           <imagen>https://upload.wikimedia.org/wikipedia/commons/0/07/1997_Porsche_911_Carrera_%28993%29_convertible_%282011-11-18%29_01.jpg</imagen>
           <valoracionInput>35</valoracionInput>
@@ -2759,6 +2808,10 @@ El Ferrari SF90 Spider, además de mantener la silueta del SF90 Stradale, presen
           <aceleracion>5,2</aceleracion>
           <tipo>Deportivo</tipo>
           <peso>1000</peso>
+          <motor>na</motor>
+          <valvulas>na</valvulas>
+          <destacados>na</destacados>
+          <transmision>na</transmision>
           <precio>120000 </precio>
           <imagen>https://upload.wikimedia.org/wikipedia/commons/7/7c/Porsche_911_%28996%29_Carrera_Cabriolet_%288516320329%29.jpg</imagen>
           <valoracionInput>35</valoracionInput>
@@ -2776,6 +2829,10 @@ El Ferrari SF90 Spider, además de mantener la silueta del SF90 Stradale, presen
           <aceleracion>5,3</aceleracion>
           <tipo>Deportivo</tipo>
           <peso>1000</peso>
+          <motor>na</motor>
+          <valvulas>na</valvulas>
+          <destacados>na</destacados>
+          <transmision>na</transmision>
           <precio>120000</precio>
           <imagen>https://upload.wikimedia.org/wikipedia/commons/e/e2/2008_Porsche_911_Turbo_Cabrio.jpg</imagen>
           <valoracionInput>35</valoracionInput>
@@ -2793,6 +2850,10 @@ El Ferrari SF90 Spider, además de mantener la silueta del SF90 Stradale, presen
           <aceleracion>5,1</aceleracion>
           <tipo>Deportivo</tipo>
           <peso>1000</peso>
+          <motor>na</motor>
+          <valvulas>na</valvulas>
+          <destacados>na</destacados>
+          <transmision>na</transmision>
           <precio>136500</precio>
           <imagen>https://upload.wikimedia.org/wikipedia/commons/6/65/The_frontview_of_Porsche_991_Carrera_4S_Cabriolet.JPG</imagen>
           <valoracionInput>35</valoracionInput>
@@ -2808,6 +2869,10 @@ El Ferrari SF90 Spider, además de mantener la silueta del SF90 Stradale, presen
           <aceleracion>5,2</aceleracion>
           <tipo>Deportivo</tipo>
           <peso>1000</peso>
+          <motor>na</motor>
+          <valvulas>na</valvulas>
+          <destacados>na</destacados>
+          <transmision>na</transmision>
           <precio>110000</precio>
           <imagen>https://upload.wikimedia.org/wikipedia/commons/8/89/Porsche_911_Targa_4S_%28991%29_%2826380557922%29.jpg</imagen>
           <valoracionInput>35</valoracionInput>
@@ -2823,6 +2888,10 @@ El Ferrari SF90 Spider, además de mantener la silueta del SF90 Stradale, presen
           <aceleracion>4,9</aceleracion>
           <tipo>Deportivo</tipo>
           <peso>1000</peso>
+          <motor>na</motor>
+          <valvulas>na</valvulas>
+          <destacados>na</destacados>
+          <transmision>na</transmision>
           <precio>115000</precio>
           <imagen>https://upload.wikimedia.org/wikipedia/commons/7/7c/2015_Porsche_911_Turbo_991.1_Coupe.jpg</imagen>
           <valoracionInput>35</valoracionInput>
@@ -2838,6 +2907,10 @@ El Ferrari SF90 Spider, además de mantener la silueta del SF90 Stradale, presen
           <aceleracion>4,8</aceleracion>
           <tipo>Deportivo</tipo>
           <peso>1000</peso>
+          <motor>na</motor>
+          <valvulas>na</valvulas>
+          <destacados>na</destacados>
+          <transmision>na</transmision>
           <precio>120000</precio>
           <imagen>https://upload.wikimedia.org/wikipedia/commons/1/1a/PORSCHE_911_%28991%29_CONVERTIBLE_China.jpg</imagen>
           <valoracionInput>35</valoracionInput>
@@ -2853,6 +2926,10 @@ El Ferrari SF90 Spider, además de mantener la silueta del SF90 Stradale, presen
           <aceleracion>4,5</aceleracion>
           <tipo>Deportivo</tipo>
           <peso>1000</peso>
+          <motor>na</motor>
+          <valvulas>na</valvulas>
+          <destacados>na</destacados>
+          <transmision>na</transmision>
           <precio>135000</precio>
           <imagen>https://upload.wikimedia.org/wikipedia/commons/d/d5/2018_Porsche_911_%28991.2%29_Carrera_T.jpg</imagen>
           <valoracionInput>35</valoracionInput>
@@ -2868,6 +2945,10 @@ El Ferrari SF90 Spider, además de mantener la silueta del SF90 Stradale, presen
           <aceleracion>2,8</aceleracion>
           <tipo>Superauto</tipo>
           <peso>1000</peso>
+          <motor>na</motor>
+          <valvulas>na</valvulas>
+          <destacados>na</destacados>
+          <transmision>na</transmision>
           <precio>321000</precio>
           <imagen>https://upload.wikimedia.org/wikipedia/commons/1/11/2018_Porsche_911_GT2_RS.jpg</imagen>
           <valoracionInput>40</valoracionInput>
@@ -2910,6 +2991,10 @@ El Ferrari SF90 Spider, además de mantener la silueta del SF90 Stradale, presen
           <aceleracion>5,3</aceleracion>
           <tipo>Prototipo</tipo>
           <peso>1000</peso>
+          <motor>na</motor>
+          <valvulas>na</valvulas>
+          <destacados>na</destacados>
+          <transmision>na</transmision>
           <precio>40000</precio>
           <imagen>https://upload.wikimedia.org/wikipedia/commons/7/77/Xiaomi_SU7_001.jpg</imagen>
           <valoracionInput>30</valoracionInput>
@@ -2934,6 +3019,10 @@ El Ferrari SF90 Spider, además de mantener la silueta del SF90 Stradale, presen
           <aceleracion>2,78</aceleracion>
           <tipo>Prototipo</tipo>
           <peso>1000</peso>
+          <motor>na</motor>
+          <valvulas>na</valvulas>
+          <destacados>na</destacados>
+          <transmision>na</transmision>
           <precio>60000</precio>
           <imagen>https://upload.wikimedia.org/wikipedia/commons/7/7e/Xiaomi_SU7_Max_007.jpg</imagen>
           <valoracionInput>30</valoracionInput>
@@ -2981,6 +3070,10 @@ Afirman tener en marcha motores de mayor rendimiento que los Porsche Taycan.</bl
           <aceleracion>5,2</aceleracion>
           <tipo>Deportivo</tipo>
           <peso>1000</peso>
+          <motor>na</motor>
+          <valvulas>na</valvulas>
+          <destacados>na</destacados>
+          <transmision>na</transmision>
           <precio>100000</precio>
           <imagen>https://upload.wikimedia.org/wikipedia/commons/f/f0/Detomaso_pantera_front.jpg</imagen>
           <valoracionInput>35</valoracionInput>
@@ -3024,6 +3117,10 @@ Afirman tener en marcha motores de mayor rendimiento que los Porsche Taycan.</bl
           <aceleracion>5</aceleracion>
           <tipo>Deportivo</tipo>
           <peso>1000</peso>
+          <motor>na</motor>
+          <valvulas>na</valvulas>
+          <destacados>na</destacados>
+          <transmision>na</transmision>
           <precio>400000</precio>
           <imagen>https://upload.wikimedia.org/wikipedia/commons/5/56/1971_De_Tomaso_Mangusta.jpg</imagen>
           <valoracionInput>30</valoracionInput>
@@ -3051,6 +3148,10 @@ Afirman tener en marcha motores de mayor rendimiento que los Porsche Taycan.</bl
           <aceleracion>6,4</aceleracion>
           <tipo>Deportivo</tipo>
           <peso>1000</peso>
+          <motor>na</motor>
+          <valvulas>na</valvulas>
+          <destacados>na</destacados>
+          <transmision>na</transmision>
           <precio>60000</precio>
           <imagen>https://upload.wikimedia.org/wikipedia/commons/7/79/1964_Pontiac_GTO_Hardtop_%288638753037%29.jpg</imagen>
           <valoracionInput>30</valoracionInput>
@@ -3066,6 +3167,10 @@ Afirman tener en marcha motores de mayor rendimiento que los Porsche Taycan.</bl
           <aceleracion>6,6</aceleracion>
           <tipo>Deportivo</tipo>
           <peso>1000</peso>
+          <motor>na</motor>
+          <valvulas>na</valvulas>
+          <destacados>na</destacados>
+          <transmision>na</transmision>
           <precio>70000</precio>
           <imagen>https://upload.wikimedia.org/wikipedia/commons/0/02/1964_Pontiac_GTO_%289130478010%29.jpg</imagen>
           <valoracionInput>30</valoracionInput>
