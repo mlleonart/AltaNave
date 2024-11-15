@@ -169,7 +169,7 @@ a {
 .flip-card {
   background-color: transparent;
   width: 300px;
-  height: 400px;
+  height: 500px;
   perspective: 1000px; /* Da el efecto 3D */
 	margin: 0 auto;
 }
