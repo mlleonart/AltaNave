@@ -358,10 +358,10 @@ En cuanto a su diseño exterior, además de la sofisticación de Aston Martin in
     <marcaBanderaURL>https://upload.wikimedia.org/wikipedia/commons/a/a4/Flag_of_the_United_States.svg</marcaBanderaURL>
     <marcaEnlaceAltaNaveURL>https://www.altanave.uy/2024/10/delorean-motor-company.html</marcaEnlaceAltaNaveURL>
     <modelo nombre="DMC-12">
-      <modeloDescripcion>El DeLorean DMC-12, lanzado en 1981, es un ícono atemporal que combina diseño futurista con un enfoque innovador en la fabricación automotriz. Su estructura de acero inoxidable y puertas de ala de gaviota lo distinguen de otros vehículos de su época, atrayendo miradas y estableciendo una identidad única en el mundo del automóvil. Equipado con un motor PRV V6 de 2.85 litros y un diseño aerodinámico, el DMC-12 ofrece una experiencia de manejo característica, siendo tanto un vehículo de culto como un símbolo de exclusividad. Aunque sus prestaciones no compitieron directamente con los deportivos más rápidos de su tiempo, su impacto en la cultura y su estética revolucionaria lo han convertido en un clásico de culto y en un emblema de los años 80.</modeloDescripcion>
-      <modeloEnlaceAltaNaveURL>NO</modeloEnlaceAltaNaveURL>
+      <modeloDescripcion>El DeLorean DMC-12, lanzado en 1981, es un ícono atemporal que combina diseño futurista con un enfoque innovador en la fabricación automotriz. Su estructura de acero inoxidable y puertas de ala de gaviota lo distinguen de otros vehículos de su época, atrayendo miradas y estableciendo una identidad única en el mundo del automóvil. Aunque sus prestaciones no compitieron directamente con los deportivos más rápidos de su tiempo, su impacto en la cultura y su estética revolucionaria lo han convertido en un clásico de culto y en un emblema de los años 80.</modeloDescripcion>
+      <modeloEnlaceAltaNaveURL>https://www.altanave.uy/2024/10/dmc-12-versiones-generaciones.html</modeloEnlaceAltaNaveURL>
       <generacion nombre="De Lorean DMC-12" añoInicio="1981" añoFin="1982">
-        <auto id="59" terminado="false" publicado="false">
+        <auto id="59" terminado="true" publicado="false">
           <nombre>DMC De Lorean</nombre>
           <año>1982</año>
           <chasis>Coupe 2 puertas</chasis>
@@ -370,47 +370,16 @@ En cuanto a su diseño exterior, además de la sofisticación de Aston Martin in
           <potencia>130</potencia>
           <aceleracion>9,4</aceleracion>
           <tipo>Deportivo</tipo>
-          <peso>1000</peso>
-          <motor>na</motor>
-          <valvulas>na</valvulas>
-          <destacados>na</destacados>
-          <transmision>na</transmision>
+          <peso>1244</peso>
+          <motor>V6 2,8 litros inyección indirecta de gasolina</motor>
+          <valvulas>12</valvulas>
+          <destacados>Bosch K-Jetronic - SOHC</destacados>
+          <transmision>manual de 5 marchas</transmision>
           <precio>86500 </precio>
           <imagen>https://upload.wikimedia.org/wikipedia/commons/6/63/DeLorean_DMC-12_%2815704582713%29.jpg</imagen>
           <valoracionInput>50</valoracionInput>
           <enlace>https://www.altanave.uy/2024/11/dmc-de-lorean-1982-coupe.html</enlace>
           <bloques>
-            <bloque>
-              <bloqueTitulo>DMC De Lorean » Ficha</bloqueTitulo>
-              <bloqueTexto>
-            &lt;/p&gt;
-            &lt;div style="border: 2px solid #ccc; padding: 15px; border-radius: 8px; background: #48505B; max-width: 400px; margin: 10px auto; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); color: #ecf0f1;"&gt;
-                &lt;table style="width: 100%; border-collapse: collapse; font-family: Arial, sans-serif; color: #ecf0f1;"&gt;
-                    &lt;tr&gt;
-                        &lt;td style="padding: 5px; font-weight: bold; width: 40%; text-align: left;"&gt;Motor:&lt;/td&gt;
-                        &lt;td style="padding: 5px; text-align: left;"&gt;V6 2,8 litros inyección indirecta de gasolina&lt;/td&gt;
-                    &lt;/tr&gt;
-                    &lt;tr&gt;
-                        &lt;td style="padding: 5px; font-weight: bold; text-align: left;"&gt;Válvulas:&lt;/td&gt;
-                        &lt;td style="padding: 5px; text-align: left;"&gt;12&lt;/td&gt;
-                    &lt;/tr&gt;
-                    &lt;tr&gt;
-                        &lt;td style="padding: 5px; font-weight: bold; text-align: left;"&gt;Destacados:&lt;/td&gt;
-                        &lt;td style="padding: 5px; text-align: left;"&gt;Bosch K-Jetronic - SOHC&lt;/td&gt;
-                    &lt;/tr&gt;
-                    &lt;tr&gt;
-                        &lt;td style="padding: 5px; font-weight: bold; text-align: left;"&gt;Transmisión:&lt;/td&gt;
-                        &lt;td style="padding: 5px; text-align: left;"&gt;manual de 5 marchas &lt;/td&gt;
-                    &lt;/tr&gt;
-                    &lt;tr&gt;
-                        &lt;td style="padding: 5px; font-weight: bold; text-align: left;"&gt;Peso:&lt;/td&gt;
-                        &lt;td style="padding: 5px; text-align: left;"&gt;1244 Kg.&lt;/td&gt;
-                    &lt;/tr&gt;
-                &lt;/table&gt;
-            &lt;/div&gt;
-            &lt;p&gt;
-        </bloqueTexto>
-            </bloque>
             <bloque>
               <bloqueImagenURL>https://upload.wikimedia.org/wikipedia/commons/3/35/DeLorean_DMC-12_%289979%29.jpg</bloqueImagenURL>
               <bloqueTitulo>Delorean DMC-12</bloqueTitulo>
@@ -441,6 +410,7 @@ En cuanto a su diseño exterior, además de la sofisticación de Aston Martin in
             <extraImagenURL>https://upload.wikimedia.org/wikipedia/commons/d/da/1983_DeLorean_DMC-12%2C_front_right%2C_05-18-2024.jpg</extraImagenURL>
             <extraImagenURL>https://upload.wikimedia.org/wikipedia/commons/9/9c/1983_DeLorean_DMC-12%2C_rear_right%2C_05-18-2024.jpg</extraImagenURL>
             <extraImagenURL>https://upload.wikimedia.org/wikipedia/commons/4/43/1983_DMC_De_Lorean%2C_rear_left%2C_09-07-2024.jpg</extraImagenURL>
+            <extraImagenURL>https://upload.wikimedia.org/wikipedia/commons/6/63/DeLorean_DMC-12_%2815704582713%29.jpg</extraImagenURL>
           </extraImagenes>
         </auto>
       </generacion>
