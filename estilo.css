@@ -166,6 +166,8 @@ a {
 
 /* efecto de volteo muestra la parte trasera con la información de la tabla. */ 
 .flip-card {
+  position: relative; /* Necesario para que z-index funcione */
+  z-index: 1; /* Ajusta este valor según sea necesario */
   background-color: transparent;
   width: 100%;
   height: auto;
