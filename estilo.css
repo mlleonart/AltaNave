@@ -470,7 +470,7 @@ a[href="https://www.altanave.uy/p/versus-compara-las-caracteristicas-de.html"]::
     }
   
 .parrafo { 
-	max-height: 4.5em; /* Limitar a 3 líneas */
+/*	max-height: 4.5em;  Limitar a 3 líneas */
   text-align: justify;
   border: 3px solid;
   border-image: linear-gradient(45deg, #d3d3d3, #808080) 1;
