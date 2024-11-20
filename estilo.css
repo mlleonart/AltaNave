@@ -470,7 +470,11 @@ a[href="https://www.altanave.uy/p/versus-compara-las-caracteristicas-de.html"]::
     }
   
 .parrafo { 
-
+max-height: 4.5em; /* Altura limitada a 3 líneas */
+    overflow: hidden; /* Ocultar el resto del texto */
+    text-overflow: ellipsis; /* Añadir "..." */
+    white-space: nowrap;
+    cursor: pointer; /* Mostrar que es interactivo */
 
   text-align: justify;
   border: 3px solid;
