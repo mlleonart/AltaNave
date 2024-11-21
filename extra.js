@@ -6,6 +6,19 @@ function leerTexto(texto) {
   window.speechSynthesis.speak(speech);
 }
 
+function leerTextoId(id) {
+  const elemento = document.getElementById(id);
+  if (elemento) {
+    const texto = elemento.textContent || elemento.innerText;
+    const speech = new SpeechSynthesisUtterance(texto);
+    speech.lang = 'es-ES'; // Español
+    speech.rate = 1; // Velocidad de lectura
+    window.speechSynthesis.speak(speech);
+  } else {
+    console.error(`Elemento con ID "${id}" no encontrado.`);
+  }
+}
+
 
  // THUMBS -- Función para generar la URL de la miniatura a partir de la URL principal
   const getThumbUrl = (largeImage, size = 640) => {
