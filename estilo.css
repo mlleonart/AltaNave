@@ -482,10 +482,10 @@ a[href="https://www.altanave.uy/p/versus-compara-las-caracteristicas-de.html"]::
 }
 
 .numeroLista {
-  color: #007BFF; /* Un azul llamativo */
+  color: #10AEB9; /* Un azul llamativo */
   font-weight: bold;
-  font-size: 1.4em; /* Aumenta ligeramente el tamaño */
-  margin-right: 5px; /* Espacio entre el número y el texto */
+ /* font-size: 1.4em;  Aumenta ligeramente el tamaño */
+/*   margin-right: 5px; Espacio entre el número y el texto */
 }
 
 h2.info::after { 
