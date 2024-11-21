@@ -867,6 +867,12 @@ El modo Performance mantiene el motor encendido para recargar la batería y mejo
 Finalmente, el modo Quality aprovecha al máximo la potencia del sistema motriz para un desempeño superior.</bloqueTexto>
             </bloque>
           </bloques>
+          <extraImagenes>
+            <extraImagen>
+              <extraImagenALT>primer ferrari hybrid</extraImagenALT>
+              <extraImagenURL>https://upload.wikimedia.org/wikipedia/commons/e/ee/2021_Ferrari_SF90.jpg</extraImagenURL>
+            </extraImagen>
+          </extraImagenes>
         </auto>
         <auto id="21" terminado="false" publicado="false">
           <nombre>Ferrari SF90 Spider</nombre>
@@ -894,6 +900,12 @@ Finalmente, el modo Quality aprovecha al máximo la potencia del sistema motriz 
 El Ferrari SF90 Spider, además de mantener la silueta del SF90 Stradale, presenta un aspecto extremadamente dinámico en su configuración descapotable. La ausencia del techo crea un efecto de reducción en el centro de gravedad visual del vehículo, acentuado por el diseño de las tapas que se desprenden en las barras, las cuales se conectan con los pilares.</bloqueTexto>
             </bloque>
           </bloques>
+          <extraImagenes>
+            <extraImagen>
+              <extraImagenALT>Ferrari SF90 Cabrio</extraImagenALT>
+              <extraImagenURL>https://upload.wikimedia.org/wikipedia/commons/2/24/Ferrari_reims_1200871.jpg</extraImagenURL>
+            </extraImagen>
+          </extraImagenes>
         </auto>
         <auto id="79" terminado="false" publicado="false">
           <nombre>Ferrari SF90 Stradale Assetto Fiorano</nombre>
@@ -925,6 +937,12 @@ El Ferrari SF90 Spider, además de mantener la silueta del SF90 Stradale, presen
               <bloqueTexto>Suspensión mejorada y un alerón trasero para maximizar el rendimiento en pista.</bloqueTexto>
             </bloque>
           </bloques>
+          <extraImagenes>
+            <extraImagen>
+              <extraImagenALT>Ferrari  fibra de carbono</extraImagenALT>
+              <extraImagenURL>https://upload.wikimedia.org/wikipedia/commons/1/1e/Ferrari_SF90_Stradale.jpg</extraImagenURL>
+            </extraImagen>
+          </extraImagenes>
         </auto>
       </generacion>
     </modelo>
@@ -1040,7 +1058,7 @@ El Ferrari SF90 Spider, además de mantener la silueta del SF90 Stradale, presen
       </generacion>
     </modelo>
     <modelo nombre="488">
-      <modeloDescripcion>El Ferrari 488 es sinónimo de rendimiento extremo y emoción al volante. Cuarenta años después del lanzamiento del primer berlinetta de Ferrari con motor V8 central trasero, el icónico 308 GTB, la casa del Cavallino Rampante abre un nuevo capítulo en su historia de motores de 8 cilindros. El 488 GTB retoma la denominación clásica de Ferrari, donde "488" hace referencia a la cilindrada unitaria del motor, mientras que "GTB" significa Gran Turismo Berlinetta.</modeloDescripcion>
+      <modeloDescripcion>El Ferrari 488 es sinónimo de rendimiento extremo y emoción al volante. Cuarenta años después del lanzamiento del primer berlinetta de Ferrari con motor V8 central trasero, el icónico 308 GTB, la casa del Cavallino Rampante abre un nuevo capítulo en su historia de motores de 8 cilindros. El 488 GTB retoma la denominación clásica de Ferrari, donde 488 hace referencia a la cilindrada unitaria del motor, mientras que GTB significa Gran Turismo Berlinetta.</modeloDescripcion>
       <modeloEnlaceAltaNaveURL>https://www.altanave.uy/2024/10/488-versiones-generaciones.html</modeloEnlaceAltaNaveURL>
       <generacion nombre="488" añoInicio="2015" añoFin="2019">
         <auto id="25" terminado="false" publicado="false">
@@ -1121,11 +1139,11 @@ El Ferrari SF90 Spider, además de mantener la silueta del SF90 Stradale, presen
           <potencia>710</potencia>
           <aceleracion>2,85</aceleracion>
           <tipo>Superauto</tipo>
-          <peso>1000</peso>
-          <motor>na</motor>
-          <valvulas>na</valvulas>
-          <destacados>na</destacados>
-          <transmision>na</transmision>
+          <peso>1.424</peso>
+          <motor>V8 3,8 litros 2 turbocompresores</motor>
+          <valvulas>32</valvulas>
+          <destacados>VVT - Sistema Start-Stop</destacados>
+          <transmision>automática de doble embrague con modo de cambio manual</transmision>
           <precio>350000</precio>
           <imagen>https://upload.wikimedia.org/wikipedia/commons/8/8d/Ferrari_488_Pista_8.jpg</imagen>
           <valoracionInput>40</valoracionInput>
@@ -1140,7 +1158,7 @@ El Ferrari SF90 Spider, además de mantener la silueta del SF90 Stradale, presen
           <extraImagenes>
             <extraImagen>
               <extraImagenALT>na</extraImagenALT>
-              <extraImagenURL>https://upload.wikimedia.org/wikipedia/commons/b/b3/2019_Ferrari_488_Pista_6.jpg</extraImagenURL>
+              <extraImagenURL>https://upload.wikimedia.org/wikipedia/commons/8/8d/Ferrari_488_Pista_8.jpg</extraImagenURL>
             </extraImagen>
             <extraImagen>
               <extraImagenALT>na</extraImagenALT>
@@ -1165,6 +1183,10 @@ El Ferrari SF90 Spider, además de mantener la silueta del SF90 Stradale, presen
             <extraImagen>
               <extraImagenALT>na</extraImagenALT>
               <extraImagenURL>https://upload.wikimedia.org/wikipedia/commons/b/b0/Ferrari_488_Pista_10.jpg</extraImagenURL>
+            </extraImagen>
+            <extraImagen>
+              <extraImagenALT>na</extraImagenALT>
+              <extraImagenURL>https://upload.wikimedia.org/wikipedia/commons/b/b3/2019_Ferrari_488_Pista_6.jpg</extraImagenURL>
             </extraImagen>
           </extraImagenes>
         </auto>
