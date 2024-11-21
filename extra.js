@@ -1,21 +1,21 @@
             // Función para leer texto en voz alta
 function leerTexto(texto) {
   const speech = new SpeechSynthesisUtterance(texto);
-  // speech.lang = 'es-ES'; // Idioma: Español
-  // speech.rate = 1; // Velocidad de lectura
+   speech.lang = 'es-ES'; // Idioma: Español
+   speech.rate = 1; // Velocidad de lectura
 
                     // Obtener todas las voces disponibles
-        const voces = window.speechSynthesis.getVoices();
+        //const voces = window.speechSynthesis.getVoices();
 
         // Buscar "Google español de Estados Unidos"
-        const vozPredeterminada = voces.find(v => v.name === "Google español de Estados Unidos" && v.lang === "es-US");
+       // const vozPredeterminada = voces.find(v => v.name === "Google español de Estados Unidos" && v.lang === "es-US");
 
-        if (vozPredeterminada) {
-            speech.voice = vozPredeterminada; // Configurar la voz
-            speech.lang = vozPredeterminada.lang; // Configurar el idioma
-        } else {
-            console.warn('La voz "Google español de Estados Unidos" no está disponible. Usando el idioma predeterminado.');
-        }
+      //  if (vozPredeterminada) {
+       //     speech.voice = vozPredeterminada; // Configurar la voz
+      //      speech.lang = vozPredeterminada.lang; // Configurar el idioma
+      //  } else {
+      //      console.warn('La voz "Google español de Estados Unidos" no está disponible. Usando el idioma predeterminado.');
+      //  }
             
   window.speechSynthesis.speak(speech);
 }
