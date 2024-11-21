@@ -492,6 +492,6 @@ h2.info::after {
     content: 'entra para más info \2192'; /* Flecha como emoji */
     font-family: 'Segoe UI Emoji'; /* Fuente solo para el emoji */
     margin-left: 5px; /* Espacio entre el texto y el emoji */
-    color: #0056b3; /* Color del emoji */
+    color: #10AEB9; /* Color del emoji */
     font-size: 0.6em;   /* Ajusta el tamaño */
 }
