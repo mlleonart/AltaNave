@@ -2026,9 +2026,9 @@ techo plegable, el CC8S sentó las bases para el Estética, filosofía y funcion
     <marcaEnlaceAltaNaveURL>https://www.altanave.uy/2024/10/lynk-co.html</marcaEnlaceAltaNaveURL>
     <modelo nombre="03">
       <modeloDescripcion>El Lynk &amp; Co 03+ es un sedán deportivo que debutó en 2020, destacándose como un modelo innovador dentro de la marca china. Con un diseño moderno y agresivo, el 03+ combina estética y rendimiento, equipado con un motor turboalimentado de 2.0 litros que produce 254 caballos de fuerza. Su capacidad para acelerar de 0 a 100 km/h en aproximadamente 5.9 segundos lo posiciona como un competidor formidable en su segmento. El chasis, desarrollado con tecnología avanzada, y la suspensión deportiva aseguran una experiencia de conducción dinámica y emocionante. En el interior, el 03+ ofrece un ambiente contemporáneo y tecnológico, con una interfaz de usuario intuitiva y materiales de alta calidad. Con su enfoque en el rendimiento, la conectividad y un diseño atractivo, el Lynk &amp; Co 03+ ha logrado captar la atención de los entusiastas de los automóviles, consolidándose como una opción emocionante y distintiva en el mercado automotriz.</modeloDescripcion>
-      <modeloEnlaceAltaNaveURL>NO</modeloEnlaceAltaNaveURL>
+      <modeloEnlaceAltaNaveURL>https://www.altanave.uy/2024/10/lynk-co-03-versiones.html</modeloEnlaceAltaNaveURL>
       <generacion nombre="Lynk 03" añoInicio="2019" añoFin="2025">
-        <auto id="31" terminado="false" publicado="false">
+        <auto id="31" terminado="true" publicado="false">
           <nombre>Lynk &amp; Co 03+</nombre>
           <año>2016</año>
           <chasis>Sedan 4 puertas</chasis>
@@ -2037,17 +2037,23 @@ techo plegable, el CC8S sentó las bases para el Estética, filosofía y funcion
           <potencia>261</potencia>
           <aceleracion>5,7</aceleracion>
           <tipo>Deportivo</tipo>
-          <peso>1000</peso>
-          <motor>na</motor>
-          <valvulas>na</valvulas>
-          <destacados>na</destacados>
-          <transmision>na</transmision>
+          <peso>1522</peso>
+          <motor>i3 1477 cm3 turboalimentado</motor>
+          <valvulas>16</valvulas>
+          <destacados>Motores síncronos de imán permanente de 81 hp</destacados>
+          <transmision>Manual de 6 velocidades / Automática de 6-8 velocidades</transmision>
           <precio>59990</precio>
           <imagen>https://upload.wikimedia.org/wikipedia/commons/a/a8/Lynk_%26_Co_03_facelift_006.jpg</imagen>
           <valoracionInput>25</valoracionInput>
-          <enlace>https://www.altanave.uy/2024/10/lynk-co-03-sedan-4-puertas-2016.html</enlace>
+          <enlace>https://www.altanave.uy/2024/11/lynk-co-03-2016-sedan.html</enlace>
+          <extraImagenes>
+            <extraImagen>
+              <extraImagenALT>Geely alta gama</extraImagenALT>
+              <extraImagenURL>https://upload.wikimedia.org/wikipedia/commons/a/a8/Lynk_%26_Co_03_facelift_006.jpg</extraImagenURL>
+            </extraImagen>
+          </extraImagenes>
         </auto>
-        <auto id="32" terminado="false" publicado="false">
+        <auto id="32" terminado="true" publicado="false">
           <nombre>Lynk &amp; Co 03+ Cyan Edition</nombre>
           <año>2016</año>
           <chasis>Sedan 4 puertas</chasis>
@@ -2056,15 +2062,15 @@ techo plegable, el CC8S sentó las bases para el Estética, filosofía y funcion
           <potencia>261</potencia>
           <aceleracion>5,2</aceleracion>
           <tipo>Deportivo</tipo>
-          <peso>1000</peso>
-          <motor>na</motor>
-          <valvulas>na</valvulas>
-          <destacados>na</destacados>
-          <transmision>na</transmision>
+          <peso>1454</peso>
+          <motor>i4 2,0 1969 cm3 turboalimentado</motor>
+          <valvulas>16</valvulas>
+          <destacados>Motores síncronos de imán permanente de 81 hp</destacados>
+          <transmision>Automática de 8 velocidades</transmision>
           <precio>69990</precio>
           <imagen>https://upload.wikimedia.org/wikipedia/commons/4/46/2023_Lynk_%26_Co_03%2B_Cyan_%28front%29.jpg</imagen>
           <valoracionInput>25</valoracionInput>
-          <enlace>https://www.altanave.uy/2024/10/lynk-co-03-cyan-edition-sedan-4-puertas.html</enlace>
+          <enlace>https://www.altanave.uy/2024/11/lynk-co-03-cyan-edition-2016-sedan.html</enlace>
           <bloques>
             <bloque>
               <bloqueImagenURL>https://upload.wikimedia.org/wikipedia/commons/6/6c/Lynk_%26_Co_03%2B_Cyan_Edition_IMG04.jpg</bloqueImagenURL>
@@ -2087,6 +2093,12 @@ techo plegable, el CC8S sentó las bases para el Estética, filosofía y funcion
               <bloqueTexto>Un difusor trasero, junto a las cuatro salidas de escape y un gran alerón, le otorgan una personalidad distintiva.</bloqueTexto>
             </bloque>
           </bloques>
+          <extraImagenes>
+            <extraImagen>
+              <extraImagenALT>Lynk &amp; Co TCR</extraImagenALT>
+              <extraImagenURL>https://upload.wikimedia.org/wikipedia/commons/4/46/2023_Lynk_%26_Co_03%2B_Cyan_%28front%29.jpg</extraImagenURL>
+            </extraImagen>
+          </extraImagenes>
         </auto>
       </generacion>
     </modelo>
