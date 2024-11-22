@@ -2110,9 +2110,9 @@ techo plegable, el CC8S sentó las bases para el Estética, filosofía y funcion
     <marcaEnlaceAltaNaveURL>https://www.altanave.uy/2024/10/mclaren.html</marcaEnlaceAltaNaveURL>
     <modelo nombre="F1">
       <modeloDescripcion>El McLaren F1 es un superdeportivo icónico que debutó en 1992, redefiniendo el concepto de rendimiento y lujo en la automoción. Equipado con un motor V12 de 6.1 litros, produce 627 caballos de fuerza, permitiéndole alcanzar una velocidad máxima de 391 km/h y acelerar de 0 a 100 km/h en solo 3.2 segundos. Su chasis de carbono, junto con un diseño aerodinámico innovador, no solo maximiza la velocidad, sino que también garantiza una experiencia de conducción excepcionalmente precisa. El F1 fue pionero en incorporar una disposición de tres asientos, con el conductor en el centro, ofreciendo una perspectiva única de la carretera. Reconocido por su mezcla de tecnología avanzada y exclusividad, el McLaren F1 se ha convertido en un símbolo de la era dorada de los superdeportivos, admirado por coleccionistas y entusiastas por igual.</modeloDescripcion>
-      <modeloEnlaceAltaNaveURL>NO</modeloEnlaceAltaNaveURL>
+      <modeloEnlaceAltaNaveURL>https://www.altanave.uy/2024/10/f1-versiones-generaciones.html</modeloEnlaceAltaNaveURL>
       <generacion nombre="McLaren F1" añoInicio="1992" añoFin="1998">
-        <auto id="64" terminado="false" publicado="false">
+        <auto id="64" terminado="true" publicado="false">
           <nombre>F1 Prototype</nombre>
           <año>1992</año>
           <chasis>Coupe 2 puertas</chasis>
@@ -2121,15 +2121,15 @@ techo plegable, el CC8S sentó las bases para el Estética, filosofía y funcion
           <potencia>542</potencia>
           <aceleracion>3,1</aceleracion>
           <tipo>Prototipo</tipo>
-          <peso>1000</peso>
-          <motor>na</motor>
-          <valvulas>na</valvulas>
-          <destacados>na</destacados>
-          <transmision>na</transmision>
-          <precio>10000000</precio>
+          <peso>1018</peso>
+          <motor>V12 6064 cm3 aspirado naturalmente</motor>
+          <valvulas>48</valvulas>
+          <destacados>Inyección de combustible multipunto TAG 3.12</destacados>
+          <transmision>transmisión manual de 6 marchas</transmision>
+          <precio>20000000</precio>
           <imagen>https://upload.wikimedia.org/wikipedia/commons/e/ef/A_Silver_McLaren_F1.jpg</imagen>
           <valoracionInput>50</valoracionInput>
-          <enlace>https://www.altanave.uy/2024/10/f1-prototype-coupe-de-2-puertas-1992.html</enlace>
+          <enlace>https://www.altanave.uy/2024/11/f1-prototype-1992-coupe.html</enlace>
           <bloques>
             <bloque>
               <bloqueImagenURL>https://upload.wikimedia.org/wikipedia/commons/a/a5/McLaren_F1_%2826687547702%29.jpg</bloqueImagenURL>
@@ -2137,8 +2137,14 @@ techo plegable, el CC8S sentó las bases para el Estética, filosofía y funcion
               <bloqueTexto>El nombre "F1" tiene un trasfondo curioso que comenzó como una broma entre los ingenieros de McLaren. Haciendo alusión al Ferrari F40, que se consideraba un modelo destacado en su época, se sugirió que el F1 estaba "39 escalones más arriba". </bloqueTexto>
             </bloque>
           </bloques>
+          <extraImagenes>
+            <extraImagen>
+              <extraImagenALT>McLaren monoplaza</extraImagenALT>
+              <extraImagenURL>https://upload.wikimedia.org/wikipedia/commons/e/ef/A_Silver_McLaren_F1.jpg</extraImagenURL>
+            </extraImagen>
+          </extraImagenes>
         </auto>
-        <auto id="63" terminado="false" publicado="false">
+        <auto id="63" terminado="true" publicado="false">
           <nombre>F1 GTR</nombre>
           <año>1995</año>
           <chasis>Coupe 2 puertas</chasis>
@@ -2147,51 +2153,57 @@ techo plegable, el CC8S sentó las bases para el Estética, filosofía y funcion
           <potencia>591</potencia>
           <aceleracion>3,2</aceleracion>
           <tipo>Superauto</tipo>
-          <peso>1000</peso>
-          <motor>na</motor>
-          <valvulas>na</valvulas>
-          <destacados>na</destacados>
-          <transmision>na</transmision>
-          <precio>6000000</precio>
+          <peso>1050</peso>
+          <motor>V12 6064 cm3 aspirado naturalmente</motor>
+          <valvulas>48</valvulas>
+          <destacados>Inyección de combustible multipunto TAG 3.12</destacados>
+          <transmision>transmisión manual de 6 marchas</transmision>
+          <precio>15000000 </precio>
           <imagen>https://upload.wikimedia.org/wikipedia/commons/f/f8/1996_McLaren_F1_GTR.jpg</imagen>
           <valoracionInput>50</valoracionInput>
-          <enlace>https://www.altanave.uy/2024/10/f1-gtr-coupe-de-2-puertas-1995.html</enlace>
+          <enlace>https://www.altanave.uy/2024/11/f1-gtr-1995-coupe.html</enlace>
+          <extraImagenes>
+            <extraImagen>
+              <extraImagenALT>mclaren f1 team</extraImagenALT>
+              <extraImagenURL>https://upload.wikimedia.org/wikipedia/commons/f/f8/1996_McLaren_F1_GTR.jpg</extraImagenURL>
+            </extraImagen>
+          </extraImagenes>
         </auto>
       </generacion>
     </modelo>
     <modelo nombre="P1">
       <modeloDescripcion>El McLaren P1 es un superdeportivo revolucionario que se lanzó en 2013, marcando un hito en la tecnología híbrida y el rendimiento automotriz. Equipado con un motor V8 biturbo de 3.8 litros y un motor eléctrico, genera una impresionante potencia combinada de 903 caballos de fuerza, lo que le permite acelerar de 0 a 100 km/h en solo 2.8 segundos y alcanzar una velocidad máxima de 350 km/h. Su chasis de carbono y su diseño aerodinámico, que incluye un alerón ajustable, optimizan la estabilidad y el control en cualquier situación. Con un enfoque en la conectividad y la experiencia del conductor, el P1 integra tecnologías de vanguardia que mejoran cada aspecto de la conducción. Considerado un ícono del rendimiento y la innovación, el McLaren P1 se ha ganado un lugar destacado en la historia de los superdeportivos, siendo altamente codiciado por coleccionistas y entusiastas de todo el mundo.</modeloDescripcion>
-      <modeloEnlaceAltaNaveURL>NO</modeloEnlaceAltaNaveURL>
+      <modeloEnlaceAltaNaveURL>https://www.altanave.uy/2024/10/p1-versiones-generaciones.html</modeloEnlaceAltaNaveURL>
       <generacion nombre="McLaren P1" añoInicio="2013" añoFin="2015">
-        <auto id="65" terminado="false" publicado="false">
+        <auto id="65" terminado="true" publicado="false">
           <nombre>McLaren P1</nombre>
           <año>2013</año>
           <chasis>Coupe 2 puertas</chasis>
-          <propulsion>Gasolina</propulsion>
+          <propulsion>Híbrido Enchufable</propulsion>
           <velocidad>350</velocidad>
           <potencia>903</potencia>
           <aceleracion>2,8</aceleracion>
           <tipo>Superauto</tipo>
-          <peso>1000</peso>
-          <motor>na</motor>
-          <valvulas>na</valvulas>
-          <destacados>na</destacados>
-          <transmision>na</transmision>
+          <peso>1510</peso>
+          <motor>V8 3799 cm3 2 turbocompresores + motor eléctrico de 177 HP</motor>
+          <valvulas>32</valvulas>
+          <destacados>Inyección multipunto, doble turbo, intercooler 2x + motor eléctrico (híbrido eléctrico enchufable)</destacados>
+          <transmision>automática de doble embrague con modo de cambio manual de 7 marchas</transmision>
           <precio>2500000</precio>
           <imagen>https://upload.wikimedia.org/wikipedia/commons/0/03/2013_McLaren_P1_XP05.jpg</imagen>
           <valoracionInput>50</valoracionInput>
-          <enlace>https://www.altanave.uy/2024/10/mclaren-p1-coupe-de-2-puertas-2013.html</enlace>
+          <enlace>https://www.altanave.uy/2024/11/mclaren-p1-2013-coupe.html</enlace>
           <extraImagenes>
             <extraImagen>
-              <extraImagenALT>na</extraImagenALT>
+              <extraImagenALT>mclaren p1 velocidad maxima</extraImagenALT>
               <extraImagenURL>https://upload.wikimedia.org/wikipedia/commons/2/2c/2013_McLaren_P1_MSO_LC24.jpg</extraImagenURL>
             </extraImagen>
             <extraImagen>
-              <extraImagenALT>na</extraImagenALT>
+              <extraImagenALT>superdeportivo  britanico</extraImagenALT>
               <extraImagenURL>https://upload.wikimedia.org/wikipedia/commons/d/d2/2013_McLaren_P1_MSO_Purple_LC23.jpg</extraImagenURL>
             </extraImagen>
             <extraImagen>
-              <extraImagenALT>na</extraImagenALT>
+              <extraImagenALT>mclaren híbrido eléctrico enchufable</extraImagenALT>
               <extraImagenURL>https://upload.wikimedia.org/wikipedia/commons/9/9c/2013_McLaren_P1_MSO_Purple_Rear.jpg</extraImagenURL>
             </extraImagen>
           </extraImagenes>
@@ -2200,9 +2212,9 @@ techo plegable, el CC8S sentó las bases para el Estética, filosofía y funcion
     </modelo>
     <modelo nombre="720S">
       <modeloDescripcion>El McLaren 720S es un superdeportivo lanzado en 2017 que rápidamente se ha consolidado como uno de los modelos más emblemáticos de la marca británica. Diseñado para ofrecer un rendimiento excepcional, cuenta con un motor V8 biturbo de 4.0 litros que produce 720 caballos de fuerza, permitiéndole acelerar de 0 a 100 km/h en apenas 2.7 segundos. Su chasis de fibra de carbono no solo reduce el peso, sino que también mejora la rigidez y la agilidad en la conducción. Entre sus innovadoras tecnologías, destaca el sistema de infoentretenimiento que integra una pantalla táctil intuitiva y un diseño aerodinámico que optimiza la estabilidad a altas velocidades. El 720S ha sido aclamado por su combinación de lujo, potencia y precisión, convirtiéndolo en una opción irresistible para los amantes de la velocidad y la exclusividad.</modeloDescripcion>
-      <modeloEnlaceAltaNaveURL>NO</modeloEnlaceAltaNaveURL>
+      <modeloEnlaceAltaNaveURL>https://www.altanave.uy/2024/10/mclaren-720s-versiones-generaciones.html</modeloEnlaceAltaNaveURL>
       <generacion nombre="McLaren 720S" añoInicio="2017" añoFin="2023">
-        <auto id="10" terminado="false" publicado="false">
+        <auto id="10" terminado="true" publicado="false">
           <nombre>McLaren 720S</nombre>
           <año>2017</año>
           <chasis>Coupe 2 puertas</chasis>
@@ -2211,15 +2223,15 @@ techo plegable, el CC8S sentó las bases para el Estética, filosofía y funcion
           <potencia>710</potencia>
           <aceleracion>2,9</aceleracion>
           <tipo>Superauto</tipo>
-          <peso>1000</peso>
-          <motor>na</motor>
-          <valvulas>na</valvulas>
-          <destacados>na</destacados>
-          <transmision>na</transmision>
+          <peso>1380</peso>
+          <motor>V8 3994 cm3 2 turbocompresores</motor>
+          <valvulas>32</valvulas>
+          <destacados>Inyección de combustible multipunto, doble turbo twin-scroll, intercooler 2x</destacados>
+          <transmision>automática de doble embrague con modo de cambio manual de 7 marchas</transmision>
           <precio>330000</precio>
           <imagen>https://upload.wikimedia.org/wikipedia/commons/a/ac/Osaka_Motor_Show_2017_%28217%29_-_McLaren_720S_COUPE.jpg</imagen>
           <valoracionInput>50</valoracionInput>
-          <enlace>https://www.altanave.uy/2024/10/mclaren-720s-coupe-de-2-puertas-2017.html</enlace>
+          <enlace>https://www.altanave.uy/2024/11/mclaren-720s-2017-coupe.html</enlace>
           <bloques>
             <bloque>
               <bloqueImagenURL>https://upload.wikimedia.org/wikipedia/commons/9/94/McLaren_720S%2C_IAA_2017%2C_%281Y7A3406%29.jpg</bloqueImagenURL>
@@ -2237,6 +2249,12 @@ techo plegable, el CC8S sentó las bases para el Estética, filosofía y funcion
               <bloqueTexto>Este impresionante superdeportivo que se convirtió en el automóvil personal del personaje Deckard Shaw, interpretado por Jason Statham, en la exitosa franquicia "Rápido y Furioso". En la película "Hobbs &amp; Shaw", este vehículo simboliza la rapidez y el lujo, alineándose perfectamente con la personalidad audaz de Shaw. </bloqueTexto>
             </bloque>
           </bloques>
+          <extraImagenes>
+            <extraImagen>
+              <extraImagenALT>McLaren fast and furious</extraImagenALT>
+              <extraImagenURL>https://upload.wikimedia.org/wikipedia/commons/a/ac/Osaka_Motor_Show_2017_%28217%29_-_McLaren_720S_COUPE.jpg</extraImagenURL>
+            </extraImagen>
+          </extraImagenes>
         </auto>
       </generacion>
     </modelo>
